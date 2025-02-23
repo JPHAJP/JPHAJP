@@ -1,13 +1,13 @@
 # 👋 ¡Hola! Soy José Pablo Hernández Alonso
 
-💻 **Ingeniero en formación, apasionado por la innovación, la tecnología y el diseño aesthetic.**
-🚀 **Estudiante de Ingeniería Mecatrónica** en [Ibero Puebla](https://www.iberopuebla.mx/) - 10mo Semestre.
+💻 **Ingeniero en formación, apasionado por la innovación, la tecnología y el diseño.**
+🚀 **Estudiante de Ingeniería Mecatrónica** en [**Ibero Puebla**](https://www.iberopuebla.mx/) - 10mo Semestre.
 💼 Actualmente trabajando en [**Sistema ALARO**](https://www.corporativoalaro.com/).
 
 ---
 
 ## 🌎 Sobre mí
-🔬 Apasionado por la tecnología, la innovación y el desarrollo de soluciones con **IA**, **robótica** e **IoT**.
+🔬 Fanático por la tecnología, la innovación y el desarrollo de soluciones con **IA**, **robótica** e **IoT**.
 💡 Siempre explorando nuevas herramientas y tecnologías para mejorar procesos industriales y sistemas inteligentes.
 🎨 Amante del diseño, buscando que cada proyecto tenga un impacto visual atractivo y funcional.
 
@@ -29,7 +29,7 @@
 - 🛠️ **Diseño CAD y Simulación**
 - 🎨 **Diseño UX**
 - 🎛️ **FPGA & VHDL/Verilog**
-- 🖥️ **Programación de microcontroladores** (Raspberry Pi, NVIDIA Jetson Nano, Arduino, ESP32, XIAO)
+- 🖥️ **Programación de microcontroladores** (Raspberry Pi, NVIDIA Jetson Nano, PIC, ESP32, XIAO, AVR(atmega))
 
 ---
 
