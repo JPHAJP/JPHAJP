@@ -1,21 +1,22 @@
 # 👋 ¡Hola! Soy José Pablo Hernández Alonso
 
-💻 **Ingeniero en formación, apasionado por la innovación y la tecnología.**
+💻 **Ingeniero en formación, apasionado por la innovación, la tecnología y el diseño aesthetic.**
 🚀 **Estudiante de Ingeniería Mecatrónica** en [Ibero Puebla](https://www.iberopuebla.mx/) - 10mo Semestre.
-💼 Actualmente trabajando en **Sistema ALARO**.
+💼 Actualmente trabajando en [**Sistema ALARO**](https://www.corporativoalaro.com/).
 
 ---
 
 ## 🌎 Sobre mí
 🔬 Apasionado por la tecnología, la innovación y el desarrollo de soluciones con **IA**, **robótica** e **IoT**.
 💡 Siempre explorando nuevas herramientas y tecnologías para mejorar procesos industriales y sistemas inteligentes.
+🎨 Amante del diseño, buscando que cada proyecto tenga un impacto visual atractivo y funcional.
 
 📍 **Experiencia y aprendizaje:**
 - 🔭 Actualmente trabajando en el desarrollo de proyectos de **IA** y **robótica**.
-- 🌱 Aprendiendo sobre **desarrollo web**, **análisis de datos** y **robótica**.
+- 🌱 Aprendiendo sobre **desarrollo web**, **análisis de datos**, **robótica** y **diseño aesthetic**.
 - 👯 Buscando colaborar en proyectos que involucren el desarrollo de **IA**.
 - 💬 Pregúntame sobre **YOLO Vision** y **Python**.
-- ⚡ Dato curioso: Amo las **artes marciales** y la **programación**.
+- ⚡ Dato curioso: Amo las **artes marciales**, la **programación** y el **diseño**.
 
 📝 **Frase:** *TEACH DRIVEN, HEART INSPIRED*
 
@@ -51,6 +52,7 @@
 - Ladder Logic
 - Universal Robots
 - Web Development
+- Diseño CAD y simulación
 
 ---
 
@@ -85,5 +87,5 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jphajp/)  
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jose_pablo_ha)  
 
-![Banner](https://your-image-url.com/banner.jpg)  
+![Banner](https://media.licdn.com/dms/image/v2/D4E16AQFu2LOeH0f5EA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1667790622082?e=1746057600&v=beta&t=t1eppcCz5EVAP3-ydS9rh7Hr2JDGGe914tEcoGak3SM)  
 📌 *Siempre abierto a colaboraciones y nuevos proyectos tecnológicos.* 🚀
