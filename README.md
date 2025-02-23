@@ -27,8 +27,9 @@
 - 📊 **Análisis de datos con IA**
 - 📡 **IoT - Domótica e Industria**
 - 🛠️ **Diseño CAD y Simulación**
+- 🎨 **Diseño UX**
 - 🎛️ **FPGA & VHDL/Verilog**
-- 🖥️ **Programación de microcontroladores** (Raspberry Pi, NVIDIA Jetson Nano, Arduino)
+- 🖥️ **Programación de microcontroladores** (Raspberry Pi, NVIDIA Jetson Nano, Arduino, ESP32, XIAO)
 
 ---
 
