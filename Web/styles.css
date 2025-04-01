@@ -75,9 +75,9 @@ body {
 
 /* Header / Portada */
 .header-section {
-    height: 100vh;
+    height: 120vh;
     min-height: 600px;
-    background-image: url('assets/images/header-bg.jpg');
+    background-image: url('assets/img/wallpaper.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -470,5 +470,71 @@ body {
     
     .section-title {
         font-size: 1.8rem;
+    }
+}
+
+/* Estilos para la nueva sección de habilidades */
+.skills-card {
+    background-color: var(--light-color);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+}
+
+.skills-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.skills-category {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.skill-item:last-child {
+    border-bottom: none;
+}
+
+.skill-item span {
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+.skill-item i {
+    color: var(--accent-color);
+}
+
+.skill-item:hover {
+    transform: translateX(5px);
+    color: var(--primary-color);
+}
+
+.skill-item:hover span {
+    color: var(--primary-color);
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 767.98px) {
+    .skills-card {
+        margin-bottom: 1.5rem;
     }
 }
