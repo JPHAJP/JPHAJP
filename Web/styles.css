@@ -77,7 +77,7 @@ body {
 .header-section {
     height: 120vh;
     min-height: 600px;
-    background-image: url('assets/img/wallpaper.png');
+    background-image: url('./assets/img/wallpaper.png');
     background-size: cover;
     background-position: center;
     position: relative;
