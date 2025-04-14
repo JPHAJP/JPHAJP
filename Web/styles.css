@@ -538,3 +538,40 @@ body {
         margin-bottom: 1.5rem;
     }
 }
+
+/* Fondo animado para sección de Áreas de Interés */
+.bg-light.tech-bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.tech-logos-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, 
+        rgba(248, 249, 250, 0.9), 
+        rgba(248, 249, 250, 0.9)), 
+        url('./assets/img/tech-logos.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    opacity: .5;
+    z-index: 1;
+    animation: slideBackground 60s linear infinite;
+}
+
+@keyframes slideBackground {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.bg-light.tech-bg .container {
+    position: relative;
+    z-index: 2;
+}

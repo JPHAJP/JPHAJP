@@ -55,25 +55,35 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Formulario de contacto
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Obtener valores del formulario
-            const nombre = document.getElementById('nombre').value;
-            const email = document.getElementById('email').value;
-            const asunto = document.getElementById('asunto').value;
-            const mensaje = document.getElementById('mensaje').value;
-            
-            // Aquí puedes agregar la lógica para enviar el formulario
-            // Por ahora, solo mostraremos un alerta
-            alert(`Gracias ${nombre} por tu mensaje. Te responderé pronto a ${email}.`);
-            
-            // Limpiar formulario
-            contactForm.reset();
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // Evita el envío tradicional del formulario
+        var form = this;
+        var formData = new FormData(form);
+        
+        fetch(form.action, {
+          method: form.method,
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(function(response) {
+          if (response.ok) {
+            document.getElementById('responseMessage').innerHTML = "<div class='alert alert-success'>Mensaje enviado correctamente. ¡Gracias!</div>";
+            form.reset();
+          } else {
+            response.json().then(function(data) {
+              if(Object.hasOwn(data, 'errors')) {
+                document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>Error: " + data["errors"].map(error => error["message"]).join(", ") + "</div>";
+              } else {
+                document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>Ha ocurrido un error. Inténtalo de nuevo.</div>";
+              }
+            });
+          }
+        }).catch(function(error) {
+          console.error('Error al enviar:', error);
+          document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>Ocurrió un error. Inténtalo de nuevo.</div>";
         });
-    }
+      });
 
     // Animación de habilidades
     function animateSkills() {
