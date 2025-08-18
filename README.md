@@ -6,6 +6,10 @@
 
 ---
 
+[**PORTAFOLIO WEB**](https://jphajp.github.io/JPHAJP/)
+
+---
+
 ## 🌎 Sobre mí
 🔬 Fanático por la tecnología, la innovación y el desarrollo de soluciones con **IA**, **robótica** e **IoT**.
 💡 Siempre explorando nuevas herramientas y tecnologías para mejorar procesos industriales y sistemas inteligentes.
