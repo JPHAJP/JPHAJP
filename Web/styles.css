@@ -837,6 +837,8 @@ body.intro-finished .navbar {
     .intro-subtitle {
         font-size: 1.4rem;
     }
+    #contacto {
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 767.98px) {
@@ -855,6 +857,8 @@ body.intro-finished .navbar {
         margin: 0.5rem auto;
         font-weight: 700;
     }
+    #contacto {
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 575.98px) {
@@ -865,4 +869,8 @@ body.intro-finished .navbar {
     .intro-subtitle {
         font-size: 1rem;
     }
+
+    #contacto {
+    margin-bottom: 1rem;
+}
 }
