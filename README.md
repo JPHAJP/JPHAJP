@@ -6,6 +6,10 @@
 
 ---
 
+[**PORTAFOLIO WEB**](https://jphajp.github.io/JPHAJP/)
+
+---
+
 ## 🌎 Sobre mí
 🔬 Fanático por la tecnología, la innovación y el desarrollo de soluciones con **IA**, **robótica** e **IoT**.
 💡 Siempre explorando nuevas herramientas y tecnologías para mejorar procesos industriales y sistemas inteligentes.
@@ -88,5 +92,5 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jphajp/)  
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jose_pablo_ha)  
 
-![Banner](https://media.licdn.com/dms/image/v2/D4E16AQFu2LOeH0f5EA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1667790622082?e=1746057600&v=beta&t=t1eppcCz5EVAP3-ydS9rh7Hr2JDGGe914tEcoGak3SM)  
+![Banner](https://media.licdn.com/dms/image/v2/D4E16AQFu2LOeH0f5EA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1667790622082?e=1758758400&v=beta&t=WTlCoTUjg1SHCcUxX4iFbbaz9XqQR4kw7i_ipOs8eTE)  
 📌 *Siempre abierto a colaboraciones y nuevos proyectos tecnológicos.* 🚀
