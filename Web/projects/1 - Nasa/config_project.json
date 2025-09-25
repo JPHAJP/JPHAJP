@@ -1,176 +1,95 @@
 {
     "project": {
         "title": "NASA Space Apps Challenge 2024",
-        "subtitle": "Surgical Instrument Logistics Virtual Intelligent Assistant",
-        "shortDescription": "Robot colaborativo con IA para asistencia en instrumentación quirúrgica",
-        "fullDescription": "Sistema robótico avanzado que combina múltiples tecnologías de IA para automatizar la asistencia en procedimientos quirúrgicos.",
+        "subtitle": "Hackathon Internacional de la NASA",
+        "shortDescription": "Participación en el NASA Space Apps Challenge 2024, desarrollando soluciones innovadoras para desafíos espaciales.",
+        "fullDescription": "Este proyecto se centra en la creación de una solución innovadora para descripción espacial de asteroides cercanos y altamente peligrosos en un orrey web utilizando tecnologías avanzadas.",
         "status": "Completado",
         "year": "2024",
-        "duration": "16 meses",
+        "duration": "1 día",
         "team": [
-            "José Pablo Hernández Alonso"
+            "José Pablo Hernández Alonso",
+            "Iñigo Quintana Delgadillo",
+            "David Bojalil",
+            "Diego Rodríguez Orozco",
+            "Josua Alejandro Zamarrón",
+            "Erick Guevara Morales"
         ],
         "tags": [
-            "Robótica Quirúrgica",
+            "Python",
             "IA/ML",
-            "Visión Computacional"
+            "React",
+            "three.js",
+            "Hackathon",
+            "NASA"
         ],
-        "repository": "https://github.com/JPHAJP/UR5_SRUB_NURSE",
-        "documentation": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/UR5%20-%20Reporte%20de%20documentaci%C3%B3n.pdf"
+        "repository": "https://github.com/DavidBo9/Nasa-Challenge2",
+        "documentation": "./NasaDoc.pdf"
     },
     "overview": {
-        "problem": "Los procedimientos quirúrgicos requieren asistencia precisa y oportuna en la entrega de instrumental, proceso propenso a errores humanos.",
-        "solution": "Robot colaborativo UR5e integrado con múltiples sistemas de IA para reconocimiento, localización y entrega automatizada de instrumental quirúrgico.",
-        "impact": "Reducción significativa de errores, optimización de tiempos quirúrgicos y mejora en la precisión de procedimientos."
+        "problem": "Demostrar habilidades de desarrollo para mostrar un orrey web de asteroides y objetos espaciales.",
+        "solution": "Desarrollar un orrey web interactivo utilizando tecnologías como React y three.js para visualizar datos de asteroides.",
+        "impact": "Facilitar la comprensión de la información espacial y promover el interés en la ciencia y la tecnología."
     },
     "stats": [
         {
-            "value": "4",
-            "label": "IAs Integradas"
+            "value": "2",
+            "label": "IAs utilizadas"
         },
         {
-            "value": "24+",
+            "value": "5+",
             "label": "Tecnologías"
         },
         {
             "value": "3",
-            "label": "Conferencias"
+            "label": "Lugar regional"
         },
         {
-            "value": "95%",
-            "label": "Precisión"
+            "value": "24h",
+            "label": "Tiempo de desarrollo"
         }
     ],
     "media": {
-        "mainVideo": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+        "mainVideo": "./orray.mp4",
         "videos": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
-                "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true",
-                "title": "Demostración con comandos de voz",
-                "description": "Video mostrando el sistema en acción"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true",
-                "title": "Reconocimiento de guantes",
-                "description": "Sistema de visión identificando guantes"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true",
-                "title": "Demostración de reconocimiento de instrumental",
-                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true",
-                "title": "Demostración de entrega de guantes",
-                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true",
-                "title": "Demostración de entrega de herramientas",
-                "description": "Control del robot por comandos en terminal"
+                "src": "./orray.mp4",
+                "title": "Orrery Web Demo",
+                "description": "Video mostrando la integración completa del sistema en el orrey web."
             }
             
         ],
         "images": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true",
-                "alt": "Electroimán",
-                "caption": "Aditamento de electroimán para manipulación de instrumental"
+                "src": "./1.png",
+                "alt": "Landing del orrey web",
+                "caption": "Landing page del orrey web con visualización de asteroides cercanos a la Tierra"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
-                "alt": "Yolov8OBB",
-                "caption": "Pruebas tras entrenamiento de modelo de Yolov8OBB"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
-                "alt": "ExpoIbero 2023",
-                "caption": "Demostración de sistema en ExpoIbero 2023"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
-                "alt": "Detección de instrumental",
-                "caption": "Demostración de detección de instrumental con PyQt5"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
-                "alt": "Entrenamiento Yolov8OBB",
-                "caption": "Entrenamiento de modelo Yolov8OBB estadísticas"
+                "src": "./2.png",
+                "alt": "Descripción de planetas",
+                "caption": "Descripción detallada de planetas y objetos espaciales"
             }
         ],
         "diagrams": [
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
-                "alt": "Workflow del proyecto",
-                "title": "Arquitectura del Sistema"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
-                "alt": "Pipeline de IA",
-                "title": "Flujo de Procesamiento IA"
+                "src": "https://media.licdn.com/dms/image/v2/D5612AQED5YO_sL2QzQ/article-cover_image-shrink_720_1280/B56Zj_2B1rHMAI-/0/1756639011560?e=2147483647&v=beta&t=PxFJ2grTaELfWFtS_-T8D3XHCsSDcflpqzCIQ2zAgr0",
+                "alt": "Vibe coding Workflow",
+                "title": "Vibe coding Workflow"
             }
         ]
     },
     "technologies": {
         "ai": [
             {
-                "name": "YOLOv8 OBB",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Yolo.png?raw=true",
-                "description": "Detección de instrumental quirúrgico"
+                "name": "OpenAI GPT-3",
+                "icon": "https://static.vecteezy.com/system/resources/previews/021/059/827/non_2x/chatgpt-logo-chat-gpt-icon-on-white-background-free-vector.jpg",
+                "description": "Generación y entendimiento de la matemática de movimientos orbitales en el espacio"
             },
             {
-                "name": "Whisper",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Whisper.png?raw=true",
-                "description": "Reconocimiento de voz offline"
-            },
-            {
-                "name": "Llama3.1",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/llama3.1.jpg?raw=true",
-                "description": "Asistente conversacional"
-            },
-            {
-                "name": "Google TTS",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/google%20tts.png?raw=true",
-                "description": "Text-to-Speech"
-            }
-        ],
-        "robotics": [
-            {
-                "name": "UR-RTDE",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_rtde.png?raw=true",
-                "description": "Comunicación en tiempo real con el robot"
-            },
-            {
-                "name": "UR-Script",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_robot.webp?raw=true",
-                "description": "Programación del robot"
-            }
-        ],
-        "computer_vision": [
-            {
-                "name": "Intel RealSense",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/realsense.jpg?raw=true",
-                "description": "Cámara de profundidad"
-            },
-            {
-                "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
-                "description": "Procesamiento de imágenes"
+                "name": "Claude 2",
+                "icon": "https://logo.svgcdn.com/l/claude-icon-8x.png",
+                "description": "Generación de código en React y three.js para el orrey web"
             }
         ],
         "development": [
@@ -180,19 +99,19 @@
                 "description": "Lenguaje principal"
             },
             {
-                "name": "Flask",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/flask.png?raw=true",
-                "description": "API web"
+                "name": "React",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+                "description": "Framework frontend"
             },
             {
-                "name": "PyQt5",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/qt5.png?raw=true",
-                "description": "Interfaz gráfica"
+                "name": "Vite",
+                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4XOdTwDFjrNDoRbCH2vDqCNCKD9u8zVr_g&s",
+                "description": "Entorno de desarrollo"
             },
             {
-                "name": "Ollama",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ollama.webp?raw=true",
-                "description": "Manejador de modelos LLM"
+                "name": "Three.js",
+                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUyPLMCrdBvL7byu5KkMnOssbQigrkiRxZw&s",
+                "description": "Manejador de modelos 3D"
             },
             {
                 "name": "Git & GitHub",
@@ -200,44 +119,19 @@
                 "description": "Control de versiones"
             },
             {
-                "name": "Jetson Nano",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/jetson_nano.jpg?raw=true",
+                "name": "Pandas",
+                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCpCB6Du8H6Lrm5WIbDcdW59uqoSiL-eeTlw&s",
                 "description": "Computadora embebida y aceleración con GPU"
             },
             {
-                "name": "Ubuntu",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
+                "name": "Figma",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
                 "description": "Sistema operativo"
             },
             {
-                "name": "Pytorch",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/pytorch.webp?raw=true",
+                "name": "Tailwind CSS",
+                "icon": "https://www.svgrepo.com/show/374118/tailwind.svg",
                 "description": "Framework de IA"
-            },
-            {
-                "name": "RoboFlow",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/roboflow.jpg?raw=true",
-                "description": "Gestión de datasets"
-            },
-            {
-                "name": "Cuda",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/cuda.webp?raw=true",
-                "description": "Entornos de desarrollo"
-            },
-            {
-                "name": "Ultralytics",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ultralytics.webp?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
-            },
-            {
-                "name": "Mysql",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mysql.jpg?raw=true",
-                "description": "Gestión de bases de datos"
-            },
-            {
-                "name": "MediaPipe",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mediapipe.jpg?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
             },
             {
                 "name": "Numpy",
@@ -248,37 +142,12 @@
     },
     "achievements": [
         {
-            "title": "ExpoIbero Otoño 2023",
-            "date": "2023-11",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
-        },
-        {
-            "title": "IEEE ICEV 2024",
-            "date": "2024-11",
-            "type": "Conferencia Internacional",
-            "description": "Presentación en la Conferencia Internacional de Ingeniería en Veracruz",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
-            "link": "https://ieeexplore.ieee.org/document/10765997",
-            "featured": true
-        },
-        {
-            "title": "CONITACS 2024",
+            "title": "NASA Space Apps Challenge 2024",
             "date": "2024-09",
-            "type": "Congreso",
-            "description": "Congreso Internacional de Tecnologías Avanzadas Para la Salud",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
-            "link": "https://www-optica.inaoep.mx/~tecnologia_salud/2024/"
-        },
-        {
-            "title": "ExpoIbero Otoño 2024",
-            "date": "2024-10",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo con todas las funcionalidades integradas para servicio social",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
+            "type": "Hackathon",
+            "description": "Tercer lugar regional en el NASA Space Apps Challenge 2024",
+            "image": "https://assets.spaceappschallenge.org/media/images/MAKE_A_COPY_Create_your_own_Local_.2e16d0ba.fill-674x450_q0FdJxN.png",
+            "link": "https://www.spaceappschallenge.org/"
         }
     ],
     "author": {
@@ -293,9 +162,9 @@
     },
     "settings": {
         "theme": {
-            "primaryColor": "#1a237e",
+            "primaryColor": "#7f0000",
             "secondaryColor": "#ffffff",
-            "accentColor": "#304ffe"
+            "accentColor": "#a31515"
         },
         "layout": {
             "containerWidth": "1200px",

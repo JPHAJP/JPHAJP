@@ -1,0 +1,149 @@
+{
+  "project": {
+    "title": "Mi Proyecto Ejemplo",
+    "subtitle": "Sistema inteligente de ejemplo",
+    "shortDescription": "Este es un proyecto de ejemplo que demuestra las capacidades del sistema de plantillas genérico para mostrar proyectos de manera profesional.",
+    "status": "En desarrollo",
+    "repository": "https://github.com/usuario/mi-proyecto",
+    "documentation": "./docs/documentacion.pdf",
+    "tags": ["IA", "Python", "Web", "OpenCV"]
+  },
+  "overview": {
+    "problem": "Necesidad de crear páginas web profesionales para mostrar proyectos de manera consistente y atractiva.",
+    "solution": "Sistema de plantillas genérico que utiliza archivos JSON para configuración, permitiendo reutilización del código JavaScript.",
+    "impact": "Reducción del 80% en tiempo de desarrollo de páginas de proyecto y mantenimiento centralizado del código."
+  },
+  "stats": [
+    {
+      "value": "100%",
+      "label": "Responsive"
+    },
+    {
+      "value": "3",
+      "label": "Formatos Media"
+    },
+    {
+      "value": "5min",
+      "label": "Setup Time"
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "./videos/demo.mp4",
+        "title": "Demostración del Sistema",
+        "description": "Video que muestra las principales características del sistema de plantillas."
+      },
+      {
+        "src": "./videos/tutorial.mp4",
+        "title": "Tutorial de Uso",
+        "description": "Guía paso a paso para crear tu primer proyecto con la plantilla."
+      }
+    ],
+    "images": [
+      {
+        "src": "./images/screenshot1.jpg",
+        "alt": "Captura de pantalla de la interfaz principal",
+        "caption": "Vista principal del proyecto mostrando el diseño responsive"
+      },
+      {
+        "src": "./images/screenshot2.jpg",
+        "alt": "Galería multimedia",
+        "caption": "Sección multimedia con videos e imágenes"
+      },
+      {
+        "src": "./images/mobile-view.jpg",
+        "alt": "Vista móvil",
+        "caption": "Diseño optimizado para dispositivos móviles"
+      }
+    ],
+    "diagrams": [
+      {
+        "src": "./diagrams/architecture.png",
+        "alt": "Arquitectura del sistema",
+        "title": "Arquitectura del Sistema"
+      },
+      {
+        "src": "./diagrams/flow.png",
+        "alt": "Flujo de datos",
+        "title": "Flujo de Configuración"
+      }
+    ]
+  },
+  "technologies": {
+    "development": [
+      {
+        "name": "HTML5",
+        "description": "Estructura semántica",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      },
+      {
+        "name": "CSS3",
+        "description": "Estilos y animaciones",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+      },
+      {
+        "name": "JavaScript",
+        "description": "Lógica de la aplicación",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "description": "Framework CSS",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+      }
+    ],
+    "tools": [
+      {
+        "name": "PDF.js",
+        "description": "Visualizador de PDF",
+        "icon": "https://mozilla.github.io/pdf.js/images/logo.svg"
+      },
+      {
+        "name": "Font Awesome",
+        "description": "Iconografía",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fontawesome/fontawesome-original.svg"
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "date": "2024-01-15",
+      "title": "Lanzamiento de la Primera Versión",
+      "type": "Hito",
+      "description": "Implementación completa del sistema de plantillas genérico con soporte para multimedia y PDF.",
+      "image": "./images/launch.jpg",
+      "link": "https://github.com/usuario/mi-proyecto/releases/v1.0.0"
+    },
+    {
+      "date": "2024-02-01",
+      "title": "Compatibilidad iOS Completa",
+      "type": "Mejora",
+      "description": "Agregado soporte completo para reproducción de video en dispositivos iOS Safari.",
+      "link": "https://github.com/usuario/mi-proyecto/issues/1"
+    },
+    {
+      "date": "2024-02-15",
+      "title": "Sistema de Temas Personalizable",
+      "type": "Feature",
+      "description": "Implementación de sistema de temas con colores personalizables por proyecto."
+    }
+  ],
+  "author": {
+    "name": "Juan Pérez",
+    "institution": "Universidad Tecnológica",
+    "email": "juan.perez@universidad.edu",
+    "social": {
+      "github": "https://github.com/juanperez",
+      "linkedin": "https://linkedin.com/in/juanperez",
+      "twitter": "https://twitter.com/juanperez"
+    }
+  },
+  "settings": {
+    "theme": {
+      "primaryColor": "#1a237e",
+      "secondaryColor": "#ffffff",
+      "accentColor": "#304ffe"
+    }
+  }
+}
