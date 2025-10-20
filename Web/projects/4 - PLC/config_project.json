@@ -1,178 +1,94 @@
 {
     "project": {
-        "title": "Ur5-Scrub-Nurse - S.I.L.V.I.A.",
-        "subtitle": "Surgical Instrument Logistics Virtual Intelligent Assistant",
-        "shortDescription": "Robot colaborativo con IA para asistencia en instrumentación quirúrgica",
-        "fullDescription": "Sistema robótico avanzado que combina múltiples tecnologías de IA para automatizar la asistencia en procedimientos quirúrgicos.",
+        "title": "Sistema SCADA para automatización industrial",
+        "subtitle": "Sistema de Control y Adquisición de Datos para procesos industriales",
+        "shortDescription": "Sistema SCADA para la supervisión y control de procesos industriales.",
+        "fullDescription": "Sistema SCADA avanzado que combina múltiples tecnologías para la supervisión y control de procesos industriales.",
         "status": "Completado",
-        "year": "2024",
-        "duration": "16 meses",
+        "year": "2025",
+        "duration": "4 meses",
         "team": [
             "José Pablo Hernández Alonso"
         ],
         "tags": [
-            "Robótica Quirúrgica",
-            "IA/ML",
-            "Visión Computacional"
+            "Robótica",
+            "Automatización",
+            "Control de Procesos",
+            "SCADA",
+            "PLC",
+            "IoT",
+            "SIEMENS",
+            "Industria 4.0",
+            "HMI",
+            "API REST",
+            "Prototipado Rápido",
+            "OPC"
         ],
-        "repository": "https://github.com/JPHAJP/UR5_SRUB_NURSE",
-        "documentation": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/UR5%20-%20Reporte%20de%20documentaci%C3%B3n.pdf"
+        "repository": "https://jphajp.github.io/Simens_PLC_Comms/",
+        "documentation": "./Desarrollo de Sistema estilo SCADA para procesos industriales_presentación.pdf"
     },
     "overview": {
-        "problem": "Los procedimientos quirúrgicos requieren asistencia precisa y oportuna en la entrega de instrumental, proceso propenso a errores humanos.",
-        "solution": "Robot colaborativo UR5e integrado con múltiples sistemas de IA para reconocimiento, localización y entrega automatizada de instrumental quirúrgico.",
-        "impact": "Reducción significativa de errores, optimización de tiempos quirúrgicos y mejora en la precisión de procedimientos."
+        "problem": "Las plataformas SCADA comerciales suelen ser costosas y difíciles de personalizar para necesidades específicas de pequeñas y medianas empresas.",
+        "solution": "Desarrollo de una plataforma SCADA personalizada y de código abierto que se adapte a las necesidades específicas de cada cliente.",
+        "impact": "Facilitar el acceso a soluciones SCADA avanzadas para empresas de todos los tamaños, mejorando la eficiencia y reduciendo costos."
     },
     "stats": [
         {
-            "value": "4",
-            "label": "IAs Integradas"
-        },
-        {
-            "value": "24+",
+            "value": "21+",
             "label": "Tecnologías"
         },
         {
-            "value": "3",
+            "value": "2",
             "label": "Conferencias"
         },
         {
-            "value": "95%",
-            "label": "Precisión"
+            "value": "4",
+            "label": "Meses de desarrollo"
+        },
+        {
+            "value": "5K+",
+            "label": "Líneas de código"
         }
     ],
     "media": {
-        "mainVideo": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+        "mainVideo": "./video_scada.mp4",
         "videos": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+                "src": "./video_scada.mp4",
                 "title": "Demostración principal",
                 "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true",
-                "title": "Demostración con comandos de voz",
-                "description": "Video mostrando el sistema en acción"
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V3.mp4?raw=true",
+                "title": "PLC 1",
+                "description": "Control de empacadora con motor y varidor de frecuencia."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true",
-                "title": "Reconocimiento de guantes",
-                "description": "Sistema de visión identificando guantes"
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V4.mp4?raw=true",
+                "title": "PLC 2",
+                "description": "Control de banda transportadora con control de dirección."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true",
-                "title": "Demostración de reconocimiento de instrumental",
-                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada"
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V5.mp4?raw=true",
+                "title": "PLC 3",
+                "description": "Control de revolvedora con pistones neumáticos"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true",
-                "title": "Demostración de entrega de guantes",
-                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true",
-                "title": "Demostración de entrega de herramientas",
-                "description": "Control del robot por comandos en terminal"
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V6.mp4?raw=true",
+                "title": "Robot UR5e",
+                "description": "Seguimiento de rutina de puntos."
             }
             
         ],
         "images": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true",
-                "alt": "Electroimán",
-                "caption": "Aditamento de electroimán para manipulación de instrumental"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
-                "alt": "Yolov8OBB",
-                "caption": "Pruebas tras entrenamiento de modelo de Yolov8OBB"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
-                "alt": "ExpoIbero 2023",
-                "caption": "Demostración de sistema en ExpoIbero 2023"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
-                "alt": "Detección de instrumental",
-                "caption": "Demostración de detección de instrumental con PyQt5"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
-                "alt": "Entrenamiento Yolov8OBB",
-                "caption": "Entrenamiento de modelo Yolov8OBB estadísticas"
-            }
-        ],
-        "diagrams": [
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
-                "alt": "Workflow del proyecto",
-                "title": "Arquitectura del Sistema"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
-                "alt": "Pipeline de IA",
-                "title": "Flujo de Procesamiento IA"
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/dashbord.png?raw=true",
+                "alt": "UI SCADA Web",
+                "caption": "Interfaz web del sistema SCADA para monitoreo y control de procesos industriales"
             }
         ]
     },
     "technologies": {
-        "ai": [
-            {
-                "name": "YOLOv8 OBB",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Yolo.png?raw=true",
-                "description": "Detección de instrumental quirúrgico"
-            },
-            {
-                "name": "Whisper",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Whisper.png?raw=true",
-                "description": "Reconocimiento de voz offline"
-            },
-            {
-                "name": "Llama3.1",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/llama3.1.jpg?raw=true",
-                "description": "Asistente conversacional"
-            },
-            {
-                "name": "Google TTS",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/google%20tts.png?raw=true",
-                "description": "Text-to-Speech"
-            }
-        ],
-        "robotics": [
-            {
-                "name": "UR-RTDE",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_rtde.png?raw=true",
-                "description": "Comunicación en tiempo real con el robot"
-            },
-            {
-                "name": "UR-Script",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_robot.webp?raw=true",
-                "description": "Programación del robot"
-            }
-        ],
-        "computer_vision": [
-            {
-                "name": "Intel RealSense",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/realsense.jpg?raw=true",
-                "description": "Cámara de profundidad"
-            },
-            {
-                "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
-                "description": "Procesamiento de imágenes"
-            }
-        ],
         "development": [
             {
                 "name": "Python",
@@ -185,14 +101,39 @@
                 "description": "API web"
             },
             {
-                "name": "PyQt5",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/qt5.png?raw=true",
-                "description": "Interfaz gráfica"
+                "name": "OpenCV",
+                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
+                "description": "Procesamiento de imágenes"
             },
             {
-                "name": "Ollama",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ollama.webp?raw=true",
-                "description": "Manejador de modelos LLM"
+                "name": "UR-RTDE",
+                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_rtde.png?raw=true",
+                "description": "Comunicación en tiempo real con el robot"
+            },
+            {
+                "name": "UR-Script",
+                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_robot.webp?raw=true",
+                "description": "Programación del robot"
+            },
+            {
+                "name": "Siemens TIA Portal",
+                "icon": "https://inetec.com.br/wp-content/uploads/2023/04/siemens-v17.png",
+                "description": "Programación de PLCs Siemens"
+            },
+            {
+                "name": "HTML5 & CSS3",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png",
+                "description": "Desarrollo web"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+                "description": "Interactividad web"
+            },
+            {
+                "name": "REST API",
+                "icon": "https://apps.odoo.com/web/image/loempia.module/19346/icon_image/300x300?unique=d92333c",
+                "description": "Comunicación entre sistemas"
             },
             {
                 "name": "Git & GitHub",
@@ -200,34 +141,9 @@
                 "description": "Control de versiones"
             },
             {
-                "name": "Jetson Nano",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/jetson_nano.jpg?raw=true",
-                "description": "Computadora embebida y aceleración con GPU"
-            },
-            {
                 "name": "Ubuntu",
                 "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
                 "description": "Sistema operativo"
-            },
-            {
-                "name": "Pytorch",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/pytorch.webp?raw=true",
-                "description": "Framework de IA"
-            },
-            {
-                "name": "RoboFlow",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/roboflow.jpg?raw=true",
-                "description": "Gestión de datasets"
-            },
-            {
-                "name": "Cuda",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/cuda.webp?raw=true",
-                "description": "Entornos de desarrollo"
-            },
-            {
-                "name": "Ultralytics",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ultralytics.webp?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
             },
             {
                 "name": "Mysql",
@@ -235,56 +151,61 @@
                 "description": "Gestión de bases de datos"
             },
             {
-                "name": "MediaPipe",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mediapipe.jpg?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
+                "name": "OPC UA",
+                "icon": "https://sodick-america.com/wp-content/uploads/2025/01/opc_ua.png",
+                "description": "Protocolo de comunicación industrial"
+            },
+            {
+                "name": "Profinet",
+                "icon": "https://images.seeklogo.com/logo-png/40/1/profinet-logo-png_seeklogo-402406.png",
+                "description": "Protocolo de comunicación industrial"
+            },
+            {
+                "name": "Ethernet/IP",
+                "icon": "https://e7.pngegg.com/pngimages/446/1005/png-clipart-ethernet-ip-computer-software-common-industrial-protocol-modbus-ip-miscellaneous-blue-thumbnail.png",
+                "description": "Protocolo de comunicación industrial"
             },
             {
                 "name": "Numpy",
                 "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
                 "description": "Biblioteca para computación científica"
+            },
+            {
+                "name": "Snap7",
+                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv9WWjDjmrC9fa8KEGpQAAIL3U1s0LbOW_Zg&s",
+                "description": "Comunicaciones industriales"
+            },
+            {
+                "name": "Qrcode",
+                "icon": "https://pypi.org/static/images/logo-small.8998e9d1.svg",
+                "description": "Generación de códigos QR"
             }
         ]
     },
     "achievements": [
+        
         {
-            "title": "ExpoIbero Otoño 2023",
-            "date": "2023-11",
+            "title": "ExpoIbero Primavera 2025",
+            "date": "2025-06",
             "type": "Exposición Universitaria",
-            "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
+            "description": "Exposición del sistema completo, con conexión remota y monitoreo en tiempo real.",
             "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
+            "link": "./All SCADA.pdf"
         },
         {
-            "title": "IEEE ICEV 2024",
-            "date": "2024-11",
+            "title": "Congreso SUJ 2025 Ibero León",
+            "date": "2025-07",
             "type": "Conferencia Internacional",
-            "description": "Presentación en la Conferencia Internacional de Ingeniería en Veracruz",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
-            "link": "https://ieeexplore.ieee.org/document/10765997",
+            "description": "Presentación en la Conferencia Internacional de Estudiantes de Ingeniería SUJ 2025 en la Universidad Iberoamericana León.",
+            "image": "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg",
+            "link": "https://www.iberoleon.mx/articulo/2-Congreso-de-Ingenierias-de-Estudiantes-SUJ-celebracion-del-conocimiento-compromiso-y-vocacion",
             "featured": true
-        },
-        {
-            "title": "CONITACS 2024",
-            "date": "2024-09",
-            "type": "Congreso",
-            "description": "Congreso Internacional de Tecnologías Avanzadas Para la Salud",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
-            "link": "https://www-optica.inaoep.mx/~tecnologia_salud/2024/"
-        },
-        {
-            "title": "ExpoIbero Otoño 2024",
-            "date": "2024-10",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo con todas las funcionalidades integradas para servicio social",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
         }
     ],
     "author": {
         "name": "José Pablo Hernández Alonso",
         "institution": "Universidad Iberoamericana Puebla",
-        "email": "jose.hernandez@iberopuebla.mx",
+        "email": "josepablo.hernandez@iberopuebla.mx",
         "social": {
             "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
             "github": "https://github.com/JPHAJP",
@@ -293,9 +214,9 @@
     },
     "settings": {
         "theme": {
-            "primaryColor": "#1a237e",
-            "secondaryColor": "#ffffff",
-            "accentColor": "#304ffe"
+            "primaryColor": "#311B92",
+            "secondaryColor": "#F3E5F5",
+            "accentColor": "#512DA8"
         },
         "layout": {
             "containerWidth": "1200px",
