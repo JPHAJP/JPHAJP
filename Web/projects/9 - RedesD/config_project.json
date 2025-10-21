@@ -1,178 +1,78 @@
 {
     "project": {
-        "title": "Ur5-Scrub-Nurse - S.I.L.V.I.A.",
-        "subtitle": "Surgical Instrument Logistics Virtual Intelligent Assistant",
-        "shortDescription": "Robot colaborativo con IA para asistencia en instrumentación quirúrgica",
-        "fullDescription": "Sistema robótico avanzado que combina múltiples tecnologías de IA para automatizar la asistencia en procedimientos quirúrgicos.",
+        "title": "Domótica y Redes",
+        "subtitle": "Automatización del hogar mediante ESP32 y Home Assistant",
+        "shortDescription": "Se desarrolla un sistema de domótica utilizando ESP32 y Home Assistant para controlar dispositivos del hogar a través de MQTT.",
+        "fullDescription": "El proyecto consiste en la implementación de un sistema de domótica que permite el control y monitoreo de dispositivos del hogar utilizando tecnología ESP32 y la plataforma Home Assistant. A través de la comunicación MQTT, se logra una integración eficiente de los dispositivos, permitiendo su gestión desde una interfaz centralizada.",
         "status": "Completado",
-        "year": "2024",
-        "duration": "16 meses",
+        "year": "2023",
+        "duration": "1 mes",
         "team": [
             "José Pablo Hernández Alonso"
         ],
         "tags": [
-            "Robótica Quirúrgica",
-            "IA/ML",
-            "Visión Computacional"
+            "Domótica",
+            "Automatización",
+            "ESP32",
+            "Redes de computadoras",
+            "IoT",
+            "MQTT",
+            "Home Assistant",
+            "Python"
         ],
-        "repository": "https://github.com/JPHAJP/UR5_SRUB_NURSE",
-        "documentation": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/UR5%20-%20Reporte%20de%20documentaci%C3%B3n.pdf"
+        "repository": "https://jphajp.github.io/Redes/",
+        "documentation": "./RedesD.pdf"
     },
     "overview": {
-        "problem": "Los procedimientos quirúrgicos requieren asistencia precisa y oportuna en la entrega de instrumental, proceso propenso a errores humanos.",
-        "solution": "Robot colaborativo UR5e integrado con múltiples sistemas de IA para reconocimiento, localización y entrega automatizada de instrumental quirúrgico.",
-        "impact": "Reducción significativa de errores, optimización de tiempos quirúrgicos y mejora en la precisión de procedimientos."
+        "problem": "Se requieren soluciones de domótica para el hogar.",
+        "solution": "Se desarrolla un sistema de domótica utilizando ESP32 y Home Assistant para controlar dispositivos del hogar a través de MQTT.",
+        "impact": "Mejora en la eficiencia energética y comodidad del hogar."
     },
     "stats": [
         {
             "value": "4",
-            "label": "IAs Integradas"
+            "label": "Sensores integrados"
         },
         {
-            "value": "24+",
+            "value": "5+",
             "label": "Tecnologías"
         },
         {
-            "value": "3",
+            "value": "1",
             "label": "Conferencias"
         },
         {
-            "value": "95%",
-            "label": "Precisión"
+            "value": "1",
+            "label": "Mes de desarrollo"
         }
     ],
     "media": {
-        "mainVideo": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+        "mainVideo": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
         "videos": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
-                "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado"
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+                "title": "Timer",
+                "description": "Temporizador con ESP32."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true",
-                "title": "Demostración con comandos de voz",
-                "description": "Video mostrando el sistema en acción"
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Prox.mp4?raw=true",
+                "title": "Sensor de proximidad",
+                "description": "Sensor de proximidad con ESP32 para cochera con semáforo."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true",
-                "title": "Reconocimiento de guantes",
-                "description": "Sistema de visión identificando guantes"
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Hum.mp4?raw=true",
+                "title": "Sensor de humedad",
+                "description": "Sensor de humedad de suelo con ESP32 para baño."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true",
-                "title": "Demostración de reconocimiento de instrumental",
-                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true",
-                "title": "Demostración de entrega de guantes",
-                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true",
-                "title": "Demostración de entrega de herramientas",
-                "description": "Control del robot por comandos en terminal"
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Movimiento.mp4?raw=true",
+                "title": "Sensor de movimiento",
+                "description": "Sensor de movimiento con ESP32 para detección de presencia."
             }
             
-        ],
-        "images": [
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true",
-                "alt": "Electroimán",
-                "caption": "Aditamento de electroimán para manipulación de instrumental"
-            },
-            {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
-                "alt": "Yolov8OBB",
-                "caption": "Pruebas tras entrenamiento de modelo de Yolov8OBB"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
-                "alt": "ExpoIbero 2023",
-                "caption": "Demostración de sistema en ExpoIbero 2023"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
-                "alt": "Detección de instrumental",
-                "caption": "Demostración de detección de instrumental con PyQt5"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
-                "alt": "Entrenamiento Yolov8OBB",
-                "caption": "Entrenamiento de modelo Yolov8OBB estadísticas"
-            }
-        ],
-        "diagrams": [
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
-                "alt": "Workflow del proyecto",
-                "title": "Arquitectura del Sistema"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
-                "alt": "Pipeline de IA",
-                "title": "Flujo de Procesamiento IA"
-            }
         ]
     },
     "technologies": {
-        "ai": [
-            {
-                "name": "YOLOv8 OBB",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Yolo.png?raw=true",
-                "description": "Detección de instrumental quirúrgico"
-            },
-            {
-                "name": "Whisper",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Whisper.png?raw=true",
-                "description": "Reconocimiento de voz offline"
-            },
-            {
-                "name": "Llama3.1",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/llama3.1.jpg?raw=true",
-                "description": "Asistente conversacional"
-            },
-            {
-                "name": "Google TTS",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/google%20tts.png?raw=true",
-                "description": "Text-to-Speech"
-            }
-        ],
-        "robotics": [
-            {
-                "name": "UR-RTDE",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_rtde.png?raw=true",
-                "description": "Comunicación en tiempo real con el robot"
-            },
-            {
-                "name": "UR-Script",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_robot.webp?raw=true",
-                "description": "Programación del robot"
-            }
-        ],
-        "computer_vision": [
-            {
-                "name": "Intel RealSense",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/realsense.jpg?raw=true",
-                "description": "Cámara de profundidad"
-            },
-            {
-                "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
-                "description": "Procesamiento de imágenes"
-            }
-        ],
         "development": [
             {
                 "name": "Python",
@@ -180,19 +80,29 @@
                 "description": "Lenguaje principal"
             },
             {
-                "name": "Flask",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/flask.png?raw=true",
+                "name": "PHP",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/250px-PHP-logo.svg.png",
                 "description": "API web"
             },
             {
-                "name": "PyQt5",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/qt5.png?raw=true",
-                "description": "Interfaz gráfica"
+                "name": "HTML5 & CSS3",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png",
+                "description": "Desarrollo web"
             },
             {
-                "name": "Ollama",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ollama.webp?raw=true",
-                "description": "Manejador de modelos LLM"
+                "name": "JavaScript",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+                "description": "Interactividad web"
+            },
+            {
+                "name": "ESP32",
+                "icon": "https://www.espressif.com/sites/all/themes/espressif/logo-black.svg",
+                "description": "Microcontrolador para IoT"
+            },
+            {
+                "name": "MQTT",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mqtt-hor.svg/250px-Mqtt-hor.svg.png",
+                "description": "Protocolo de mensajería"
             },
             {
                 "name": "Git & GitHub",
@@ -200,49 +110,29 @@
                 "description": "Control de versiones"
             },
             {
-                "name": "Jetson Nano",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/jetson_nano.jpg?raw=true",
-                "description": "Computadora embebida y aceleración con GPU"
+                "name": "Firebase",
+                "icon": "https://www.gstatic.com/devrel-devsite/prod/v5460c633fd1ad4a595c7768c5f9ad1c686621a7060717ae56fbd5e2f0e851090/firebase/images/lockup.svg",
+                "description": "Base de datos en la nube"
             },
             {
-                "name": "Ubuntu",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
-                "description": "Sistema operativo"
+                "name": "Render",
+                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPUwjt1zmKajvyeYAh9HWl7p0WkhhV-AoePg&s",
+                "description": "Plataforma de implementación de aplicaciones en la nube"
             },
             {
-                "name": "Pytorch",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/pytorch.webp?raw=true",
-                "description": "Framework de IA"
+                "name": "Flutterflow",
+                "icon": "https://yt3.googleusercontent.com/ifGefyNhaGJ2TXrybafKcNDolsx1Wxpsk4mroLuVsbCZLQhtPYuLBrjUv5JG0ZnRLDi78I-KDRQ=s900-c-k-c0x00ffffff-no-rj",
+                "description": "Constructor de aplicaciones visuales"
             },
             {
-                "name": "RoboFlow",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/roboflow.jpg?raw=true",
-                "description": "Gestión de datasets"
+                "name": "Docker",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Docker_Logo.svg/250px-Docker_Logo.svg.png",
+                "description": "Plataforma de contenedorización de aplicaciones"
             },
             {
-                "name": "Cuda",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/cuda.webp?raw=true",
-                "description": "Entornos de desarrollo"
-            },
-            {
-                "name": "Ultralytics",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ultralytics.webp?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
-            },
-            {
-                "name": "Mysql",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mysql.jpg?raw=true",
-                "description": "Gestión de bases de datos"
-            },
-            {
-                "name": "MediaPipe",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mediapipe.jpg?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
-            },
-            {
-                "name": "Numpy",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
-                "description": "Biblioteca para computación científica"
+                "name": "Wokwi",
+                "icon": "https://www.luisllamas.es/wp-content/uploads/2022/12/wowki.png",
+                "description": "Simulador de microcontroladores"
             }
         ]
     },
@@ -253,38 +143,13 @@
             "type": "Exposición Universitaria",
             "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
             "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
-        },
-        {
-            "title": "IEEE ICEV 2024",
-            "date": "2024-11",
-            "type": "Conferencia Internacional",
-            "description": "Presentación en la Conferencia Internacional de Ingeniería en Veracruz",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
-            "link": "https://ieeexplore.ieee.org/document/10765997",
-            "featured": true
-        },
-        {
-            "title": "CONITACS 2024",
-            "date": "2024-09",
-            "type": "Congreso",
-            "description": "Congreso Internacional de Tecnologías Avanzadas Para la Salud",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
-            "link": "https://www-optica.inaoep.mx/~tecnologia_salud/2024/"
-        },
-        {
-            "title": "ExpoIbero Otoño 2024",
-            "date": "2024-10",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo con todas las funcionalidades integradas para servicio social",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
+            "link": "https://jphajp.github.io/Redes/proyecto.html"
         }
     ],
     "author": {
         "name": "José Pablo Hernández Alonso",
         "institution": "Universidad Iberoamericana Puebla",
-        "email": "jose.hernandez@iberopuebla.mx",
+        "email": "josepablo.hernandez@iberopuebla.mx",
         "social": {
             "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
             "github": "https://github.com/JPHAJP",
@@ -293,10 +158,10 @@
     },
     "settings": {
         "theme": {
-            "primaryColor": "#1a237e",
-            "secondaryColor": "#ffffff",
-            "accentColor": "#304ffe"
-        },
+                "primaryColor": "#e91e63",
+                "secondaryColor": "#f8bbd0",
+                "accentColor": "#ff4081"
+            },
         "layout": {
             "containerWidth": "1200px",
             "sectionSpacing": "4rem"

@@ -193,11 +193,6 @@
                 "description": "Framework de IA"
             },
             {
-                "name": "RoboFlow",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/roboflow.jpg?raw=true",
-                "description": "Gestión de datasets"
-            },
-            {
                 "name": "Cuda",
                 "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/cuda.webp?raw=true",
                 "description": "Entornos de desarrollo"
@@ -272,7 +267,7 @@
     "author": {
         "name": "José Pablo Hernández Alonso",
         "institution": "Universidad Iberoamericana Puebla",
-        "email": "jose.hernandez@iberopuebla.mx",
+        "email": "josepablo.hernandez@iberopuebla.mx",
         "social": {
             "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
             "github": "https://github.com/JPHAJP",
