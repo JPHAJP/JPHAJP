@@ -1,6 +1,6 @@
 {
     "project": {
-        "title": "Sistema SCADA para automatización industrial",
+        "title": "Sistema SCADA",
         "subtitle": "Sistema de Control y Adquisición de Datos para procesos industriales",
         "shortDescription": "Sistema SCADA para la supervisión y control de procesos industriales.",
         "fullDescription": "Sistema SCADA avanzado que combina múltiples tecnologías para la supervisión y control de procesos industriales.",
@@ -56,7 +56,7 @@
             {
                 "src": "./video_scada.mp4",
                 "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado"
+                "description": "Video mostrando la integración completa del sistema SCADA para control y monitoreo de procesos industriales."
             },
             {
                 "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V3.mp4?raw=true",
@@ -183,7 +183,6 @@
         ]
     },
     "achievements": [
-        
         {
             "title": "ExpoIbero Primavera 2025",
             "date": "2025-06",

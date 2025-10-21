@@ -1,31 +1,35 @@
 {
     "project": {
-        "title": "Ur5-Scrub-Nurse - S.I.L.V.I.A.",
-        "subtitle": "Surgical Instrument Logistics Virtual Intelligent Assistant",
-        "shortDescription": "Robot colaborativo con IA para asistencia en instrumentación quirúrgica",
-        "fullDescription": "Sistema robótico avanzado que combina múltiples tecnologías de IA para automatizar la asistencia en procedimientos quirúrgicos.",
+        "title": "StableDiffusion to gcode - UR5e",
+        "subtitle": "Códigos Gcode para UR5e",
+        "shortDescription": "Generación de imágenes con IA y su conversión a Gcode para planificación de trayectorias de robot UR5e",
+        "fullDescription": "Se generan imágenes mediante IA con StableDiffusion, se capturan los prompts y mejoran con DeepSeek y se convierten a Gcode para ser interpretadas por un robot UR5e, permitiendo la planificación de trayectorias basadas en imágenes generadas por IA.",
         "status": "Completado",
-        "year": "2024",
-        "duration": "16 meses",
+        "year": "2025",
+        "duration": "3 meses",
         "team": [
             "José Pablo Hernández Alonso"
         ],
         "tags": [
-            "Robótica Quirúrgica",
+            "Robótica",
+            "Robótica Colaborativa",
+            "Automatización",
+            "Gcode",
+            "UR5e",
             "IA/ML",
             "Visión Computacional"
         ],
-        "repository": "https://github.com/JPHAJP/UR5_SRUB_NURSE",
-        "documentation": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/UR5%20-%20Reporte%20de%20documentaci%C3%B3n.pdf"
+        "repository": "https://github.com/JPHAJP/StableDiffusion_t_gcode",
+        "documentation": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Reporte%20de%20uso%20interfaz%20UR5e-Artista%201.pdf"
     },
     "overview": {
-        "problem": "Los procedimientos quirúrgicos requieren asistencia precisa y oportuna en la entrega de instrumental, proceso propenso a errores humanos.",
-        "solution": "Robot colaborativo UR5e integrado con múltiples sistemas de IA para reconocimiento, localización y entrega automatizada de instrumental quirúrgico.",
-        "impact": "Reducción significativa de errores, optimización de tiempos quirúrgicos y mejora en la precisión de procedimientos."
+        "problem": "La conversión de imágenes a Gcode para la planificación de trayectorias de robots es un proceso complejo que requiere una alta precisión y adaptación a diferentes entornos de trabajo.",
+        "solution": "Se propone un sistema que utiliza IA para generar imágenes y convertirlas a Gcode, optimizando así la planificación de trayectorias.",
+        "impact": "Este enfoque permitirá una mayor flexibilidad y eficiencia en la programación de robots UR5e."
     },
     "stats": [
         {
-            "value": "4",
+            "value": "3",
             "label": "IAs Integradas"
         },
         {
@@ -33,84 +37,75 @@
             "label": "Tecnologías"
         },
         {
-            "value": "3",
+            "value": "2",
             "label": "Conferencias"
-        },
-        {
-            "value": "95%",
-            "label": "Precisión"
         }
     ],
     "media": {
-        "mainVideo": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+        "mainVideo": "../4 - PLC/video_scada.mp4",
         "videos": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+                "src": "../4 - PLC/video_scada.mp4",
                 "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado"
+                "description": "Video mostrando el sistema en acción junto con SCADA."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true",
-                "title": "Demostración con comandos de voz",
-                "description": "Video mostrando el sistema en acción"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V5.mp4?raw=true",
+                "title": "Video de dibujo simple",
+                "description": "Dibujo de un caballo con lineas simples."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true",
-                "title": "Reconocimiento de guantes",
-                "description": "Sistema de visión identificando guantes"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V6.mp4?raw=true",
+                "title": "Sistema montado en Gradio V1.0",
+                "description": "Generación de imagenes y gcode en interfaz Gradio"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true",
-                "title": "Demostración de reconocimiento de instrumental",
-                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V7.mp4?raw=true",
+                "title": "Dibujo complejo de un girasol (flor)",
+                "description": "Dibujo de una imagen compleja con detalles finos, método de punteo."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true",
-                "title": "Demostración de entrega de guantes",
-                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V8.mp4?raw=true",
+                "title": "Método de punteo para dibujo",
+                "description": "Generación de dibujos por punteo."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true",
-                "title": "Demostración de entrega de herramientas",
-                "description": "Control del robot por comandos en terminal"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V9.mp4?raw=true",
+                "title": "Generación de dibujo con líneas continuas",
+                "description": "Generación optima de dibujos con líneas continuas e interpolaciones circulares."
             }
             
         ],
         "images": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true",
-                "alt": "Electroimán",
-                "caption": "Aditamento de electroimán para manipulación de instrumental"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im1.jpg?raw=true",
+                "alt": "Sistema completo",
+                "caption": "Tablero de control y UR5e trabajando."
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im7.jpg?raw=true",
+                "alt": "Calibración de robot y configuración del plano de trabajo",
+                "caption": "Calibración de robot y configuración del plano de trabajo."
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
-                "alt": "Yolov8OBB",
-                "caption": "Pruebas tras entrenamiento de modelo de Yolov8OBB"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im8.jpg?raw=true",
+                "alt": "Imagen generada con StableDiffusion",
+                "caption": "Imagen generada con StableDiffusion."
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
-                "alt": "ExpoIbero 2023",
-                "caption": "Demostración de sistema en ExpoIbero 2023"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im9.jpg?raw=true",
+                "alt": "Girasol dibujado por UR5e",
+                "caption": "Girasol dibujado por UR5e"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
-                "alt": "Detección de instrumental",
-                "caption": "Demostración de detección de instrumental con PyQt5"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im11.jpg?raw=true",
+                "alt": "Perro angelical animado dibujado por UR5e",
+                "caption": "Perro angelical animado dibujado por UR5e."
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
-                "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
-            },
-            {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
-                "alt": "Entrenamiento Yolov8OBB",
-                "caption": "Entrenamiento de modelo Yolov8OBB estadísticas"
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im10.jpg?raw=true",
+                "alt": "Perro angelical animado dibujado por UR5e",
+                "caption": "MPerro angelical animado dibujado por UR5e."
             }
         ],
         "diagrams": [
@@ -129,24 +124,19 @@
     "technologies": {
         "ai": [
             {
-                "name": "YOLOv8 OBB",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Yolo.png?raw=true",
-                "description": "Detección de instrumental quirúrgico"
+                "name": "Stable Diffusion",
+                "icon": "https://stablediffusionweb.com/images/logo.png",
+                "description": "Generación de imágenes con IA"
             },
             {
-                "name": "Whisper",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Whisper.png?raw=true",
-                "description": "Reconocimiento de voz offline"
-            },
-            {
-                "name": "Llama3.1",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/llama3.1.jpg?raw=true",
+                "name": "DeepSeek",
+                "icon": "https://cdn.deepseek.com/logo.png?x-image-process=image%2Fresize%2Cw_828",
                 "description": "Asistente conversacional"
             },
             {
-                "name": "Google TTS",
+                "name": "Google STT",
                 "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/google%20tts.png?raw=true",
-                "description": "Text-to-Speech"
+                "description": "Speech to Text"
             }
         ],
         "robotics": [
@@ -161,18 +151,6 @@
                 "description": "Programación del robot"
             }
         ],
-        "computer_vision": [
-            {
-                "name": "Intel RealSense",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/realsense.jpg?raw=true",
-                "description": "Cámara de profundidad"
-            },
-            {
-                "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
-                "description": "Procesamiento de imágenes"
-            }
-        ],
         "development": [
             {
                 "name": "Python",
@@ -180,13 +158,18 @@
                 "description": "Lenguaje principal"
             },
             {
+                "name": "OpenCV",
+                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
+                "description": "Procesamiento de imágenes"
+            },
+            {
                 "name": "Flask",
                 "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/flask.png?raw=true",
                 "description": "API web"
             },
             {
-                "name": "PyQt5",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/qt5.png?raw=true",
+                "name": "Gradio",
+                "icon": "https://www.gradio.app/_app/immutable/assets/gradio.CHB5adID.svg",
                 "description": "Interfaz gráfica"
             },
             {
@@ -198,11 +181,6 @@
                 "name": "Git & GitHub",
                 "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
                 "description": "Control de versiones"
-            },
-            {
-                "name": "Jetson Nano",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/jetson_nano.jpg?raw=true",
-                "description": "Computadora embebida y aceleración con GPU"
             },
             {
                 "name": "Ubuntu",
@@ -225,60 +203,70 @@
                 "description": "Entornos de desarrollo"
             },
             {
-                "name": "Ultralytics",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ultralytics.webp?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
-            },
-            {
-                "name": "Mysql",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mysql.jpg?raw=true",
-                "description": "Gestión de bases de datos"
-            },
-            {
-                "name": "MediaPipe",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mediapipe.jpg?raw=true",
-                "description": "Biblioteca de visión con modelos preentrenados"
-            },
-            {
                 "name": "Numpy",
                 "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
                 "description": "Biblioteca para computación científica"
+            },
+            {
+                "name": "FFMPEG",
+                "icon": "https://avatars.githubusercontent.com/u/729418?s=48&v=4",
+                "description": "Procesamiento de multimedia"
+            },
+            {
+                "name": "Matplotlib",
+                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/matplotlib.png?raw=true",
+                "description": "Visualización de datos"
+            },
+            {
+                "name": "Docker",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Docker_Logo.svg/250px-Docker_Logo.svg.png",
+                "description": "Contenerización de aplicaciones"
+            },
+            {
+                "name": "VS Code",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/250px-Visual_Studio_Code_1.35_icon.svg.png",
+                "description": "Entorno de desarrollo integrado"
+            },
+            {
+                "name": "RoboDK",
+                "icon": "https://cdn.robodk.com/img/robodk-logo.svg",
+                "description": "Simulación y programación de robots"
+            },
+            {
+                "name": "Potrace",
+                "icon": "https://potrace.sourceforge.net/logo/potrace-logo-150.png",
+                "description": "Vectorización de imágenes"
+            },
+            {
+                "name": "Siemens TIA Portal",
+                "icon": "https://inetec.com.br/wp-content/uploads/2023/04/siemens-v17.png",
+                "description": "Programación de PLCs Siemens"
+            },
+            {
+                "name": "Qrcode",
+                "icon": "https://pypi.org/static/images/logo-small.8998e9d1.svg",
+                "description": "Generación de códigos QR"
             }
+
         ]
     },
     "achievements": [
         {
-            "title": "ExpoIbero Otoño 2023",
-            "date": "2023-11",
+            "title": "ExpoIbero Primavera 2025",
+            "date": "2025-06",
             "type": "Exposición Universitaria",
-            "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
+            "description": "Exposición del sistema completo, con conexión remota y monitoreo en tiempo real.",
             "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
+            "link": "../4 - PLC/All SCADA.pdf"
         },
         {
-            "title": "IEEE ICEV 2024",
-            "date": "2024-11",
+            "title": "Congreso SUJ 2025 Ibero León",
+            "date": "2025-07",
             "type": "Conferencia Internacional",
-            "description": "Presentación en la Conferencia Internacional de Ingeniería en Veracruz",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
-            "link": "https://ieeexplore.ieee.org/document/10765997",
+            "description": "Presentación en la Conferencia Internacional de Estudiantes de Ingeniería SUJ 2025 en la Universidad Iberoamericana León.",
+            "image": "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg",
+            "link": "https://www.iberoleon.mx/articulo/2-Congreso-de-Ingenierias-de-Estudiantes-SUJ-celebracion-del-conocimiento-compromiso-y-vocacion",
             "featured": true
-        },
-        {
-            "title": "CONITACS 2024",
-            "date": "2024-09",
-            "type": "Congreso",
-            "description": "Congreso Internacional de Tecnologías Avanzadas Para la Salud",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
-            "link": "https://www-optica.inaoep.mx/~tecnologia_salud/2024/"
-        },
-        {
-            "title": "ExpoIbero Otoño 2024",
-            "date": "2024-10",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo con todas las funcionalidades integradas para servicio social",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
-            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
         }
     ],
     "author": {
@@ -293,9 +281,9 @@
     },
     "settings": {
         "theme": {
-            "primaryColor": "#1a237e",
+            "primaryColor": "#000000",
             "secondaryColor": "#ffffff",
-            "accentColor": "#304ffe"
+            "accentColor": "#303030"
         },
         "layout": {
             "containerWidth": "1200px",
