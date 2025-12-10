@@ -2,20 +2,20 @@
 
   <!-- Translation Button -->
   <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://github.com/JPHAJP/JPHAJP">
-    <img src="https://img.shields.io/badge/TRANSLATE-ESPAÑOL-39FF14?style=for-the-badge&logo=google-translate&logoColor=black&labelColor=black" alt="Translate to Spanish"/>
+    <img src="https://img.shields.io/badge/TRANSLATE-ESPAÑOL-51ff9c?style=for-the-badge&logo=google-translate&logoColor=black&labelColor=black" alt="Translate to Spanish"/>
   </a>
 
   <br/><br/>
 
   <!-- Name Animation (Full Name in One Line) -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&pause=1000&color=39FF14&center=true&vCenter=true&random=false&width=1000&height=80&lines=JOS%C3%89+PABLO+HERN%C3%81NDEZ+ALONSO" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&pause=1000&color=51ff9c&center=true&vCenter=true&random=false&width=1000&height=80&lines=JOS%C3%89+PABLO+HERN%C3%81NDEZ+ALONSO" alt="Typing SVG" />
   </a>
 
   <br/>
 
   <!-- Profile Image -->
-  <img src="https://jphajp.github.io/JPHAJP/Web/assets/img/Jp.webp" alt="José Pablo Hernández Alonso" width="180" style="border-radius: 20px; border: 4px solid #39FF14; box-shadow: 0 0 30px #39FF14;"/>
+  <img src="https://jphajp.github.io/JPHAJP/Web/assets/img/Jp.webp" alt="José Pablo Hernández Alonso" width="180" style="border-radius: 20px; border: 4px solid #51ff9c; box-shadow: 0 0 30px #51ff9c;"/>
 
   <br/><br/>
 
@@ -31,12 +31,12 @@
   <br/>
 
   <!-- Social Badges -->
-  [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-VISIT_NOW-000000?style=for-the-badge&labelColor=000000&color=39FF14)](https://jphajp.github.io/JPHAJP/)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14&labelColor=000000&color=39FF14)](https://www.linkedin.com/in/jphajp/)
-  [![Email](https://img.shields.io/badge/Email-CONTACT-000000?style=for-the-badge&logo=gmail&logoColor=39FF14&labelColor=000000&color=39FF14)](mailto:josepabloservicio@outlook.com)
-  [![Discord](https://img.shields.io/badge/Discord-JOIN-000000?style=for-the-badge&logo=discord&logoColor=39FF14&labelColor=000000&color=39FF14)](https://discord.com/users/jphajp)
+  [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-VISIT_NOW-000000?style=for-the-badge&labelColor=000000&color=51ff9c)](https://jphajp.github.io/JPHAJP/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-000000?style=for-the-badge&logo=linkedin&logoColor=51ff9c&labelColor=000000&color=51ff9c)](https://www.linkedin.com/in/jphajp/)
+  [![Email](https://img.shields.io/badge/Email-CONTACT-000000?style=for-the-badge&logo=gmail&logoColor=51ff9c&labelColor=000000&color=51ff9c)](mailto:josepabloservicio@outlook.com)
+  [![Discord](https://img.shields.io/badge/Discord-JOIN-000000?style=for-the-badge&logo=discord&logoColor=51ff9c&labelColor=000000&color=51ff9c)](https://discord.com/users/jphajp)
 
-  ![Visitors](https://komarev.com/ghpvc/?username=JPHAJP&label=Profile%20Views&color=39FF14&style=for-the-badge&labelColor=000000)
+  ![Visitors](https://komarev.com/ghpvc/?username=JPHAJP&label=Profile%20Views&color=51ff9c&style=for-the-badge&labelColor=000000)
 
 </div>
 
@@ -74,48 +74,48 @@ SKILL_TREE:
 <div align="center">
 
 ### 🚀 **Languages & Frameworks**
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=39FF14)
-![C++](https://img.shields.io/badge/C++-000000?style=flat-square&logo=c%2B%2B&logoColor=39FF14)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=39FF14)
-![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=39FF14)
-![MATLAB](https://img.shields.io/badge/MATLAB-000000?style=flat-square&logo=mathworks&logoColor=39FF14)
-![VHDL](https://img.shields.io/badge/VHDL-000000?style=flat-square&logo=xilinx&logoColor=39FF14)
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=39FF14)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=51ff9c)
+![C++](https://img.shields.io/badge/C++-000000?style=flat-square&logo=c%2B%2B&logoColor=51ff9c)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=51ff9c)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=51ff9c)
+![MATLAB](https://img.shields.io/badge/MATLAB-000000?style=flat-square&logo=mathworks&logoColor=51ff9c)
+![VHDL](https://img.shields.io/badge/VHDL-000000?style=flat-square&logo=xilinx&logoColor=51ff9c)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=51ff9c)
 
 ### 🤖 **AI & Machine Learning**
-![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=flat-square&logo=tensorflow&logoColor=39FF14)
-![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=39FF14)
-![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=flat-square&logo=opencv&logoColor=39FF14)
-![YOLO](https://img.shields.io/badge/YOLO-000000?style=flat-square&logoColor=39FF14)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=flat-square&logoColor=39FF14)
-![LLM](https://img.shields.io/badge/LLM-000000?style=flat-square&logoColor=39FF14)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=flat-square&logo=tensorflow&logoColor=51ff9c)
+![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=51ff9c)
+![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=flat-square&logo=opencv&logoColor=51ff9c)
+![YOLO](https://img.shields.io/badge/YOLO-000000?style=flat-square&logoColor=51ff9c)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=flat-square&logoColor=51ff9c)
+![LLM](https://img.shields.io/badge/LLM-000000?style=flat-square&logoColor=51ff9c)
 
 ### 🏭 **Industrial & Robotics**
-![ROS](https://img.shields.io/badge/ROS-000000?style=flat-square&logo=ros&logoColor=39FF14)
-![Siemens PLC](https://img.shields.io/badge/Siemens_PLC-000000?style=flat-square&logo=siemens&logoColor=39FF14)
-![Universal Robots](https://img.shields.io/badge/Universal_Robots-000000?style=flat-square&logoColor=39FF14)
-![KUKA](https://img.shields.io/badge/KUKA-000000?style=flat-square&logoColor=39FF14)
-![FANUC](https://img.shields.io/badge/FANUC-000000?style=flat-square&logoColor=39FF14)
-![TIA Portal](https://img.shields.io/badge/TIA_Portal-000000?style=flat-square&logoColor=39FF14)
+![ROS](https://img.shields.io/badge/ROS-000000?style=flat-square&logo=ros&logoColor=51ff9c)
+![Siemens PLC](https://img.shields.io/badge/Siemens_PLC-000000?style=flat-square&logo=siemens&logoColor=51ff9c)
+![Universal Robots](https://img.shields.io/badge/Universal_Robots-000000?style=flat-square&logoColor=51ff9c)
+![KUKA](https://img.shields.io/badge/KUKA-000000?style=flat-square&logoColor=51ff9c)
+![FANUC](https://img.shields.io/badge/FANUC-000000?style=flat-square&logoColor=51ff9c)
+![TIA Portal](https://img.shields.io/badge/TIA_Portal-000000?style=flat-square&logoColor=51ff9c)
 
 ### 🖥️ **Hardware & IoT**
-![Arduino](https://img.shields.io/badge/Arduino-000000?style=flat-square&logo=Arduino&logoColor=39FF14)
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=Espressif&logoColor=39FF14)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-000000?style=flat-square&logo=raspberry-pi&logoColor=39FF14)
-![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-000000?style=flat-square&logo=nvidia&logoColor=39FF14)
-![FPGA](https://img.shields.io/badge/FPGA-000000?style=flat-square&logoColor=39FF14)
+![Arduino](https://img.shields.io/badge/Arduino-000000?style=flat-square&logo=Arduino&logoColor=51ff9c)
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=Espressif&logoColor=51ff9c)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-000000?style=flat-square&logo=raspberry-pi&logoColor=51ff9c)
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-000000?style=flat-square&logo=nvidia&logoColor=51ff9c)
+![FPGA](https://img.shields.io/badge/FPGA-000000?style=flat-square&logoColor=51ff9c)
 
 ### 🎨 **Design & CAD**
-![SolidWorks](https://img.shields.io/badge/SolidWorks-000000?style=flat-square&logo=solidworks&logoColor=39FF14)
-![Fusion 360](https://img.shields.io/badge/Fusion_360-000000?style=flat-square&logoColor=39FF14)
-![CATIA](https://img.shields.io/badge/CATIA-000000?style=flat-square&logoColor=39FF14)
-![AutoCAD](https://img.shields.io/badge/AutoCAD-000000?style=flat-square&logoColor=39FF14)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-000000?style=flat-square&logo=solidworks&logoColor=51ff9c)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-000000?style=flat-square&logoColor=51ff9c)
+![CATIA](https://img.shields.io/badge/CATIA-000000?style=flat-square&logoColor=51ff9c)
+![AutoCAD](https://img.shields.io/badge/AutoCAD-000000?style=flat-square&logoColor=51ff9c)
 
 ### 🗄️ **Databases & Cloud**
-![Firebase](https://img.shields.io/badge/Firebase-000000?style=flat-square&logo=firebase&logoColor=39FF14)
-![MySQL](https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=39FF14)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=39FF14)
-![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=39FF14)
+![Firebase](https://img.shields.io/badge/Firebase-000000?style=flat-square&logo=firebase&logoColor=51ff9c)
+![MySQL](https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=51ff9c)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=51ff9c)
+![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=51ff9c)
 
 </div>
 
@@ -125,9 +125,9 @@ SKILL_TREE:
 
 | Language | Level | Proficiency |
 |:---------|:-----:|:------------|
-| **🇪🇸 Spanish** | `NATIVE` | ![100%](https://img.shields.io/badge/Proficiency-100%25-39FF14?style=flat-square&labelColor=000000) |
-| **🇺🇸 English** | `C1` | ![Advanced](https://img.shields.io/badge/Level-Advanced-39FF14?style=flat-square&labelColor=000000) |
-| **🇩🇪 German** | `B1` | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-39FF14?style=flat-square&labelColor=000000) |
+| **🇪🇸 Spanish** | `NATIVE` | ![100%](https://img.shields.io/badge/Proficiency-100%25-51ff9c?style=flat-square&labelColor=000000) |
+| **🇺🇸 English** | `C1` | ![Advanced](https://img.shields.io/badge/Level-Advanced-51ff9c?style=flat-square&labelColor=000000) |
+| **🇩🇪 German** | `B1` | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-51ff9c?style=flat-square&labelColor=000000) |
 
 ```ascii
 ╔═══════════════════════════════════════════════════════╗
@@ -190,20 +190,6 @@ SKILL_TREE:
 </td>
 <td width="50%">
 
-#### 🍞 [Smart Bakery Vision System](https://github.com/JPHAJP/Raspberry)
-> **AI-Powered Computer Vision**
-
-**Stack:** `YOLO` `OpenCV` `Raspberry Pi` `Firebase`
-
-👁️ Intelligent automation with visual AI recognition
-
-📱 **Status:** Completed (QT5, Tkinter, MySQL)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 #### 🦾 [μSenseGripp - Robotic Force Control](https://www.palloranlabs.com/usensegrip)
 > **Parallel Gripper with Precision Sensing**
 
@@ -214,7 +200,21 @@ SKILL_TREE:
 📜 **Status:** Patent in Progress - Product Development
 
 </td>
-<td width="50%">
+</tr>
+</table>
+
+### 🎯 **Innovation Projects**
+
+| Project | Tech Stack | Description | Status |
+|:--------|:-----------|:------------|:------:|
+| **🍞 Smart Bakery Vision** | `YOLO` `OpenCV` `Raspberry Pi` `Firebase` | AI-powered computer vision for bakery automation | ✅ Completed |
+| **🎮 FPGA Atari Breakout** | `Verilog` `FPGA` `VHDL` | Classic game in hardware description language | ✅ Demo |
+| **🧠 EmoHelper AI** | `OpenAI` `Gradio` `Llama 3.1` | AI-powered poetry generator with emotion analysis | ✅ Active |
+| **🎨 StableDiffusion + UR5** | `Stable Diffusion` `Python` `UrScript` | Robotic art with generative AI | ✅ Prototype |
+| **📡 Digital Networks IoT** | `ESP32` `Firebase` `WebApp` | Real-time IoT dashboard and monitoring | ✅ Deployed |
+| **🔧 CNC & Lathe Control** | `PLC` `SCADA` `Industrial Control` | Precision manufacturing automation | ✅ Industrial |
+| **🦾 μSenseGripp** | `Python` `C` `RP2040` `Flask` `IoT` | Force-controlled parallel gripper system | 📜 Patent |
+| **🦾 Gripper UR5 Control** | `ROS` `Python` `Universal Robots` | Advanced robotic manipulation system | ✅ Research |
 
 </td>
 </tr>
@@ -256,35 +256,66 @@ SKILL_TREE:
 
 <div align="center">
 
-```mermaid
-mindmap
-  root((JPHA))
-    🤖 Robotics
-      Universal Robots UR5
-      KUKA & FANUC Systems
-      ROS Navigation
-      Robotic Manipulation
-    🧠 Artificial Intelligence
-      Computer Vision YOLO
-      Neural Networks
-      LLM Integration
-      Object Detection
-    🏭 Industrial Automation
-      PLC Programming
-      SIEMENS TIA Portal
-      Industrial IoT
-      SCADA Systems
-    💻 Software Development
-      Python & C++ Expert
-      Web Applications
-      Mobile Development
-      Embedded Systems
-    🎨 Design Engineering
-      CAD 3D Modeling
-      SolidWorks CSWP
-      Product Design
-      Rapid Prototyping
-```
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🤖 **Robotics**
+- Universal Robots UR5
+- KUKA & FANUC Systems
+- ROS Navigation
+- Robotic Manipulation
+
+</td>
+<td width="33%" align="center">
+
+### 🧠 **Artificial Intelligence**
+- Computer Vision YOLO
+- Neural Networks
+- LLM Integration
+- Object Detection
+
+</td>
+<td width="33%" align="center">
+
+### 🏭 **Industrial Automation**
+- PLC Programming
+- SIEMENS TIA Portal
+- Industrial IoT
+- SCADA Systems
+
+</td>
+</tr>
+<tr>
+<td width="33%" align="center">
+
+### 💻 **Software Development**
+- Python & C++ Expert
+- Web Applications
+- Mobile Development
+- Embedded Systems
+
+</td>
+<td width="33%" align="center">
+
+### 🎨 **Design Engineering**
+- CAD 3D Modeling
+- SolidWorks CSWP
+- Product Design
+- Rapid Prototyping
+
+</td>
+<td width="33%" align="center">
+
+### 🌐 **IoT & Cloud**
+- ESP32 & Microcontrollers
+- Firebase & Databases
+- Real-time Systems
+- Sensor Integration
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -333,8 +364,8 @@ EGEL Certification<br/>
 #### 📈 Disciplinar Score
 **1180 / 1300** - 🌟 **SOBRESALIENTE**
 
-<div style="background-color: #0D1117; border: 2px solid #39FF14; border-radius: 10px; padding: 10px; margin: 10px 0;">
-  <div style="background: linear-gradient(90deg, #39FF14 0%, #39FF14 90.77%, #1a1a1a 90.77%); height: 30px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #000;">
+<div style="background-color: #0D1117; border: 2px solid #51ff9c; border-radius: 10px; padding: 10px; margin: 10px 0;">
+  <div style="background: linear-gradient(90deg, #51ff9c 0%, #51ff9c 90.77%, #1a1a1a 90.77%); height: 30px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #000;">
     90.77% EXCELLENCE
   </div>
 </div>
@@ -342,8 +373,8 @@ EGEL Certification<br/>
 #### 💬 Lenguaje y Comunicación Score  
 **1195 / 1300** - 🌟 **SOBRESALIENTE**
 
-<div style="background-color: #0D1117; border: 2px solid #39FF14; border-radius: 10px; padding: 10px; margin: 10px 0;">
-  <div style="background: linear-gradient(90deg, #39FF14 0%, #39FF14 91.92%, #1a1a1a 91.92%); height: 30px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #000;">
+<div style="background-color: #0D1117; border: 2px solid #51ff9c; border-radius: 10px; padding: 10px; margin: 10px 0;">
+  <div style="background: linear-gradient(90deg, #51ff9c 0%, #51ff9c 91.92%, #1a1a1a 91.92%); height: 30px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #000;">
     91.92% EXCELLENCE
   </div>
 </div>
@@ -352,7 +383,7 @@ EGEL Certification<br/>
 ╔══════════════════════════════════════════════════════════════╗
 ║                  CENEVAL EGEL RESULTS                        ║
 ║                                                              ║
-║  Disciplinar:           ████████████████████░  1180/1300    ║
+║  Disciplinar:           ████████████████████░  1180/1300    ║r
 ║  Lenguaje y Com.:       ████████████████████░  1195/1300    ║
 ║                                                              ║
 ║  Status: ✅ SOBRESALIENTE EN AMBAS ÁREAS                    ║
@@ -360,12 +391,12 @@ EGEL Certification<br/>
 ```
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=39FF14&center=true&vCenter=true&random=false&width=600&lines=DISCIPLINAR+90.77%25+•+SOBRESALIENTE;LENGUAJE+91.92%25+•+SOBRESALIENTE;NATIONAL+EXCELLENCE+CERTIFICATION" alt="CENEVAL Scores" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=51ff9c&center=true&vCenter=true&random=false&width=600&lines=DISCIPLINAR+90.77%25+•+SOBRESALIENTE;LENGUAJE+91.92%25+•+SOBRESALIENTE;NATIONAL+EXCELLENCE+CERTIFICATION" alt="CENEVAL Scores" />
 </a>
 
 <br/>
 
-[![Download Certificate](https://img.shields.io/badge/📄_DOWNLOAD_CERTIFICATE-CENEVAL_OFFICIAL-000000?style=for-the-badge&labelColor=000000&color=39FF14)](https://jphajp.github.io/JPHAJP/Web/assets/docs/cenaval.pdf)
+[![Download Certificate](https://img.shields.io/badge/📄_DOWNLOAD_CERTIFICATE-CENEVAL_OFFICIAL-000000?style=for-the-badge&labelColor=000000&color=51ff9c)](https://jphajp.github.io/JPHAJP/Web/assets/docs/cenaval.pdf)
 
 </div>
 
@@ -377,17 +408,15 @@ EGEL Certification<br/>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=JPHAJP&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14&rank_icon=github&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JPHAJP&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14&langs_count=8&card_width=320" height="180" alt="Top Languages" />
+<a href="https://github.com/JPHAJP">
+  <img src="https://github-readme-stats.vercel.app/api?username=JPHAJP&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=51ff9c&text_color=ffffff&icon_color=51ff9c" height="170" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/JPHAJP">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JPHAJP&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=51ff9c&text_color=ffffff&icon_color=51ff9c&langs_count=6" height="170" alt="Top Languages" />
+</a>
 
 <br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=JPHAJP&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=39FF14&dates=ffffff" alt="GitHub Streak" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=JPHAJP&theme=darkhub&no-frame=true&no-bg=true&column=4&title=Stars,Followers,Commits,Repositories" alt="GitHub Trophies" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=JPHAJP&theme=react&hide_border=true&background=0D1117&stroke=51ff9c&ring=51ff9c&fire=51ff9c&currStreakLabel=51ff9c&sideLabels=51ff9c&dates=ffffff" alt="GitHub Streak" />
 
 </div>
 
@@ -405,12 +434,12 @@ EGEL Certification<br/>
 
 | **CHANNEL** | **STATUS** | **ACTION** |
 |:---:|:---:|:---:|
-| **EMAIL** | `AVAILABLE` | [![Email](https://img.shields.io/badge/SEND_PACKET-000000?style=flat-square&logo=gmail&logoColor=39FF14)](mailto:josepabloservicio@outlook.com) |
-| **LINKEDIN** | `CONNECTED` | [![LinkedIn](https://img.shields.io/badge/ESTABLISH_LINK-000000?style=flat-square&logo=linkedin&logoColor=39FF14)](https://www.linkedin.com/in/jphajp/) |
-| **DISCORD** | `ONLINE` | [![Discord](https://img.shields.io/badge/JOIN_SERVER-000000?style=flat-square&logo=discord&logoColor=39FF14)](https://discord.com/users/jphajp) |
-| **PORTFOLIO** | `DEPLOYED` | [![Portfolio](https://img.shields.io/badge/VISIT_SITE-000000?style=flat-square&logo=google-chrome&logoColor=39FF14)](https://jphajp.github.io/JPHAJP/) |
-| **INSTAGRAM** | `ACTIVE` | [![Instagram](https://img.shields.io/badge/FOLLOW-000000?style=flat-square&logo=instagram&logoColor=39FF14)](https://www.instagram.com/jose_pablo_ha) |
-| **GITHUB** | `OPEN SOURCE` | [![GitHub](https://img.shields.io/badge/EXPLORE-000000?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/JPHAJP) |
+| **EMAIL** | `AVAILABLE` | [![Email](https://img.shields.io/badge/SEND_PACKET-000000?style=flat-square&logo=gmail&logoColor=51ff9c)](mailto:josepabloservicio@outlook.com) |
+| **LINKEDIN** | `CONNECTED` | [![LinkedIn](https://img.shields.io/badge/ESTABLISH_LINK-000000?style=flat-square&logo=linkedin&logoColor=51ff9c)](https://www.linkedin.com/in/jphajp/) |
+| **DISCORD** | `ONLINE` | [![Discord](https://img.shields.io/badge/JOIN_SERVER-000000?style=flat-square&logo=discord&logoColor=51ff9c)](https://discord.com/users/jphajp) |
+| **PORTFOLIO** | `DEPLOYED` | [![Portfolio](https://img.shields.io/badge/VISIT_SITE-000000?style=flat-square&logo=google-chrome&logoColor=51ff9c)](https://jphajp.github.io/JPHAJP/) |
+| **INSTAGRAM** | `ACTIVE` | [![Instagram](https://img.shields.io/badge/FOLLOW-000000?style=flat-square&logo=instagram&logoColor=51ff9c)](https://www.instagram.com/jose_pablo_ha) |
+| **GITHUB** | `OPEN SOURCE` | [![GitHub](https://img.shields.io/badge/EXPLORE-000000?style=flat-square&logo=github&logoColor=51ff9c)](https://github.com/JPHAJP) |
 
 </div>
 
@@ -440,7 +469,7 @@ EGEL Certification<br/>
 
 <!-- Innovative Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&text=END_OF_LINE&fontSize=20&fontColor=39FF14&animation=twinkling&fontAlignY=40&stroke=39FF14&strokeWidth=2&desc=System%20Ready%20•%20Standing%20By...&descAlignY=60&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&text=END_OF_LINE&fontSize=20&fontColor=51ff9c&animation=twinkling&fontAlignY=40&stroke=51ff9c&strokeWidth=2&desc=System%20Ready%20•%20Standing%20By...&descAlignY=60&descAlign=50" width="100%" />
   
   <p align="center">
     <sub>💚 Crafted with passion for innovation | © 2026 José Pablo Hernández Alonso</sub>
