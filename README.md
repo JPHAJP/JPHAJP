@@ -28,6 +28,16 @@
     <samp style="color: #b3b3b3; font-weight: bold; letter-spacing: 2px;"> >_ TECH DRIVEN, HEART INSPIRED</samp>
   </p>
 
+  <br/>
+
+  <!-- Social Badges -->
+  [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-VISIT_NOW-000000?style=for-the-badge&labelColor=000000&color=39FF14)](https://jphajp.github.io/JPHAJP/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14&labelColor=000000&color=39FF14)](https://www.linkedin.com/in/jphajp/)
+  [![Email](https://img.shields.io/badge/Email-CONTACT-000000?style=for-the-badge&logo=gmail&logoColor=39FF14&labelColor=000000&color=39FF14)](mailto:josepabloservicio@outlook.com)
+  [![Discord](https://img.shields.io/badge/Discord-JOIN-000000?style=for-the-badge&logo=discord&logoColor=39FF14&labelColor=000000&color=39FF14)](https://discord.com/users/jphajp)
+
+  ![Visitors](https://komarev.com/ghpvc/?username=JPHAJP&label=Profile%20Views&color=39FF14&style=for-the-badge&labelColor=000000)
+
 </div>
 
 <br/>
@@ -45,8 +55,10 @@ IDENTITY:
   Affiliation: "Sistema ALARO"
   
 STATS:
-  Education:  "Ibero Puebla (10th Semester)"
-  Status:     "ONLINE 🟢"
+  Education:  "Ibero Puebla (GRADUATED WITH HONORS) 🎓"
+  GPA:        "HIGHEST GRADUATING AVERAGE - 4.0"
+  Awards:     "Best GPA Medal | CENEVAL Medal"
+  Status:     "PROFESSIONAL 🟢"
   Mission:    "Combining precision engineering with creative innovation"
 
 SKILL_TREE:
@@ -60,54 +72,322 @@ SKILL_TREE:
 ## 🛠️ **Tech Arsenal**
 
 <div align="center">
-  
-| **Core & AI** | **Hardware & IoT** | **Industrial** | **Dev & Design** |
-|:---:|:---:|:---:|:---:|
-| ![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=39FF14) | ![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=Espressif&logoColor=39FF14) | ![ROS](https://img.shields.io/badge/ROS-000000?style=flat-square&logo=ros&logoColor=39FF14) | ![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=39FF14) |
-| ![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=flat-square&logo=tensorflow&logoColor=39FF14) | ![Arduino](https://img.shields.io/badge/Arduino-000000?style=flat-square&logo=Arduino&logoColor=39FF14) | ![Siemens](https://img.shields.io/badge/Siemens-000000?style=flat-square&logo=siemens&logoColor=39FF14) | ![JS](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=39FF14) |
-| ![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=flat-square&logo=opencv&logoColor=39FF14) | ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-000000?style=flat-square&logo=raspberry-pi&logoColor=39FF14) | ![Universal Robots](https://img.shields.io/badge/Universal_Robots-000000?style=flat-square&logo=kuka&logoColor=39FF14) | ![C++](https://img.shields.io/badge/C++-000000?style=flat-square&logo=c%2B%2B&logoColor=39FF14) |
-| ![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=39FF14) | ![NVIDIA](https://img.shields.io/badge/NVIDIA-000000?style=flat-square&logo=nvidia&logoColor=39FF14) | ![SolidWorks](https://img.shields.io/badge/SolidWorks-000000?style=flat-square&logo=solidworks&logoColor=39FF14) | ![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=39FF14) |
+
+### 🚀 **Languages & Frameworks**
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=39FF14)
+![C++](https://img.shields.io/badge/C++-000000?style=flat-square&logo=c%2B%2B&logoColor=39FF14)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=39FF14)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=39FF14)
+![MATLAB](https://img.shields.io/badge/MATLAB-000000?style=flat-square&logo=mathworks&logoColor=39FF14)
+![VHDL](https://img.shields.io/badge/VHDL-000000?style=flat-square&logo=xilinx&logoColor=39FF14)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=39FF14)
+
+### 🤖 **AI & Machine Learning**
+![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=flat-square&logo=tensorflow&logoColor=39FF14)
+![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=39FF14)
+![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=flat-square&logo=opencv&logoColor=39FF14)
+![YOLO](https://img.shields.io/badge/YOLO-000000?style=flat-square&logoColor=39FF14)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=flat-square&logoColor=39FF14)
+![LLM](https://img.shields.io/badge/LLM-000000?style=flat-square&logoColor=39FF14)
+
+### 🏭 **Industrial & Robotics**
+![ROS](https://img.shields.io/badge/ROS-000000?style=flat-square&logo=ros&logoColor=39FF14)
+![Siemens PLC](https://img.shields.io/badge/Siemens_PLC-000000?style=flat-square&logo=siemens&logoColor=39FF14)
+![Universal Robots](https://img.shields.io/badge/Universal_Robots-000000?style=flat-square&logoColor=39FF14)
+![KUKA](https://img.shields.io/badge/KUKA-000000?style=flat-square&logoColor=39FF14)
+![FANUC](https://img.shields.io/badge/FANUC-000000?style=flat-square&logoColor=39FF14)
+![TIA Portal](https://img.shields.io/badge/TIA_Portal-000000?style=flat-square&logoColor=39FF14)
+
+### 🖥️ **Hardware & IoT**
+![Arduino](https://img.shields.io/badge/Arduino-000000?style=flat-square&logo=Arduino&logoColor=39FF14)
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=Espressif&logoColor=39FF14)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-000000?style=flat-square&logo=raspberry-pi&logoColor=39FF14)
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-000000?style=flat-square&logo=nvidia&logoColor=39FF14)
+![FPGA](https://img.shields.io/badge/FPGA-000000?style=flat-square&logoColor=39FF14)
+
+### 🎨 **Design & CAD**
+![SolidWorks](https://img.shields.io/badge/SolidWorks-000000?style=flat-square&logo=solidworks&logoColor=39FF14)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-000000?style=flat-square&logoColor=39FF14)
+![CATIA](https://img.shields.io/badge/CATIA-000000?style=flat-square&logoColor=39FF14)
+![AutoCAD](https://img.shields.io/badge/AutoCAD-000000?style=flat-square&logoColor=39FF14)
+
+### 🗄️ **Databases & Cloud**
+![Firebase](https://img.shields.io/badge/Firebase-000000?style=flat-square&logo=firebase&logoColor=39FF14)
+![MySQL](https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=39FF14)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=39FF14)
+![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=39FF14)
 
 </div>
 
-## 🚀 **Mission Log (Projects)**
-
-| Project | Classification | Status |
-|:---|:---:|:---:|
-| **[NASA Space Apps 2024](https://github.com/DavidBo9/Nasa-Challenge2)** <br> _Global Space Innovation Challenge_ | `AI` `Python` `React` | 🏆 **Participant** |
-| **[UR5 Scrub Nurse](https://ieeexplore.ieee.org/document/10765997)** <br> _Robotic AI System for Healthcare_ | `Robotics` `YOLO` `C++` | 📄 **IEEE Published** |
-| **[Industrial Automation](https://jphajp.github.io/automatizacion/)** <br> _Advanced Control Systems_ | `PLC` `Siemens` `IoT` | 🏭 **Deployed** |
-| **[Smart Bakery](https://github.com/JPHAJP/Raspberry)** <br> _Computer Vision System_ | `OpenCV` `Raspberry Pi` | 🍞 **Completed** |
-| **[FPGA Atari Breakout](https://github.com/JPHAJP)** <br> _Hardware Description Game_ | `VHDL` `FPGA` | 🎮 **Demo** |
-
-## 🏅 **Achievements & Certifications**
+## 🌍 **Languages**
 
 <div align="center">
 
-| Award / Certification | Organization | Year |
-|:----------------------|:-------------|:----:|
-| **IEEE Publication** (Robotic AI) | IEEE | 2024 |
-| **NASA Space Apps Challenge** | NASA | 2024 |
-| **CONITACS XIV Speaker** | CONITACS | 2024 |
-| **CSWP Certification** | SolidWorks | 2023 |
-| **ExpoIBERO Exhibitor** | Ibero Puebla | 2021-24 |
+| Language | Level | Proficiency |
+|:---------|:-----:|:------------|
+| **🇪🇸 Spanish** | `NATIVE` | ![100%](https://img.shields.io/badge/Proficiency-100%25-39FF14?style=flat-square&labelColor=000000) |
+| **🇺🇸 English** | `C1` | ![Advanced](https://img.shields.io/badge/Level-Advanced-39FF14?style=flat-square&labelColor=000000) |
+| **🇩🇪 German** | `B1` | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-39FF14?style=flat-square&labelColor=000000) |
+
+```ascii
+╔═══════════════════════════════════════════════════════╗
+║  🌐 MULTILINGUAL PROFESSIONAL                        ║
+║  • Spanish:  ████████████████████████  Native        ║
+║  • English:  ████████████████████░░░  C1 Advanced    ║
+║  • German:   ████████████░░░░░░░░░░  B1 Intermediate ║
+╚═══════════════════════════════════════════════════════╝
+```
 
 </div>
+
+<br/>
+
+## 🚀 **Mission Log (Featured Projects)**
+
+<div align="center">
+
+### 🌟 **Flagship Projects**
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🛸 [NASA Space Apps Challenge 2024](https://github.com/DavidBo9/Nasa-Challenge2)
+> **Global Space Innovation Challenge**
+
+**Stack:** `Python` `AI` `React` `Node.js` `Three.js`
+
+🌍 Addressing space and climate challenges through innovative technology
+
+🏆 **Status:** International Competition Participant
+
+</td>
+<td width="50%">
+
+#### 🏥 [UR5 SCRUB NURSE - Robotic AI](https://ieeexplore.ieee.org/document/10765997)
+> **Intelligent Robotic System for Healthcare**
+
+**Stack:** `C++` `Python` `YOLO` `UrScript` `LLM`
+
+🤖 Autonomous medical assistance through advanced robotics
+
+📄 **Status:** IEEE Official Publication
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🏭 [Industrial Automation Systems](https://jphajp.github.io/automatizacion/)
+> **Advanced Industrial Control**
+
+**Stack:** `PLC Siemens` `TIA Portal` `IoT` `SCADA`
+
+⚙️ Optimization of industrial processes and automation
+
+🎮 **Status:** Deployed + Interactive Web Demo
+
+</td>
+<td width="50%">
+
+#### 🍞 [Smart Bakery Vision System](https://github.com/JPHAJP/Raspberry)
+> **AI-Powered Computer Vision**
+
+**Stack:** `YOLO` `OpenCV` `Raspberry Pi` `Firebase`
+
+👁️ Intelligent automation with visual AI recognition
+
+📱 **Status:** Completed (QT5, Tkinter, MySQL)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🦾 [μSenseGripp - Robotic Force Control](https://www.palloranlabs.com/usensegrip)
+> **Parallel Gripper with Precision Sensing**
+
+**Stack:** `Python` `C` `RP2040` `Flask` `UrScript` `IoT` `SolidWorks`
+
+🔧 Advanced force-controlled parallel gripper for industrial robotics
+
+📜 **Status:** Patent in Progress - Product Development
+
+</td>
+<td width="50%">
+
+</td>
+</tr>
+</table>
+
+### 🎯 **Innovation Projects**
+
+| Project | Tech Stack | Description | Status |
+|:--------|:-----------|:------------|:------:|
+| **🎮 FPGA Atari Breakout** | `Verilog` `FPGA` `VHDL` | Classic game in hardware description language | ✅ Demo |
+| **🧠 EmoHelper AI** | `OpenAI` `Gradio` `Llama 3.1` | AI-powered poetry generator with emotion analysis | ✅ Active |
+| **🎨 StableDiffusion + UR5** | `Stable Diffusion` `Python` `UrScript` | Robotic art with generative AI | ✅ Prototype |
+| **📡 Digital Networks IoT** | `ESP32` `Firebase` `WebApp` | Real-time IoT dashboard and monitoring | ✅ Deployed |
+| **🔧 CNC & Lathe Control** | `PLC` `SCADA` `Industrial Control` | Precision manufacturing automation | ✅ Industrial |
+| **🦾 μSenseGripp** | `Python` `C` `RP2040` `Flask` `IoT` | Force-controlled parallel gripper system | 📜 Patent |
+| **🤖 Gripper UR5 Control** | `ROS` `Python` `Universal Robots` | Advanced robotic manipulation system | ✅ Research |
+
+</div>
+
+## 🏅 **Achievements & Recognition**
+
+<div align="center">
+
+| 🏆 Achievement | 🎯 Organization | 📅 Year | 💡 Impact |
+|:---------------|:----------------|:-------:|:---------|
+| **🥇 Graduated with Honors** | Ibero Puebla | 2025 | 🎓 Highest GPA of graduating class |
+| **🏅 Best Average Medal** | Ibero Puebla | 2025 | 📊 Top academic performance award |
+| **🏅 CENEVAL Medal** | CENEVAL | 2025 | ⭐ EGEL Outstanding scores (91%+ avg) |
+| **IEEE Official Publication** | IEEE | 2024 | 📄 Research paper on medical robotics |
+| **NASA Space Apps Challenge** | NASA | 2024 | 🚀 International innovation competition |
+| **CONITACS XIV Speaker** | CONITACS | 2024 | 🏥 National congress presentation |
+| **CSWP Certification** | SolidWorks | 2025 | 📜 Certified SolidWorks Professional |
+| **ExpoIBERO Exhibitor** | Ibero Puebla | 2021-2025 | 🎓 Multiple university exhibitions |
+| **Industrial Projects** | Various Companies | 2023-2024 | 🏭 Real-world automation deployments |
+
+</div>
+
+## 🎯 **Specialization Areas**
+
+<div align="center">
+
+```mermaid
+mindmap
+  root((JPHA))
+    🤖 Robotics
+      Universal Robots UR5
+      KUKA & FANUC Systems
+      ROS Navigation
+      Robotic Manipulation
+    🧠 Artificial Intelligence
+      Computer Vision YOLO
+      Neural Networks
+      LLM Integration
+      Object Detection
+    🏭 Industrial Automation
+      PLC Programming
+      SIEMENS TIA Portal
+      Industrial IoT
+      SCADA Systems
+    💻 Software Development
+      Python & C++ Expert
+      Web Applications
+      Mobile Development
+      Embedded Systems
+    🎨 Design Engineering
+      CAD 3D Modeling
+      SolidWorks CSWP
+      Product Design
+      Rapid Prototyping
+```
+
+</div>
+
+
+<br/>
+
+## 🎓 **Academic Excellence**
+
+<div align="center">
+
+### 🏆 **Honors & Distinctions**
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+#### 🥇 **GRADUATED WITH HONORS**
+**Ibero Puebla**<br/>
+Mechatronics Engineering<br/>
+🌟 *Highest GPA of Graduating Class*
+
+</td>
+<td align="center" width="33%">
+
+#### 🏅 **BEST AVERAGE MEDAL**
+**Academic Excellence**<br/>
+Top Performance Award<br/>
+🎯 *Outstanding Achievement*
+
+</td>
+<td align="center" width="33%">
+
+#### 🏅 **CENEVAL MEDAL**
+**National Excellence**<br/>
+EGEL Certification<br/>
+⭐ *Distinguished Performance*
+
+</td>
+</tr>
+</table>
+
+### 📊 **CENEVAL EGEL Scores**
+
+<div align="center">
+
+#### 📈 Disciplinar Score
+**1180 / 1300** - 🌟 **SOBRESALIENTE**
+
+<div style="background-color: #0D1117; border: 2px solid #39FF14; border-radius: 10px; padding: 10px; margin: 10px 0;">
+  <div style="background: linear-gradient(90deg, #39FF14 0%, #39FF14 90.77%, #1a1a1a 90.77%); height: 30px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #000;">
+    90.77% EXCELLENCE
+  </div>
+</div>
+
+#### 💬 Lenguaje y Comunicación Score  
+**1195 / 1300** - 🌟 **SOBRESALIENTE**
+
+<div style="background-color: #0D1117; border: 2px solid #39FF14; border-radius: 10px; padding: 10px; margin: 10px 0;">
+  <div style="background: linear-gradient(90deg, #39FF14 0%, #39FF14 91.92%, #1a1a1a 91.92%); height: 30px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #000;">
+    91.92% EXCELLENCE
+  </div>
+</div>
+
+```ascii
+╔══════════════════════════════════════════════════════════════╗
+║                  CENEVAL EGEL RESULTS                        ║
+║                                                              ║
+║  Disciplinar:           ████████████████████░  1180/1300    ║
+║  Lenguaje y Com.:       ████████████████████░  1195/1300    ║
+║                                                              ║
+║  Status: ✅ SOBRESALIENTE EN AMBAS ÁREAS                    ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=39FF14&center=true&vCenter=true&random=false&width=600&lines=DISCIPLINAR+90.77%25+•+SOBRESALIENTE;LENGUAJE+91.92%25+•+SOBRESALIENTE;NATIONAL+EXCELLENCE+CERTIFICATION" alt="CENEVAL Scores" />
+</a>
+
+<br/>
+
+[![Download Certificate](https://img.shields.io/badge/📄_DOWNLOAD_CERTIFICATE-CENEVAL_OFFICIAL-000000?style=for-the-badge&labelColor=000000&color=39FF14)](https://jphajp.github.io/JPHAJP/Web/assets/docs/cenaval.pdf)
+
+</div>
+
+</div>
+
+<br/>
 
 ## 📊 **System Metrics**
 
 <div align="center">
 
-<a href="https://github.com/JPHAJP">
-  <img src="https://github-readme-stats.vercel.app/api?username=JPHAJP&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14" height="150" alt="stats graph"  />
-</a>
-<a href="https://github.com/JPHAJP">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JPHAJP&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14" height="150" alt="languages graph" />
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=JPHAJP&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14&rank_icon=github&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
 
-<br/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JPHAJP&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14&langs_count=8&card_width=320" height="180" alt="Top Languages" />
 
-<img src="https://streak-stats.demolab.com/?user=JPHAJP&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" alt="streak graph" />
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=JPHAJP&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=39FF14&dates=ffffff" alt="GitHub Streak" />
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=JPHAJP&theme=darkhub&no-frame=true&no-bg=true&column=4&title=Stars,Followers,Commits,Repositories" alt="GitHub Trophies" />
 
 </div>
 
@@ -117,12 +397,42 @@ SKILL_TREE:
 
 <div align="center">
 
+### 💬 **Let's Collaborate on Incredible Projects!**
+
+> Open to collaborations in **AI**, **Robotics**, **IoT**, and **Industrial Automation**
+
+<br/>
+
 | **CHANNEL** | **STATUS** | **ACTION** |
 |:---:|:---:|:---:|
 | **EMAIL** | `AVAILABLE` | [![Email](https://img.shields.io/badge/SEND_PACKET-000000?style=flat-square&logo=gmail&logoColor=39FF14)](mailto:josepabloservicio@outlook.com) |
 | **LINKEDIN** | `CONNECTED` | [![LinkedIn](https://img.shields.io/badge/ESTABLISH_LINK-000000?style=flat-square&logo=linkedin&logoColor=39FF14)](https://www.linkedin.com/in/jphajp/) |
 | **DISCORD** | `ONLINE` | [![Discord](https://img.shields.io/badge/JOIN_SERVER-000000?style=flat-square&logo=discord&logoColor=39FF14)](https://discord.com/users/jphajp) |
 | **PORTFOLIO** | `DEPLOYED` | [![Portfolio](https://img.shields.io/badge/VISIT_SITE-000000?style=flat-square&logo=google-chrome&logoColor=39FF14)](https://jphajp.github.io/JPHAJP/) |
+| **INSTAGRAM** | `ACTIVE` | [![Instagram](https://img.shields.io/badge/FOLLOW-000000?style=flat-square&logo=instagram&logoColor=39FF14)](https://www.instagram.com/jose_pablo_ha) |
+| **GITHUB** | `OPEN SOURCE` | [![GitHub](https://img.shields.io/badge/EXPLORE-000000?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/JPHAJP) |
+
+</div>
+
+<br/>
+
+## 🌟 **Core Philosophy**
+
+<div align="center">
+
+```ascii
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║     "Where Precision Engineering Meets Creative Innovation"       ║
+║                                                                    ║
+║  Combining technical expertise with innovative thinking to build  ║
+║  solutions that transform industries and improve lives through    ║
+║  the power of mechatronics, AI, and automation.                   ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+```
+
+### ⚡ **"TECH DRIVEN, HEART INSPIRED"** ⚡
 
 </div>
 
@@ -130,6 +440,10 @@ SKILL_TREE:
 
 <!-- Innovative Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&text=END_OF_LINE&fontSize=20&fontColor=39FF14&animation=twinkling&fontAlignY=40&stroke=39FF14&strokeWidth=2&desc=Shutting%20Down...&descAlignY=60&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&text=END_OF_LINE&fontSize=20&fontColor=39FF14&animation=twinkling&fontAlignY=40&stroke=39FF14&strokeWidth=2&desc=System%20Ready%20•%20Standing%20By...&descAlignY=60&descAlign=50" width="100%" />
+  
+  <p align="center">
+    <sub>💚 Crafted with passion for innovation | © 2026 José Pablo Hernández Alonso</sub>
+  </p>
   
 </div>
