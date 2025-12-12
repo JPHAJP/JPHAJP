@@ -383,7 +383,7 @@ EGEL Certification<br/>
 ╔══════════════════════════════════════════════════════════════╗
 ║                  CENEVAL EGEL RESULTS                        ║
 ║                                                              ║
-║  Disciplinar:           ████████████████████░  1180/1300    ║r
+║  Disciplinar:           ████████████████████░  1180/1300    ║
 ║  Lenguaje y Com.:       ████████████████████░  1195/1300    ║
 ║                                                              ║
 ║  Status: ✅ SOBRESALIENTE EN AMBAS ÁREAS                    ║
@@ -472,7 +472,7 @@ EGEL Certification<br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&text=END_OF_LINE&fontSize=20&fontColor=51ff9c&animation=twinkling&fontAlignY=40&stroke=51ff9c&strokeWidth=2&desc=System%20Ready%20•%20Standing%20By...&descAlignY=60&descAlign=50" width="100%" />
   
   <p align="center">
-    <sub>💚 Crafted with passion for innovation | © 2026 José Pablo Hernández Alonso</sub>
+    <sub>Crafted with passion for innovation | © 2026 José Pablo Hernández Alonso</sub>
   </p>
   
 </div>

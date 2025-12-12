@@ -227,3 +227,49 @@ window.addEventListener('scroll', function () {
         }
     });
 });
+
+// Animación de barras de progreso para idiomas
+const observerLanguages = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const progressBars = entry.target.querySelectorAll('.language-progress');
+            progressBars.forEach(bar => {
+                const progress = bar.getAttribute('data-progress');
+                setTimeout(() => {
+                    bar.style.width = progress + '%';
+                }, 200);
+            });
+            observerLanguages.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.5 });
+
+// Observar la sección de idiomas
+const languageSection = document.querySelector('.language-card');
+if (languageSection) {
+    document.querySelectorAll('.language-card').forEach(card => {
+        observerLanguages.observe(card);
+    });
+}
+
+// Animación de barras CENEVAL
+const observerCeneval = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const cenevalBars = entry.target.querySelectorAll('.ceneval-bar');
+            cenevalBars.forEach(bar => {
+                const score = bar.getAttribute('data-score');
+                setTimeout(() => {
+                    bar.style.width = score + '%';
+                }, 300);
+            });
+            observerCeneval.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.3 });
+
+// Observar la tarjeta CENEVAL
+const cenevalCard = document.querySelector('.ceneval-card');
+if (cenevalCard) {
+    observerCeneval.observe(cenevalCard);
+}

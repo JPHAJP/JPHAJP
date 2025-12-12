@@ -418,6 +418,447 @@ body {
     box-shadow: 0 0 0 0.25rem rgba(0, 255, 106, 0.25);
 }
 
+/* Sección Idiomas */
+.language-card {
+    background: white;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.language-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.language-flag {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.language-level {
+    font-weight: 600;
+    color: var(--accent-color);
+    margin: 0.5rem 0;
+    font-size: 0.75rem;
+}
+
+.language-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.75rem 0;
+}
+
+.language-progress {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-color), #00cc55);
+    width: 0%;
+    transition: width 2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-percentage {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    margin-top: 0.3rem;
+}
+
+/* Sección Excelencia Académica */
+.academic-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: var(--transition);
+    height: 100%;
+}
+
+.academic-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 255, 106, 0.2);
+}
+
+.academic-icon {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 0.75rem;
+}
+
+.academic-institution {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+}
+
+.academic-badge {
+    background: linear-gradient(135deg, var(--accent-color), #00cc55);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    display: inline-block;
+}
+
+/* Puntajes CENEVAL */
+.ceneval-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.score-badge {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.ceneval-bar-container {
+    width: 100%;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ceneval-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-color), #00cc55);
+    width: 0%;
+    transition: width 2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.score-text {
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.excellence-status {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+/* Sección Reconocimientos */
+.achievement-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 255, 106, 0.2);
+}
+
+.achievement-year {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: linear-gradient(135deg, var(--primary-color), #2d2c5f);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.achievement-icon {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin: 1.5rem 0 1rem 0;
+}
+
+.achievement-tag {
+    display: inline-block;
+    background-color: var(--gray-color);
+    color: var(--primary-color);
+    padding: 0.4rem 1rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+}
+
+/* Sección Filosofía */
+.philosophy-section {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.philosophy-card {
+    background: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.philosophy-quote {
+    text-align: center;
+    position: relative;
+    padding: 2rem 0;
+}
+
+.quote-icon {
+    font-size: 2rem;
+    color: var(--accent-color);
+    opacity: 0.3;
+}
+
+.philosophy-main-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.philosophy-content {
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding: 2rem 0;
+}
+
+.motto-box {
+    background: linear-gradient(135deg, var(--primary-color), #2d2c5f);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.motto-icon {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.motto-text {
+    color: var(--accent-color);
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+    letter-spacing: 2px;
+}
+
+.motto-subtitle {
+    color: white;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.value-item {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.value-item h5 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.value-item p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Sección Filosofía y Contacto Compacta */
+.philosophy-contact-section {
+    /* background removido - usa bg-light de Bootstrap */
+}
+
+.philosophy-card-compact,
+.contact-card-compact {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.section-title-compact {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.divider-compact {
+    height: 3px;
+    width: 50px;
+    background-color: var(--accent-color);
+}
+
+.philosophy-quote-compact {
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.quote-icon-compact {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    opacity: 0.5;
+    vertical-align: super;
+}
+
+.quote-icon-compact.fa-quote-left {
+    margin-right: 0.5rem;
+}
+
+.quote-icon-compact.fa-quote-right {
+    margin-left: 0.5rem;
+}
+
+.philosophy-text-compact {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    line-height: 1.5;
+    display: inline;
+}
+
+.philosophy-content-compact {
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding: 1rem 0;
+}
+
+.text-compact {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+.motto-box-compact {
+    background: linear-gradient(135deg, var(--primary-color), #2d2c5f);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.motto-icon-compact {
+    font-size: 1.8rem;
+    color: var(--accent-color);
+}
+
+.motto-text-compact {
+    color: var(--accent-color);
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    letter-spacing: 1px;
+}
+
+.motto-subtitle-compact {
+    color: white;
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.philosophy-values-compact {
+    margin-top: 1rem;
+}
+
+.value-item-compact {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.value-icon-compact {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    margin-bottom: 0.3rem;
+}
+
+.value-item-compact h6 {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* Contacto Compacto */
+.contact-info-box {
+    background: linear-gradient(135deg, var(--primary-color), #2d2c5f);
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact-item-compact {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.contact-item-compact i {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    width: 25px;
+}
+
+.contact-item-compact a {
+    color: white;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.contact-item-compact a:hover {
+    color: var(--accent-color);
+}
+
+.contact-item-compact span {
+    color: white;
+}
+
+.contact-card-compact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-card-compact form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-card-compact form button {
+    margin-top: auto;
+}
+
 /* Footer */
 .footer {
     background-color: var(--primary-color);
