@@ -9,10 +9,18 @@
 }
 
 /* Estilos Generales */
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--dark-color);
-    overflow-x: hidden;
 }
 
 .section-title {
@@ -332,6 +340,56 @@ body {
     font-weight: 500;
 }
 
+/* Estilos para la tarjeta especial μSensgrip */
+.special-card {
+    border: 2px solid var(--accent-color);
+    overflow: hidden;
+    background-color: var(--light-color);
+    /* Fallback */
+}
+
+.special-card .project-body {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #009940 100%);
+    color: var(--light-color);
+}
+
+.special-title {
+    color: var(--light-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.special-card .lead {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+}
+
+.special-card .project-tech span {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--light-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.special-card .carousel-item {
+    height: 400px;
+    /* Altura fija para el carrusel */
+}
+
+@media (max-width: 767.98px) {
+    .special-card .carousel-item {
+        height: 250px;
+    }
+
+    .special-card .project-body {
+        padding: 1.5rem !important;
+    }
+}
+
 /* Sección Habilidades */
 .skill-container {
     margin-bottom: 30px;
@@ -396,7 +454,8 @@ body {
     font-weight: 600;
 }
 
-.contact-item p, .contact-item a {
+.contact-item p,
+.contact-item a {
     margin-bottom: 0;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
@@ -891,6 +950,7 @@ body {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -904,12 +964,12 @@ body {
         padding: 1rem;
         border-radius: 5px;
     }
-    
+
     .header-content h1 {
         font-size: 2.5rem;
         margin-top: 1.5rem;
     }
-    
+
     /* Mejorar centrado de botones en tablet */
     .intro-buttons .btn {
         margin: 0.5rem 0.25rem;
@@ -922,35 +982,37 @@ body {
         font-size: 2rem;
         margin-top: 1.2rem;
     }
-    
+
     .header-section {
         height: 35vh;
         min-height: 500px;
     }
-    
-    .interest-card, .project-card, .contact-info {
+
+    .interest-card,
+    .project-card,
+    .contact-info {
         margin-bottom: 1.5rem;
     }
-    
+
     /* Espaciado para botones sociales en móvil */
     .social-icons {
         margin-top: 0.5rem !important;
         margin-bottom: 0.5rem !important;
     }
-    
+
     .social-icons a {
         margin: 0 8px 10px 8px;
     }
-    
+
     /* Footer social buttons spacing */
     .btn-social {
         margin: 1px !important;
     }
-    
+
     .footer .col-lg-4 {
         margin-bottom: 0.5rem;
     }
-    
+
     .footer .col-lg-4:last-child {
         margin-bottom: 0;
     }
@@ -961,40 +1023,40 @@ body {
         font-size: 1.8rem;
         margin-top: 0.5rem;
     }
-    
+
     .header-content h2 {
         font-size: 1.3rem;
     }
-    
+
     .header-section {
         height: 30vh;
         min-height: 450px;
     }
-    
+
     .section-title {
         font-size: 1.8rem;
     }
-    
+
     /* Mejorar espaciado en móvil pequeño */
     .social-icons {
         margin-top: 0.5rem !important;
         margin-bottom: 0.5rem !important;
     }
-    
+
     .personal-info {
         margin-bottom: 0.5rem;
     }
-    
+
     /* Footer mejorado para móvil */
     .footer .row {
         text-align: center !important;
     }
-    
+
     .footer .col-lg-4 {
         margin-bottom: 0.5rem;
         text-align: center !important;
     }
-    
+
     .footer .btn-social {
         margin: 8px 5px !important;
         display: inline-block;
@@ -1079,9 +1141,9 @@ body {
     left: 0;
     width: 200%;
     height: 100%;
-    background: linear-gradient(to right, 
-        rgba(248, 249, 250, 0.9), 
-        rgba(248, 249, 250, 0.9)), 
+    background: linear-gradient(to right,
+            rgba(248, 249, 250, 0.9),
+            rgba(248, 249, 250, 0.9)),
         url('../assets/img/tech-logos.webp');
     background-repeat: repeat-x;
     background-size: auto 100%;
@@ -1094,6 +1156,7 @@ body {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -1117,9 +1180,9 @@ body {
     left: 0;
     width: 200%;
     height: 100%;
-    background: linear-gradient(to right, 
-        rgba(248, 249, 250, 0.9), 
-        rgba(248, 249, 250, 0.9)), 
+    background: linear-gradient(to right,
+            rgba(248, 249, 250, 0.9),
+            rgba(248, 249, 250, 0.9)),
         url('../assets/img/tech-logos.webp');
     background-repeat: repeat-x;
     background-size: auto 100%;
@@ -1132,6 +1195,7 @@ body {
     position: relative;
     z-index: 2;
 }
+
 /* Animación de entrada estilo Apple */
 .apple-intro {
     position: fixed;
@@ -1201,10 +1265,12 @@ body {
         opacity: 0;
         transform: translateY(50px) scale(0.8);
     }
+
     70% {
         opacity: 0.8;
         transform: translateY(-10px) scale(1.1);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0) scale(1);
@@ -1216,6 +1282,7 @@ body {
         opacity: 0;
         transform: translateY(30px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -1303,46 +1370,48 @@ body.intro-finished .navbar {
     .intro-title {
         font-size: 15rem;
     }
-    
+
     .intro-subtitle {
         font-size: 1.4rem;
     }
+
     #contacto {
-    margin-bottom: 1.5rem;
-}
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media (max-width: 767.98px) {
     .intro-title {
         font-size: 15rem;
     }
-    
+
     .intro-subtitle {
         font-size: 1.2rem;
         letter-spacing: 0.05em;
     }
-    
+
     .intro-buttons .btn {
         display: block;
         width: 200px;
         margin: 0.5rem auto;
         font-weight: 700;
     }
+
     #contacto {
-    margin-bottom: 1rem;
-}
+        margin-bottom: 1rem;
+    }
 }
 
 @media (max-width: 575.98px) {
     .intro-title {
         font-size: 7rem;
     }
-    
+
     .intro-subtitle {
         font-size: 1rem;
     }
 
     #contacto {
-    margin-bottom: 1rem;
-}
+        margin-bottom: 1rem;
+    }
 }
