@@ -33,7 +33,7 @@
   <!-- Social Badges -->
   [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-VISIT_NOW-000000?style=for-the-badge&labelColor=000000&color=51ff9c)](https://jphajp.github.io/JPHAJP/)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-000000?style=for-the-badge&logo=linkedin&logoColor=51ff9c&labelColor=000000&color=51ff9c)](https://www.linkedin.com/in/jphajp/)
-  [![Email](https://img.shields.io/badge/Email-CONTACT-000000?style=for-the-badge&logo=gmail&logoColor=51ff9c&labelColor=000000&color=51ff9c)](mailto:josepabloservicio@outlook.com)
+  [![Email](https://img.shields.io/badge/Email-CONTACT-000000?style=for-the-badge&logo=gmail&logoColor=51ff9c&labelColor=000000&color=51ff9c)](mailto:contacto@jphajp.com)
   [![Discord](https://img.shields.io/badge/Discord-JOIN-000000?style=for-the-badge&logo=discord&logoColor=51ff9c&labelColor=000000&color=51ff9c)](https://discord.com/users/jphajp)
 
   ![Visitors](https://komarev.com/ghpvc/?username=JPHAJP&label=Profile%20Views&color=51ff9c&style=for-the-badge&labelColor=000000)
@@ -240,8 +240,8 @@ SKILL_TREE:
 
 | 🏆 Achievement | 🎯 Organization | 📅 Year | 💡 Impact |
 |:---------------|:----------------|:-------:|:---------|
-| **🥇 Graduated with Honors** | Ibero Puebla | 2025 | 🎓 Highest GPA of graduating class |
-| **🏅 Best Average Medal** | Ibero Puebla | 2025 | 📊 Top academic performance award |
+| **🥇 Graduated with Honors / Medal Diego de Ledesma** | Ibero Puebla | 2025 | 🎓 Outstanding contribution to the community |
+| **🏅 Best Average Medal / Medal Francisco Javier Clavijero** | Ibero Puebla | 2025 | 📊 Highest GPA of graduating class |
 | **🏅 CENEVAL Medal** | CENEVAL | 2025 | ⭐ EGEL Outstanding scores (91%+ avg) |
 | **IEEE Official Publication** | IEEE | 2024 | 📄 Research paper on medical robotics |
 | **NASA Space Apps Challenge** | NASA | 2024 | 🚀 International innovation competition |
@@ -335,7 +335,7 @@ SKILL_TREE:
 #### 🥇 **GRADUATED WITH HONORS**
 **Ibero Puebla**<br/>
 Mechatronics Engineering<br/>
-🌟 *Highest GPA of Graduating Class*
+🌟 *Outstanding contribution to the community*
 
 </td>
 <td align="center" width="33%">
@@ -343,7 +343,7 @@ Mechatronics Engineering<br/>
 #### 🏅 **BEST AVERAGE MEDAL**
 **Academic Excellence**<br/>
 Top Performance Award<br/>
-🎯 *Outstanding Achievement*
+🎯 *Highest GPA of Graduating Class*
 
 </td>
 <td align="center" width="33%">
@@ -434,7 +434,7 @@ EGEL Certification<br/>
 
 | **CHANNEL** | **STATUS** | **ACTION** |
 |:---:|:---:|:---:|
-| **EMAIL** | `AVAILABLE` | [![Email](https://img.shields.io/badge/SEND_PACKET-000000?style=flat-square&logo=gmail&logoColor=51ff9c)](mailto:josepabloservicio@outlook.com) |
+| **EMAIL** | `AVAILABLE` | [![Email](https://img.shields.io/badge/SEND_PACKET-000000?style=flat-square&logo=gmail&logoColor=51ff9c)](mailto:contacto@jphajp.com) |
 | **LINKEDIN** | `CONNECTED` | [![LinkedIn](https://img.shields.io/badge/ESTABLISH_LINK-000000?style=flat-square&logo=linkedin&logoColor=51ff9c)](https://www.linkedin.com/in/jphajp/) |
 | **DISCORD** | `ONLINE` | [![Discord](https://img.shields.io/badge/JOIN_SERVER-000000?style=flat-square&logo=discord&logoColor=51ff9c)](https://discord.com/users/jphajp) |
 | **PORTFOLIO** | `DEPLOYED` | [![Portfolio](https://img.shields.io/badge/VISIT_SITE-000000?style=flat-square&logo=google-chrome&logoColor=51ff9c)](https://jphajp.github.io/JPHAJP/) |
