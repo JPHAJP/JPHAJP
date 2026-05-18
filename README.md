@@ -15,7 +15,7 @@
   <br/>
 
   <!-- Profile Image -->
-  <img src="https://jphajp.github.io/JPHAJP/Web/assets/img/Jp.webp" alt="José Pablo Hernández Alonso" width="180" style="border-radius: 20px; border: 4px solid #51ff9c; box-shadow: 0 0 30px #51ff9c;"/>
+  <img src="./Web/assets/img/JP-main.webp" alt="José Pablo Hernández Alonso" width="180" style="border-radius: 20px; border: 4px solid #51ff9c; box-shadow: 0 0 30px #51ff9c;"/>
 
   <br/><br/>
 
@@ -57,7 +57,7 @@ IDENTITY:
 STATS:
   Education:  "Ibero Puebla (GRADUATED WITH HONORS) 🎓"
   GPA:        "HIGHEST GRADUATING AVERAGE - 4.0"
-  Awards:     "Best GPA Medal | CENEVAL Medal"
+  Awards:     "Academic Honors | CENEVAL Medal | ANFEI Recognition | CSWP | IEEE Publication | NASA Space Apps"
   Status:     "PROFESSIONAL 🟢"
   Mission:    "Combining precision engineering with creative innovation"
 
@@ -125,9 +125,15 @@ SKILL_TREE:
 
 | Language | Level | Proficiency |
 |:---------|:-----:|:------------|
-| **🇪🇸 Spanish** | `NATIVE` | ![100%](https://img.shields.io/badge/Proficiency-100%25-51ff9c?style=flat-square&labelColor=000000) |
-| **🇺🇸 English** | `C1` | ![Advanced](https://img.shields.io/badge/Level-Advanced-51ff9c?style=flat-square&labelColor=000000) |
-| **🇩🇪 German** | `B1` | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-51ff9c?style=flat-square&labelColor=000000) |
+| <img src="https://flagcdn.com/w40/es.png" width="32" alt="Spain flag"> **Spanish** | `NATIVE` | ![100%](https://img.shields.io/badge/Proficiency-100%25-51ff9c?style=flat-square&labelColor=000000) |
+| <img src="https://flagcdn.com/w40/us.png" width="32" alt="United States flag"> **English** | `C1` | ![Advanced](https://img.shields.io/badge/Level-Advanced-51ff9c?style=flat-square&labelColor=000000) |
+| <img src="https://flagcdn.com/w40/de.png" width="32" alt="Germany flag"> **German** | `B1` | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-51ff9c?style=flat-square&labelColor=000000) |
+
+<br/>
+
+<img src="./Web/assets/img/idit.webp" alt="José Pablo Hernández Alonso en el IDIT" width="280" style="border-radius: 14px; box-shadow: 0 0 22px rgba(81,255,156,0.35);"/>
+
+<br/><br/>
 
 ```ascii
 ╔═══════════════════════════════════════════════════════╗
@@ -150,87 +156,61 @@ SKILL_TREE:
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
+<img src="./Web/assets/img/Nasa_App.webp" alt="NASA Space Apps Challenge 2024" width="100%" style="border-radius: 10px;"/>
 
 #### 🛸 [NASA Space Apps Challenge 2024](https://github.com/DavidBo9/Nasa-Challenge2)
-> **Global Space Innovation Challenge**
-
-**Stack:** `Python` `AI` `React` `Node.js` `Three.js`
-
-🌍 Addressing space and climate challenges through innovative technology
-
-🏆 **Status:** International Competition Participant
-
+`Python` `AI` `React` `Node.js` `Three.js`<br/>
+🌍 Space and climate challenge innovation<br/>
+🏆 International Competition Participant
 </td>
-<td width="50%">
+<td width="50%" align="center">
+<img src="./Web/assets/img/conitacs.webp" alt="UR5 SCRUB NURSE" width="100%" style="border-radius: 10px;"/>
 
 #### 🏥 [UR5 SCRUB NURSE - Robotic AI](https://ieeexplore.ieee.org/document/10765997)
-> **Intelligent Robotic System for Healthcare**
-
-**Stack:** `C++` `Python` `YOLO` `UrScript` `LLM`
-
-🤖 Autonomous medical assistance through advanced robotics
-
-📄 **Status:** IEEE Official Publication
-
+`C++` `Python` `YOLO` `UrScript` `LLM`<br/>
+🤖 Autonomous medical assistance robotics<br/>
+📄 IEEE Official Publication
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
+<img src="./Web/assets/img/PLC.webp" alt="Industrial Automation Systems" width="100%" style="border-radius: 10px;"/>
 
 #### 🏭 [Industrial Automation Systems](https://jphajp.github.io/automatizacion/)
-> **Advanced Industrial Control**
-
-**Stack:** `PLC Siemens` `TIA Portal` `IoT` `SCADA`
-
-⚙️ Optimization of industrial processes and automation
-
-🎮 **Status:** Deployed + Interactive Web Demo
-
+`PLC Siemens` `TIA Portal` `IoT` `SCADA`<br/>
+⚙️ Industrial process automation<br/>
+🎮 Deployed + Interactive Web Demo
 </td>
-<td width="50%">
+<td width="50%" align="center">
+<img src="./Web/assets/img/Gripper-12.webp" alt="μSenseGripp robotic gripper" width="100%" style="border-radius: 10px;"/>
+<br/>
+<img src="./Web/assets/img/Gripper-18.webp" alt="μSenseGripp view 2" width="30%" style="border-radius: 8px;"/>
+<img src="./Web/assets/img/Gripper-19.webp" alt="μSenseGripp view 3" width="30%" style="border-radius: 8px;"/>
+<img src="./Web/assets/img/Gripper-21.webp" alt="μSenseGripp view 4" width="30%" style="border-radius: 8px;"/>
 
 #### 🦾 [μSenseGripp - Robotic Force Control](https://www.palloranlabs.com/usensegrip)
-> **Parallel Gripper with Precision Sensing**
-
-**Stack:** `Python` `C` `RP2040` `Flask` `UrScript` `IoT` `SolidWorks`
-
-🔧 Advanced force-controlled parallel gripper for industrial robotics
-
-📜 **Status:** Patent in Progress - Product Development
-
+`Python` `C` `RP2040` `Flask` `UrScript` `IoT`<br/>
+🔧 Force-controlled parallel gripper<br/>
+📜 Patent in Progress
 </td>
 </tr>
 </table>
 
 ### 🎯 **Innovation Projects**
 
-| Project | Tech Stack | Description | Status |
-|:--------|:-----------|:------------|:------:|
-| **🍞 Smart Bakery Vision** | `YOLO` `OpenCV` `Raspberry Pi` `Firebase` | AI-powered computer vision for bakery automation | ✅ Completed |
-| **🎮 FPGA Atari Breakout** | `Verilog` `FPGA` `VHDL` | Classic game in hardware description language | ✅ Demo |
-| **🧠 EmoHelper AI** | `OpenAI` `Gradio` `Llama 3.1` | AI-powered poetry generator with emotion analysis | ✅ Active |
-| **🎨 StableDiffusion + UR5** | `Stable Diffusion` `Python` `UrScript` | Robotic art with generative AI | ✅ Prototype |
-| **📡 Digital Networks IoT** | `ESP32` `Firebase` `WebApp` | Real-time IoT dashboard and monitoring | ✅ Deployed |
-| **🔧 CNC & Lathe Control** | `PLC` `SCADA` `Industrial Control` | Precision manufacturing automation | ✅ Industrial |
-| **🦾 μSenseGripp** | `Python` `C` `RP2040` `Flask` `IoT` | Force-controlled parallel gripper system | 📜 Patent |
-| **🦾 Gripper UR5 Control** | `ROS` `Python` `Universal Robots` | Advanced robotic manipulation system | ✅ Research |
-
-</td>
-</tr>
-</table>
-
-### 🎯 **Innovation Projects**
-
-| Project | Tech Stack | Description | Status |
-|:--------|:-----------|:------------|:------:|
-| **🎮 FPGA Atari Breakout** | `Verilog` `FPGA` `VHDL` | Classic game in hardware description language | ✅ Demo |
-| **🧠 EmoHelper AI** | `OpenAI` `Gradio` `Llama 3.1` | AI-powered poetry generator with emotion analysis | ✅ Active |
-| **🎨 StableDiffusion + UR5** | `Stable Diffusion` `Python` `UrScript` | Robotic art with generative AI | ✅ Prototype |
-| **📡 Digital Networks IoT** | `ESP32` `Firebase` `WebApp` | Real-time IoT dashboard and monitoring | ✅ Deployed |
-| **🔧 CNC & Lathe Control** | `PLC` `SCADA` `Industrial Control` | Precision manufacturing automation | ✅ Industrial |
-| **🦾 μSenseGripp** | `Python` `C` `RP2040` `Flask` `IoT` | Force-controlled parallel gripper system | 📜 Patent |
-| **🤖 Gripper UR5 Control** | `ROS` `Python` `Universal Robots` | Advanced robotic manipulation system | ✅ Research |
+| Preview | Project | Tech Stack | Status |
+|:-------:|:--------|:-----------|:------:|
+| <img src="./Web/assets/img/panaderia.webp" width="120" alt="Smart Bakery Vision"> | **🍞 Smart Bakery Vision** | `YOLO` `OpenCV` `Raspberry Pi` `Firebase` | ✅ Completed |
+| <img src="./Web/assets/img/Atari.webp" width="120" alt="FPGA Atari Breakout"> | **🎮 FPGA Atari Breakout** | `Verilog` `FPGA` `VHDL` | ✅ Demo |
+| <img src="./Web/assets/img/EmoHelper.webp" width="120" alt="EmoHelper AI"> | **🧠 EmoHelper AI** | `OpenAI` `Gradio` `Llama 3.1` | ✅ Active |
+| <img src="./Web/assets/img/stablediffusion.webp" width="120" alt="StableDiffusion + UR5"> | **🎨 StableDiffusion + UR5** | `Stable Diffusion` `Python` `UrScript` | ✅ Prototype |
+| <img src="./Web/assets/img/Networks.webp" width="120" alt="Digital Networks IoT"> | **📡 Digital Networks IoT** | `ESP32` `Firebase` `WebApp` | ✅ Deployed |
+| <img src="./Web/assets/img/Torneado.webp" width="120" alt="CNC and Lathe Control"> | **🔧 CNC & Lathe Control** | `PLC` `SCADA` `Industrial Control` | ✅ Industrial |
+| <img src="./Web/assets/img/Gripper-18.webp" width="120" alt="μSenseGripp"> | **🦾 μSenseGripp** | `Python` `C` `RP2040` `Flask` `IoT` | 📜 Patent |
+| <img src="./Web/assets/img/Robotica.webp" width="120" alt="Gripper UR5 Control"> | **🤖 Gripper UR5 Control** | `ROS` `Python` `Universal Robots` | ✅ Research |
+| <img src="./Web/assets/img/automatizacion.webp" width="120" alt="Automation systems"> | **🏭 Industrial Automation Demo** | `PLC` `TIA Portal` `SCADA` | ✅ Demo |
+| <img src="./Web/assets/img/Neural.webp" width="120" alt="Neural networks"> | **🧬 Neural Networks** | `Python` `ML` `Data` | ✅ Research |
 
 </div>
 
@@ -240,15 +220,18 @@ SKILL_TREE:
 
 | 🏆 Achievement | 🎯 Organization | 📅 Year | 💡 Impact |
 |:---------------|:----------------|:-------:|:---------|
-| **🥇 Graduated with Honors / Medal Diego de Ledesma** | Ibero Puebla | 2025 | 🎓 Outstanding contribution to the community |
-| **🏅 Best Average Medal / Medal Francisco Javier Clavijero** | Ibero Puebla | 2025 | 📊 Highest GPA of graduating class |
-| **🏅 CENEVAL Medal** | CENEVAL | 2025 | ⭐ EGEL Outstanding scores (91%+ avg) |
-| **IEEE Official Publication** | IEEE | 2024 | 📄 Research paper on medical robotics |
-| **NASA Space Apps Challenge** | NASA | 2024 | 🚀 International innovation competition |
-| **CONITACS XIV Speaker** | CONITACS | 2024 | 🏥 National congress presentation |
-| **CSWP Certification** | SolidWorks | 2025 | 📜 Certified SolidWorks Professional |
-| **ExpoIBERO Exhibitor** | Ibero Puebla | 2021-2025 | 🎓 Multiple university exhibitions |
-| **Industrial Projects** | Various Companies | 2023-2024 | 🏭 Real-world automation deployments |
+| **🥇 Graduated with Honors** | Ibero Puebla | 2025 | 🎓 Formative excellence |
+| **🥇 GPA 4.0** | Ibero Puebla | 2025 | 🎓 Perfect academic average |
+| **🏅 Francisco Javier Clavijero S.J. Medal** | Ibero Puebla | 2025 | 📊 Best academic average |
+| **🏅 Diego de Ledesma S.J. Medal** | Ibero Puebla | 2025 | 🤝 Human and competent formation |
+| **🏅 CENEVAL Medal** | CENEVAL | 2025 | ⭐ EGEL outstanding performance |
+| **🏆 ANFEI Recognition** | ANFEI | 2025 | 📊 Best graduating average in Engineering Faculty |
+| **📜 CSWP Certification** | SolidWorks | 2025 | 📜 Certified SolidWorks Professional |
+| **📄 IEEE Official Publication** | IEEE | 2024 | 📄 Research paper on medical robotics |
+| **🚀 NASA Space Apps Challenge** | NASA | 2024 | 🚀 International innovation competition |
+| **🎙️ CONITACS XIV Speaker** | CONITACS | 2024 | 🏥 National congress presentation |
+| **🎓 ExpoIBERO Exhibitor** | Ibero Puebla | 2021-2025 | 🎓 Multiple university exhibitions |
+| **🏭 Industrial Projects** | Various Companies | 2023-2024 | 🏭 Real-world automation deployments |
 
 </div>
 
@@ -328,30 +311,50 @@ SKILL_TREE:
 
 ### 🏆 **Honors & Distinctions**
 
+<img src="./Web/assets/img/premios.webp" alt="Premios y reconocimientos académicos" width="520" style="border-radius: 14px; box-shadow: 0 0 24px rgba(81,255,156,0.35);"/>
+
+<br/><br/>
+
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="20%">
 
-#### 🥇 **GRADUATED WITH HONORS**
+#### 🥇 **GPA 4.0**
 **Ibero Puebla**<br/>
 Mechatronics Engineering<br/>
-🌟 *Outstanding contribution to the community*
+🌟 *Perfect academic average*
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="20%">
 
-#### 🏅 **BEST AVERAGE MEDAL**
-**Academic Excellence**<br/>
-Top Performance Award<br/>
-🎯 *Highest GPA of Graduating Class*
+#### 🏅 **FRANCISCO JAVIER CLAVIJERO S.J. MEDAL**
+**Ibero Puebla**<br/>
+Academic Excellence<br/>
+🎯 *Best academic average*
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="20%">
+
+#### 🏅 **DIEGO DE LEDESMA S.J. MEDAL**
+**Ibero Puebla**<br/>
+Human and Competent Formation<br/>
+🤝 *Integral formation recognition*
+
+</td>
+<td align="center" width="20%">
 
 #### 🏅 **CENEVAL MEDAL**
-**National Excellence**<br/>
+**CENEVAL**<br/>
 EGEL Certification<br/>
-⭐ *Distinguished Performance*
+⭐ *Outstanding Performance*
+
+</td>
+<td align="center" width="20%">
+
+#### 🏆 **ANFEI RECOGNITION**
+**Engineering Faculty**<br/>
+Graduating Class Recognition<br/>
+📊 *Best graduating average in Engineering*
 
 </td>
 </tr>
@@ -427,6 +430,10 @@ EGEL Certification<br/>
 <div align="center">
 
 ### 💬 **Let's Collaborate on Incredible Projects!**
+
+<img src="./Web/assets/img/Jp.webp" alt="José Pablo Hernández Alonso" width="150" style="border-radius: 18px; border: 3px solid #51ff9c; box-shadow: 0 0 20px #51ff9c;"/>
+
+<br/><br/>
 
 > Open to collaborations in **AI**, **Robotics**, **IoT**, and **Industrial Automation**
 

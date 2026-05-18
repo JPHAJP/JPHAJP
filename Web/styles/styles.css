@@ -12,6 +12,7 @@
 html,
 body {
     overflow-x: hidden;
+    overflow-anchor: none;
     width: 100%;
     position: relative;
     margin: 0;
@@ -44,42 +45,91 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: var(--primary-color);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 0.7rem 0;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0.75rem 0;
+}
+
+.navbar>.container {
+    width: min(1120px, calc(100% - 2rem));
+    padding: 0.55rem 0.7rem;
+    border: 1px solid rgba(81, 255, 156, 0.22);
+    border-radius: 999px;
+    background: rgba(11, 12, 28, 0.78);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
 }
 
 .navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 5.5rem;
+    min-height: 2.45rem;
+    margin: 0;
+    padding: 0.25rem 0.85rem;
+    border: 1px solid rgba(81, 255, 156, 0.35);
+    border-radius: 999px;
+    background: rgba(81, 255, 156, 0.08);
     font-weight: 800;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.08rem;
     color: var(--light-color);
+    line-height: 1;
+    transition: var(--transition);
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: var(--light-color);
+    border-color: rgba(81, 255, 156, 0.75);
+    box-shadow: 0 0 22px rgba(81, 255, 156, 0.2);
 }
 
 .navbar-brand span {
     color: var(--accent-color);
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    gap: 0.25rem;
+    align-items: center;
+}
+
 .navbar-nav .nav-link {
-    color: var(--light-color);
-    font-weight: 500;
-    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 0.92rem;
+    font-weight: 600;
+    padding: 0.55rem 0.9rem;
     transition: var(--transition);
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
+    background: rgba(81, 255, 156, 0.1);
     color: var(--accent-color);
 }
 
 .navbar-nav .nav-link.active {
-    color: var(--light-color);
+    background: var(--accent-color);
+    color: #07140c;
     font-weight: 700;
+    box-shadow: 0 0 20px rgba(81, 255, 156, 0.28);
 }
 
 .navbar-toggler {
-    border: none;
-    color: var(--light-color);
-    font-size: 1.5rem;
+    width: 2.45rem;
+    height: 2.45rem;
+    border: 1px solid rgba(81, 255, 156, 0.28);
+    border-radius: 999px;
+    color: var(--accent-color);
+    font-size: 1rem;
+    padding: 0;
 }
 
 .navbar-toggler:focus {
@@ -478,13 +528,22 @@ body {
 }
 
 /* Sección Idiomas */
+.language-stack {
+    display: grid;
+    gap: 1rem;
+}
+
 .language-card {
     background: white;
-    padding: 1.2rem;
+    padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-    text-align: center;
+    text-align: left;
     transition: var(--transition);
+    display: grid;
+    grid-template-columns: auto minmax(6rem, 0.75fr) minmax(8rem, 1fr);
+    align-items: center;
+    column-gap: 1rem;
 }
 
 .language-card:hover {
@@ -493,24 +552,47 @@ body {
 }
 
 .language-flag {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    display: block;
+    width: 3.6rem;
+    height: 2.7rem;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(30, 29, 69, 0.12);
+    box-shadow: 0 8px 18px rgba(30, 29, 69, 0.14);
+    margin: 0;
+    transition: var(--transition);
+}
+
+.language-card:hover .language-flag {
+    transform: scale(1.04);
+    box-shadow: 0 10px 22px rgba(30, 29, 69, 0.18);
+}
+
+.language-meta h6 {
+    margin-bottom: 0.15rem;
 }
 
 .language-level {
     font-weight: 600;
     color: var(--accent-color);
-    margin: 0.5rem 0;
+    margin: 0.15rem 0 0;
     font-size: 0.75rem;
+}
+
+.language-meter {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 3rem;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .language-bar {
     width: 100%;
-    height: 20px;
+    height: 14px;
     background-color: #e0e0e0;
     border-radius: 10px;
     overflow: hidden;
-    margin: 0.75rem 0;
+    margin: 0;
 }
 
 .language-progress {
@@ -527,7 +609,22 @@ body {
     font-weight: 700;
     font-size: 0.9rem;
     color: var(--primary-color);
-    margin-top: 0.3rem;
+    margin: 0;
+    min-width: 3rem;
+    text-align: right;
+}
+
+.idit-photo {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(30, 29, 69, 0.18);
+}
+
+.idit-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 /* Sección Excelencia Académica */
@@ -568,6 +665,66 @@ body {
     font-weight: 600;
     margin-top: 0.75rem;
     display: inline-block;
+}
+
+.academic-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 660px) minmax(360px, 1fr);
+    gap: 1.5rem;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.academic-info-column,
+.academic-photo-column {
+    min-width: 0;
+}
+
+.academic-photo-column {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.academic-content-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.academic-awards-photo {
+    height: clamp(360px, 45vw, 520px);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 255, 106, 0.16);
+}
+
+.academic-awards-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 991.98px) {
+    .language-card {
+        grid-template-columns: auto minmax(0, 1fr);
+    }
+
+    .language-meter {
+        grid-column: 1 / -1;
+    }
+
+    .academic-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .academic-awards-photo {
+        min-height: 420px;
+    }
 }
 
 /* Puntajes CENEVAL */
@@ -630,6 +787,11 @@ body {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    height: 100%;
+    min-height: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .achievement-card:hover {
@@ -655,6 +817,19 @@ body {
     margin: 1.5rem 0 1rem 0;
 }
 
+.achievement-card h5 {
+    min-height: 3.4rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievement-card p {
+    min-height: 1.5rem;
+    margin-bottom: 0;
+}
+
 .achievement-tag {
     display: inline-block;
     background-color: var(--gray-color);
@@ -662,7 +837,68 @@ body {
     padding: 0.4rem 1rem;
     border-radius: 15px;
     font-size: 0.85rem;
-    margin-top: 1rem;
+    margin-top: auto;
+}
+
+.contact-info-layout {
+    display: flex;
+    align-items: stretch;
+    gap: 1.25rem;
+}
+
+.contact-profile-photo {
+    display: flex;
+    flex: 0 0 clamp(135px, 36%, 175px);
+    overflow: hidden;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+}
+
+.contact-profile-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.contact-info-list {
+    min-width: 0;
+    flex: 1;
+}
+
+.contact-info-list a.text-white:not(.btn) {
+    color: var(--accent-color) !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 600;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1.5px !important;
+    text-underline-offset: 0.22rem;
+    transition: var(--transition);
+}
+
+.contact-info-list a.text-white:not(.btn)::after {
+    content: "\f35d";
+    font-family: "Font Awesome 6 Free";
+    font-size: 0.7rem;
+    font-weight: 900;
+    opacity: 0.85;
+}
+
+.contact-info-list a.text-white:not(.btn):hover {
+    color: white !important;
+    text-shadow: 0 0 10px rgba(81, 255, 156, 0.45);
+}
+
+.contact-info-list a,
+.contact-info-list p {
+    overflow-wrap: anywhere;
+}
+
+.contact-social-block {
+    width: 100%;
 }
 
 /* Sección Filosofía */
@@ -959,10 +1195,23 @@ body {
 
 /* Responsive */
 @media (max-width: 991.98px) {
+    .navbar>.container {
+        border-radius: 24px;
+        align-items: center;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+    }
+
     .navbar-nav {
-        background-color: var(--primary-color);
-        padding: 1rem;
-        border-radius: 5px;
+        align-items: stretch;
+        gap: 0.35rem;
+        padding: 0.9rem 0.25rem 0.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        text-align: center;
     }
 
     .header-content h1 {
@@ -1317,9 +1566,9 @@ body.intro-finished footer {
 
 /* Asegurar que el navbar tenga el estilo correcto después de la intro */
 body.intro-finished .navbar {
-    background-color: var(--primary-color);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 0.7rem 0;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0.75rem 0;
 }
 
 /* Estilos para los botones de introducción */
