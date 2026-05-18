@@ -192,7 +192,7 @@ SKILL_TREE:
 #### 🦾 [μSenseGripp - Robotic Force Control](https://www.palloranlabs.com/usensegrip)
 `Python` `C` `RP2040` `Flask` `UrScript` `IoT`<br/>
 🔧 Force-controlled parallel gripper<br/>
-📜 Patent in Progress
+📜 Commercial
 </td>
 </tr>
 </table>
@@ -207,7 +207,7 @@ SKILL_TREE:
 | <img src="./Web/assets/img/stablediffusion.webp" width="120" alt="StableDiffusion + UR5"> | **🎨 StableDiffusion + UR5** | `Stable Diffusion` `Python` `UrScript` | ✅ Prototype |
 | <img src="./Web/assets/img/Networks.webp" width="120" alt="Digital Networks IoT"> | **📡 Digital Networks IoT** | `ESP32` `Firebase` `WebApp` | ✅ Deployed |
 | <img src="./Web/assets/img/Torneado.webp" width="120" alt="CNC and Lathe Control"> | **🔧 CNC & Lathe Control** | `PLC` `SCADA` `Industrial Control` | ✅ Industrial |
-| <img src="./Web/assets/img/Gripper-18.webp" width="120" alt="μSenseGripp"> | **🦾 μSenseGripp** | `Python` `C` `RP2040` `Flask` `IoT` | 📜 Patent |
+| <img src="./Web/assets/img/Gripper-18.webp" width="120" alt="μSenseGripp"> | **🦾 μSenseGripp** | `Python` `C` `RP2040` `Flask` `IoT` | 📜 Commercial |
 | <img src="./Web/assets/img/Robotica.webp" width="120" alt="Gripper UR5 Control"> | **🤖 Gripper UR5 Control** | `ROS` `Python` `Universal Robots` | ✅ Research |
 | <img src="./Web/assets/img/automatizacion.webp" width="120" alt="Automation systems"> | **🏭 Industrial Automation Demo** | `PLC` `TIA Portal` `SCADA` | ✅ Demo |
 | <img src="./Web/assets/img/Neural.webp" width="120" alt="Neural networks"> | **🧬 Neural Networks** | `Python` `ML` `Data` | ✅ Research |
