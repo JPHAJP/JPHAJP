@@ -1417,6 +1417,7 @@ body {
 /* Responsive */
 @media (max-width: 991.98px) {
     .navbar>.container {
+        flex-wrap: wrap;
         border-radius: 24px;
         align-items: center;
     }
@@ -1432,7 +1433,12 @@ body {
     }
 
     .navbar-nav .nav-link {
-        text-align: center;
+        text-align: left;
+        padding-left: 1.25rem;
+    }
+
+    .navbar-nav .nav-link.dropdown-toggle {
+        justify-content: flex-start;
     }
 
     .header-content h1 {
