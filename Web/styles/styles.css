@@ -401,6 +401,8 @@ body {
     transition: var(--transition);
     height: 100%;
     background-color: var(--light-color);
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .project-card:hover {
@@ -1439,6 +1441,13 @@ body {
 
     .navbar-nav .nav-link.dropdown-toggle {
         justify-content: flex-start;
+    }
+
+    .navbar-brand {
+        font-size: 0.95rem;
+        padding: 0.2rem 0.75rem;
+        min-width: auto;
+        min-height: auto;
     }
 
     .header-content h1 {
