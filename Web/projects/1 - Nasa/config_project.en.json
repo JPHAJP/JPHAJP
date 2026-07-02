@@ -1,0 +1,173 @@
+{
+    "project": {
+        "title": "NASA Space Apps Challenge 2024",
+        "subtitle": "NASA International Hackathon",
+        "shortDescription": "Participation in the NASA Space Apps Challenge 2024, developing innovative solutions for space challenges.",
+        "fullDescription": "This project focuses on creating an innovative solution for spatial descriptions of nearby and highly dangerous asteroids in a web orrery using advanced technologies.",
+        "status": "Completed",
+        "year": "2024",
+        "duration": "1 day",
+        "team": [
+            "José Pablo Hernández Alonso",
+            "Iñigo Quintana Delgadillo",
+            "David Bojalil",
+            "Diego Rodríguez Orozco",
+            "Josua Alejandro Zamarrón",
+            "Erick Guevara Morales"
+        ],
+        "tags": [
+            "Python",
+            "IA/ML",
+            "React",
+            "three.js",
+            "Hackathon",
+            "NASA"
+        ],
+        "repository": "https://github.com/DavidBo9/Nasa-Challenge2",
+        "documentation": "./NasaDoc.pdf"
+    },
+    "overview": {
+        "problem": "Demonstrate development skills through a web orrery of asteroids and space objects.",
+        "solution": "Develop an interactive web orrery using technologies such as React and three.js to visualize asteroid data.",
+        "impact": "Make space information easier to understand and promote interest in science and technology."
+    },
+    "stats": [
+        {
+            "value": "2",
+            "label": "AI systems used"
+        },
+        {
+            "value": "5+",
+            "label": "Technologies"
+        },
+        {
+            "value": "3",
+            "label": "Regional place"
+        },
+        {
+            "value": "24h",
+            "label": "Development time"
+        }
+    ],
+    "media": {
+        "mainVideo": "./orray.mp4",
+        "videos": [
+            {
+                "src": "./orray.mp4",
+                "title": "Orrery Web Demo",
+                "description": "Video mostrando la integración completa del sistema en el orrey web."
+            }
+        ],
+        "images": [
+            {
+                "src": "./1.png",
+                "alt": "Web orrery landing page",
+                "caption": "Landing page del orrey web con visualización de asteroides cercanos a la Tierra"
+            },
+            {
+                "src": "./2.png",
+                "alt": "Planet descriptions",
+                "caption": "Descripción detallada de planetas y objetos espaciales"
+            }
+        ],
+        "diagrams": [
+            {
+                "src": "https://media.licdn.com/dms/image/v2/D5612AQED5YO_sL2QzQ/article-cover_image-shrink_720_1280/B56Zj_2B1rHMAI-/0/1756639011560?e=2147483647&v=beta&t=PxFJ2grTaELfWFtS_-T8D3XHCsSDcflpqzCIQ2zAgr0",
+                "alt": "Vibe coding Workflow",
+                "title": "Vibe coding Workflow"
+            }
+        ]
+    },
+    "technologies": {
+        "ai": [
+            {
+                "name": "OpenAI GPT-3",
+                "icon": "../../assets/tech-stack/openai-gpt-3-5e567220.webp",
+                "description": "Generación y entendimiento de la matemática de movimientos orbitales en el espacio"
+            },
+            {
+                "name": "Claude 2",
+                "icon": "../../assets/tech-stack/claude-2-f4ea0523.webp",
+                "description": "Generación de código en React y three.js para el orrey web"
+            }
+        ],
+        "development": [
+            {
+                "name": "Python",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
+                "description": "Main language"
+            },
+            {
+                "name": "React",
+                "icon": "../../assets/tech-stack/react-local.svg",
+                "description": "Framework frontend"
+            },
+            {
+                "name": "Vite",
+                "icon": "../../assets/tech-stack/vite-a49f993c.webp",
+                "description": "Entorno de desarrollo"
+            },
+            {
+                "name": "Three.js",
+                "icon": "../../assets/tech-stack/three-js-8de94a40.webp",
+                "description": "Manejador de modelos 3D"
+            },
+            {
+                "name": "Git & GitHub",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
+                "description": "Control de versiones"
+            },
+            {
+                "name": "Pandas",
+                "icon": "../../assets/tech-stack/pandas-83c2917b.webp",
+                "description": "Computadora embebida y aceleración con GPU"
+            },
+            {
+                "name": "Figma",
+                "icon": "../../assets/tech-stack/figma-14f87e27.svg",
+                "description": "Sistema operativo"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "../../assets/tech-stack/tailwind-css-8a0fbee1.svg",
+                "description": "Framework de IA"
+            },
+            {
+                "name": "Numpy",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
+                "description": "Biblioteca para computación científica"
+            }
+        ]
+    },
+    "achievements": [
+        {
+            "title": "NASA Space Apps Challenge 2024",
+            "date": "2024-09",
+            "type": "Hackathon",
+            "description": "Tercer lugar regional en el NASA Space Apps Challenge 2024",
+            "image": "https://assets.spaceappschallenge.org/media/images/MAKE_A_COPY_Create_your_own_Local_.2e16d0ba.fill-674x450_q0FdJxN.png",
+            "link": "https://www.spaceappschallenge.org/"
+        }
+    ],
+    "author": {
+        "name": "José Pablo Hernández Alonso",
+        "institution": "Universidad Iberoamericana Puebla",
+        "email": "josepablo.hernandez@iberopuebla.mx",
+        "social": {
+            "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
+            "github": "https://github.com/JPHAJP",
+            "instagram": "https://www.instagram.com/jose_pablo_ha"
+        }
+    },
+    "settings": {
+        "theme": {
+            "primaryColor": "#7f0000",
+            "secondaryColor": "#ffffff",
+            "accentColor": "#a31515"
+        },
+        "layout": {
+            "containerWidth": "1200px",
+            "sectionSpacing": "4rem"
+        }
+    }
+}

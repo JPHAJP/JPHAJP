@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"serve": "http-server . -p 4173 -c-1",
+		"lighthouse:es": "mkdir -p lighthouse-reports && lighthouse http://127.0.0.1:4173/ --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/es",
+		"lighthouse:en": "mkdir -p lighthouse-reports && lighthouse http://127.0.0.1:4173/en/ --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/en",
+		"lighthouse:de": "mkdir -p lighthouse-reports && lighthouse http://127.0.0.1:4173/de/ --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/de",
+		"lighthouse": "pnpm lighthouse:es && pnpm lighthouse:en && pnpm lighthouse:de"
+	},
+	"devDependencies": {
+		"lighthouse": "^13.4.0",
+		"http-server": "^14.1.1"
+	}
+}

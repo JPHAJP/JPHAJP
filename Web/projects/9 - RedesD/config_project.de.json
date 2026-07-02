@@ -1,0 +1,169 @@
+{
+    "project": {
+        "title": "Hausautomation und Netzwerke",
+        "subtitle": "Hausautomation mit ESP32 und Home Assistant",
+        "shortDescription": "Se desarrolla un sistema de domótica utilizando ESP32 y Home Assistant para controlar dispositivos del hogar a través de MQTT.",
+        "fullDescription": "El proyecto consiste en la implementación de un sistema de domótica que permite el control y monitoreo de dispositivos del hogar utilizando tecnología ESP32 y la plataforma Home Assistant. A través de la comunicación MQTT, se logra una integración eficiente de los dispositivos, permitiendo su gestión desde una interfaz centralizada.",
+        "status": "Abgeschlossen",
+        "year": "2023",
+        "duration": "1 Monat",
+        "team": [
+            "José Pablo Hernández Alonso"
+        ],
+        "tags": [
+            "Domótica",
+            "Automatisierung",
+            "ESP32",
+            "Redes de computadoras",
+            "IoT",
+            "MQTT",
+            "Home Assistant",
+            "Python"
+        ],
+        "repository": "https://jphajp.github.io/Redes/",
+        "documentation": "./RedesD.pdf"
+    },
+    "overview": {
+        "problem": "Für das Zuhause werden Hausautomationslösungen benötigt.",
+        "solution": "Se desarrolla un sistema de domótica utilizando ESP32 y Home Assistant para controlar dispositivos del hogar a través de MQTT.",
+        "impact": "Verbesserte Energieeffizienz und mehr Wohnkomfort."
+    },
+    "stats": [
+        {
+            "value": "4",
+            "label": "Integrierte Sensoren"
+        },
+        {
+            "value": "5+",
+            "label": "Technologien"
+        },
+        {
+            "value": "1",
+            "label": "Konferenzen"
+        },
+        {
+            "value": "1",
+            "label": "Monat Entwicklung"
+        }
+    ],
+    "media": {
+        "mainVideo": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+        "videos": [
+            {
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+                "title": "Timer",
+                "description": "Timer mit ESP32."
+            },
+            {
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Prox.mp4?raw=true",
+                "title": "Näherungssensor",
+                "description": "Sensor de proximidad con ESP32 para cochera con semáforo."
+            },
+            {
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Hum.mp4?raw=true",
+                "title": "Feuchtigkeitssensor",
+                "description": "Sensor de humedad de suelo con ESP32 para baño."
+            },
+            {
+                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Movimiento.mp4?raw=true",
+                "title": "Bewegungssensor",
+                "description": "Sensor de movimiento con ESP32 para detección de presencia."
+            }
+        ]
+    },
+    "technologies": {
+        "development": [
+            {
+                "name": "Python",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
+                "description": "Hauptsprache"
+            },
+            {
+                "name": "PHP",
+                "icon": "../../assets/tech-stack/php-b1f6a034.webp",
+                "description": "API web"
+            },
+            {
+                "name": "HTML5 & CSS3",
+                "icon": "../../assets/tech-stack/html5-css3-local.svg",
+                "description": "Desarrollo web"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "../../assets/tech-stack/javascript-local.svg",
+                "description": "Interactividad web"
+            },
+            {
+                "name": "ESP32",
+                "icon": "../../assets/tech-stack/esp32-0f823dfa.svg",
+                "description": "Microcontrolador para IoT"
+            },
+            {
+                "name": "MQTT",
+                "icon": "../../assets/tech-stack/mqtt-local.svg",
+                "description": "Protocolo de mensajería"
+            },
+            {
+                "name": "Git & GitHub",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
+                "description": "Control de versiones"
+            },
+            {
+                "name": "Firebase",
+                "icon": "../../assets/tech-stack/firebase-7dec45bd.svg",
+                "description": "Base de datos en la nube"
+            },
+            {
+                "name": "Render",
+                "icon": "../../assets/tech-stack/render-b409388e.webp",
+                "description": "Plataforma de implementación de aplicaciones en la nube"
+            },
+            {
+                "name": "Flutterflow",
+                "icon": "../../assets/tech-stack/flutterflow-af2de90b.webp",
+                "description": "Constructor de aplicaciones visuales"
+            },
+            {
+                "name": "Docker",
+                "icon": "../../assets/tech-stack/docker-local.svg",
+                "description": "Plataforma de contenedorización de aplicaciones"
+            },
+            {
+                "name": "Wokwi",
+                "icon": "../../assets/tech-stack/wokwi-f3b3fe27.webp",
+                "description": "Simulador de microcontroladores"
+            }
+        ]
+    },
+    "achievements": [
+        {
+            "title": "ExpoIbero Otoño 2023",
+            "date": "2023-11",
+            "type": "Exposición Universitaria",
+            "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "link": "https://jphajp.github.io/Redes/proyecto.html"
+        }
+    ],
+    "author": {
+        "name": "José Pablo Hernández Alonso",
+        "institution": "Universidad Iberoamericana Puebla",
+        "email": "josepablo.hernandez@iberopuebla.mx",
+        "social": {
+            "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
+            "github": "https://github.com/JPHAJP",
+            "instagram": "https://www.instagram.com/jose_pablo_ha"
+        }
+    },
+    "settings": {
+        "theme": {
+            "primaryColor": "#e91e63",
+            "secondaryColor": "#f8bbd0",
+            "accentColor": "#ff4081"
+        },
+        "layout": {
+            "containerWidth": "1200px",
+            "sectionSpacing": "4rem"
+        }
+    }
+}

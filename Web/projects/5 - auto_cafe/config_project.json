@@ -55,7 +55,6 @@
                 "title": "Demostración principal",
                 "description": "Video mostrando la integración completa del sistema de barísta."
             }
-            
         ],
         "images": [
             {
@@ -96,42 +95,42 @@
         "development": [
             {
                 "name": "Python",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/python.png?raw=true",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
                 "description": "Lenguaje principal"
             },
             {
                 "name": "UR-RTDE",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_rtde.png?raw=true",
+                "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
                 "description": "Comunicación en tiempo real con el robot"
             },
             {
                 "name": "UR-Script",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_robot.webp?raw=true",
+                "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
                 "description": "Programación del robot"
             },
             {
                 "name": "Siemens TIA Portal",
-                "icon": "https://inetec.com.br/wp-content/uploads/2023/04/siemens-v17.png",
+                "icon": "../../assets/tech-stack/siemens-tia-portal-70e3b32d.webp",
                 "description": "Programación de PLCs Siemens"
             },
             {
                 "name": "Git & GitHub",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
                 "description": "Control de versiones"
             },
             {
                 "name": "Ubuntu",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
                 "description": "Sistema operativo"
             },
             {
                 "name": "Profinet",
-                "icon": "https://images.seeklogo.com/logo-png/40/1/profinet-logo-png_seeklogo-402406.png",
+                "icon": "../../assets/tech-stack/profinet-cd825ac8.webp",
                 "description": "Protocolo de comunicación industrial"
             },
             {
                 "name": "Ethernet/IP",
-                "icon": "https://e7.pngegg.com/pngimages/446/1005/png-clipart-ethernet-ip-computer-software-common-industrial-protocol-modbus-ip-miscellaneous-blue-thumbnail.png",
+                "icon": "../../assets/tech-stack/ethernet-ip-a19dc79a.webp",
                 "description": "Protocolo de comunicación industrial"
             },
             {

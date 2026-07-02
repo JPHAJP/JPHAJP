@@ -78,7 +78,6 @@
                 "title": "Robot UR5e",
                 "description": "Seguimiento de rutina de puntos."
             }
-            
         ],
         "images": [
             {
@@ -92,92 +91,92 @@
         "development": [
             {
                 "name": "Python",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/python.png?raw=true",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
                 "description": "Lenguaje principal"
             },
             {
                 "name": "Flask",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/flask.png?raw=true",
+                "icon": "../../assets/tech-stack/flask-afa316f2.webp",
                 "description": "API web"
             },
             {
                 "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
                 "description": "Procesamiento de imágenes"
             },
             {
                 "name": "UR-RTDE",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_rtde.png?raw=true",
+                "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
                 "description": "Comunicación en tiempo real con el robot"
             },
             {
                 "name": "UR-Script",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_robot.webp?raw=true",
+                "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
                 "description": "Programación del robot"
             },
             {
                 "name": "Siemens TIA Portal",
-                "icon": "https://inetec.com.br/wp-content/uploads/2023/04/siemens-v17.png",
+                "icon": "../../assets/tech-stack/siemens-tia-portal-70e3b32d.webp",
                 "description": "Programación de PLCs Siemens"
             },
             {
                 "name": "HTML5 & CSS3",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png",
+                "icon": "../../assets/tech-stack/html5-css3-local.svg",
                 "description": "Desarrollo web"
             },
             {
                 "name": "JavaScript",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+                "icon": "../../assets/tech-stack/javascript-local.svg",
                 "description": "Interactividad web"
             },
             {
                 "name": "REST API",
-                "icon": "https://apps.odoo.com/web/image/loempia.module/19346/icon_image/300x300?unique=d92333c",
+                "icon": "../../assets/tech-stack/rest-api-46a628c0.webp",
                 "description": "Comunicación entre sistemas"
             },
             {
                 "name": "Git & GitHub",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
                 "description": "Control de versiones"
             },
             {
                 "name": "Ubuntu",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
                 "description": "Sistema operativo"
             },
             {
                 "name": "Mysql",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mysql.jpg?raw=true",
+                "icon": "../../assets/tech-stack/mysql-4dc3f583.webp",
                 "description": "Gestión de bases de datos"
             },
             {
                 "name": "OPC UA",
-                "icon": "https://sodick-america.com/wp-content/uploads/2025/01/opc_ua.png",
+                "icon": "../../assets/tech-stack/opc-ua-9f58724c.webp",
                 "description": "Protocolo de comunicación industrial"
             },
             {
                 "name": "Profinet",
-                "icon": "https://images.seeklogo.com/logo-png/40/1/profinet-logo-png_seeklogo-402406.png",
+                "icon": "../../assets/tech-stack/profinet-cd825ac8.webp",
                 "description": "Protocolo de comunicación industrial"
             },
             {
                 "name": "Ethernet/IP",
-                "icon": "https://e7.pngegg.com/pngimages/446/1005/png-clipart-ethernet-ip-computer-software-common-industrial-protocol-modbus-ip-miscellaneous-blue-thumbnail.png",
+                "icon": "../../assets/tech-stack/ethernet-ip-a19dc79a.webp",
                 "description": "Protocolo de comunicación industrial"
             },
             {
                 "name": "Numpy",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
                 "description": "Biblioteca para computación científica"
             },
             {
                 "name": "Snap7",
-                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv9WWjDjmrC9fa8KEGpQAAIL3U1s0LbOW_Zg&s",
+                "icon": "../../assets/tech-stack/snap7-4171335e.webp",
                 "description": "Comunicaciones industriales"
             },
             {
                 "name": "Qrcode",
-                "icon": "https://pypi.org/static/images/logo-small.8998e9d1.svg",
+                "icon": "../../assets/tech-stack/qrcode-0d8c012f.svg",
                 "description": "Generación de códigos QR"
             }
         ]

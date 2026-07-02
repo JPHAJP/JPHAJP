@@ -6,8 +6,133 @@ class ProjectTemplate {
         this.pdfDoc = null;
         this.pdfScale = 1.0;
         this.isIOS = this.detectIOS();
+        this.lang = this.getLanguage();
+        this.labels = this.getLabels();
         this.configPath = this.getConfigPath();
         this.init();
+    }
+
+    getLanguage() {
+        const params = new URLSearchParams(window.location.search);
+        const queryLang = params.get('lang');
+        if (['es', 'en', 'de'].includes(queryLang)) return queryLang;
+
+        const htmlLang = document.documentElement.lang;
+        if (['es', 'en', 'de'].includes(htmlLang)) return htmlLang;
+
+        return 'es';
+    }
+
+    getLabels() {
+        const labels = {
+            es: {
+                home: 'Inicio',
+                overview: 'Resumen',
+                media: 'Media',
+                technologies: 'Tecnologias',
+                achievements: 'Logros',
+                documentation: 'Documentacion',
+                project: 'Proyecto',
+                projectTitle: 'Titulo del Proyecto',
+                repo: 'Ver Repositorio',
+                explore: 'Explorar Proyecto',
+                projectOverview: 'Resumen del Proyecto',
+                problem: 'Problema',
+                solution: 'Solucion',
+                impact: 'Impacto',
+                gallery: 'Galeria Multimedia',
+                videos: 'Videos',
+                images: 'Imagenes',
+                diagrams: 'Diagramas',
+                techStack: 'Stack Tecnologico',
+                achievementsTitle: 'Logros y Reconocimientos',
+                github: 'Ver en GitHub',
+                downloadPdf: 'Descargar PDF',
+                previous: 'Anterior',
+                next: 'Siguiente',
+                page: 'Pagina',
+                of: 'de',
+                pdfFallback: 'No se pudo cargar el PDF.',
+                downloadFile: 'Descargar archivo',
+                author: 'Autor',
+                institution: 'Institucion',
+                license: 'Este proyecto esta licenciado bajo CC BY-NC-SA 4.0',
+                viewMore: 'Ver mas',
+                locale: 'es-ES'
+            },
+            en: {
+                home: 'Home',
+                overview: 'Overview',
+                media: 'Media',
+                technologies: 'Technologies',
+                achievements: 'Achievements',
+                documentation: 'Documentation',
+                project: 'Project',
+                projectTitle: 'Project Title',
+                repo: 'View Repository',
+                explore: 'Explore Project',
+                projectOverview: 'Project Overview',
+                problem: 'Problem',
+                solution: 'Solution',
+                impact: 'Impact',
+                gallery: 'Multimedia Gallery',
+                videos: 'Videos',
+                images: 'Images',
+                diagrams: 'Diagrams',
+                techStack: 'Technology Stack',
+                achievementsTitle: 'Achievements and Recognition',
+                github: 'View on GitHub',
+                downloadPdf: 'Download PDF',
+                previous: 'Previous',
+                next: 'Next',
+                page: 'Page',
+                of: 'of',
+                pdfFallback: 'The PDF could not be loaded.',
+                downloadFile: 'Download file',
+                author: 'Author',
+                institution: 'Institution',
+                license: 'This project is licensed under CC BY-NC-SA 4.0',
+                viewMore: 'View more',
+                locale: 'en-US'
+            },
+            de: {
+                home: 'Start',
+                overview: 'Ubersicht',
+                media: 'Media',
+                technologies: 'Technologien',
+                achievements: 'Erfolge',
+                documentation: 'Dokumentation',
+                project: 'Projekt',
+                projectTitle: 'Projekttitel',
+                repo: 'Repository ansehen',
+                explore: 'Projekt erkunden',
+                projectOverview: 'Projektubersicht',
+                problem: 'Problem',
+                solution: 'Losung',
+                impact: 'Wirkung',
+                gallery: 'Multimedia-Galerie',
+                videos: 'Videos',
+                images: 'Bilder',
+                diagrams: 'Diagramme',
+                techStack: 'Technologie-Stack',
+                achievementsTitle: 'Erfolge und Auszeichnungen',
+                github: 'Auf GitHub ansehen',
+                downloadPdf: 'PDF herunterladen',
+                previous: 'Zuruck',
+                next: 'Weiter',
+                page: 'Seite',
+                of: 'von',
+                pdfFallback: 'Das PDF konnte nicht geladen werden.',
+                downloadFile: 'Datei herunterladen',
+                author: 'Autor',
+                institution: 'Institution',
+                license: 'Dieses Projekt ist unter CC BY-NC-SA 4.0 lizenziert',
+                viewMore: 'Mehr anzeigen',
+                locale: 'de-DE'
+            }
+        };
+
+        return labels[this.lang] || labels.es;
     }
 
     detectIOS() {
@@ -20,28 +145,34 @@ class ProjectTemplate {
         // 1. Desde un atributo data en el script tag
         const scriptTag = document.querySelector('script[src*="main_projects.js"]');
         if (scriptTag && scriptTag.dataset.config) {
-            return scriptTag.dataset.config;
+            return this.localizeConfigPath(scriptTag.dataset.config);
         }
 
         // 2. Desde un meta tag
         const metaTag = document.querySelector('meta[name="project-config"]');
         if (metaTag && metaTag.content) {
-            return metaTag.content;
+            return this.localizeConfigPath(metaTag.content);
         }
 
         // 3. Desde el body
         if (document.body.dataset.config) {
-            return document.body.dataset.config;
+            return this.localizeConfigPath(document.body.dataset.config);
         }
 
         // 4. Valor por defecto (relativo al archivo HTML actual)
-        return './config_project.json';
+        return this.localizeConfigPath('./config_project.json');
+    }
+
+    localizeConfigPath(configPath) {
+        if (this.lang === 'es') return configPath;
+        return configPath.replace(/config_project\.json$/, `config_project.${this.lang}.json`);
     }
 
     async init() {
         try {
             console.log('Initializing ProjectTemplate...');
             console.log('Config path:', this.configPath);
+            this.localizeStaticText();
             await this.loadConfig();
             console.log('Config loaded:', this.config);
             this.setupEventListeners();
@@ -67,9 +198,105 @@ class ProjectTemplate {
             }
         } catch (error) {
             console.error('Error cargando configuración desde:', this.configPath, error);
+            if (this.lang !== 'es') {
+                const fallbackPath = this.configPath.replace(`.${this.lang}.json`, '.json');
+                try {
+                    const fallbackResponse = await fetch(fallbackPath);
+                    if (fallbackResponse.ok) {
+                        this.config = await fallbackResponse.json();
+                        return;
+                    }
+                } catch (fallbackError) {
+                    console.error('Error cargando configuración de respaldo:', fallbackPath, fallbackError);
+                }
+            }
             // Configuración por defecto si falla
             this.config = this.getDefaultConfig();
         }
+    }
+
+    localizeStaticText() {
+        document.documentElement.lang = this.lang;
+        document.querySelectorAll('a[href="#hero"]').forEach(el => el.textContent = this.labels.home);
+        document.querySelectorAll('a[href="#overview"]').forEach(el => el.textContent = this.labels.overview);
+        document.querySelectorAll('a[href="#media"]').forEach(el => el.textContent = this.labels.media);
+        document.querySelectorAll('a[href="#tech"]').forEach(el => el.textContent = this.labels.technologies);
+        document.querySelectorAll('a[href="#achievements"]').forEach(el => el.textContent = this.labels.achievements);
+        document.querySelectorAll('a[href="#docs"]').forEach(el => el.textContent = this.labels.documentation);
+
+        const staticText = {
+            'page-title': this.labels.project,
+            'nav-title': this.labels.project,
+            'hero-title': this.labels.projectTitle,
+            'hero-status': this.labels.project,
+            'hero-description': ''
+        };
+
+        Object.entries(staticText).forEach(([id, value]) => {
+            const el = document.getElementById(id);
+            if (el && value) el.textContent = value;
+        });
+
+        const repoBtn = document.getElementById('repo-btn');
+        if (repoBtn) repoBtn.innerHTML = `<i class="fab fa-github me-2"></i>${this.labels.repo}`;
+        const exploreBtn = document.querySelector('a[href="#overview"].btn');
+        if (exploreBtn) exploreBtn.textContent = this.labels.explore;
+
+        const titles = document.querySelectorAll('.section-title');
+        if (titles[0]) titles[0].textContent = this.labels.projectOverview;
+        if (titles[1]) titles[1].textContent = this.labels.gallery;
+        if (titles[2]) titles[2].textContent = this.labels.techStack;
+        if (titles[3]) titles[3].textContent = this.labels.achievementsTitle;
+        if (titles[4]) titles[4].textContent = this.labels.documentation;
+
+        const overviewHeaders = document.querySelectorAll('.overview-card h3');
+        if (overviewHeaders[0]) overviewHeaders[0].textContent = this.labels.problem;
+        if (overviewHeaders[1]) overviewHeaders[1].textContent = this.labels.solution;
+        if (overviewHeaders[2]) overviewHeaders[2].textContent = this.labels.impact;
+
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            const tab = btn.dataset.tab;
+            const text = btn.querySelector('span');
+            if (text && this.labels[tab]) text.textContent = this.labels[tab];
+        });
+
+        const repoDocsBtn = document.getElementById('repo-docs-btn');
+        if (repoDocsBtn) repoDocsBtn.innerHTML = `<i class="fab fa-github me-2"></i>${this.labels.github}`;
+        const downloadPdfBtn = document.getElementById('download-pdf-btn');
+        if (downloadPdfBtn) downloadPdfBtn.innerHTML = `<i class="fas fa-download me-2"></i>${this.labels.downloadPdf}`;
+        const prev = document.querySelector('#prev-page span');
+        if (prev) prev.textContent = this.labels.previous;
+        const next = document.querySelector('#next-page span');
+        if (next) next.textContent = this.labels.next;
+        const pageInfo = document.getElementById('page-info');
+        if (pageInfo) pageInfo.innerHTML = `${this.labels.page} <span id="page-num">1</span> ${this.labels.of} <span id="page-count">?</span>`;
+        const fallback = document.getElementById('pdf-fallback');
+        if (fallback) fallback.innerHTML = `<p>${this.labels.pdfFallback} <a href="#" id="pdf-download-link">${this.labels.downloadFile}</a></p>`;
+        const footerAuthor = document.getElementById('footer-author');
+        if (footerAuthor) footerAuthor.textContent = this.labels.author;
+        const footerInstitution = document.getElementById('footer-institution');
+        if (footerInstitution) footerInstitution.textContent = this.labels.institution;
+        const license = document.querySelector('.license-info .small');
+        if (license) license.textContent = this.labels.license;
+
+        this.renderLanguageSwitcher();
+    }
+
+    renderLanguageSwitcher() {
+        const nav = document.querySelector('.navbar-nav');
+        if (!nav || nav.querySelector('.project-language-switcher')) return;
+
+        const currentPath = window.location.pathname;
+        const baseHref = currentPath.split('/Web/projects/')[0] || '';
+        const projectPath = currentPath;
+        const makeHref = (lang) => `${projectPath}?lang=${lang}`;
+        nav.insertAdjacentHTML('beforeend', `
+            <li class="nav-item language-switcher project-language-switcher" aria-label="Language selector">
+                <a class="nav-link ${this.lang === 'es' ? 'active' : ''}" href="${makeHref('es')}" lang="es" hreflang="es-MX">ES</a>
+                <a class="nav-link ${this.lang === 'en' ? 'active' : ''}" href="${makeHref('en')}" lang="en" hreflang="en">EN</a>
+                <a class="nav-link ${this.lang === 'de' ? 'active' : ''}" href="${makeHref('de')}" lang="de" hreflang="de">DE</a>
+            </li>
+        `);
     }
 
     applyTheme(theme) {
@@ -415,14 +642,32 @@ class ProjectTemplate {
 
     formatCategoryName(category) {
         const names = {
-            'ai': 'Inteligencia Artificial',
-            'robotics': 'Robótica',
-            'computer_vision': 'Visión Computacional',
-            'development': 'Desarrollo',
-            'hardware': 'Hardware',
-            'cloud': 'Cloud Computing'
+            es: {
+                'ai': 'Inteligencia Artificial',
+                'robotics': 'Robotica',
+                'computer_vision': 'Vision Computacional',
+                'development': 'Desarrollo',
+                'hardware': 'Hardware',
+                'cloud': 'Cloud Computing'
+            },
+            en: {
+                'ai': 'Artificial Intelligence',
+                'robotics': 'Robotics',
+                'computer_vision': 'Computer Vision',
+                'development': 'Development',
+                'hardware': 'Hardware',
+                'cloud': 'Cloud Computing'
+            },
+            de: {
+                'ai': 'Kunstliche Intelligenz',
+                'robotics': 'Robotik',
+                'computer_vision': 'Computer Vision',
+                'development': 'Entwicklung',
+                'hardware': 'Hardware',
+                'cloud': 'Cloud Computing'
+            }
         };
-        return names[category] || category.charAt(0).toUpperCase() + category.slice(1);
+        return names[this.lang][category] || category.charAt(0).toUpperCase() + category.slice(1);
     }
 
     renderAchievements() {
@@ -438,7 +683,7 @@ class ProjectTemplate {
                     <span class="achievement-type">${achievement.type}</span>
                     ${achievement.image ? `<img src="${achievement.image}" alt="${achievement.title}" class="achievement-image img-fluid" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px; margin-bottom: 1rem;">` : ''}
                     <p>${achievement.description}</p>
-                    ${achievement.link ? `<a href="${achievement.link}" target="_blank" class="achievement-link">Ver más <i class="fas fa-external-link-alt"></i></a>` : ''}
+                    ${achievement.link ? `<a href="${achievement.link}" target="_blank" class="achievement-link">${this.labels.viewMore} <i class="fas fa-external-link-alt"></i></a>` : ''}
                 </div>
             </div>`
         ).join('');
@@ -446,7 +691,7 @@ class ProjectTemplate {
 
     formatDate(dateStr) {
         const date = new Date(dateStr);
-        return date.toLocaleDateString('es-ES', { 
+        return date.toLocaleDateString(this.labels.locale, { 
             year: 'numeric', 
             month: 'long' 
         });

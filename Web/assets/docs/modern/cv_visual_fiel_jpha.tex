@@ -1,0 +1,46 @@
+% !TEX program = pdflatex
+% CV visual fiel - Jose Pablo Hernandez Alonso
+% Compilar con: pdflatex cv_visual_fiel_jpha.tex
+% Reproduce el PDF original como fondo vectorial de pagina completa.
+\documentclass{article}
+\usepackage[paperwidth=612bp,paperheight=792bp,margin=0pt]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[hidelinks,pdfborder={0 0 0}]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\hypersetup{pdfauthor={Jose Pablo Hernandez Alonso},pdftitle={CV Visual Fiel - Jose Pablo Hernandez Alonso},pdfcreator={LaTeX}}
+
+% Rectangulo invisible pero clicable: URL, x, y, width, height en puntos PDF desde esquina inferior izquierda.
+\newcommand{\linkrect}[5]{%
+  \node[anchor=south west,inner sep=0pt,outer sep=0pt] at ([xshift=#2bp,yshift=#3bp]current page.south west) {\href{#1}{\phantom{\rule{#4bp}{#5bp}}}};%
+}
+
+\begin{document}
+\mbox{}%
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt,outer sep=0pt] at (current page.south west) {\includegraphics[width=612bp,height=792bp,page=1]{assets/original_cv_jpha.pdf}};
+  \linkrect{https://congresossuj.mx/}{254.32980}{215.34326}{138.75000}{11.25000}
+  \linkrect{https://www-optica.inaoep.mx/\string~tecnologia_salud/2024/programa.php}{254.32980}{204.09326}{353.99997}{11.25000}
+  \linkrect{https://www.linkedin.com/posts/jphajp_robot-articulado-y-m\%C3\%B3vil-activity-7353272381097869313-Io7Q?utm_source=social_share_send\&utm_medium=member_desktop_web\&rcm=ACoAAD8H5u4Bg-3wHBghCpKhsOU8ABWF6zfjuew}{302.32980}{192.84326}{19.50000}{11.25000}
+  \linkrect{https://github.com/JPHAJP/Raspberry/tree/main/Interfaces/ProyectoUI}{326.32980}{192.84326}{20.25000}{11.25000}
+  \linkrect{https://repositorio.iberopuebla.mx/handle/20.500.11777/5915}{351.82980}{192.84326}{19.50000}{11.25000}
+  \linkrect{https://repositorio.iberopuebla.mx/handle/20.500.11777/5221}{375.82980}{192.84326}{19.50000}{11.25000}
+  \linkrect{https://www.linkedin.com/posts/jphajp_prototipo-de-regadera-con-temporizador-para-activity-7160025958538743809-kdxj?utm_source=social_share_send\&utm_medium=member_desktop_web\&rcm=ACoAAD8H5u4Bg-3wHBghCpKhsOU8ABWF6zfjuew}{399.82980}{192.84326}{18.75000}{11.25000}
+  \linkrect{https://ieeexplore.ieee.org/document/10765997}{254.32980}{181.59326}{269.99997}{11.25000}
+  \linkrect{https://fabacademy.org/}{254.32980}{170.34326}{100.50000}{11.25000}
+  \linkrect{http://jphajp.github.io/JPHAJP}{381.96191}{699.32312}{78.52832}{19.21216}
+  \linkrect{http://jphajp.github.io/JPHAJP/\#proyectos}{396.07980}{109.67212}{60.00000}{11.25000}
+  \linkrect{http://jphajp.github.io/JPHAJP/\#proyectos}{399.18158}{25.88648}{59.25000}{11.25000}
+  \linkrect{mailto:contacto@jphajp.com}{34.74157}{436.54694}{87.00000}{11.25000}
+  \linkrect{http://jphajp.com/}{34.75525}{402.27628}{27.00000}{11.25000}
+  \linkrect{http://jphajp.com/}{61.75525}{402.27628}{17.25000}{11.25000}
+  \linkrect{http://linkedin.com/in/jphajp}{34.66125}{384.99667}{87.00000}{11.25000}
+  \linkrect{http://github.com/jphajp}{34.66125}{420.27628}{45.75000}{11.25000}
+  \linkrect{http://github.com/jphajp}{80.41125}{420.27628}{5.25000}{11.25000}
+  \linkrect{http://github.com/jphajp}{85.66125}{420.27628}{25.50000}{11.25000}
+  \linkrect{http://jphajp.github.io/JPHAJP/\#proyectos}{413.43158}{53.81506}{60.00000}{11.25000}
+  \linkrect{http://jphajp.github.io/JPHAJP/\#proyectos}{334.68158}{81.74359}{59.25000}{11.25000}
+  \linkrect{http://jphajp.github.io/JPHAJP/\#proyectos}{304.68158}{137.60065}{59.25000}{11.25000}
+\end{tikzpicture}
+\end{document}

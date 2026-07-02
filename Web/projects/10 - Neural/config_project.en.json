@@ -1,0 +1,304 @@
+{
+    "project": {
+        "title": "Ur5-Scrub-Nurse - S.I.L.V.I.A.",
+        "subtitle": "Surgical Instrument Logistics Virtual Intelligent Assistant",
+        "shortDescription": "AI-powered collaborative robot for surgical instrumentation assistance",
+        "fullDescription": "Advanced robotic system that combines multiple AI technologies to automate assistance in surgical procedures.",
+        "status": "Completed",
+        "year": "2024",
+        "duration": "16 months",
+        "team": [
+            "José Pablo Hernández Alonso"
+        ],
+        "tags": [
+            "Robótica Quirúrgica",
+            "IA/ML",
+            "Computer Vision"
+        ],
+        "repository": "https://github.com/JPHAJP/UR5_SRUB_NURSE",
+        "documentation": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/UR5%20-%20Reporte%20de%20documentaci%C3%B3n.pdf"
+    },
+    "overview": {
+        "problem": "Surgical procedures require precise and timely instrument delivery, a process prone to human error.",
+        "solution": "UR5e collaborative robot integrated with multiple AI systems for recognition, localization, and automated delivery of surgical instruments.",
+        "impact": "Significant error reduction, optimized surgical timing, and improved procedural accuracy."
+    },
+    "stats": [
+        {
+            "value": "4",
+            "label": "Integrated AI systems"
+        },
+        {
+            "value": "24+",
+            "label": "Technologies"
+        },
+        {
+            "value": "3",
+            "label": "Conferences"
+        },
+        {
+            "value": "95%",
+            "label": "Accuracy"
+        }
+    ],
+    "media": {
+        "mainVideo": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+        "videos": [
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+                "title": "Main demonstration",
+                "description": "Video showing the complete system integration in a simulated surgical environment"
+            },
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true",
+                "title": "Voice-command demonstration",
+                "description": "Video showing the system in action"
+            },
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true",
+                "title": "Glove recognition",
+                "description": "Vision system identifying gloves"
+            },
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true",
+                "title": "Surgical instrument recognition demonstration",
+                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada"
+            },
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true",
+                "title": "Glove delivery demonstration",
+                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023"
+            },
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true",
+                "title": "Tool delivery demonstration",
+                "description": "Robot control through terminal commands"
+            }
+        ],
+        "images": [
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true",
+                "alt": "Electroimán",
+                "caption": "Aditamento de electroimán para manipulación de instrumental"
+            },
+            {
+                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true",
+                "alt": "Efector final",
+                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
+            },
+            {
+                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
+                "alt": "Yolov8OBB",
+                "caption": "Pruebas tras entrenamiento de modelo de Yolov8OBB"
+            },
+            {
+                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
+                "alt": "ExpoIbero 2023",
+                "caption": "Demostración de sistema en ExpoIbero 2023"
+            },
+            {
+                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
+                "alt": "Detección de instrumental",
+                "caption": "Demostración de detección de instrumental con PyQt5"
+            },
+            {
+                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
+                "alt": "Efector final",
+                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
+            },
+            {
+                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
+                "alt": "Entrenamiento Yolov8OBB",
+                "caption": "Entrenamiento de modelo Yolov8OBB estadísticas"
+            }
+        ],
+        "diagrams": [
+            {
+                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
+                "alt": "Workflow del proyecto",
+                "title": "Arquitectura del Sistema"
+            },
+            {
+                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
+                "alt": "Pipeline de IA",
+                "title": "Flujo de Procesamiento IA"
+            }
+        ]
+    },
+    "technologies": {
+        "ai": [
+            {
+                "name": "YOLOv8 OBB",
+                "icon": "../../assets/tech-stack/yolov8-obb-8d9ddb80.webp",
+                "description": "Detección de instrumental quirúrgico"
+            },
+            {
+                "name": "Whisper",
+                "icon": "../../assets/tech-stack/whisper-987cb1aa.webp",
+                "description": "Reconocimiento de voz offline"
+            },
+            {
+                "name": "Llama3.1",
+                "icon": "../../assets/tech-stack/llama3-1-236ac760.webp",
+                "description": "Conversational assistant"
+            },
+            {
+                "name": "Google TTS",
+                "icon": "../../assets/tech-stack/google-tts-23989420.webp",
+                "description": "Text-to-Speech"
+            }
+        ],
+        "robotics": [
+            {
+                "name": "UR-RTDE",
+                "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
+                "description": "Comunicación en tiempo real con el robot"
+            },
+            {
+                "name": "UR-Script",
+                "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
+                "description": "Programación del robot"
+            }
+        ],
+        "computer_vision": [
+            {
+                "name": "Intel RealSense",
+                "icon": "../../assets/tech-stack/intel-realsense-2e004e1a.webp",
+                "description": "Cámara de profundidad"
+            },
+            {
+                "name": "OpenCV",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
+                "description": "Image Processing"
+            }
+        ],
+        "development": [
+            {
+                "name": "Python",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
+                "description": "Main language"
+            },
+            {
+                "name": "Flask",
+                "icon": "../../assets/tech-stack/flask-afa316f2.webp",
+                "description": "API web"
+            },
+            {
+                "name": "PyQt5",
+                "icon": "../../assets/tech-stack/pyqt5-16f4a5cb.webp",
+                "description": "Interfaz gráfica"
+            },
+            {
+                "name": "Ollama",
+                "icon": "../../assets/tech-stack/ollama-2990b9c7.webp",
+                "description": "LLM model manager"
+            },
+            {
+                "name": "Git & GitHub",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
+                "description": "Control de versiones"
+            },
+            {
+                "name": "Jetson Nano",
+                "icon": "../../assets/tech-stack/jetson-nano-bb73c76b.webp",
+                "description": "Computadora embebida y aceleración con GPU"
+            },
+            {
+                "name": "Ubuntu",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
+                "description": "Sistema operativo"
+            },
+            {
+                "name": "Pytorch",
+                "icon": "../../assets/tech-stack/pytorch-1f3552bd.webp",
+                "description": "Framework de IA"
+            },
+            {
+                "name": "RoboFlow",
+                "icon": "../../assets/tech-stack/roboflow-6139524e.webp",
+                "description": "Gestión de datasets"
+            },
+            {
+                "name": "Cuda",
+                "icon": "../../assets/tech-stack/cuda-362cafcc.webp",
+                "description": "Entornos de desarrollo"
+            },
+            {
+                "name": "Ultralytics",
+                "icon": "../../assets/tech-stack/ultralytics-c589323d.webp",
+                "description": "Biblioteca de visión con modelos preentrenados"
+            },
+            {
+                "name": "Mysql",
+                "icon": "../../assets/tech-stack/mysql-4dc3f583.webp",
+                "description": "Gestión de bases de datos"
+            },
+            {
+                "name": "MediaPipe",
+                "icon": "../../assets/tech-stack/mediapipe-23432820.webp",
+                "description": "Biblioteca de visión con modelos preentrenados"
+            },
+            {
+                "name": "Numpy",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
+                "description": "Biblioteca para computación científica"
+            }
+        ]
+    },
+    "achievements": [
+        {
+            "title": "ExpoIbero Otoño 2023",
+            "date": "2023-11",
+            "type": "Exposición Universitaria",
+            "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
+        },
+        {
+            "title": "IEEE ICEV 2024",
+            "date": "2024-11",
+            "type": "Conferencia Internacional",
+            "description": "Presentación en la Conferencia Internacional de Ingeniería en Veracruz",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
+            "link": "https://ieeexplore.ieee.org/document/10765997",
+            "featured": true
+        },
+        {
+            "title": "CONITACS 2024",
+            "date": "2024-09",
+            "type": "Congreso",
+            "description": "Congreso Internacional de Tecnologías Avanzadas Para la Salud",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
+            "link": "https://www-optica.inaoep.mx/~tecnologia_salud/2024/"
+        },
+        {
+            "title": "ExpoIbero Otoño 2024",
+            "date": "2024-10",
+            "type": "Exposición Universitaria",
+            "description": "Exposición del sistema completo con todas las funcionalidades integradas para servicio social",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
+        }
+    ],
+    "author": {
+        "name": "José Pablo Hernández Alonso",
+        "institution": "Universidad Iberoamericana Puebla",
+        "email": "jose.hernandez@iberopuebla.mx",
+        "social": {
+            "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
+            "github": "https://github.com/JPHAJP",
+            "instagram": "https://www.instagram.com/jose_pablo_ha"
+        }
+    },
+    "settings": {
+        "theme": {
+            "primaryColor": "#1a237e",
+            "secondaryColor": "#ffffff",
+            "accentColor": "#304ffe"
+        },
+        "layout": {
+            "containerWidth": "1200px",
+            "sectionSpacing": "4rem"
+        }
+    }
+}

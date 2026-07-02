@@ -74,7 +74,6 @@
                 "title": "Demostración de entrega de herramientas",
                 "description": "Control del robot por comandos en terminal"
             }
-            
         ],
         "images": [
             {
@@ -130,118 +129,118 @@
         "ai": [
             {
                 "name": "YOLOv8 OBB",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Yolo.png?raw=true",
+                "icon": "../../assets/tech-stack/yolov8-obb-8d9ddb80.webp",
                 "description": "Detección de instrumental quirúrgico"
             },
             {
                 "name": "Whisper",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Whisper.png?raw=true",
+                "icon": "../../assets/tech-stack/whisper-987cb1aa.webp",
                 "description": "Reconocimiento de voz offline"
             },
             {
                 "name": "Llama3.1",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/llama3.1.jpg?raw=true",
+                "icon": "../../assets/tech-stack/llama3-1-236ac760.webp",
                 "description": "Asistente conversacional"
             },
             {
                 "name": "Google TTS",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/google%20tts.png?raw=true",
+                "icon": "../../assets/tech-stack/google-tts-23989420.webp",
                 "description": "Text-to-Speech"
             }
         ],
         "robotics": [
             {
                 "name": "UR-RTDE",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_rtde.png?raw=true",
+                "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
                 "description": "Comunicación en tiempo real con el robot"
             },
             {
                 "name": "UR-Script",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ur_robot.webp?raw=true",
+                "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
                 "description": "Programación del robot"
             }
         ],
         "computer_vision": [
             {
                 "name": "Intel RealSense",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/realsense.jpg?raw=true",
+                "icon": "../../assets/tech-stack/intel-realsense-2e004e1a.webp",
                 "description": "Cámara de profundidad"
             },
             {
                 "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
                 "description": "Procesamiento de imágenes"
             }
         ],
         "development": [
             {
                 "name": "Python",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/python.png?raw=true",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
                 "description": "Lenguaje principal"
             },
             {
                 "name": "Flask",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/flask.png?raw=true",
+                "icon": "../../assets/tech-stack/flask-afa316f2.webp",
                 "description": "API web"
             },
             {
                 "name": "PyQt5",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/qt5.png?raw=true",
+                "icon": "../../assets/tech-stack/pyqt5-16f4a5cb.webp",
                 "description": "Interfaz gráfica"
             },
             {
                 "name": "Ollama",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ollama.webp?raw=true",
+                "icon": "../../assets/tech-stack/ollama-2990b9c7.webp",
                 "description": "Manejador de modelos LLM"
             },
             {
                 "name": "Git & GitHub",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
                 "description": "Control de versiones"
             },
             {
                 "name": "Jetson Nano",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/jetson_nano.jpg?raw=true",
+                "icon": "../../assets/tech-stack/jetson-nano-bb73c76b.webp",
                 "description": "Computadora embebida y aceleración con GPU"
             },
             {
                 "name": "Ubuntu",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
                 "description": "Sistema operativo"
             },
             {
                 "name": "Pytorch",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/pytorch.webp?raw=true",
+                "icon": "../../assets/tech-stack/pytorch-1f3552bd.webp",
                 "description": "Framework de IA"
             },
             {
                 "name": "RoboFlow",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/roboflow.jpg?raw=true",
+                "icon": "../../assets/tech-stack/roboflow-6139524e.webp",
                 "description": "Gestión de datasets"
             },
             {
                 "name": "Cuda",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/cuda.webp?raw=true",
+                "icon": "../../assets/tech-stack/cuda-362cafcc.webp",
                 "description": "Entornos de desarrollo"
             },
             {
                 "name": "Ultralytics",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ultralytics.webp?raw=true",
+                "icon": "../../assets/tech-stack/ultralytics-c589323d.webp",
                 "description": "Biblioteca de visión con modelos preentrenados"
             },
             {
                 "name": "Mysql",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mysql.jpg?raw=true",
+                "icon": "../../assets/tech-stack/mysql-4dc3f583.webp",
                 "description": "Gestión de bases de datos"
             },
             {
                 "name": "MediaPipe",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/mediapipe.jpg?raw=true",
+                "icon": "../../assets/tech-stack/mediapipe-23432820.webp",
                 "description": "Biblioteca de visión con modelos preentrenados"
             },
             {
                 "name": "Numpy",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
                 "description": "Biblioteca para computación científica"
             }
         ]

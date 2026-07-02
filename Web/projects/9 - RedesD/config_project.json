@@ -69,69 +69,68 @@
                 "title": "Sensor de movimiento",
                 "description": "Sensor de movimiento con ESP32 para detección de presencia."
             }
-            
         ]
     },
     "technologies": {
         "development": [
             {
                 "name": "Python",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/python.png?raw=true",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
                 "description": "Lenguaje principal"
             },
             {
                 "name": "PHP",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/250px-PHP-logo.svg.png",
+                "icon": "../../assets/tech-stack/php-b1f6a034.webp",
                 "description": "API web"
             },
             {
                 "name": "HTML5 & CSS3",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png",
+                "icon": "../../assets/tech-stack/html5-css3-local.svg",
                 "description": "Desarrollo web"
             },
             {
                 "name": "JavaScript",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+                "icon": "../../assets/tech-stack/javascript-local.svg",
                 "description": "Interactividad web"
             },
             {
                 "name": "ESP32",
-                "icon": "https://www.espressif.com/sites/all/themes/espressif/logo-black.svg",
+                "icon": "../../assets/tech-stack/esp32-0f823dfa.svg",
                 "description": "Microcontrolador para IoT"
             },
             {
                 "name": "MQTT",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mqtt-hor.svg/250px-Mqtt-hor.svg.png",
+                "icon": "../../assets/tech-stack/mqtt-local.svg",
                 "description": "Protocolo de mensajería"
             },
             {
                 "name": "Git & GitHub",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
                 "description": "Control de versiones"
             },
             {
                 "name": "Firebase",
-                "icon": "https://www.gstatic.com/devrel-devsite/prod/v5460c633fd1ad4a595c7768c5f9ad1c686621a7060717ae56fbd5e2f0e851090/firebase/images/lockup.svg",
+                "icon": "../../assets/tech-stack/firebase-7dec45bd.svg",
                 "description": "Base de datos en la nube"
             },
             {
                 "name": "Render",
-                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPUwjt1zmKajvyeYAh9HWl7p0WkhhV-AoePg&s",
+                "icon": "../../assets/tech-stack/render-b409388e.webp",
                 "description": "Plataforma de implementación de aplicaciones en la nube"
             },
             {
                 "name": "Flutterflow",
-                "icon": "https://yt3.googleusercontent.com/ifGefyNhaGJ2TXrybafKcNDolsx1Wxpsk4mroLuVsbCZLQhtPYuLBrjUv5JG0ZnRLDi78I-KDRQ=s900-c-k-c0x00ffffff-no-rj",
+                "icon": "../../assets/tech-stack/flutterflow-af2de90b.webp",
                 "description": "Constructor de aplicaciones visuales"
             },
             {
                 "name": "Docker",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Docker_Logo.svg/250px-Docker_Logo.svg.png",
+                "icon": "../../assets/tech-stack/docker-local.svg",
                 "description": "Plataforma de contenedorización de aplicaciones"
             },
             {
                 "name": "Wokwi",
-                "icon": "https://www.luisllamas.es/wp-content/uploads/2022/12/wowki.png",
+                "icon": "../../assets/tech-stack/wokwi-f3b3fe27.webp",
                 "description": "Simulador de microcontroladores"
             }
         ]
@@ -158,10 +157,10 @@
     },
     "settings": {
         "theme": {
-                "primaryColor": "#e91e63",
-                "secondaryColor": "#f8bbd0",
-                "accentColor": "#ff4081"
-            },
+            "primaryColor": "#e91e63",
+            "secondaryColor": "#f8bbd0",
+            "accentColor": "#ff4081"
+        },
         "layout": {
             "containerWidth": "1200px",
             "sectionSpacing": "4rem"

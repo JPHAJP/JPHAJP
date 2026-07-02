@@ -84,7 +84,6 @@
                 "title": "Trayectoria M 2",
                 "description": "Se presenta el video de la simulación para una trayectoria de M."
             }
-            
         ],
         "images": [
             {
@@ -113,7 +112,7 @@
         "development": [
             {
                 "name": "Python",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/python.png?raw=true",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
                 "description": "Lenguaje principal"
             },
             {
@@ -123,32 +122,32 @@
             },
             {
                 "name": "Robotics Toolbox",
-                "icon": "https://github.com/petercorke/robotics-toolbox-python/raw/master/docs/figs/RobToolBox_RoundLogoB.png",
+                "icon": "../../assets/tech-stack/robotics-toolbox-d90ac70b.webp",
                 "description": "Biblioteca de robótica"
             },
             {
                 "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
                 "description": "Visión computacional"
             },
             {
                 "name": "Aruco",
-                "icon": "https://aruco-gen.netlify.app/public/images/random-marker-gif.gif",
+                "icon": "../../assets/tech-stack/aruco-f44462df.gif",
                 "description": "Marcadores para visión computacional"
             },
             {
                 "name": "Git & GitHub",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
                 "description": "Control de versiones"
             },
             {
                 "name": "Jetson Nano",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/jetson_nano.jpg?raw=true",
+                "icon": "../../assets/tech-stack/jetson-nano-bb73c76b.webp",
                 "description": "Computadora embebida y aceleración con GPU"
             },
             {
                 "name": "Ubuntu",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
                 "description": "Sistema operativo"
             },
             {
@@ -158,7 +157,7 @@
             },
             {
                 "name": "Numpy",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
                 "description": "Biblioteca para computación científica"
             }
         ]

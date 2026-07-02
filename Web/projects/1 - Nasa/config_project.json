@@ -57,7 +57,6 @@
                 "title": "Orrery Web Demo",
                 "description": "Video mostrando la integración completa del sistema en el orrey web."
             }
-            
         ],
         "images": [
             {
@@ -83,59 +82,59 @@
         "ai": [
             {
                 "name": "OpenAI GPT-3",
-                "icon": "https://static.vecteezy.com/system/resources/previews/021/059/827/non_2x/chatgpt-logo-chat-gpt-icon-on-white-background-free-vector.jpg",
+                "icon": "../../assets/tech-stack/openai-gpt-3-5e567220.webp",
                 "description": "Generación y entendimiento de la matemática de movimientos orbitales en el espacio"
             },
             {
                 "name": "Claude 2",
-                "icon": "https://logo.svgcdn.com/l/claude-icon-8x.png",
+                "icon": "../../assets/tech-stack/claude-2-f4ea0523.webp",
                 "description": "Generación de código en React y three.js para el orrey web"
             }
         ],
         "development": [
             {
                 "name": "Python",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/python.png?raw=true",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
                 "description": "Lenguaje principal"
             },
             {
                 "name": "React",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+                "icon": "../../assets/tech-stack/react-local.svg",
                 "description": "Framework frontend"
             },
             {
                 "name": "Vite",
-                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4XOdTwDFjrNDoRbCH2vDqCNCKD9u8zVr_g&s",
+                "icon": "../../assets/tech-stack/vite-a49f993c.webp",
                 "description": "Entorno de desarrollo"
             },
             {
                 "name": "Three.js",
-                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUyPLMCrdBvL7byu5KkMnOssbQigrkiRxZw&s",
+                "icon": "../../assets/tech-stack/three-js-8de94a40.webp",
                 "description": "Manejador de modelos 3D"
             },
             {
                 "name": "Git & GitHub",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
                 "description": "Control de versiones"
             },
             {
                 "name": "Pandas",
-                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCpCB6Du8H6Lrm5WIbDcdW59uqoSiL-eeTlw&s",
+                "icon": "../../assets/tech-stack/pandas-83c2917b.webp",
                 "description": "Computadora embebida y aceleración con GPU"
             },
             {
                 "name": "Figma",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+                "icon": "../../assets/tech-stack/figma-14f87e27.svg",
                 "description": "Sistema operativo"
             },
             {
                 "name": "Tailwind CSS",
-                "icon": "https://www.svgrepo.com/show/374118/tailwind.svg",
+                "icon": "../../assets/tech-stack/tailwind-css-8a0fbee1.svg",
                 "description": "Framework de IA"
             },
             {
                 "name": "Numpy",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
                 "description": "Biblioteca para computación científica"
             }
         ]

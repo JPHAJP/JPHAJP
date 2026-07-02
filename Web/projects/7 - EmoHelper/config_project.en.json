@@ -1,0 +1,162 @@
+{
+    "project": {
+        "title": "EmoHelper",
+        "subtitle": "Emotional assistant",
+        "shortDescription": "An AI system to improve the user experience with AI.",
+        "fullDescription": "EmoHelper is an AI-based emotional assistant.",
+        "status": "Completed",
+        "year": "2023",
+        "duration": "1 month",
+        "team": [
+            "José Pablo Hernández Alonso"
+        ],
+        "tags": [
+            "IA/ML",
+            "Computer Vision",
+            "API Management"
+        ],
+        "repository": "https://github.com/JPHAJP/proyecto_tec_emergentes/",
+        "documentation": "./EmoHelper.pdf"
+    },
+    "overview": {
+        "problem": "Users want a more human experience when interacting with AI systems.",
+        "solution": "EmoHelper uses natural language processing and machine learning techniques to provide more empathetic and contextual responses.",
+        "impact": "Improves user satisfaction and the effectiveness of AI interactions."
+    },
+    "stats": [
+        {
+            "value": "3",
+            "label": "Integrated AI systems"
+        },
+        {
+            "value": "20+",
+            "label": "Technologies"
+        },
+        {
+            "value": "1",
+            "label": "Conferences"
+        }
+    ],
+    "media": {
+        "mainVideo": "./EmoHelper.mp4",
+        "videos": [
+            {
+                "src": "./EmoHelper.mp4",
+                "title": "Main demonstration",
+                "description": "Video showing the complete system integration in a simulated surgical environment"
+            }
+        ]
+    },
+    "technologies": {
+        "ai": [
+            {
+                "name": "OpenAI",
+                "icon": "../../assets/tech-stack/openai-d5fb32eb.webp",
+                "description": "OpenAI API for language models"
+            },
+            {
+                "name": "Llama3.1",
+                "icon": "../../assets/tech-stack/llama3-1-236ac760.webp",
+                "description": "Conversational assistant"
+            }
+        ],
+        "development": [
+            {
+                "name": "Python",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
+                "description": "Main language"
+            },
+            {
+                "name": "Ollama",
+                "icon": "../../assets/tech-stack/ollama-2990b9c7.webp",
+                "description": "LLM model manager"
+            },
+            {
+                "name": "OpenCV",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
+                "description": "Image Processing"
+            },
+            {
+                "name": "Git & GitHub",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
+                "description": "Control de versiones"
+            },
+            {
+                "name": "Ubuntu",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
+                "description": "Sistema operativo"
+            },
+            {
+                "name": "Pytorch",
+                "icon": "../../assets/tech-stack/pytorch-1f3552bd.webp",
+                "description": "Framework de IA"
+            },
+            {
+                "name": "RoboFlow",
+                "icon": "../../assets/tech-stack/roboflow-6139524e.webp",
+                "description": "Gestión de datasets"
+            },
+            {
+                "name": "Cuda",
+                "icon": "../../assets/tech-stack/cuda-362cafcc.webp",
+                "description": "Entornos de desarrollo"
+            },
+            {
+                "name": "Ultralytics",
+                "icon": "../../assets/tech-stack/ultralytics-c589323d.webp",
+                "description": "Biblioteca de visión con modelos preentrenados"
+            },
+            {
+                "name": "Scikit-learn",
+                "icon": "../../assets/tech-stack/scikit-learn-local.svg",
+                "description": "Biblioteca para aprendizaje automático"
+            },
+            {
+                "name": "Gradio",
+                "icon": "../../assets/tech-stack/gradio-041bbddb.svg",
+                "description": "Interfaz web para modelos de ML"
+            },
+            {
+                "name": "Numpy",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
+                "description": "Biblioteca para computación científica"
+            },
+            {
+                "name": "Docker",
+                "icon": "../../assets/tech-stack/docker-local.svg",
+                "description": "Contenedorización de aplicaciones"
+            }
+        ]
+    },
+    "achievements": [
+        {
+            "title": "ExpoIbero Primavera 2023",
+            "date": "2023-06",
+            "type": "Exposición Universitaria",
+            "description": "Exposición del sistema del sistema ExpoIbero 2023",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "link": "https://github.com/JPHAJP/proyecto_tec_emergentes/"
+        }
+    ],
+    "author": {
+        "name": "José Pablo Hernández Alonso",
+        "institution": "Universidad Iberoamericana Puebla",
+        "email": "josepablo.hernandez@iberopuebla.mx",
+        "social": {
+            "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
+            "github": "https://github.com/JPHAJP",
+            "instagram": "https://www.instagram.com/jose_pablo_ha"
+        }
+    },
+    "settings": {
+        "theme": {
+            "primaryColor": "#1a237e",
+            "secondaryColor": "#ffffff",
+            "accentColor": "#304ffe"
+        },
+        "layout": {
+            "containerWidth": "1200px",
+            "sectionSpacing": "4rem"
+        }
+    }
+}

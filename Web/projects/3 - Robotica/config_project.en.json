@@ -1,0 +1,196 @@
+{
+    "project": {
+        "title": "Robot articulado y móvil autónomo",
+        "subtitle": "Clase de Robótica Aplicada",
+        "shortDescription": "Desarrollo de un robot articulado y un robot móvil autónomo con cálculo de dinámica de robot y control avanzado.",
+        "fullDescription": "Proyecto de construcción de un robot articulado y un robot móvil autónomo, enfocado en el cálculo de la dinámica del robot y el control avanzado para la clase de Robótica Aplicada.",
+        "status": "Completed",
+        "year": "2025",
+        "duration": "4 months",
+        "team": [
+            "José Pablo Hernández Alonso",
+            "Dirk Anton Topcic Martínez",
+            "Alejandro Flores García",
+            "Samuel Villanueva"
+        ],
+        "tags": [
+            "Robótica Industrial",
+            "Robótica Móvil",
+            "IA/ML",
+            "Computer Vision"
+        ],
+        "repository": "https://jphajp.github.io/Robotica/index.html",
+        "documentation": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Presentaci%C3%B3n%20Final%20D.%20Elementos%20de%20m%C3%A1quina.pdf"
+    },
+    "overview": {
+        "problem": "La necesidad de desarrollar soluciones robóticas avanzadas para aplicaciones industriales y de servicio, que integren múltiples tecnologías para mejorar la eficiencia y precisión en tareas complejas.",
+        "solution": "Desarrollo de un sistema robótico que combina un robot articulado con un robot móvil autónomo, utilizando inteligencia artificial para seguimiento de objetos.",
+        "impact": "El proyecto demuestra la viabilidad de integrar tecnologías avanzadas en robótica para aplicaciones prácticas, mejorando la automatización y eficiencia en entornos industriales y de servicio."
+    },
+    "stats": [
+        {
+            "value": "12+",
+            "label": "Technologies"
+        },
+        {
+            "value": "1",
+            "label": "Exposición"
+        },
+        {
+            "value": "80%",
+            "label": "Accuracy"
+        }
+    ],
+    "media": {
+        "mainVideo": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true",
+        "videos": [
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true",
+                "title": "Main demonstration",
+                "description": "Video mostrando la integración del robot móvil autónomo con el robot articulado para la manipulación de objetos."
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V2.mp4?raw=true",
+                "title": "Demostración de robot móvil autónomo",
+                "description": "Video mostrando el sistema en acción."
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Avance_07-04-25.mp4?raw=true",
+                "title": "Simulación de robot en SolidWorks",
+                "description": "Video mostrando la simulación del robot en SolidWorks."
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/worksapce.mp4?raw=true",
+                "title": "Espacio de trabajo de robot",
+                "description": "Se presenta el video de la simulación del espacio de trabajo."
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Circulo.mp4?raw=true",
+                "title": "Trayectoria circular",
+                "description": "Se presenta el video de la simulación de trayectoria circular."
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Cubo.mp4?raw=true",
+                "title": "Trayectoria de un cubo",
+                "description": "Se presenta el video de la simulación para una trayectoria de un cubo."
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M.mp4?raw=true",
+                "title": "Trayectoria M",
+                "description": "Se presenta el video de la simulación para una trayectoria de M."
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M2.mp4?raw=true",
+                "title": "Trayectoria M 2",
+                "description": "Se presenta el video de la simulación para una trayectoria de M."
+            }
+        ],
+        "images": [
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im4.jpg?raw=true",
+                "alt": "Robot completo",
+                "caption": "Robot móvil autónomo con robot articulado"
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im1.jpg?raw=true",
+                "alt": "Render de prototipo en SolidWorks",
+                "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im2.jpg?raw=true",
+                "alt": "Render de prototipo en SolidWorks",
+                "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
+            },
+            {
+                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im3.jpg?raw=true",
+                "alt": "Render de prototipo en SolidWorks",
+                "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
+            }
+        ]
+    },
+    "technologies": {
+        "development": [
+            {
+                "name": "Python",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
+                "description": "Main language"
+            },
+            {
+                "name": "SolidWorks",
+                "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAfCAMAAACxiD++AAAAM1BMVEVHcEzjPD7mPkDmPkDmPkDmP0HmP0HmP0HmP0HmPkHlPkDlPkDjOz3kPT/lPkDmPkDmPkAdDQWWAAAAEXRSTlMAFl2GxNj0/+ixcDIMI0aWpOuWI7UAAAEJSURBVHgBfZIBigQhDASjGiuOruP/X3snys4J5xRAgkFidysPzoeoCSxfTv7D68AAUpET9dMCEOWNC1TeuKHLCw74yJka4XqfE+SM0/f7xUhezgTodezxParGHHzd1mdiG403Frtjfo7lkyDdvpVf3MFJ/C6tXT2qabz9cKjBrrQoX1KoIgq2eVnawAcFuEXaMc+SwNx8RZaN7GcBq7MS9oSLDOJKuuqupNG/DpTZGasdOGMa8ifJApgs+joOoJtdYS0gzfkuP4HW1V3rp6iTB5uSRQKjNoNcxZVSmvdXyAbc6+VZSoZ0zc0PuS5vkgLdTUXNh7vn3GdwUw6QixzogPUiR8x6q3LmBxNICz3Z7y7aAAAAAElFTkSuQmCC",
+                "description": "Diseño y simulación CAD"
+            },
+            {
+                "name": "Robotics Toolbox",
+                "icon": "../../assets/tech-stack/robotics-toolbox-d90ac70b.webp",
+                "description": "Biblioteca de robótica"
+            },
+            {
+                "name": "OpenCV",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
+                "description": "Visión computacional"
+            },
+            {
+                "name": "Aruco",
+                "icon": "../../assets/tech-stack/aruco-f44462df.gif",
+                "description": "Marcadores para visión computacional"
+            },
+            {
+                "name": "Git & GitHub",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
+                "description": "Control de versiones"
+            },
+            {
+                "name": "Jetson Nano",
+                "icon": "../../assets/tech-stack/jetson-nano-bb73c76b.webp",
+                "description": "Computadora embebida y aceleración con GPU"
+            },
+            {
+                "name": "Ubuntu",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
+                "description": "Sistema operativo"
+            },
+            {
+                "name": "ROS Noetic",
+                "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAclBMVEX+/v7////d4OWutMGnrbvP09ry8/W8wcyhqLfHzNXm6OxLWXYuPl8sPV88S2prdo4zQ2Tu7/KRmqz5+fphbYcqOlybo7MiM1YpOVtEUnGts8FcaIOJk6XV2N96hZodLlL6+vuGkKMhMlUfMFJncooXKE3F934IAAAB1klEQVR4AaWSQZKDIBBFARWjNIIxBIxREJP7X3FoyLjIYjbTVeiv9lnYTwihNC+KVSLmcicEA6vqBnsp8/bScpp50l2qnpJUnQA5XAgiXIHUaszsVUsQTSKmm9EaNKOp7lZrbS7Idi5FuHFK+CxTtA8EFoeAmlJ8Iqvn9QRaBBR23YbA3WeAURJ2D2DFiEDnDBjZ4hb9YEHaHafgu4aFUeySapZzVSZeF6n3CcegdOxPD1MfTg89x0gwn8+/Y1l/FgKn6K94rjD200c14T1P1xJZX75x3AZ9a8pfqoSeL1NmOwF6G1H1Fo359WCcdCbPybSVxm4BTToAGYvJAwBcVn3FCAP7AOAfCLwiAi8Enj4DK01/M3UtMAQePqmOV9yicS61X+iqEYeHupyHzXqrRopVwxEXll2ObcU+Y4am7kKJpG+7iRbZp1DyD9V/AOQEz42+Xg+1mPc+Z7IqoVh5wq9iabFH7j7a941jewUf/bBiDMs7Hv5O0WQ0xvkum/TSyOOJg1Zvk9pZ9WBTfNcIiJjioYpqBKBLgIjOONsgoDwCWXXrXQLmHs+APHzcAnbZ4A8vGM1wiqbOTrt9q3j59PWprr9T1GrrSDn2IXyEpzidx5xMAW8/eo0h8n9tQQUAAAAASUVORK5CYII=",
+                "description": "Sistema operativo para robots"
+            },
+            {
+                "name": "Numpy",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
+                "description": "Biblioteca para computación científica"
+            }
+        ]
+    },
+    "achievements": [
+        {
+            "title": "ExpoIbero Primavera 2025",
+            "date": "2025-06",
+            "type": "Exposición Universitaria",
+            "description": "",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "link": "./All Robot.pdf"
+        }
+    ],
+    "author": {
+        "name": "José Pablo Hernández Alonso",
+        "institution": "Universidad Iberoamericana Puebla",
+        "email": "josepablo.hernandez@iberopuebla.mx",
+        "social": {
+            "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
+            "github": "https://github.com/JPHAJP",
+            "instagram": "https://www.instagram.com/jose_pablo_ha"
+        }
+    },
+    "settings": {
+        "theme": {
+            "primaryColor": "#7f0000",
+            "secondaryColor": "#ffffff",
+            "accentColor": "#a31515"
+        },
+        "layout": {
+            "containerWidth": "1200px",
+            "sectionSpacing": "4rem"
+        }
+    }
+}

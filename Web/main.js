@@ -1,8 +1,13 @@
 // Inicialización AOS (Animate on Scroll)
 document.addEventListener('DOMContentLoaded', function () {
+    const i18n = window.JPHA_I18N;
+    const t = (key) => i18n ? i18n.t(key) : key;
+
     // Control de la animación de entrada
     const body = document.body;
     const appleIntro = document.getElementById('apple-intro');
+
+    if (!appleIntro) return;
 
     // Agregar clase para ocultar contenido durante la intro
     body.classList.add('intro-active');
@@ -17,21 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const navbar = document.querySelector('.navbar');
         navbar.classList.add('scrolled');
 
-        // Scroll suave a la sección sobre-mi después de que termine la animación
-        setTimeout(() => {
-            const sobreMiSection = document.getElementById('sobre-mi');
-            const navbarHeight = document.querySelector('.navbar').offsetHeight;
-            const targetPosition = sobreMiSection.offsetTop - navbarHeight - 0; // 20px extra para mejor posicionamiento
-            
-            window.scrollTo({
-                top: targetPosition,
-                behavior: 'smooth'
-            });
-        }, 800);
     }
 
-    // Finalizar la intro automáticamente después de 4 segundos
-    setTimeout(finishIntro, 4000);
+    // Finalizar la intro rapidamente para no bloquear el contenido principal.
+    setTimeout(finishIntro, 900);
 
     // También permitir saltar la intro haciendo clic o presionando cualquier tecla
     appleIntro.addEventListener('click', finishIntro);
@@ -108,20 +102,20 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }).then(function (response) {
             if (response.ok) {
-                document.getElementById('responseMessage').innerHTML = "<div class='alert alert-success'>Mensaje enviado correctamente. ¡Gracias!</div>";
+                document.getElementById('responseMessage').innerHTML = "<div class='alert alert-success'>" + t('formSuccess') + "</div>";
                 form.reset();
             } else {
                 response.json().then(function (data) {
                     if (Object.hasOwn(data, 'errors')) {
                         document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>Error: " + data["errors"].map(error => error["message"]).join(", ") + "</div>";
                     } else {
-                        document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>Ha ocurrido un error. Inténtalo de nuevo.</div>";
+                        document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>" + t('formGenericError') + "</div>";
                     }
                 });
             }
         }).catch(function (error) {
             console.error('Error al enviar:', error);
-            document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>Ocurrió un error. Inténtalo de nuevo.</div>";
+            document.getElementById('responseMessage').innerHTML = "<div class='alert alert-danger'>" + t('formNetworkError') + "</div>";
         });
     });
 

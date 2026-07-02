@@ -1,0 +1,224 @@
+{
+    "project": {
+        "title": "Sistema SCADA",
+        "subtitle": "Sistema de Control y Adquisición de Datos para procesos industriales",
+        "shortDescription": "Sistema SCADA para la supervisión y control de procesos industriales.",
+        "fullDescription": "Sistema SCADA avanzado que combina múltiples tecnologías para la supervisión y control de procesos industriales.",
+        "status": "Completed",
+        "year": "2025",
+        "duration": "4 months",
+        "team": [
+            "José Pablo Hernández Alonso"
+        ],
+        "tags": [
+            "Robotics",
+            "Automation",
+            "Process Control",
+            "SCADA",
+            "PLC",
+            "IoT",
+            "SIEMENS",
+            "Industry 4.0",
+            "HMI",
+            "API REST",
+            "Rapid Prototyping",
+            "OPC"
+        ],
+        "repository": "https://jphajp.github.io/Simens_PLC_Comms/",
+        "documentation": "./Desarrollo de Sistema estilo SCADA para procesos industriales_presentación.pdf"
+    },
+    "overview": {
+        "problem": "Las plataformas SCADA comerciales suelen ser costosas y difíciles de personalizar para necesidades específicas de pequeñas y medianas empresas.",
+        "solution": "Desarrollo de una plataforma SCADA personalizada y de código abierto que se adapte a las necesidades específicas de cada cliente.",
+        "impact": "Facilitar el acceso a soluciones SCADA avanzadas para empresas de todos los tamaños, mejorando la eficiencia y reduciendo costos."
+    },
+    "stats": [
+        {
+            "value": "21+",
+            "label": "Technologies"
+        },
+        {
+            "value": "2",
+            "label": "Conferences"
+        },
+        {
+            "value": "4",
+            "label": "Months of development"
+        },
+        {
+            "value": "5K+",
+            "label": "Lines of code"
+        }
+    ],
+    "media": {
+        "mainVideo": "./video_scada.mp4",
+        "videos": [
+            {
+                "src": "./video_scada.mp4",
+                "title": "Main demonstration",
+                "description": "Video mostrando la integración completa del sistema SCADA para control y monitoreo de procesos industriales."
+            },
+            {
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V3.mp4?raw=true",
+                "title": "PLC 1",
+                "description": "Control de empacadora con motor y varidor de frecuencia."
+            },
+            {
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V4.mp4?raw=true",
+                "title": "PLC 2",
+                "description": "Control de banda transportadora con control de dirección."
+            },
+            {
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V5.mp4?raw=true",
+                "title": "PLC 3",
+                "description": "Control de revolvedora con pistones neumáticos"
+            },
+            {
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V6.mp4?raw=true",
+                "title": "Robot UR5e",
+                "description": "Seguimiento de rutina de puntos."
+            }
+        ],
+        "images": [
+            {
+                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/dashbord.png?raw=true",
+                "alt": "UI SCADA Web",
+                "caption": "Interfaz web del sistema SCADA para monitoreo y control de procesos industriales"
+            }
+        ]
+    },
+    "technologies": {
+        "development": [
+            {
+                "name": "Python",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
+                "description": "Main language"
+            },
+            {
+                "name": "Flask",
+                "icon": "../../assets/tech-stack/flask-afa316f2.webp",
+                "description": "API web"
+            },
+            {
+                "name": "OpenCV",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
+                "description": "Image Processing"
+            },
+            {
+                "name": "UR-RTDE",
+                "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
+                "description": "Comunicación en tiempo real con el robot"
+            },
+            {
+                "name": "UR-Script",
+                "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
+                "description": "Programación del robot"
+            },
+            {
+                "name": "Siemens TIA Portal",
+                "icon": "../../assets/tech-stack/siemens-tia-portal-70e3b32d.webp",
+                "description": "Programación de PLCs Siemens"
+            },
+            {
+                "name": "HTML5 & CSS3",
+                "icon": "../../assets/tech-stack/html5-css3-local.svg",
+                "description": "Desarrollo web"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "../../assets/tech-stack/javascript-local.svg",
+                "description": "Interactividad web"
+            },
+            {
+                "name": "REST API",
+                "icon": "../../assets/tech-stack/rest-api-46a628c0.webp",
+                "description": "Comunicación entre sistemas"
+            },
+            {
+                "name": "Git & GitHub",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
+                "description": "Control de versiones"
+            },
+            {
+                "name": "Ubuntu",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
+                "description": "Sistema operativo"
+            },
+            {
+                "name": "Mysql",
+                "icon": "../../assets/tech-stack/mysql-4dc3f583.webp",
+                "description": "Gestión de bases de datos"
+            },
+            {
+                "name": "OPC UA",
+                "icon": "../../assets/tech-stack/opc-ua-9f58724c.webp",
+                "description": "Protocolo de comunicación industrial"
+            },
+            {
+                "name": "Profinet",
+                "icon": "../../assets/tech-stack/profinet-cd825ac8.webp",
+                "description": "Protocolo de comunicación industrial"
+            },
+            {
+                "name": "Ethernet/IP",
+                "icon": "../../assets/tech-stack/ethernet-ip-a19dc79a.webp",
+                "description": "Protocolo de comunicación industrial"
+            },
+            {
+                "name": "Numpy",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
+                "description": "Biblioteca para computación científica"
+            },
+            {
+                "name": "Snap7",
+                "icon": "../../assets/tech-stack/snap7-4171335e.webp",
+                "description": "Comunicaciones industriales"
+            },
+            {
+                "name": "Qrcode",
+                "icon": "../../assets/tech-stack/qrcode-0d8c012f.svg",
+                "description": "Generación de códigos QR"
+            }
+        ]
+    },
+    "achievements": [
+        {
+            "title": "ExpoIbero Primavera 2025",
+            "date": "2025-06",
+            "type": "Exposición Universitaria",
+            "description": "Exposición del sistema completo, con conexión remota y monitoreo en tiempo real.",
+            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "link": "./All SCADA.pdf"
+        },
+        {
+            "title": "Congreso SUJ 2025 Ibero León",
+            "date": "2025-07",
+            "type": "Conferencia Internacional",
+            "description": "Presentación en la Conferencia Internacional de Estudiantes de Ingeniería SUJ 2025 en la Universidad Iberoamericana León.",
+            "image": "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg",
+            "link": "https://www.iberoleon.mx/articulo/2-Congreso-de-Ingenierias-de-Estudiantes-SUJ-celebracion-del-conocimiento-compromiso-y-vocacion",
+            "featured": true
+        }
+    ],
+    "author": {
+        "name": "José Pablo Hernández Alonso",
+        "institution": "Universidad Iberoamericana Puebla",
+        "email": "josepablo.hernandez@iberopuebla.mx",
+        "social": {
+            "linkedin": "https://mx.linkedin.com/in/josé-pablo-hernández-alonso-03a195256",
+            "github": "https://github.com/JPHAJP",
+            "instagram": "https://www.instagram.com/jose_pablo_ha"
+        }
+    },
+    "settings": {
+        "theme": {
+            "primaryColor": "#311B92",
+            "secondaryColor": "#F3E5F5",
+            "accentColor": "#512DA8"
+        },
+        "layout": {
+            "containerWidth": "1200px",
+            "sectionSpacing": "4rem"
+        }
+    }
+}

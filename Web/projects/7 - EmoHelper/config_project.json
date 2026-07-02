@@ -51,79 +51,79 @@
         "ai": [
             {
                 "name": "OpenAI",
-                "icon": "https://rapidapi.com/hub/_next/image?url=https%3A%2F%2Frapidapi-prod-apis.s3.amazonaws.com%2Fbb20be6a-7a09-41ec-b41b-acc698c863d7.png&w=3840&q=75",
+                "icon": "../../assets/tech-stack/openai-d5fb32eb.webp",
                 "description": "API de OpenAI para modelos de lenguaje"
             },
             {
                 "name": "Llama3.1",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/llama3.1.jpg?raw=true",
+                "icon": "../../assets/tech-stack/llama3-1-236ac760.webp",
                 "description": "Asistente conversacional"
             }
         ],
         "development": [
             {
                 "name": "Python",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/python.png?raw=true",
+                "icon": "../../assets/tech-stack/python-c2639b03.webp",
                 "description": "Lenguaje principal"
             },
             {
                 "name": "Ollama",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ollama.webp?raw=true",
+                "icon": "../../assets/tech-stack/ollama-2990b9c7.webp",
                 "description": "Manejador de modelos LLM"
             },
             {
                 "name": "OpenCV",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/opencv.png?raw=true",
+                "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
                 "description": "Procesamiento de imágenes"
             },
             {
                 "name": "Git & GitHub",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/git_github.png?raw=true",
+                "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
                 "description": "Control de versiones"
             },
             {
                 "name": "Ubuntu",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ubuntu.png?raw=true",
+                "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
                 "description": "Sistema operativo"
             },
             {
                 "name": "Pytorch",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/pytorch.webp?raw=true",
+                "icon": "../../assets/tech-stack/pytorch-1f3552bd.webp",
                 "description": "Framework de IA"
             },
             {
                 "name": "RoboFlow",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/roboflow.jpg?raw=true",
+                "icon": "../../assets/tech-stack/roboflow-6139524e.webp",
                 "description": "Gestión de datasets"
             },
             {
                 "name": "Cuda",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/cuda.webp?raw=true",
+                "icon": "../../assets/tech-stack/cuda-362cafcc.webp",
                 "description": "Entornos de desarrollo"
             },
             {
                 "name": "Ultralytics",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ultralytics.webp?raw=true",
+                "icon": "../../assets/tech-stack/ultralytics-c589323d.webp",
                 "description": "Biblioteca de visión con modelos preentrenados"
             },
             {
                 "name": "Scikit-learn",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png",
+                "icon": "../../assets/tech-stack/scikit-learn-local.svg",
                 "description": "Biblioteca para aprendizaje automático"
             },
             {
                 "name": "Gradio",
-                "icon": "https://www.gradio.app/_app/immutable/assets/gradio.CHB5adID.svg",
+                "icon": "../../assets/tech-stack/gradio-041bbddb.svg",
                 "description": "Interfaz web para modelos de ML"
             },
             {
                 "name": "Numpy",
-                "icon": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/numpy.png?raw=true",
+                "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
                 "description": "Biblioteca para computación científica"
             },
             {
                 "name": "Docker",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Docker_Logo.svg/250px-Docker_Logo.svg.png",
+                "icon": "../../assets/tech-stack/docker-local.svg",
                 "description": "Contenedorización de aplicaciones"
             }
         ]
