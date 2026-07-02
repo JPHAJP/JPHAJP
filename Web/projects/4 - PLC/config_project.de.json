@@ -25,7 +25,7 @@
             "OPC"
         ],
         "repository": "https://jphajp.github.io/Simens_PLC_Comms/",
-        "documentation": "./Desarrollo de Sistema estilo SCADA para procesos industriales_presentación.pdf"
+        "documentation": "./desarrollo-sistema-scada-procesos-industriales-presentacion.pdf"
     },
     "overview": {
         "problem": "Commercial SCADA platforms are often expensive and difficult to customize for the specific needs of small and midsize companies.",
