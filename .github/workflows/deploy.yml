@@ -29,8 +29,22 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
         
+      - name: Compile LaTeX CVs
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: |
+            cv_ats_moderno_jpha.tex
+            cv_ats_moderno_jpha_en.tex
+            cv_ats_moderno_jpha_de.tex
+          working_directory: 'Web/assets/docs/modern/'
+
       - name: Prepare site directory
         run: |
+          # Copy compiled ATS PDFs to their web-serving names
+          cp Web/assets/docs/modern/cv_ats_moderno_jpha.pdf Web/assets/docs/modern/cv-jose-pablo-hernandez-alonso-ats.pdf
+          cp Web/assets/docs/modern/cv_ats_moderno_jpha_en.pdf Web/assets/docs/modern/cv-jose-pablo-hernandez-alonso-ats-en.pdf
+          cp Web/assets/docs/modern/cv_ats_moderno_jpha_de.pdf Web/assets/docs/modern/cv-jose-pablo-hernandez-alonso-ats-de.pdf
+          
           mkdir _site
           cp index.html _site/
           cp -r de _site/

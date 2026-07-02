@@ -1,0 +1,121 @@
+% CV ATS moderno - Jose Pablo Hernandez Alonso (German Version)
+% Compiled with: pdflatex cv_ats_moderno_jpha_de.tex
+\documentclass[10pt,letterpaper]{article}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[german]{babel}
+\usepackage[letterpaper,margin=0.58in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage[default]{sourcesanspro}
+\usepackage{titlesec}
+
+\definecolor{navy}{HTML}{1B1A43}
+\definecolor{accent}{HTML}{37B99C}
+\definecolor{text}{HTML}{24283D}
+\definecolor{muted}{HTML}{5C6175}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=navy,
+  linkcolor=navy,
+  pdfauthor={Jose Pablo Hernandez Alonso},
+  pdftitle={CV ATS Modern - Jose Pablo Hernandez Alonso}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.2pt}
+\renewcommand{\familydefault}{\sfdefault}
+\setlist[itemize]{leftmargin=0.18in, topsep=2pt, itemsep=1.5pt, parsep=0pt, partopsep=0pt}
+\newcommand{\sectionline}{\vspace{-2pt}\textcolor{accent}{\rule{\linewidth}{0.8pt}}\vspace{1pt}}
+\newcommand{\cvsection}[1]{\vspace{5pt}{\large\bfseries\textcolor{navy}{#1}}\par\sectionline}
+\newcommand{\entry}[3]{\textbf{#1} \textcolor{muted}{| #2}\par\textit{#3}\par}
+\newcommand{\projectlink}[1]{\href{#1}{Projekt anzeigen}}
+\newcommand{\eventlink}[2]{\href{#1}{#2}}
+
+\begin{document}
+\color{text}
+
+% Header ATS-friendly
+{\Huge\bfseries\textcolor{navy}{Jos\'{e} Pablo Hern\'{a}ndez Alonso}}\par
+{\large\bfseries Mecatronic-Ingenieur spezialisiert auf K\"{u}nstliche Intelligenz, Robotik und IoT}\par
+\vspace{2pt}
+Puebla, Mexiko \; | \; \href{mailto:contacto@jphajp.com}{contacto@jphajp.com} \; | \; \href{https://jphajp.com/}{jphajp.com} \; | \; \href{https://jphajp.github.io/JPHAJP/}{Portfolio} \; | \; \href{https://www.linkedin.com/in/jphajp}{linkedin.com/in/jphajp} \; | \; \href{https://github.com/JPHAJP}{github.com/JPHAJP}
+\par\vspace{3pt}\textcolor{accent}{\rule{\linewidth}{1.8pt}}
+
+\cvsection{Berufsprofil}
+Mecatronic-Ingenieur mit einer Leidenschaft f\"{u}r Technologie, Innovation und Design. Experte in der Entwicklung intelligenter Systeme, Robotikl\"{o}sungen und industrieller Anwendungen mit K\"{u}nstlicher Intelligenz, IoT und fortgeschrittener Programmierung. F\"{a}higkeit zur Leitung technologischer Projekte und zur L\"{o}sung komplexer Probleme in Industrie- und Handelssektoren.
+
+\cvsection{Technische Kompetenzen}
+\begin{itemize}
+  \item \textbf{Programmierung:} Python, C++, C, JavaScript, React, PHP, HTML, CSS, VHDL, Verilog, Bash.
+  \item \textbf{KI \& Machine Learning:} YOLO, Scikit-learn, TensorFlow, PyTorch, Mediapipe, OpenCV, n8n AI Agents, Stable Diffusion, LLMs, ChatGPT, Claude, Llama, Grok, DeepSeek.
+  \item \textbf{Robotik \& Automatisierung:} Universal Robots, KUKA, FANUC, Siemens SPS, TIA Portal, SCADA-Systeme.
+  \item \textbf{Embedded Systems \& IoT:} Raspberry Pi, NVIDIA Jetson, Arduino, ESP32, FPGA, Sensoren und Aktuatoren.
+  \item \textbf{CAD-Design \& Simulation:} SolidWorks (CSWP), Fusion 360, AutoCAD, MATLAB, CATIA, 3D-Druck, CNC, HAAS, CAM, NX.
+  \item \textbf{Zus\"{a}tzliche Tools:} Docker, Firebase, SQL, XAMPP, Flask, GitHub, AWS, CISCO, Node.js, Adobe Suite, MS Office Suite (MOS), Excel und Visual Basic.
+\end{itemize}
+
+\cvsection{Berufserfahrung}
+\entry{\href{https://www.palloranlabs.com/}{Palloranlabs Mexiko}}{2025 - Gegenwart}{Gr\"{u}nder eines Start-ups f\"{u}r Engineering-Projekte}
+\begin{itemize}
+  \item Gr\"{u}ndung und Management eines Start-ups mit Schwerpunkt auf Engineering-Projekten, Automatisierung und angewandten technologischen L\"{o}sungen.
+\end{itemize}
+
+\entry{ERP-System ALARO - KI- \& Technologie-Labor}{2023 - Gegenwart}{Entwicklung von KI-L\"{o}sungen, Automatisierung und Embedded-Systemen}
+\begin{itemize}
+  \item Entwicklung ganzheitlicher KI-L\"{o}sungen zur Optimierung von Gesch\"{a}fts- und Betriebsprozessen in Verwaltung, Superm\"{a}rkten, Transport und Logistik.
+  \item Entwurf pr\"{a}diktiver Machine-Learning-Modelle zur Verbesserung der Entscheidungsfindung.
+  \item Entwicklung digitaler Automatisierungsanwendungen mit APIs und Embedded-Systems.
+\end{itemize}
+
+\entry{Freelance-Projekte}{2017 - Gegenwart}{Webentwicklung, technischer Support und Installationen}
+\begin{itemize}
+  \item Webentwicklung und Werbekampagnen.
+  \item Installation, Diagnose und Wartung von Computer-Hardware.
+  \item Sanit\"{a}r- und Elektroinstallationen f\"{u}r Haushalte und Institutionen.
+\end{itemize}
+
+\cvsection{Herausragende akademische Projekte}
+\begin{itemize}
+  \item \textbf{\textmu{}SenseGrip} (\projectlink{https://jphajp.github.io/JPHAJP/\#proyectos}): Kommerzielles Design von Robotergreifern mit Kraftsteuerung und Internetkommunikation.
+  \item \textbf{Stable Diffusion to Gcode - UR5e} (\projectlink{https://github.com/JPHAJP/StableDiffusion_t_gcode}): Linienzeichnen mit einem UR5e-Roboter mittels G-Code, der aus KI-generierten Bildern erzeugt wurde.
+  \item \textbf{UR5e SRUB NURSE} (\projectlink{https://jphajp.github.io/UR5_SRUB_NURSE/}): Steuerung des kollaborativen Roboters UR5e mit Computer Vision, konversationeller KI und Befehlen.
+  \item \textbf{Industrielle Robotik \& Automatisierung} (\projectlink{https://jphajp.github.io/JPHAJP/Web/projects/4\%20-\%20PLC/All\%20SCADA.pdf}): Industrielles SCADA-Automatisierungssystem f\"{u}r UR-, KUKA-, FANUC-Roboter und SPS.
+  \item \textbf{NASA Space Apps Challenge 2024} (\projectlink{https://jphajp.github.io/JPHAJP/Web/projects/1\%20-\%20Nasa/template_project.html}): Interaktives Orrery zur Kartierung von Himmelsk\"{o}rpern und Asteroiden.
+\end{itemize}
+
+\cvsection{Ausbildung}
+\entry{Universidad Iberoamericana Puebla}{2020 - 2025}{B.Sc. in Mecatronic-Ingenieurwesen}
+Spezialisierung: K\"{u}nstliche Intelligenz, Robotik und IoT.
+
+\entry{Instituto M\'{e}xico de Puebla}{2017 - 2020}{Abitur und Ausbildung zum Elektrotechniker}
+
+\cvsection{Auszeichnungen \& Erfolge}
+\begin{itemize}
+  \item GPA 4.0.
+  \item \href{https://jphajp.github.io/JPHAJP/Web/assets/docs/cenaval.pdf}{Ceneval-Medaille (Herausragende Leistung)}.
+  \item Medaille f\"{u}r den besten Notendurchschnitt, IBERO Francisco Clavijero.
+  \item Medaille f\"{u}r menschliche und kompetente Entwicklung, IBERO Diego de Ledesma S.J.
+  \item Bester Notendurchschnitt unter den Absolventen der Fakult\"{a}t f\"{u}r Ingenieurwissenschaften, anerkannt von ANFEI.
+\end{itemize}
+
+\cvsection{Ausgew\"{a}hlte Vortr\"{a}ge}
+\begin{itemize}
+  \item \eventlink{https://congresossuj.mx/}{II. SUJ-Ingenieurkongress 2025}.
+  \item \eventlink{https://www-optica.inaoep.mx/\string~tecnologia_salud/2024/programa.php}{XIV. Nationaler und Internationaler Kongress f\"{u}r angewandte Technologie in den Gesundheitswissenschaften}.
+  \item Expo IBERO \eventlink{https://www.linkedin.com/posts/jphajp_robot-articulado-y-m\%C3\%B3vil-activity-7353272381097869313-Io7Q}{2025}, \eventlink{https://github.com/JPHAJP/Raspberry/tree/main/Interfaces/ProyectoUI}{2024}, \eventlink{https://repositorio.iberopuebla.mx/handle/20.500.11777/5915}{2023}, \eventlink{https://repositorio.iberopuebla.mx/handle/20.500.11777/5221}{2022} und \eventlink{https://www.linkedin.com/posts/jphajp_prototipo-de-regadera-con-temporizador-para-activity-7160025958538743809-kdxj}{2021}.
+  \item \eventlink{https://ieeexplore.ieee.org/document/10765997}{2024 IEEE International Conference on Engineering Veracruz (ICEV)}.
+  \item \eventlink{https://fabacademy.org/}{Fab 2024 (Fab Academy)}.
+\end{itemize}
+
+\cvsection{Soft Skills \& Sprachen}
+\textbf{Soft Skills:} Projektmanagement; Teamarbeit und F\"{u}hrung; kreative Probleml\"{o}sung; technische und zielgerichtete Kommunikation; Anpassungsf\"{a}higkeit und kontinuierliches Lernen.\par
+\textbf{Sprachen:} Spanisch (Muttersprache); Englisch (C1); Deutsch (B1).
+
+\end{document}
