@@ -1,0 +1,519 @@
+{
+  "generatedAt": "2026-07-02T05:16:22.386Z",
+  "media": {
+    "file:///home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/1 - Nasa/1.png": {
+      "source": "/home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/1 - Nasa/1.png",
+      "originalBytes": 407048,
+      "optimized": "image-landingpage-des-web-orrerys-88c64d6c.webp",
+      "optimizedBytes": 23028
+    },
+    "file:///home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/1 - Nasa/2.png": {
+      "source": "/home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/1 - Nasa/2.png",
+      "originalBytes": 1336182,
+      "optimized": "image-planetenbeschreibungen-ec4734be.webp",
+      "optimizedBytes": 36636
+    },
+    "file:///home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/1 - Nasa/orray.mp4": {
+      "source": "/home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/1 - Nasa/orray.mp4",
+      "originalBytes": 1043747,
+      "optimized": "video-orrery-web-demo-2c74176c.mp4",
+      "poster": "video-orrery-web-demo-2c74176c.webp",
+      "optimizedBytes": 1077436,
+      "posterBytes": 3494
+    },
+    "file:///home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/4 - PLC/video_scada.mp4": {
+      "source": "/home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/4 - PLC/video_scada.mp4",
+      "originalBytes": 11213298,
+      "optimized": "video-hauptdemonstration-ea42211e.mp4",
+      "poster": "video-hauptdemonstration-ea42211e.webp",
+      "optimizedBytes": 4998566,
+      "posterBytes": 5098
+    },
+    "file:///home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/7 - EmoHelper/EmoHelper.mp4": {
+      "source": "/home/jpha/Documentos/Servicios_JP/JPHA/JPHAJP/Web/projects/7 - EmoHelper/EmoHelper.mp4",
+      "originalBytes": 2239757,
+      "optimized": "video-hauptdemonstration-516ff70c.mp4",
+      "poster": "video-hauptdemonstration-516ff70c.webp",
+      "optimizedBytes": 723886,
+      "posterBytes": 21994
+    },
+    "https://assets.spaceappschallenge.org/media/images/MAKE_A_COPY_Create_your_own_Local_.2e16d0ba.fill-674x450_q0FdJxN.png": {
+      "source": "https://assets.spaceappschallenge.org/media/images/MAKE_A_COPY_Create_your_own_Local_.2e16d0ba.fill-674x450_q0FdJxN.png",
+      "contentType": "image/png",
+      "originalBytes": 52306,
+      "optimized": "image-nasa-space-apps-challenge-2024-aa38b1d2.webp",
+      "optimizedBytes": 10060
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Fotografias/1.jpg",
+      "contentType": "image/jpeg",
+      "originalBytes": 67892,
+      "optimized": "image-electroiman-bba98ac3.webp",
+      "optimizedBytes": 29782
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Fotografias/2.jpg",
+      "contentType": "image/jpeg",
+      "originalBytes": 98047,
+      "optimized": "image-efector-final-c12ffdb4.webp",
+      "optimizedBytes": 53306
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4",
+      "contentType": "application/octet-stream",
+      "originalBytes": 14061164,
+      "optimized": "video-handschuherkennung-7953e578.mp4",
+      "poster": "video-handschuherkennung-7953e578.webp",
+      "optimizedBytes": 3103697,
+      "posterBytes": 32784
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4",
+      "contentType": "application/octet-stream",
+      "originalBytes": 18630092,
+      "optimized": "video-demonstration-der-instrumentenerkennung-41844b2f.mp4",
+      "poster": "video-demonstration-der-instrumentenerkennung-41844b2f.webp",
+      "optimizedBytes": 2064959,
+      "posterBytes": 51536
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4",
+      "contentType": "application/octet-stream",
+      "originalBytes": 3218652,
+      "optimized": "video-demonstration-mit-sprachbefehlen-ae6531d1.mp4",
+      "poster": "video-demonstration-mit-sprachbefehlen-ae6531d1.webp",
+      "optimizedBytes": 588738,
+      "posterBytes": 30100
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4",
+      "contentType": "application/octet-stream",
+      "originalBytes": 1920448,
+      "optimized": "video-demonstration-der-handschuhubergabe-9a954414.mp4",
+      "poster": "video-demonstration-der-handschuhubergabe-9a954414.webp",
+      "optimizedBytes": 130857,
+      "posterBytes": 41930
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4",
+      "contentType": "application/octet-stream",
+      "originalBytes": 3377106,
+      "optimized": "video-demonstration-der-werkzeugubergabe-1d615b03.mp4",
+      "poster": "video-demonstration-der-werkzeugubergabe-1d615b03.webp",
+      "optimizedBytes": 2034387,
+      "posterBytes": 19294
+    },
+    "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true": {
+      "source": "https://raw.githubusercontent.com/JPHAJP/UR5_SRUB_NURSE/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4",
+      "contentType": "application/octet-stream",
+      "originalBytes": 2335399,
+      "optimized": "video-hauptdemonstration-53e81e3c.mp4",
+      "poster": "video-hauptdemonstration-53e81e3c.webp",
+      "optimizedBytes": 1090532,
+      "posterBytes": 18494
+    },
+    "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Automatizaci%C3%B3n.png?raw=true": {
+      "source": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Automatizaci%C3%B3n.png?raw=true",
+      "contentType": "image/png",
+      "originalBytes": 127027,
+      "optimized": "image-arquitectura-del-sistema-93cfa9a9.webp",
+      "optimizedBytes": 43172
+    },
+    "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Diagrama_El%C3%A9ctrico-Neum%C3%A1tico.jpg?raw=true": {
+      "source": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Diagrama_El%C3%A9ctrico-Neum%C3%A1tico.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 384172,
+      "optimized": "image-elektrischer-und-pneumatischer-anschlussplan-c8101605.webp",
+      "optimizedBytes": 34722
+    },
+    "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Panel_electrico.jpg?raw=true": {
+      "source": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Panel_electrico.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 292118,
+      "optimized": "image-schaltschrank-98a0e4fe.webp",
+      "optimizedBytes": 115328
+    },
+    "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Programa_Main_PLC.jpg?raw=true": {
+      "source": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Programa_Main_PLC.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 1318993,
+      "optimized": "image-interfaz-del-programa-principal-del-plc-cb94175d.webp",
+      "optimizedBytes": 37344
+    },
+    "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.jpg?raw=true": {
+      "source": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 248525,
+      "optimized": "image-vollstandiges-automatisierungsprojekt-6ea330f1.webp",
+      "optimizedBytes": 128014
+    },
+    "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.mp4?raw=true": {
+      "source": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 10274250,
+      "optimized": "video-hauptdemonstration-389b9834.mp4",
+      "poster": "video-hauptdemonstration-389b9834.webp",
+      "optimizedBytes": 2563671,
+      "posterBytes": 26742
+    },
+    "https://jphajp.github.io/automatizacion/Recursos/Proyecto/UR5e.jpg?raw=true": {
+      "source": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/UR5e.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 264695,
+      "optimized": "image-ur5e-3bec78fe.webp",
+      "optimizedBytes": 132382
+    },
+    "https://jphajp.github.io/Redes/Reportes/Proyecto/Hum.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Redes/Reportes/Proyecto/Hum.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 3662690,
+      "optimized": "video-feuchtigkeitssensor-837356db.mp4",
+      "poster": "video-feuchtigkeitssensor-837356db.webp",
+      "optimizedBytes": 1016397,
+      "posterBytes": 13034
+    },
+    "https://jphajp.github.io/Redes/Reportes/Proyecto/Movimiento.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Redes/Reportes/Proyecto/Movimiento.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 361314,
+      "optimized": "video-bewegungssensor-661049e4.mp4",
+      "poster": "video-bewegungssensor-661049e4.webp",
+      "optimizedBytes": 80654,
+      "posterBytes": 13518
+    },
+    "https://jphajp.github.io/Redes/Reportes/Proyecto/Prox.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Redes/Reportes/Proyecto/Prox.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 4685704,
+      "optimized": "video-naherungssensor-20a230fc.mp4",
+      "poster": "video-naherungssensor-20a230fc.webp",
+      "optimizedBytes": 1285709,
+      "posterBytes": 23280
+    },
+    "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 67663344,
+      "optimized": "video-timer-42de1c9a.mp4",
+      "poster": "video-timer-42de1c9a.webp",
+      "optimizedBytes": 5365899,
+      "posterBytes": 21862
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im1.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im1.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 338486,
+      "optimized": "image-sistema-completo-5dcca5c8.webp",
+      "optimizedBytes": 196998
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im10.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im10.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 256373,
+      "optimized": "image-perro-angelical-animado-dibujado-por-ur5e-bcdd7c79.webp",
+      "optimizedBytes": 130374
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im11.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im11.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 228608,
+      "optimized": "image-perro-angelical-animado-dibujado-por-ur5e-239a9ce9.webp",
+      "optimizedBytes": 112570
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im7.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im7.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 278467,
+      "optimized": "image-calibracion-de-robot-y-configuracion-del-plano-de-trabajo-7807f2d0.webp",
+      "optimizedBytes": 155690
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im8.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im8.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 32449,
+      "optimized": "image-imagen-generada-con-stablediffusion-9c957a17.webp",
+      "optimizedBytes": 20452
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im9.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im9.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 232658,
+      "optimized": "image-girasol-dibujado-por-ur5e-a407796a.webp",
+      "optimizedBytes": 115260
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V5.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V5.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 967525,
+      "optimized": "video-video-de-dibujo-simple-ddd20e6e.mp4",
+      "poster": "video-video-de-dibujo-simple-ddd20e6e.webp",
+      "optimizedBytes": 408532,
+      "posterBytes": 9704
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V6.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V6.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 2573023,
+      "optimized": "video-sistema-montado-en-gradio-v1-0-dd86e1e6.mp4",
+      "poster": "video-sistema-montado-en-gradio-v1-0-dd86e1e6.webp",
+      "optimizedBytes": 950639,
+      "posterBytes": 23442
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V7.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V7.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 1522434,
+      "optimized": "video-dibujo-complejo-de-un-girasol-flor-963121a1.mp4",
+      "poster": "video-dibujo-complejo-de-un-girasol-flor-963121a1.webp",
+      "optimizedBytes": 830090,
+      "posterBytes": 16880
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V8.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V8.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 4987042,
+      "optimized": "video-metodo-de-punteo-para-dibujo-9e36d12f.mp4",
+      "poster": "video-metodo-de-punteo-para-dibujo-9e36d12f.webp",
+      "optimizedBytes": 2722897,
+      "posterBytes": 16898
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V9.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V9.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 8991213,
+      "optimized": "video-generacion-de-dibujo-con-lineas-continuas-f98911b6.mp4",
+      "poster": "video-generacion-de-dibujo-con-lineas-continuas-f98911b6.webp",
+      "optimizedBytes": 4745866,
+      "posterBytes": 8686
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Avance_07-04-25.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Avance_07-04-25.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 3855828,
+      "optimized": "video-simulacion-de-robot-en-solidworks-08b87569.mp4",
+      "poster": "video-simulacion-de-robot-en-solidworks-08b87569.webp",
+      "optimizedBytes": 504383,
+      "posterBytes": 4408
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im1.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im1.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 38367,
+      "optimized": "image-render-de-prototipo-en-solidworks-68486120.webp",
+      "optimizedBytes": 10468
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im2.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im2.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 48084,
+      "optimized": "image-render-de-prototipo-en-solidworks-286098c7.webp",
+      "optimizedBytes": 13276
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im3.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im3.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 69524,
+      "optimized": "image-render-de-prototipo-en-solidworks-2266a7ae.webp",
+      "optimizedBytes": 16036
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im4.jpg?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im4.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 322347,
+      "optimized": "image-robot-completo-920e21f7.webp",
+      "optimizedBytes": 190738
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 1057331,
+      "optimized": "video-hauptdemonstration-585908ab.mp4",
+      "poster": "video-hauptdemonstration-585908ab.webp",
+      "optimizedBytes": 493277,
+      "posterBytes": 32564
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V2.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V2.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 3636113,
+      "optimized": "video-demostracion-de-robot-movil-autonomo-94603836.mp4",
+      "poster": "video-demostracion-de-robot-movil-autonomo-94603836.webp",
+      "optimizedBytes": 1512187,
+      "posterBytes": 12000
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Circulo.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Circulo.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 7163562,
+      "optimized": "video-trayectoria-circular-9e847935.mp4",
+      "poster": "video-trayectoria-circular-9e847935.webp",
+      "optimizedBytes": 199608,
+      "posterBytes": 20124
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Cubo.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Cubo.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 2401581,
+      "optimized": "video-trayectoria-de-un-cubo-d78e94cb.mp4",
+      "poster": "video-trayectoria-de-un-cubo-d78e94cb.webp",
+      "optimizedBytes": 121364,
+      "posterBytes": 19074
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 4214454,
+      "optimized": "video-trayectoria-m-a01f5bda.mp4",
+      "poster": "video-trayectoria-m-a01f5bda.webp",
+      "optimizedBytes": 222242,
+      "posterBytes": 14108
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M2.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M2.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 2090143,
+      "optimized": "video-trayectoria-m-2-8c948759.mp4",
+      "poster": "video-trayectoria-m-2-8c948759.webp",
+      "optimizedBytes": 248647,
+      "posterBytes": 18770
+    },
+    "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/worksapce.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/worksapce.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 14073968,
+      "optimized": "video-espacio-de-trabajo-de-robot-184adf4b.mp4",
+      "poster": "video-espacio-de-trabajo-de-robot-184adf4b.webp",
+      "optimizedBytes": 2523590,
+      "posterBytes": 44426
+    },
+    "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/dashbord.png?raw=true": {
+      "source": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/dashbord.png?raw=true",
+      "contentType": "image/png",
+      "originalBytes": 269310,
+      "optimized": "image-ui-scada-web-a6bd2a85.webp",
+      "optimizedBytes": 59228
+    },
+    "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V3.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V3.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 9942292,
+      "optimized": "video-plc-1-71bc3f0a.mp4",
+      "poster": "video-plc-1-71bc3f0a.webp",
+      "optimizedBytes": 2561243,
+      "posterBytes": 20546
+    },
+    "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V4.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V4.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 13159446,
+      "optimized": "video-plc-2-f5b993ab.mp4",
+      "poster": "video-plc-2-f5b993ab.webp",
+      "optimizedBytes": 3724140,
+      "posterBytes": 17188
+    },
+    "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V5.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V5.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 14924109,
+      "optimized": "video-plc-3-473d0e0c.mp4",
+      "poster": "video-plc-3-473d0e0c.webp",
+      "optimizedBytes": 3883750,
+      "posterBytes": 19582
+    },
+    "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V6.mp4?raw=true": {
+      "source": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V6.mp4?raw=true",
+      "contentType": "video/mp4",
+      "originalBytes": 12960388,
+      "optimized": "video-robot-ur5e-d7876041.mp4",
+      "poster": "video-robot-ur5e-d7876041.webp",
+      "optimizedBytes": 3579469,
+      "posterBytes": 16994
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 143656,
+      "optimized": "image-conitacs-2024-43c149a7.webp",
+      "optimizedBytes": 69808
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 26977,
+      "optimized": "image-expoibero-otono-2023-c0e81cd2.webp",
+      "optimizedBytes": 8590
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 33062,
+      "optimized": "image-ieee-icev-2024-cb7f0064.webp",
+      "optimizedBytes": 11066
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
+      "contentType": "image/png",
+      "originalBytes": 320714,
+      "optimized": "image-flujo-de-procesamiento-ia-84401b88.webp",
+      "optimizedBytes": 18158
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
+      "contentType": "image/png",
+      "originalBytes": 99229,
+      "optimized": "image-arquitectura-del-sistema-b5c061ad.webp",
+      "optimizedBytes": 32460
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 179366,
+      "optimized": "image-expoibero-2023-5ef27bfb.webp",
+      "optimizedBytes": 125032
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 109380,
+      "optimized": "image-entrenamiento-yolov8obb-8c94193d.webp",
+      "optimizedBytes": 74800
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 125060,
+      "optimized": "image-yolov8obb-a464f1c9.webp",
+      "optimizedBytes": 86362
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 104019,
+      "optimized": "image-efector-final-476e55fe.webp",
+      "optimizedBytes": 52156
+    },
+    "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true": {
+      "source": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
+      "contentType": "image/jpeg",
+      "originalBytes": 129285,
+      "optimized": "image-deteccion-de-instrumental-642d6bd4.webp",
+      "optimizedBytes": 84556
+    },
+    "https://media.licdn.com/dms/image/v2/D5612AQED5YO_sL2QzQ/article-cover_image-shrink_720_1280/B56Zj_2B1rHMAI-/0/1756639011560?e=2147483647&v=beta&t=PxFJ2grTaELfWFtS_-T8D3XHCsSDcflpqzCIQ2zAgr0": {
+      "source": "https://media.licdn.com/dms/image/v2/D5612AQED5YO_sL2QzQ/article-cover_image-shrink_720_1280/B56Zj_2B1rHMAI-/0/1756639011560?e=2147483647&v=beta&t=PxFJ2grTaELfWFtS_-T8D3XHCsSDcflpqzCIQ2zAgr0",
+      "contentType": "image/png",
+      "originalBytes": 209317,
+      "optimized": "image-vibe-coding-workflow-6bae1de0.webp",
+      "optimizedBytes": 55286
+    },
+    "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg": {
+      "source": "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg",
+      "contentType": "image/jpeg",
+      "originalBytes": 295007,
+      "optimized": "image-congreso-suj-2025-ibero-leon-dbf1542f.webp",
+      "optimizedBytes": 181146
+    }
+  },
+  "failures": [],
+  "videoPassAt": "2026-07-02T05:18:20.085Z"
+}

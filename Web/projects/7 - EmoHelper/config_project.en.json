@@ -38,12 +38,13 @@
         }
     ],
     "media": {
-        "mainVideo": "./EmoHelper.mp4",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-516ff70c.mp4",
         "videos": [
             {
-                "src": "./EmoHelper.mp4",
+                "src": "../../assets/project-media/video-hauptdemonstration-516ff70c.mp4",
                 "title": "Main demonstration",
-                "description": "Video showing the complete system integration in a simulated surgical environment"
+                "description": "Video showing the complete system integration in a simulated surgical environment",
+                "poster": "../../assets/project-media/video-hauptdemonstration-516ff70c.webp"
             }
         ]
     },
@@ -79,52 +80,52 @@
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Ubuntu",
                 "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
-                "description": "Sistema operativo"
+                "description": "Operating system"
             },
             {
                 "name": "Pytorch",
                 "icon": "../../assets/tech-stack/pytorch-1f3552bd.webp",
-                "description": "Framework de IA"
+                "description": "AI framework"
             },
             {
                 "name": "RoboFlow",
                 "icon": "../../assets/tech-stack/roboflow-6139524e.webp",
-                "description": "Gestión de datasets"
+                "description": "Dataset management"
             },
             {
                 "name": "Cuda",
                 "icon": "../../assets/tech-stack/cuda-362cafcc.webp",
-                "description": "Entornos de desarrollo"
+                "description": "Development environments"
             },
             {
                 "name": "Ultralytics",
                 "icon": "../../assets/tech-stack/ultralytics-c589323d.webp",
-                "description": "Biblioteca de visión con modelos preentrenados"
+                "description": "Vision library with pretrained models"
             },
             {
                 "name": "Scikit-learn",
                 "icon": "../../assets/tech-stack/scikit-learn-local.svg",
-                "description": "Biblioteca para aprendizaje automático"
+                "description": "Machine-learning library"
             },
             {
                 "name": "Gradio",
                 "icon": "../../assets/tech-stack/gradio-041bbddb.svg",
-                "description": "Interfaz web para modelos de ML"
+                "description": "Web interface for ML models"
             },
             {
                 "name": "Numpy",
                 "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
-                "description": "Biblioteca para computación científica"
+                "description": "Scientific-computing library"
             },
             {
                 "name": "Docker",
                 "icon": "../../assets/tech-stack/docker-local.svg",
-                "description": "Contenedorización de aplicaciones"
+                "description": "Application containerization"
             }
         ]
     },
@@ -132,9 +133,9 @@
         {
             "title": "ExpoIbero Primavera 2023",
             "date": "2023-06",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema del sistema ExpoIbero 2023",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "type": "University Exhibition",
+            "description": "System exhibition at ExpoIbero 2023",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://github.com/JPHAJP/proyecto_tec_emergentes/"
         }
     ],

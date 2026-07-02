@@ -50,29 +50,30 @@
         }
     ],
     "media": {
-        "mainVideo": "./orray.mp4",
+        "mainVideo": "../../assets/project-media/video-orrery-web-demo-2c74176c.mp4",
         "videos": [
             {
-                "src": "./orray.mp4",
+                "src": "../../assets/project-media/video-orrery-web-demo-2c74176c.mp4",
                 "title": "Orrery Web Demo",
-                "description": "Video mostrando la integración completa del sistema en el orrey web."
+                "description": "Video mostrando la integración completa del sistema en el orrey web.",
+                "poster": "../../assets/project-media/video-orrery-web-demo-2c74176c.webp"
             }
         ],
         "images": [
             {
-                "src": "./1.png",
+                "src": "../../assets/project-media/image-landingpage-des-web-orrerys-88c64d6c.webp",
                 "alt": "Landing del orrey web",
                 "caption": "Landing page del orrey web con visualización de asteroides cercanos a la Tierra"
             },
             {
-                "src": "./2.png",
+                "src": "../../assets/project-media/image-planetenbeschreibungen-ec4734be.webp",
                 "alt": "Descripción de planetas",
                 "caption": "Descripción detallada de planetas y objetos espaciales"
             }
         ],
         "diagrams": [
             {
-                "src": "https://media.licdn.com/dms/image/v2/D5612AQED5YO_sL2QzQ/article-cover_image-shrink_720_1280/B56Zj_2B1rHMAI-/0/1756639011560?e=2147483647&v=beta&t=PxFJ2grTaELfWFtS_-T8D3XHCsSDcflpqzCIQ2zAgr0",
+                "src": "../../assets/project-media/image-vibe-coding-workflow-6bae1de0.webp",
                 "alt": "Vibe coding Workflow",
                 "title": "Vibe coding Workflow"
             }
@@ -145,7 +146,7 @@
             "date": "2024-09",
             "type": "Hackathon",
             "description": "Tercer lugar regional en el NASA Space Apps Challenge 2024",
-            "image": "https://assets.spaceappschallenge.org/media/images/MAKE_A_COPY_Create_your_own_Local_.2e16d0ba.fill-674x450_q0FdJxN.png",
+            "image": "../../assets/project-media/image-nasa-space-apps-challenge-2024-aa38b1d2.webp",
             "link": "https://www.spaceappschallenge.org/"
         }
     ],

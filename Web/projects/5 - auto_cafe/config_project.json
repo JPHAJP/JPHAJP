@@ -48,44 +48,45 @@
         }
     ],
     "media": {
-        "mainVideo": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-389b9834.mp4",
         "videos": [
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.mp4?raw=true",
+                "src": "../../assets/project-media/video-hauptdemonstration-389b9834.mp4",
                 "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema de barísta."
+                "description": "Video mostrando la integración completa del sistema de barísta.",
+                "poster": "../../assets/project-media/video-hauptdemonstration-389b9834.webp"
             }
         ],
         "images": [
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Diagrama_El%C3%A9ctrico-Neum%C3%A1tico.jpg?raw=true",
+                "src": "../../assets/project-media/image-elektrischer-und-pneumatischer-anschlussplan-c8101605.webp",
                 "alt": "Digrama de conexiones eléctricas y neumáticas",
                 "caption": "Interfaz web del sistema SCADA para monitoreo y control de procesos industriales"
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Programa_Main_PLC.jpg?raw=true",
+                "src": "../../assets/project-media/image-interfaz-del-programa-principal-del-plc-cb94175d.webp",
                 "alt": "Interfaz del programa principal del PLC",
                 "caption": "Interfaz del programa principal del PLC para control de procesos industriales"
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.jpg?raw=true",
+                "src": "../../assets/project-media/image-vollstandiges-automatisierungsprojekt-6ea330f1.webp",
                 "alt": "Proyecto completo de automatización",
                 "caption": "Vista general del proyecto completo de automatización industrial para UR5e barista."
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Panel_electrico.jpg?raw=true",
+                "src": "../../assets/project-media/image-schaltschrank-98a0e4fe.webp",
                 "alt": "Panel eléctrico",
                 "caption": "Panel eléctrico del sistema de automatización"
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/UR5e.jpg?raw=true",
+                "src": "../../assets/project-media/image-ur5e-3bec78fe.webp",
                 "alt": "UR5e",
                 "caption": "Conexiones de Robot UR5e"
             }
         ],
         "diagrams": [
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Automatizaci%C3%B3n.png?raw=true",
+                "src": "../../assets/project-media/image-arquitectura-del-sistema-93cfa9a9.webp",
                 "alt": "Workflow del proyecto",
                 "title": "Arquitectura del Sistema"
             }
@@ -146,7 +147,7 @@
             "date": "2024-12",
             "type": "Exposición Universitaria",
             "description": "Exposición del sistema completo.",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://jphajp.github.io/automatizacion/proyecto.html"
         }
     ],

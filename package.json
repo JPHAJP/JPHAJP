@@ -4,6 +4,8 @@
 		"lighthouse:es": "mkdir -p lighthouse-reports && lighthouse http://127.0.0.1:4173/ --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/es",
 		"lighthouse:en": "mkdir -p lighthouse-reports && lighthouse http://127.0.0.1:4173/en/ --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/en",
 		"lighthouse:de": "mkdir -p lighthouse-reports && lighthouse http://127.0.0.1:4173/de/ --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/de",
+		"lighthouse:project:nasa": "mkdir -p lighthouse-reports && lighthouse \"http://127.0.0.1:4173/Web/projects/1%20-%20Nasa/template_project.html\" --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/project-nasa",
+		"lighthouse:project:robotica": "mkdir -p lighthouse-reports && lighthouse \"http://127.0.0.1:4173/Web/projects/3%20-%20Robotica/template_project.html?lang=en\" --chrome-flags=\"--headless --no-sandbox\" --output=html --output=json --output-path=./lighthouse-reports/project-robotica-en",
 		"lighthouse": "pnpm lighthouse:es && pnpm lighthouse:en && pnpm lighthouse:de"
 	},
 	"devDependencies": {

@@ -11,7 +11,7 @@
             "José Pablo Hernández Alonso"
         ],
         "tags": [
-            "Robótica Quirúrgica",
+            "Surgical Robotics",
             "IA/ML",
             "Computer Vision"
         ],
@@ -42,86 +42,92 @@
         }
     ],
     "media": {
-        "mainVideo": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-53e81e3c.mp4",
         "videos": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+                "src": "../../assets/project-media/video-hauptdemonstration-53e81e3c.mp4",
                 "title": "Main demonstration",
-                "description": "Video showing the complete system integration in a simulated surgical environment"
+                "description": "Video showing the complete system integration in a simulated surgical environment",
+                "poster": "../../assets/project-media/video-hauptdemonstration-53e81e3c.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-mit-sprachbefehlen-ae6531d1.mp4",
                 "title": "Voice-command demonstration",
-                "description": "Video showing the system in action"
+                "description": "Video showing the system in action",
+                "poster": "../../assets/project-media/video-demonstration-mit-sprachbefehlen-ae6531d1.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true",
+                "src": "../../assets/project-media/video-handschuherkennung-7953e578.mp4",
                 "title": "Glove recognition",
-                "description": "Vision system identifying gloves"
+                "description": "Vision system identifying gloves",
+                "poster": "../../assets/project-media/video-handschuherkennung-7953e578.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-der-instrumentenerkennung-41844b2f.mp4",
                 "title": "Surgical instrument recognition demonstration",
-                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada"
+                "description": "Video showing automated detection and manipulation of surgical instruments",
+                "poster": "../../assets/project-media/video-demonstration-der-instrumentenerkennung-41844b2f.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-der-handschuhubergabe-9a954414.mp4",
                 "title": "Glove delivery demonstration",
-                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023"
+                "description": "Object-recognition project at ExpoIbero 2023",
+                "poster": "../../assets/project-media/video-demonstration-der-handschuhubergabe-9a954414.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-der-werkzeugubergabe-1d615b03.mp4",
                 "title": "Tool delivery demonstration",
-                "description": "Robot control through terminal commands"
+                "description": "Robot control through terminal commands",
+                "poster": "../../assets/project-media/video-demonstration-der-werkzeugubergabe-1d615b03.webp"
             }
         ],
         "images": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true",
-                "alt": "Electroimán",
-                "caption": "Aditamento de electroimán para manipulación de instrumental"
+                "src": "../../assets/project-media/image-electroiman-bba98ac3.webp",
+                "alt": "Electromagnet",
+                "caption": "Electromagnet attachment for instrument manipulation"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true",
+                "src": "../../assets/project-media/image-efector-final-c12ffdb4.webp",
                 "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
+                "caption": "Custom end-effector assembly for instrument manipulation with an Intel D455 camera"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
+                "src": "../../assets/project-media/image-yolov8obb-a464f1c9.webp",
                 "alt": "Yolov8OBB",
-                "caption": "Pruebas tras entrenamiento de modelo de Yolov8OBB"
+                "caption": "Tests after Yolov8OBB model training"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
+                "src": "../../assets/project-media/image-expoibero-2023-5ef27bfb.webp",
                 "alt": "ExpoIbero 2023",
-                "caption": "Demostración de sistema en ExpoIbero 2023"
+                "caption": "System demonstration at ExpoIbero 2023"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
-                "alt": "Detección de instrumental",
-                "caption": "Demostración de detección de instrumental con PyQt5"
+                "src": "../../assets/project-media/image-deteccion-de-instrumental-642d6bd4.webp",
+                "alt": "Instrument detection",
+                "caption": "Instrument detection demonstration with PyQt5"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
+                "src": "../../assets/project-media/image-efector-final-476e55fe.webp",
                 "alt": "Efector final",
-                "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
+                "caption": "Custom end-effector assembly for instrument manipulation with an Intel D455 camera"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
+                "src": "../../assets/project-media/image-entrenamiento-yolov8obb-8c94193d.webp",
                 "alt": "Entrenamiento Yolov8OBB",
-                "caption": "Entrenamiento de modelo Yolov8OBB estadísticas"
+                "caption": "Yolov8OBB model training statistics"
             }
         ],
         "diagrams": [
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
-                "alt": "Workflow del proyecto",
-                "title": "Arquitectura del Sistema"
+                "src": "../../assets/project-media/image-arquitectura-del-sistema-b5c061ad.webp",
+                "alt": "Project workflow",
+                "title": "System Architecture"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
-                "alt": "Pipeline de IA",
-                "title": "Flujo de Procesamiento IA"
+                "src": "../../assets/project-media/image-flujo-de-procesamiento-ia-84401b88.webp",
+                "alt": "AI pipeline",
+                "title": "AI Processing Workflow"
             }
         ]
     },
@@ -130,12 +136,12 @@
             {
                 "name": "YOLOv8 OBB",
                 "icon": "../../assets/tech-stack/yolov8-obb-8d9ddb80.webp",
-                "description": "Detección de instrumental quirúrgico"
+                "description": "Surgical instrument detection"
             },
             {
                 "name": "Whisper",
                 "icon": "../../assets/tech-stack/whisper-987cb1aa.webp",
-                "description": "Reconocimiento de voz offline"
+                "description": "Offline speech recognition"
             },
             {
                 "name": "Llama3.1",
@@ -152,19 +158,19 @@
             {
                 "name": "UR-RTDE",
                 "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
-                "description": "Comunicación en tiempo real con el robot"
+                "description": "Real-time communication with the robot"
             },
             {
                 "name": "UR-Script",
                 "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
-                "description": "Programación del robot"
+                "description": "Robot programming"
             }
         ],
         "computer_vision": [
             {
                 "name": "Intel RealSense",
                 "icon": "../../assets/tech-stack/intel-realsense-2e004e1a.webp",
-                "description": "Cámara de profundidad"
+                "description": "Depth camera"
             },
             {
                 "name": "OpenCV",
@@ -186,7 +192,7 @@
             {
                 "name": "PyQt5",
                 "icon": "../../assets/tech-stack/pyqt5-16f4a5cb.webp",
-                "description": "Interfaz gráfica"
+                "description": "Graphical interface"
             },
             {
                 "name": "Ollama",
@@ -196,87 +202,87 @@
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Jetson Nano",
                 "icon": "../../assets/tech-stack/jetson-nano-bb73c76b.webp",
-                "description": "Computadora embebida y aceleración con GPU"
+                "description": "Embedded computer and GPU acceleration"
             },
             {
                 "name": "Ubuntu",
                 "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
-                "description": "Sistema operativo"
+                "description": "Operating system"
             },
             {
                 "name": "Pytorch",
                 "icon": "../../assets/tech-stack/pytorch-1f3552bd.webp",
-                "description": "Framework de IA"
+                "description": "AI framework"
             },
             {
                 "name": "RoboFlow",
                 "icon": "../../assets/tech-stack/roboflow-6139524e.webp",
-                "description": "Gestión de datasets"
+                "description": "Dataset management"
             },
             {
                 "name": "Cuda",
                 "icon": "../../assets/tech-stack/cuda-362cafcc.webp",
-                "description": "Entornos de desarrollo"
+                "description": "Development environments"
             },
             {
                 "name": "Ultralytics",
                 "icon": "../../assets/tech-stack/ultralytics-c589323d.webp",
-                "description": "Biblioteca de visión con modelos preentrenados"
+                "description": "Vision library with pretrained models"
             },
             {
                 "name": "Mysql",
                 "icon": "../../assets/tech-stack/mysql-4dc3f583.webp",
-                "description": "Gestión de bases de datos"
+                "description": "Database management"
             },
             {
                 "name": "MediaPipe",
                 "icon": "../../assets/tech-stack/mediapipe-23432820.webp",
-                "description": "Biblioteca de visión con modelos preentrenados"
+                "description": "Vision library with pretrained models"
             },
             {
                 "name": "Numpy",
                 "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
-                "description": "Biblioteca para computación científica"
+                "description": "Scientific-computing library"
             }
         ]
     },
     "achievements": [
         {
-            "title": "ExpoIbero Otoño 2023",
+            "title": "ExpoIbero Fall 2023",
             "date": "2023-11",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "type": "University Exhibition",
+            "description": "Exhibition of the object-recognition system for surgical instrumentation at ExpoIbero 2023",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
         },
         {
             "title": "IEEE ICEV 2024",
             "date": "2024-11",
             "type": "Conferencia Internacional",
-            "description": "Presentación en la Conferencia Internacional de Ingeniería en Veracruz",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
+            "description": "Presentation at the International Engineering Conference in Veracruz",
+            "image": "../../assets/project-media/image-ieee-icev-2024-cb7f0064.webp",
             "link": "https://ieeexplore.ieee.org/document/10765997",
             "featured": true
         },
         {
             "title": "CONITACS 2024",
             "date": "2024-09",
-            "type": "Congreso",
-            "description": "Congreso Internacional de Tecnologías Avanzadas Para la Salud",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
+            "type": "Conference",
+            "description": "International Congress on Advanced Health Technologies",
+            "image": "../../assets/project-media/image-conitacs-2024-43c149a7.webp",
             "link": "https://www-optica.inaoep.mx/~tecnologia_salud/2024/"
         },
         {
-            "title": "ExpoIbero Otoño 2024",
+            "title": "ExpoIbero Fall 2024",
             "date": "2024-10",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo con todas las funcionalidades integradas para servicio social",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "type": "University Exhibition",
+            "description": "Exhibition of the complete system with all features integrated for social service",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
         }
     ],

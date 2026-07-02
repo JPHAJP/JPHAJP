@@ -29,35 +29,46 @@ class ProjectTemplate {
                 home: 'Inicio',
                 overview: 'Resumen',
                 media: 'Media',
-                technologies: 'Tecnologias',
+                technologies: 'Tecnologías',
                 achievements: 'Logros',
-                documentation: 'Documentacion',
+                documentation: 'Documentación',
                 project: 'Proyecto',
-                projectTitle: 'Titulo del Proyecto',
+                projectTitle: 'Título del Proyecto',
                 repo: 'Ver Repositorio',
                 explore: 'Explorar Proyecto',
                 projectOverview: 'Resumen del Proyecto',
                 problem: 'Problema',
-                solution: 'Solucion',
+                solution: 'Solución',
                 impact: 'Impacto',
-                gallery: 'Galeria Multimedia',
+                gallery: 'Galería Multimedia',
                 videos: 'Videos',
-                images: 'Imagenes',
+                images: 'Imágenes',
                 diagrams: 'Diagramas',
-                techStack: 'Stack Tecnologico',
+                techStack: 'Stack Tecnológico',
                 achievementsTitle: 'Logros y Reconocimientos',
                 github: 'Ver en GitHub',
                 downloadPdf: 'Descargar PDF',
                 previous: 'Anterior',
                 next: 'Siguiente',
-                page: 'Pagina',
+                page: 'Página',
                 of: 'de',
                 pdfFallback: 'No se pudo cargar el PDF.',
                 downloadFile: 'Descargar archivo',
                 author: 'Autor',
-                institution: 'Institucion',
-                license: 'Este proyecto esta licenciado bajo CC BY-NC-SA 4.0',
-                viewMore: 'Ver mas',
+                institution: 'Institución',
+                license: 'Este proyecto está licenciado bajo CC BY-NC-SA 4.0',
+                viewMore: 'Ver más',
+                playVideo: 'Reproducir video',
+                selectedVideo: 'Video seleccionado',
+                videoLoadError: 'No se pudo cargar este video. Intenta abrir otro recurso del proyecto.',
+                videoNotSupported: 'Tu navegador no soporta video HTML5.',
+                mediaUnavailable: 'No hay recursos multimedia disponibles para esta seccion.',
+                openImage: 'Abrir imagen',
+                openDiagram: 'Abrir diagrama',
+                imageLoadError: 'No se pudo cargar la imagen.',
+                zoomIn: 'Acercar',
+                zoomOut: 'Alejar',
+                toggleNavigation: 'Abrir o cerrar navegación',
                 locale: 'es-ES'
             },
             en: {
@@ -93,12 +104,23 @@ class ProjectTemplate {
                 institution: 'Institution',
                 license: 'This project is licensed under CC BY-NC-SA 4.0',
                 viewMore: 'View more',
+                playVideo: 'Play video',
+                selectedVideo: 'Selected video',
+                videoLoadError: 'This video could not be loaded. Try another project resource.',
+                videoNotSupported: 'Your browser does not support HTML5 video.',
+                mediaUnavailable: 'No media resources are available for this section.',
+                openImage: 'Open image',
+                openDiagram: 'Open diagram',
+                imageLoadError: 'The image could not be loaded.',
+                zoomIn: 'Zoom in',
+                zoomOut: 'Zoom out',
+                toggleNavigation: 'Toggle navigation',
                 locale: 'en-US'
             },
             de: {
                 home: 'Start',
-                overview: 'Ubersicht',
-                media: 'Media',
+                overview: 'Übersicht',
+                media: 'Medien',
                 technologies: 'Technologien',
                 achievements: 'Erfolge',
                 documentation: 'Dokumentation',
@@ -106,9 +128,9 @@ class ProjectTemplate {
                 projectTitle: 'Projekttitel',
                 repo: 'Repository ansehen',
                 explore: 'Projekt erkunden',
-                projectOverview: 'Projektubersicht',
+                projectOverview: 'Projektübersicht',
                 problem: 'Problem',
-                solution: 'Losung',
+                solution: 'Lösung',
                 impact: 'Wirkung',
                 gallery: 'Multimedia-Galerie',
                 videos: 'Videos',
@@ -118,7 +140,7 @@ class ProjectTemplate {
                 achievementsTitle: 'Erfolge und Auszeichnungen',
                 github: 'Auf GitHub ansehen',
                 downloadPdf: 'PDF herunterladen',
-                previous: 'Zuruck',
+                previous: 'Zurück',
                 next: 'Weiter',
                 page: 'Seite',
                 of: 'von',
@@ -128,6 +150,17 @@ class ProjectTemplate {
                 institution: 'Institution',
                 license: 'Dieses Projekt ist unter CC BY-NC-SA 4.0 lizenziert',
                 viewMore: 'Mehr anzeigen',
+                playVideo: 'Video abspielen',
+                selectedVideo: 'Ausgewähltes Video',
+                videoLoadError: 'Dieses Video konnte nicht geladen werden. Versuche eine andere Projektressource.',
+                videoNotSupported: 'Dein Browser unterstützt kein HTML5-Video.',
+                mediaUnavailable: 'Für diesen Bereich sind keine Medien verfügbar.',
+                openImage: 'Bild öffnen',
+                openDiagram: 'Diagramm öffnen',
+                imageLoadError: 'Das Bild konnte nicht geladen werden.',
+                zoomIn: 'Vergrößern',
+                zoomOut: 'Verkleinern',
+                toggleNavigation: 'Navigation umschalten',
                 locale: 'de-DE'
             }
         };
@@ -136,7 +169,8 @@ class ProjectTemplate {
     }
 
     detectIOS() {
-        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        return /iPad|iPhone|iPod/.test(navigator.userAgent)
+            || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
     }
 
     getConfigPath() {
@@ -258,6 +292,7 @@ class ProjectTemplate {
             const tab = btn.dataset.tab;
             const text = btn.querySelector('span');
             if (text && this.labels[tab]) text.textContent = this.labels[tab];
+            if (this.labels[tab]) btn.setAttribute('aria-label', this.labels[tab]);
         });
 
         const repoDocsBtn = document.getElementById('repo-docs-btn');
@@ -266,12 +301,19 @@ class ProjectTemplate {
         if (downloadPdfBtn) downloadPdfBtn.innerHTML = `<i class="fas fa-download me-2"></i>${this.labels.downloadPdf}`;
         const prev = document.querySelector('#prev-page span');
         if (prev) prev.textContent = this.labels.previous;
+        document.getElementById('prev-page')?.setAttribute('aria-label', this.labels.previous);
         const next = document.querySelector('#next-page span');
         if (next) next.textContent = this.labels.next;
+        document.getElementById('next-page')?.setAttribute('aria-label', this.labels.next);
+        document.getElementById('zoom-in')?.setAttribute('aria-label', this.labels.zoomIn);
+        document.getElementById('zoom-out')?.setAttribute('aria-label', this.labels.zoomOut);
+        document.querySelector('.navbar-toggler')?.setAttribute('aria-label', this.labels.toggleNavigation);
         const pageInfo = document.getElementById('page-info');
         if (pageInfo) pageInfo.innerHTML = `${this.labels.page} <span id="page-num">1</span> ${this.labels.of} <span id="page-count">?</span>`;
         const fallback = document.getElementById('pdf-fallback');
         if (fallback) fallback.innerHTML = `<p>${this.labels.pdfFallback} <a href="#" id="pdf-download-link">${this.labels.downloadFile}</a></p>`;
+        const mainVideo = document.getElementById('main-video');
+        if (mainVideo) mainVideo.textContent = this.labels.videoNotSupported;
         const footerAuthor = document.getElementById('footer-author');
         if (footerAuthor) footerAuthor.textContent = this.labels.author;
         const footerInstitution = document.getElementById('footer-institution');
@@ -307,6 +349,7 @@ class ProjectTemplate {
     }
 
     hideLoader() {
+        document.body.classList.remove('project-loading');
         const loader = document.getElementById('loading-screen');
         if (loader) {
             loader.style.opacity = '0';
@@ -321,7 +364,7 @@ class ProjectTemplate {
         this.renderTechnologies();
         this.renderAchievements();
         this.renderFooter();
-        this.setupPDFViewer();
+        this.setupPDFViewerWhenVisible();
         this.addScrollAnimations();
         
         // iOS debugging
@@ -367,6 +410,8 @@ class ProjectTemplate {
         // Título de la página
         document.getElementById('page-title').textContent = project.title;
         document.getElementById('nav-title').textContent = project.title;
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) metaDescription.setAttribute('content', project.shortDescription || project.subtitle || project.title);
         
         // Hero content
         document.getElementById('hero-status').textContent = project.status;
@@ -377,15 +422,15 @@ class ProjectTemplate {
         // Tags
         const tagsContainer = document.getElementById('hero-tags');
         tagsContainer.innerHTML = project.tags.map(tag => 
-            `<span class="hero-tag">${tag}</span>`
+            `<span class="hero-tag">${this.escapeHTML(tag)}</span>`
         ).join('');
         
         // Stats
         const statsContainer = document.getElementById('hero-stats');
         statsContainer.innerHTML = this.config.stats.map(stat =>
             `<div class="hero-stat">
-                <span class="hero-stat-value">${stat.value}</span>
-                <span class="hero-stat-label">${stat.label}</span>
+                <span class="hero-stat-value">${this.escapeHTML(stat.value)}</span>
+                <span class="hero-stat-label">${this.escapeHTML(stat.label)}</span>
             </div>`
         ).join('');
         
@@ -407,39 +452,96 @@ class ProjectTemplate {
         document.getElementById('overview-impact').textContent = overview.impact;
     }
 
+    escapeHTML(value) {
+        return String(value ?? '').replace(/[&<>"']/g, (char) => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#039;'
+        })[char]);
+    }
+
     renderMedia() {
+        const media = this.config.media || {};
+        const availability = {
+            videos: Boolean(media.videos?.length),
+            images: Boolean(media.images?.length),
+            diagrams: Boolean(media.diagrams?.length)
+        };
+        const firstAvailable = Object.keys(availability).find(key => availability[key]);
+
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            const isAvailable = availability[btn.dataset.tab];
+            btn.hidden = !isAvailable;
+            btn.disabled = !isAvailable;
+            btn.setAttribute('aria-hidden', String(!isAvailable));
+            btn.setAttribute('aria-selected', String(btn.dataset.tab === firstAvailable));
+        });
+
         this.renderVideos();
         this.renderImages();
         this.renderDiagrams();
+
+        if (firstAvailable) {
+            this.switchTab(firstAvailable);
+        } else {
+            const mediaContent = document.querySelector('.media-content');
+            if (mediaContent) {
+                mediaContent.innerHTML = `<div class="empty-state">${this.escapeHTML(this.labels.mediaUnavailable)}</div>`;
+            }
+        }
     }
 
     renderVideos() {
-        const videos = this.config.media.videos;
-        if (!videos || videos.length === 0) return;
+        const videos = this.config.media?.videos || [];
 
         const mainVideo = document.getElementById('main-video');
         const playlist = document.getElementById('video-playlist');
-        
-        // Cargar primer video
-        this.loadVideo(0);
-        
-        // Render playlist with iOS-compatible video elements
+        if (!mainVideo || !playlist) return;
+
+        if (!videos.length) {
+            playlist.innerHTML = '';
+            return;
+        }
+
+        mainVideo.setAttribute('playsinline', '');
+        mainVideo.setAttribute('webkit-playsinline', '');
+        mainVideo.preload = 'none';
+        mainVideo.controls = true;
+        if (!mainVideo.dataset.lazyHandlersBound) {
+            const ensureSource = () => this.ensureMainVideoSource();
+            mainVideo.addEventListener('pointerdown', ensureSource, { passive: true });
+            mainVideo.addEventListener('touchstart', ensureSource, { passive: true });
+            mainVideo.addEventListener('click', ensureSource, { passive: true });
+            mainVideo.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    ensureSource();
+                }
+            });
+            mainVideo.dataset.lazyHandlersBound = 'true';
+        }
+        mainVideo.onerror = () => {
+            const error = document.getElementById('video-error');
+            if (error) error.hidden = false;
+        };
+
         playlist.innerHTML = videos.map((video, index) =>
-            `<div class="video-item" data-video="${index}">
-                <video class="video-thumbnail w-100" muted playsinline webkit-playsinline preload="metadata" style="height: 160px; object-fit: cover;">
-                    <source src="${video.src}" type="video/mp4">
-                    <div class="video-fallback d-flex align-items-center justify-content-center bg-light" style="height: 160px;">
-                        <i class="fas fa-play-circle fa-3x text-primary"></i>
+            `<button type="button" class="video-item" data-video="${index}" aria-pressed="${index === 0}">
+                <div class="video-thumb-shell">
+                    ${video.poster ? `<img class="video-poster" src="${video.poster}" alt="" loading="lazy" decoding="async" width="480" height="270">` : ''}
+                    <div class="video-fallback ${video.poster ? '' : 'is-visible'}">
+                        <i class="fas fa-play-circle" aria-hidden="true"></i>
                     </div>
-                </video>
-                <div class="video-item-info">
-                    <div class="video-item-title">${video.title}</div>
-                    <div class="video-item-description">${video.description}</div>
+                    <span class="video-play-badge" aria-hidden="true"><i class="fas fa-play"></i></span>
                 </div>
-            </div>`
+                <div class="video-item-info">
+                    <div class="video-item-title">${this.escapeHTML(video.title)}</div>
+                    <div class="video-item-description">${this.escapeHTML(video.description)}</div>
+                </div>
+            </button>`
         ).join('');
-        
-        // Event listeners para playlist
+
         playlist.addEventListener('click', (e) => {
             const videoItem = e.target.closest('.video-item');
             if (videoItem) {
@@ -448,25 +550,22 @@ class ProjectTemplate {
             }
         });
 
-        // Add error handling for video thumbnails
-        document.querySelectorAll('.video-thumbnail').forEach((video, index) => {
-            video.addEventListener('error', () => {
-                console.error(`Error loading video thumbnail ${index}`);
-                const fallback = video.nextElementSibling;
-                if (fallback && fallback.classList.contains('video-fallback')) {
-                    video.style.display = 'none';
-                    fallback.style.display = 'flex';
-                }
+        document.querySelectorAll('.video-poster').forEach(img => {
+            img.addEventListener('error', () => {
+                img.hidden = true;
+                img.closest('.video-thumb-shell')?.querySelector('.video-fallback')?.classList.add('is-visible');
             });
-            
-            // iOS-specific handling
-            if (this.isIOS) {
-                this.setupIOSVideo(video, index);
-            } else {
-                // Standard video handling
-                video.currentTime = 1; // Show frame at 1 second for thumbnail
-            }
         });
+
+        this.loadVideo(0);
+    }
+
+    ensureMainVideoSource() {
+        const mainVideo = document.getElementById('main-video');
+        if (!mainVideo?.dataset.src || mainVideo.getAttribute('src')) return;
+
+        mainVideo.src = mainVideo.dataset.src;
+        mainVideo.load();
     }
 
     setupIOSVideo(video, index) {
@@ -501,32 +600,28 @@ class ProjectTemplate {
         const mainVideo = document.getElementById('main-video');
         const videoTitle = document.getElementById('video-title');
         const videoDescription = document.getElementById('video-description');
+        const videoError = document.getElementById('video-error');
+        if (!mainVideo || !videoTitle || !videoDescription) return;
         
-        // Clear previous video and reset
         mainVideo.pause();
-        mainVideo.src = '';
+        mainVideo.removeAttribute('src');
+        delete mainVideo.dataset.src;
         mainVideo.load();
-        
-        // Set new video source with error handling
-        mainVideo.src = video.src;
+        mainVideo.poster = video.poster || '';
+        mainVideo.preload = 'none';
+        mainVideo.dataset.src = video.src;
         videoTitle.textContent = video.title;
         videoDescription.textContent = video.description;
-        
-        // iOS-specific handling
-        if (this.isIOS) {
-            this.loadVideoForIOS(mainVideo, video);
-        } else {
-            this.loadVideoStandard(mainVideo, video);
+        if (videoError) {
+            videoError.hidden = true;
+            videoError.textContent = this.labels.videoLoadError;
         }
-        
-        // Load the video
-        mainVideo.load();
-        
+
         this.currentVideo = index;
-        
-        // Update active playlist item
+
         document.querySelectorAll('.video-item').forEach((item, i) => {
             item.classList.toggle('active', i === index);
+            item.setAttribute('aria-pressed', String(i === index));
         });
     }
 
@@ -566,15 +661,20 @@ class ProjectTemplate {
     }
 
     renderImages() {
-        const images = this.config.media.images;
-        if (!images || images.length === 0) return;
+        const images = this.config.media?.images || [];
 
         const gallery = document.getElementById('image-gallery');
+        if (!gallery) return;
+        if (!images.length) {
+            gallery.innerHTML = '';
+            return;
+        }
+
         gallery.innerHTML = images.map((image, index) =>
-            `<div class="image-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-image-index="${index}">
-                <img src="${image.src}" alt="${image.alt}" class="img-fluid" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
-                <div class="image-caption">${image.caption}</div>
-            </div>`
+            `<button type="button" class="image-item media-card-button" data-bs-toggle="modal" data-bs-target="#imageModal" data-image-index="${index}" aria-label="${this.escapeHTML(image.caption || image.alt)} - ${this.escapeHTML(this.labels.openImage)}">
+                <img src="${image.src}" alt="${this.escapeHTML(image.alt || image.caption)}" class="media-image" loading="lazy" decoding="async" width="640" height="420">
+                <div class="image-caption">${this.escapeHTML(image.caption || image.alt)}</div>
+            </button>`
         ).join('');
         
         // Add click handlers for modal
@@ -585,18 +685,24 @@ class ProjectTemplate {
                 this.showImageModal(image, image.caption, image.alt);
             });
         });
+        this.setupMediaImageFallbacks(gallery);
     }
 
     renderDiagrams() {
-        const diagrams = this.config.media.diagrams;
-        if (!diagrams || diagrams.length === 0) return;
+        const diagrams = this.config.media?.diagrams || [];
 
         const diagramsGrid = document.getElementById('diagrams-grid');
+        if (!diagramsGrid) return;
+        if (!diagrams.length) {
+            diagramsGrid.innerHTML = '';
+            return;
+        }
+
         diagramsGrid.innerHTML = diagrams.map((diagram, index) =>
-            `<div class="diagram-item" data-bs-toggle="modal" data-bs-target="#imageModal" data-diagram-index="${index}">
-                <img src="${diagram.src}" alt="${diagram.alt}" class="img-fluid" loading="lazy" style="width: 100%; height: auto; object-fit: contain; background: #f8f9fa; min-height: 250px;">
-                <h4 class="p-3 mb-0">${diagram.title}</h4>
-            </div>`
+            `<button type="button" class="diagram-item media-card-button" data-bs-toggle="modal" data-bs-target="#imageModal" data-diagram-index="${index}" aria-label="${this.escapeHTML(diagram.title || diagram.alt)} - ${this.escapeHTML(this.labels.openDiagram)}">
+                <img src="${diagram.src}" alt="${this.escapeHTML(diagram.alt || diagram.title)}" class="diagram-image" loading="lazy" decoding="async" width="900" height="560">
+                <h3 class="diagram-title">${this.escapeHTML(diagram.title || diagram.alt)}</h3>
+            </button>`
         ).join('');
         
         // Add click handlers for modal
@@ -606,6 +712,18 @@ class ProjectTemplate {
                 const diagram = diagrams[index];
                 this.showImageModal(diagram, diagram.title, diagram.alt);
             });
+        });
+        this.setupMediaImageFallbacks(diagramsGrid);
+    }
+
+    setupMediaImageFallbacks(container) {
+        container.querySelectorAll('img').forEach(img => {
+            img.addEventListener('error', () => {
+                const fallback = document.createElement('div');
+                fallback.className = 'media-image-fallback';
+                fallback.textContent = this.labels.imageLoadError;
+                img.replaceWith(fallback);
+            }, { once: true });
         });
     }
 
@@ -626,13 +744,13 @@ class ProjectTemplate {
         
         container.innerHTML = Object.entries(technologies).map(([category, techs]) =>
             `<div class="tech-category">
-                <h3>${this.formatCategoryName(category)}</h3>
+                <h3>${this.escapeHTML(this.formatCategoryName(category))}</h3>
                 <div class="tech-items">
                     ${techs.map(tech =>
                         `<div class="tech-item">
-                            <img src="${tech.icon}" alt="${tech.name}" class="tech-icon img-fluid" loading="lazy" style="width: 60px; height: 60px; object-fit: contain;">
-                            <div class="tech-name">${tech.name}</div>
-                            <div class="tech-description">${tech.description}</div>
+                            <img src="${tech.icon}" alt="${this.escapeHTML(tech.name)}" class="tech-icon img-fluid" loading="lazy" decoding="async" width="64" height="64">
+                            <div class="tech-name">${this.escapeHTML(tech.name)}</div>
+                            <div class="tech-description">${this.escapeHTML(tech.description)}</div>
                         </div>`
                     ).join('')}
                 </div>
@@ -659,7 +777,7 @@ class ProjectTemplate {
                 'cloud': 'Cloud Computing'
             },
             de: {
-                'ai': 'Kunstliche Intelligenz',
+                'ai': 'Künstliche Intelligenz',
                 'robotics': 'Robotik',
                 'computer_vision': 'Computer Vision',
                 'development': 'Entwicklung',
@@ -679,11 +797,11 @@ class ProjectTemplate {
                 <div class="achievement-marker"></div>
                 <div class="achievement-content">
                     <div class="achievement-date">${this.formatDate(achievement.date)}</div>
-                    <h4 class="achievement-title">${achievement.title}</h4>
-                    <span class="achievement-type">${achievement.type}</span>
-                    ${achievement.image ? `<img src="${achievement.image}" alt="${achievement.title}" class="achievement-image img-fluid" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px; margin-bottom: 1rem;">` : ''}
-                    <p>${achievement.description}</p>
-                    ${achievement.link ? `<a href="${achievement.link}" target="_blank" class="achievement-link">${this.labels.viewMore} <i class="fas fa-external-link-alt"></i></a>` : ''}
+                    <h3 class="achievement-title">${this.escapeHTML(achievement.title)}</h3>
+                    <span class="achievement-type">${this.escapeHTML(achievement.type)}</span>
+                    ${achievement.image ? `<img src="${achievement.image}" alt="${this.escapeHTML(achievement.title)}" class="achievement-image img-fluid" loading="lazy" decoding="async" width="640" height="360">` : ''}
+                    <p>${this.escapeHTML(achievement.description)}</p>
+                    ${achievement.link ? `<a href="${achievement.link}" target="_blank" rel="noopener noreferrer" class="achievement-link">${this.escapeHTML(this.labels.viewMore)} <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>` : ''}
                 </div>
             </div>`
         ).join('');
@@ -706,8 +824,8 @@ class ProjectTemplate {
         
         const socialLinks = document.getElementById('social-links');
         socialLinks.innerHTML = Object.entries(author.social).map(([platform, url]) =>
-            `<a href="${url}" class="social-link" target="_blank">
-                <i class="fab fa-${platform}"></i>
+            `<a href="${url}" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="${this.escapeHTML(platform)}">
+                <i class="fab fa-${platform}" aria-hidden="true"></i>
             </a>`
         ).join('');
         
@@ -743,14 +861,20 @@ class ProjectTemplate {
         });
         
         // Navbar scroll effect
+        let scrollTicking = false;
         window.addEventListener('scroll', () => {
+            if (scrollTicking) return;
+            scrollTicking = true;
+            requestAnimationFrame(() => {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 100) {
                 navbar.classList.add('navbar-scrolled');
             } else {
                 navbar.classList.remove('navbar-scrolled');
             }
-        });
+                scrollTicking = false;
+            });
+        }, { passive: true });
         
         // Smooth scroll for navigation - exclude external links and specific buttons
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -761,10 +885,15 @@ class ProjectTemplate {
                     const targetId = this.getAttribute('href').substring(1);
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
+                        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
                         targetElement.scrollIntoView({
-                            behavior: 'smooth',
+                            behavior: prefersReducedMotion ? 'auto' : 'smooth',
                             block: 'start'
                         });
+                        const navbarCollapse = document.querySelector('.navbar-collapse.show');
+                        if (navbarCollapse && window.bootstrap) {
+                            bootstrap.Collapse.getOrCreateInstance(navbarCollapse).hide();
+                        }
                     }
                 });
             }
@@ -797,6 +926,7 @@ class ProjectTemplate {
         // Update tab buttons
         document.querySelectorAll('.tab-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.tab === tabName);
+            btn.setAttribute('aria-selected', String(btn.dataset.tab === tabName));
         });
         
         // Update tab content
@@ -810,8 +940,32 @@ class ProjectTemplate {
         }
     }
 
+    setupPDFViewerWhenVisible() {
+        const docsSection = document.getElementById('docs');
+        if (!docsSection) return;
+
+        if (!('IntersectionObserver' in window)) {
+            this.setupPDFViewer();
+            return;
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            if (entries.some(entry => entry.isIntersecting)) {
+                observer.disconnect();
+                this.setupPDFViewer();
+            }
+        }, { rootMargin: '600px 0px' });
+
+        observer.observe(docsSection);
+    }
+
     async setupPDFViewer() {
-        if (!window.pdfjsLib) return;
+        const pdfReady = await this.ensurePDFLibrary();
+        if (!pdfReady) {
+            document.getElementById('pdf-fallback').style.display = 'block';
+            document.getElementById('pdf-canvas').style.display = 'none';
+            return;
+        }
         
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
         
@@ -829,11 +983,39 @@ class ProjectTemplate {
         }
     }
 
+    async ensurePDFLibrary() {
+        if (window.pdfjsLib) return true;
+
+        if (!this.pdfLibraryPromise) {
+            this.pdfLibraryPromise = new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js';
+                script.async = true;
+                script.crossOrigin = 'anonymous';
+                script.onload = resolve;
+                script.onerror = reject;
+                document.head.appendChild(script);
+            });
+        }
+
+        try {
+            await this.pdfLibraryPromise;
+            return Boolean(window.pdfjsLib);
+        } catch (error) {
+            console.error('Error loading PDF.js:', error);
+            return false;
+        }
+    }
+
     async renderPDFPage(pageNum) {
         if (!this.pdfDoc) return;
         
         const page = await this.pdfDoc.getPage(pageNum);
-        const viewport = page.getViewport({ scale: this.pdfScale });
+        const baseViewport = page.getViewport({ scale: 1 });
+        const container = document.querySelector('.pdf-canvas-container');
+        const availableWidth = container ? Math.max(container.clientWidth - 32, 280) : baseViewport.width;
+        const fitScale = Math.min(availableWidth / baseViewport.width, 1.25);
+        const viewport = page.getViewport({ scale: fitScale * this.pdfScale });
         
         const canvas = document.getElementById('pdf-canvas');
         const context = canvas.getContext('2d');
@@ -851,36 +1033,45 @@ class ProjectTemplate {
     }
 
     prevPage() {
-        if (this.currentPage <= 1) return;
+        if (!this.pdfDoc || this.currentPage <= 1) return;
         this.renderPDFPage(this.currentPage - 1);
     }
 
     nextPage() {
-        if (this.currentPage >= this.pdfDoc.numPages) return;
+        if (!this.pdfDoc || this.currentPage >= this.pdfDoc.numPages) return;
         this.renderPDFPage(this.currentPage + 1);
     }
 
     zoomIn() {
-        this.pdfScale += 0.25;
+        this.pdfScale = Math.min(this.pdfScale + 0.25, 2);
         this.renderPDFPage(this.currentPage);
     }
 
     zoomOut() {
         if (this.pdfScale <= 0.5) return;
-        this.pdfScale -= 0.25;
+        this.pdfScale = Math.max(this.pdfScale - 0.25, 0.5);
         this.renderPDFPage(this.currentPage);
     }
 
     addScrollAnimations() {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.querySelectorAll('.overview-card, .video-player, .video-item, .image-item, .diagram-item, .tech-category, .achievement-item, .docs-actions, .pdf-viewer-container').forEach(el => {
+                el.classList.add('fade-in-up');
+            });
+            return;
+        }
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('fade-in-up');
+                    observer.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.1 });
+        }, { threshold: 0.12, rootMargin: '0px 0px -10% 0px' });
 
-        document.querySelectorAll('.overview-card, .tech-category, .achievement-item').forEach(el => {
+        document.querySelectorAll('.overview-card, .video-player, .video-item, .image-item, .diagram-item, .tech-category, .achievement-item, .docs-actions, .pdf-viewer-container').forEach((el, index) => {
+            el.style.setProperty('--animation-delay', `${Math.min(index * 35, 280)}ms`);
             observer.observe(el);
         });
     }
@@ -934,7 +1125,12 @@ class ProjectTemplate {
     }
 }
 
-// Inicializar cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', () => {
+const initializeProjectTemplate = () => {
     new ProjectTemplate();
-});
+};
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeProjectTemplate, { once: true });
+} else {
+    initializeProjectTemplate();
+}

@@ -42,67 +42,75 @@
         }
     ],
     "media": {
-        "mainVideo": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-585908ab.mp4",
         "videos": [
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true",
+                "src": "../../assets/project-media/video-hauptdemonstration-585908ab.mp4",
                 "title": "Demostración principal",
-                "description": "Video mostrando la integración del robot móvil autónomo con el robot articulado para la manipulación de objetos."
+                "description": "Video mostrando la integración del robot móvil autónomo con el robot articulado para la manipulación de objetos.",
+                "poster": "../../assets/project-media/video-hauptdemonstration-585908ab.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V2.mp4?raw=true",
+                "src": "../../assets/project-media/video-demostracion-de-robot-movil-autonomo-94603836.mp4",
                 "title": "Demostración de robot móvil autónomo",
-                "description": "Video mostrando el sistema en acción."
+                "description": "Video mostrando el sistema en acción.",
+                "poster": "../../assets/project-media/video-demostracion-de-robot-movil-autonomo-94603836.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Avance_07-04-25.mp4?raw=true",
+                "src": "../../assets/project-media/video-simulacion-de-robot-en-solidworks-08b87569.mp4",
                 "title": "Simulación de robot en SolidWorks",
-                "description": "Video mostrando la simulación del robot en SolidWorks."
+                "description": "Video mostrando la simulación del robot en SolidWorks.",
+                "poster": "../../assets/project-media/video-simulacion-de-robot-en-solidworks-08b87569.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/worksapce.mp4?raw=true",
+                "src": "../../assets/project-media/video-espacio-de-trabajo-de-robot-184adf4b.mp4",
                 "title": "Espacio de trabajo de robot",
-                "description": "Se presenta el video de la simulación del espacio de trabajo."
+                "description": "Se presenta el video de la simulación del espacio de trabajo.",
+                "poster": "../../assets/project-media/video-espacio-de-trabajo-de-robot-184adf4b.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Circulo.mp4?raw=true",
+                "src": "../../assets/project-media/video-trayectoria-circular-9e847935.mp4",
                 "title": "Trayectoria circular",
-                "description": "Se presenta el video de la simulación de trayectoria circular."
+                "description": "Se presenta el video de la simulación de trayectoria circular.",
+                "poster": "../../assets/project-media/video-trayectoria-circular-9e847935.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Cubo.mp4?raw=true",
+                "src": "../../assets/project-media/video-trayectoria-de-un-cubo-d78e94cb.mp4",
                 "title": "Trayectoria de un cubo",
-                "description": "Se presenta el video de la simulación para una trayectoria de un cubo."
+                "description": "Se presenta el video de la simulación para una trayectoria de un cubo.",
+                "poster": "../../assets/project-media/video-trayectoria-de-un-cubo-d78e94cb.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M.mp4?raw=true",
+                "src": "../../assets/project-media/video-trayectoria-m-a01f5bda.mp4",
                 "title": "Trayectoria M",
-                "description": "Se presenta el video de la simulación para una trayectoria de M."
+                "description": "Se presenta el video de la simulación para una trayectoria de M.",
+                "poster": "../../assets/project-media/video-trayectoria-m-a01f5bda.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M2.mp4?raw=true",
+                "src": "../../assets/project-media/video-trayectoria-m-2-8c948759.mp4",
                 "title": "Trayectoria M 2",
-                "description": "Se presenta el video de la simulación para una trayectoria de M."
+                "description": "Se presenta el video de la simulación para una trayectoria de M.",
+                "poster": "../../assets/project-media/video-trayectoria-m-2-8c948759.webp"
             }
         ],
         "images": [
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im4.jpg?raw=true",
+                "src": "../../assets/project-media/image-robot-completo-920e21f7.webp",
                 "alt": "Robot completo",
                 "caption": "Robot móvil autónomo con robot articulado"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im1.jpg?raw=true",
+                "src": "../../assets/project-media/image-render-de-prototipo-en-solidworks-68486120.webp",
                 "alt": "Render de prototipo en SolidWorks",
                 "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im2.jpg?raw=true",
+                "src": "../../assets/project-media/image-render-de-prototipo-en-solidworks-286098c7.webp",
                 "alt": "Render de prototipo en SolidWorks",
                 "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im3.jpg?raw=true",
+                "src": "../../assets/project-media/image-render-de-prototipo-en-solidworks-2266a7ae.webp",
                 "alt": "Render de prototipo en SolidWorks",
                 "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
             }
@@ -168,7 +176,7 @@
             "date": "2025-06",
             "type": "Exposición Universitaria",
             "description": "",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "./All Robot.pdf"
         }
     ],

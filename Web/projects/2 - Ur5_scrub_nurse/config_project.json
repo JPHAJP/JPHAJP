@@ -42,84 +42,90 @@
         }
     ],
     "media": {
-        "mainVideo": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-53e81e3c.mp4",
         "videos": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0009.mp4?raw=true",
+                "src": "../../assets/project-media/video-hauptdemonstration-53e81e3c.mp4",
                 "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado"
+                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado",
+                "poster": "../../assets/project-media/video-hauptdemonstration-53e81e3c.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0004.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-mit-sprachbefehlen-ae6531d1.mp4",
                 "title": "Demostración con comandos de voz",
-                "description": "Video mostrando el sistema en acción"
+                "description": "Video mostrando el sistema en acción",
+                "poster": "../../assets/project-media/video-demonstration-mit-sprachbefehlen-ae6531d1.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0001.mp4?raw=true",
+                "src": "../../assets/project-media/video-handschuherkennung-7953e578.mp4",
                 "title": "Reconocimiento de guantes",
-                "description": "Sistema de visión identificando guantes"
+                "description": "Sistema de visión identificando guantes",
+                "poster": "../../assets/project-media/video-handschuherkennung-7953e578.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0003.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-der-instrumentenerkennung-41844b2f.mp4",
                 "title": "Demostración de reconocimiento de instrumental",
-                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada"
+                "description": "Video mostrando la detección y manipulación de instrumental quirúrgico automatizada",
+                "poster": "../../assets/project-media/video-demonstration-der-instrumentenerkennung-41844b2f.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0006.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-der-handschuhubergabe-9a954414.mp4",
                 "title": "Demostración de entrega de guantes",
-                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023"
+                "description": "Proyecto de reconocimiento de objetos en ExpoIbero 2023",
+                "poster": "../../assets/project-media/video-demonstration-der-handschuhubergabe-9a954414.webp"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Videos/VID-20241212-WA0007.mp4?raw=true",
+                "src": "../../assets/project-media/video-demonstration-der-werkzeugubergabe-1d615b03.mp4",
                 "title": "Demostración de entrega de herramientas",
-                "description": "Control del robot por comandos en terminal"
+                "description": "Control del robot por comandos en terminal",
+                "poster": "../../assets/project-media/video-demonstration-der-werkzeugubergabe-1d615b03.webp"
             }
         ],
         "images": [
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/1.jpg?raw=true",
+                "src": "../../assets/project-media/image-electroiman-bba98ac3.webp",
                 "alt": "Electroimán",
                 "caption": "Aditamento de electroimán para manipulación de instrumental"
             },
             {
-                "src": "https://github.com/JPHAJP/UR5_SRUB_NURSE/blob/main/Manual_and_docs/Fotografias/2.jpg?raw=true",
+                "src": "../../assets/project-media/image-efector-final-c12ffdb4.webp",
                 "alt": "Efector final",
                 "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/17.jpg?raw=true",
+                "src": "../../assets/project-media/image-yolov8obb-a464f1c9.webp",
                 "alt": "Yolov8OBB",
                 "caption": "Pruebas tras entrenamiento de modelo de Yolov8OBB"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/14.jpg?raw=true",
+                "src": "../../assets/project-media/image-expoibero-2023-5ef27bfb.webp",
                 "alt": "ExpoIbero 2023",
                 "caption": "Demostración de sistema en ExpoIbero 2023"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/7.jpg?raw=true",
+                "src": "../../assets/project-media/image-deteccion-de-instrumental-642d6bd4.webp",
                 "alt": "Detección de instrumental",
                 "caption": "Demostración de detección de instrumental con PyQt5"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/6.jpg?raw=true",
+                "src": "../../assets/project-media/image-efector-final-476e55fe.webp",
                 "alt": "Efector final",
                 "caption": "Montaje del efector final personalizado para manipulación de instrumental, con cámara Intel D455"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/Fotografias/16.jpg?raw=true",
+                "src": "../../assets/project-media/image-entrenamiento-yolov8obb-8c94193d.webp",
                 "alt": "Entrenamiento Yolov8OBB",
                 "caption": "Entrenamiento de modelo Yolov8OBB estadísticas"
             }
         ],
         "diagrams": [
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
+                "src": "../../assets/project-media/image-arquitectura-del-sistema-b5c061ad.webp",
                 "alt": "Workflow del proyecto",
                 "title": "Arquitectura del Sistema"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
+                "src": "../../assets/project-media/image-flujo-de-procesamiento-ia-84401b88.webp",
                 "alt": "Pipeline de IA",
                 "title": "Flujo de Procesamiento IA"
             }
@@ -251,7 +257,7 @@
             "date": "2023-11",
             "type": "Exposición Universitaria",
             "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
         },
         {
@@ -259,7 +265,7 @@
             "date": "2024-11",
             "type": "Conferencia Internacional",
             "description": "Presentación en la Conferencia Internacional de Ingeniería en Veracruz",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/IEEE.jpg?raw=true",
+            "image": "../../assets/project-media/image-ieee-icev-2024-cb7f0064.webp",
             "link": "https://ieeexplore.ieee.org/document/10765997",
             "featured": true
         },
@@ -268,7 +274,7 @@
             "date": "2024-09",
             "type": "Congreso",
             "description": "Congreso Internacional de Tecnologías Avanzadas Para la Salud",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Conitacs.jpg?raw=true",
+            "image": "../../assets/project-media/image-conitacs-2024-43c149a7.webp",
             "link": "https://www-optica.inaoep.mx/~tecnologia_salud/2024/"
         },
         {
@@ -276,7 +282,7 @@
             "date": "2024-10",
             "type": "Exposición Universitaria",
             "description": "Exposición del sistema completo con todas las funcionalidades integradas para servicio social",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://repositorio.iberopuebla.mx/bitstream/handle/20.500.11777/5915/Prototipo%20con%20reconocimiento%20de%20objetos%20para%20la%20asistencia%20en%20instrumentaci%C3%B3n%20quir%C3%BArgica_modalidad%20prototipo_articuloPDF_final.pdf?sequence=1&isAllowed=y"
         }
     ],

@@ -1,9 +1,9 @@
 {
     "project": {
         "title": "UR5e Barista Automatizado",
-        "subtitle": "Desarrollo de una automatización para una cafetería con un robot UR5e y PLC Siemens",
-        "shortDescription": "Sistema de automatización para la preparación de café con robot UR5e.",
-        "fullDescription": "Sistema de automatización que integra un robot UR5e y un PLC Siemens para la preparación de café.",
+        "subtitle": "Automation development for a coffee shop with a UR5e robot and Siemens PLC",
+        "shortDescription": "Automation system for coffee preparation with a UR5e robot.",
+        "fullDescription": "Automation system integrating a UR5e robot and Siemens PLC for coffee preparation.",
         "status": "Completed",
         "year": "2025",
         "duration": "4 months",
@@ -25,9 +25,9 @@
         "documentation": "./auto-cafe.pdf"
     },
     "overview": {
-        "problem": "Se necesita una solución para una automatización innovadora que atraiga clientes a una cafetería automatizada.",
-        "solution": "Desarrollo de un sistema automatizado de pedidos y preparación de café que mejore la experiencia del cliente.",
-        "impact": "Incremento en la eficiencia operativa y satisfacción del cliente."
+        "problem": "An innovative automation solution is needed to attract customers to an automated coffee shop.",
+        "solution": "Development of an automated ordering and coffee preparation system that improves the customer experience.",
+        "impact": "Increase operational efficiency and customer satisfaction."
     },
     "stats": [
         {
@@ -48,46 +48,47 @@
         }
     ],
     "media": {
-        "mainVideo": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-389b9834.mp4",
         "videos": [
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.mp4?raw=true",
+                "src": "../../assets/project-media/video-hauptdemonstration-389b9834.mp4",
                 "title": "Main demonstration",
-                "description": "Video mostrando la integración completa del sistema de barísta."
+                "description": "Video showing complete barista system integration.",
+                "poster": "../../assets/project-media/video-hauptdemonstration-389b9834.webp"
             }
         ],
         "images": [
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Diagrama_El%C3%A9ctrico-Neum%C3%A1tico.jpg?raw=true",
+                "src": "../../assets/project-media/image-elektrischer-und-pneumatischer-anschlussplan-c8101605.webp",
                 "alt": "Electrical and pneumatic connection diagram",
-                "caption": "Interfaz web del sistema SCADA para monitoreo y control de procesos industriales"
+                "caption": "SCADA web interface for industrial process monitoring and control"
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Programa_Main_PLC.jpg?raw=true",
-                "alt": "Interfaz del programa principal del PLC",
-                "caption": "Interfaz del programa principal del PLC para control de procesos industriales"
+                "src": "../../assets/project-media/image-interfaz-del-programa-principal-del-plc-cb94175d.webp",
+                "alt": "PLC main program interface",
+                "caption": "PLC main program interface for industrial process control"
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Proyecto_completo.jpg?raw=true",
+                "src": "../../assets/project-media/image-vollstandiges-automatisierungsprojekt-6ea330f1.webp",
                 "alt": "Complete automation project",
                 "caption": "General view of the complete industrial automation project for the UR5e barista."
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Panel_electrico.jpg?raw=true",
+                "src": "../../assets/project-media/image-schaltschrank-98a0e4fe.webp",
                 "alt": "Electrical panel",
                 "caption": "Automation system electrical panel"
             },
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/UR5e.jpg?raw=true",
+                "src": "../../assets/project-media/image-ur5e-3bec78fe.webp",
                 "alt": "UR5e",
-                "caption": "Conexiones de Robot UR5e"
+                "caption": "UR5e robot connections"
             }
         ],
         "diagrams": [
             {
-                "src": "https://jphajp.github.io/automatizacion/Recursos/Proyecto/Automatizaci%C3%B3n.png?raw=true",
-                "alt": "Workflow del proyecto",
-                "title": "Arquitectura del Sistema"
+                "src": "../../assets/project-media/image-arquitectura-del-sistema-93cfa9a9.webp",
+                "alt": "Project workflow",
+                "title": "System Architecture"
             }
         ]
     },
@@ -101,52 +102,52 @@
             {
                 "name": "UR-RTDE",
                 "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
-                "description": "Comunicación en tiempo real con el robot"
+                "description": "Real-time communication with the robot"
             },
             {
                 "name": "UR-Script",
                 "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
-                "description": "Programación del robot"
+                "description": "Robot programming"
             },
             {
                 "name": "Siemens TIA Portal",
                 "icon": "../../assets/tech-stack/siemens-tia-portal-70e3b32d.webp",
-                "description": "Programación de PLCs Siemens"
+                "description": "Siemens PLC programming"
             },
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Ubuntu",
                 "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
-                "description": "Sistema operativo"
+                "description": "Operating system"
             },
             {
                 "name": "Profinet",
                 "icon": "../../assets/tech-stack/profinet-cd825ac8.webp",
-                "description": "Protocolo de comunicación industrial"
+                "description": "Industrial communication protocol"
             },
             {
                 "name": "Ethernet/IP",
                 "icon": "../../assets/tech-stack/ethernet-ip-a19dc79a.webp",
-                "description": "Protocolo de comunicación industrial"
+                "description": "Industrial communication protocol"
             },
             {
                 "name": "SolidWorks",
                 "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAfCAMAAACxiD++AAAAM1BMVEVHcEzjPD7mPkDmPkDmPkDmP0HmP0HmP0HmP0HmPkHlPkDlPkDjOz3kPT/lPkDmPkDmPkAdDQWWAAAAEXRSTlMAFl2GxNj0/+ixcDIMI0aWpOuWI7UAAAEJSURBVHgBfZIBigQhDASjGiuOruP/X3snys4J5xRAgkFidysPzoeoCSxfTv7D68AAUpET9dMCEOWNC1TeuKHLCw74yJka4XqfE+SM0/f7xUhezgTodezxParGHHzd1mdiG403Frtjfo7lkyDdvpVf3MFJ/C6tXT2qabz9cKjBrrQoX1KoIgq2eVnawAcFuEXaMc+SwNx8RZaN7GcBq7MS9oSLDOJKuuqupNG/DpTZGasdOGMa8ifJApgs+joOoJtdYS0gzfkuP4HW1V3rp6iTB5uSRQKjNoNcxZVSmvdXyAbc6+VZSoZ0zc0PuS5vkgLdTUXNh7vn3GdwUw6QixzogPUiR8x6q3LmBxNICz3Z7y7aAAAAAElFTkSuQmCC",
-                "description": "Software de diseño CAD"
+                "description": "CAD design software"
             }
         ]
     },
     "achievements": [
         {
-            "title": "ExpoIbero Otoño 2024",
+            "title": "ExpoIbero Fall 2024",
             "date": "2024-12",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo.",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "type": "University Exhibition",
+            "description": "Exhibition of the complete system.",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://jphajp.github.io/automatizacion/proyecto.html"
         }
     ],

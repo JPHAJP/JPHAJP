@@ -47,27 +47,31 @@
         }
     ],
     "media": {
-        "mainVideo": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-timer-42de1c9a.mp4",
         "videos": [
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+                "src": "../../assets/project-media/video-timer-42de1c9a.mp4",
                 "title": "Timer",
-                "description": "Temporizador con ESP32."
+                "description": "Temporizador con ESP32.",
+                "poster": "../../assets/project-media/video-timer-42de1c9a.webp"
             },
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Prox.mp4?raw=true",
+                "src": "../../assets/project-media/video-naherungssensor-20a230fc.mp4",
                 "title": "Sensor de proximidad",
-                "description": "Sensor de proximidad con ESP32 para cochera con semáforo."
+                "description": "Sensor de proximidad con ESP32 para cochera con semáforo.",
+                "poster": "../../assets/project-media/video-naherungssensor-20a230fc.webp"
             },
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Hum.mp4?raw=true",
+                "src": "../../assets/project-media/video-feuchtigkeitssensor-837356db.mp4",
                 "title": "Sensor de humedad",
-                "description": "Sensor de humedad de suelo con ESP32 para baño."
+                "description": "Sensor de humedad de suelo con ESP32 para baño.",
+                "poster": "../../assets/project-media/video-feuchtigkeitssensor-837356db.webp"
             },
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Movimiento.mp4?raw=true",
+                "src": "../../assets/project-media/video-bewegungssensor-661049e4.mp4",
                 "title": "Sensor de movimiento",
-                "description": "Sensor de movimiento con ESP32 para detección de presencia."
+                "description": "Sensor de movimiento con ESP32 para detección de presencia.",
+                "poster": "../../assets/project-media/video-bewegungssensor-661049e4.webp"
             }
         ]
     },
@@ -141,7 +145,7 @@
             "date": "2023-11",
             "type": "Exposición Universitaria",
             "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://jphajp.github.io/Redes/proyecto.html"
         }
     ],

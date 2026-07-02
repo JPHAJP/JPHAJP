@@ -38,12 +38,13 @@
         }
     ],
     "media": {
-        "mainVideo": "./EmoHelper.mp4",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-516ff70c.mp4",
         "videos": [
             {
-                "src": "./EmoHelper.mp4",
+                "src": "../../assets/project-media/video-hauptdemonstration-516ff70c.mp4",
                 "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado"
+                "description": "Video mostrando la integración completa del sistema en un entorno quirúrgico simulado",
+                "poster": "../../assets/project-media/video-hauptdemonstration-516ff70c.webp"
             }
         ]
     },
@@ -134,7 +135,7 @@
             "date": "2023-06",
             "type": "Exposición Universitaria",
             "description": "Exposición del sistema del sistema ExpoIbero 2023",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://github.com/JPHAJP/proyecto_tec_emergentes/"
         }
     ],

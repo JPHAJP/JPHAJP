@@ -1,9 +1,9 @@
 {
     "project": {
-        "title": "Robot articulado y móvil autónomo",
-        "subtitle": "Clase de Robótica Aplicada",
-        "shortDescription": "Desarrollo de un robot articulado y un robot móvil autónomo con cálculo de dinámica de robot y control avanzado.",
-        "fullDescription": "Proyecto de construcción de un robot articulado y un robot móvil autónomo, enfocado en el cálculo de la dinámica del robot y el control avanzado para la clase de Robótica Aplicada.",
+        "title": "Articulated and Autonomous Mobile Robot",
+        "subtitle": "Applied Robotics Class",
+        "shortDescription": "Development of an articulated robot and autonomous mobile robot with robot dynamics calculation and advanced control.",
+        "fullDescription": "Project to build an articulated robot and an autonomous mobile robot, focused on robot dynamics calculation and advanced control for the Applied Robotics class.",
         "status": "Completed",
         "year": "2025",
         "duration": "4 months",
@@ -14,8 +14,8 @@
             "Samuel Villanueva"
         ],
         "tags": [
-            "Robótica Industrial",
-            "Robótica Móvil",
+            "Industrial Robotics",
+            "Mobile Robotics",
             "IA/ML",
             "Computer Vision"
         ],
@@ -23,9 +23,9 @@
         "documentation": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Presentaci%C3%B3n%20Final%20D.%20Elementos%20de%20m%C3%A1quina.pdf"
     },
     "overview": {
-        "problem": "La necesidad de desarrollar soluciones robóticas avanzadas para aplicaciones industriales y de servicio, que integren múltiples tecnologías para mejorar la eficiencia y precisión en tareas complejas.",
-        "solution": "Desarrollo de un sistema robótico que combina un robot articulado con un robot móvil autónomo, utilizando inteligencia artificial para seguimiento de objetos.",
-        "impact": "El proyecto demuestra la viabilidad de integrar tecnologías avanzadas en robótica para aplicaciones prácticas, mejorando la automatización y eficiencia en entornos industriales y de servicio."
+        "problem": "There is a need to develop advanced robotic solutions for industrial and service applications that integrate multiple technologies to improve efficiency and precision in complex tasks.",
+        "solution": "Development of a robotic system that combines an articulated robot with an autonomous mobile robot, using artificial intelligence for object tracking.",
+        "impact": "The project demonstrates the viability of integrating advanced robotics technologies into practical applications, improving automation and efficiency in industrial and service environments."
     },
     "stats": [
         {
@@ -34,7 +34,7 @@
         },
         {
             "value": "1",
-            "label": "Exposición"
+            "label": "Exhibition"
         },
         {
             "value": "80%",
@@ -42,69 +42,77 @@
         }
     ],
     "media": {
-        "mainVideo": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-585908ab.mp4",
         "videos": [
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V1.mp4?raw=true",
+                "src": "../../assets/project-media/video-hauptdemonstration-585908ab.mp4",
                 "title": "Main demonstration",
-                "description": "Video mostrando la integración del robot móvil autónomo con el robot articulado para la manipulación de objetos."
+                "description": "Video showing integration of the autonomous mobile robot with the articulated robot for object manipulation.",
+                "poster": "../../assets/project-media/video-hauptdemonstration-585908ab.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/V2.mp4?raw=true",
-                "title": "Demostración de robot móvil autónomo",
-                "description": "Video mostrando el sistema en acción."
+                "src": "../../assets/project-media/video-demostracion-de-robot-movil-autonomo-94603836.mp4",
+                "title": "Autonomous mobile robot demonstration",
+                "description": "Video showing the system in action.",
+                "poster": "../../assets/project-media/video-demostracion-de-robot-movil-autonomo-94603836.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Avance_07-04-25.mp4?raw=true",
-                "title": "Simulación de robot en SolidWorks",
-                "description": "Video mostrando la simulación del robot en SolidWorks."
+                "src": "../../assets/project-media/video-simulacion-de-robot-en-solidworks-08b87569.mp4",
+                "title": "Robot simulation in SolidWorks",
+                "description": "Video showing the robot simulation in SolidWorks.",
+                "poster": "../../assets/project-media/video-simulacion-de-robot-en-solidworks-08b87569.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/worksapce.mp4?raw=true",
-                "title": "Espacio de trabajo de robot",
-                "description": "Se presenta el video de la simulación del espacio de trabajo."
+                "src": "../../assets/project-media/video-espacio-de-trabajo-de-robot-184adf4b.mp4",
+                "title": "Robot workspace",
+                "description": "Video of the workspace simulation.",
+                "poster": "../../assets/project-media/video-espacio-de-trabajo-de-robot-184adf4b.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Circulo.mp4?raw=true",
-                "title": "Trayectoria circular",
-                "description": "Se presenta el video de la simulación de trayectoria circular."
+                "src": "../../assets/project-media/video-trayectoria-circular-9e847935.mp4",
+                "title": "Circular trajectory",
+                "description": "Video of the circular trajectory simulation.",
+                "poster": "../../assets/project-media/video-trayectoria-circular-9e847935.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/Cubo.mp4?raw=true",
-                "title": "Trayectoria de un cubo",
-                "description": "Se presenta el video de la simulación para una trayectoria de un cubo."
+                "src": "../../assets/project-media/video-trayectoria-de-un-cubo-d78e94cb.mp4",
+                "title": "Cube trajectory",
+                "description": "Video of the cube trajectory simulation.",
+                "poster": "../../assets/project-media/video-trayectoria-de-un-cubo-d78e94cb.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M.mp4?raw=true",
-                "title": "Trayectoria M",
-                "description": "Se presenta el video de la simulación para una trayectoria de M."
+                "src": "../../assets/project-media/video-trayectoria-m-a01f5bda.mp4",
+                "title": "M trajectory",
+                "description": "Video of the M trajectory simulation.",
+                "poster": "../../assets/project-media/video-trayectoria-m-a01f5bda.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/T11/assets/M2.mp4?raw=true",
-                "title": "Trayectoria M 2",
-                "description": "Se presenta el video de la simulación para una trayectoria de M."
+                "src": "../../assets/project-media/video-trayectoria-m-2-8c948759.mp4",
+                "title": "M trajectory 2",
+                "description": "Video of the M trajectory simulation.",
+                "poster": "../../assets/project-media/video-trayectoria-m-2-8c948759.webp"
             }
         ],
         "images": [
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im4.jpg?raw=true",
-                "alt": "Robot completo",
-                "caption": "Robot móvil autónomo con robot articulado"
+                "src": "../../assets/project-media/image-robot-completo-920e21f7.webp",
+                "alt": "Complete robot",
+                "caption": "Autonomous mobile robot with articulated robot"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im1.jpg?raw=true",
-                "alt": "Render de prototipo en SolidWorks",
-                "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
+                "src": "../../assets/project-media/image-render-de-prototipo-en-solidworks-68486120.webp",
+                "alt": "Prototype render in SolidWorks",
+                "caption": "Prototype render of the autonomous mobile robot with articulated robot in SolidWorks"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im2.jpg?raw=true",
-                "alt": "Render de prototipo en SolidWorks",
-                "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
+                "src": "../../assets/project-media/image-render-de-prototipo-en-solidworks-286098c7.webp",
+                "alt": "Prototype render in SolidWorks",
+                "caption": "Prototype render of the autonomous mobile robot with articulated robot in SolidWorks"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Teoria/Proy_final/assets/docs/Im3.jpg?raw=true",
-                "alt": "Render de prototipo en SolidWorks",
-                "caption": "Render del prototipo del robot móvil autónomo con robot articulado en SolidWorks"
+                "src": "../../assets/project-media/image-render-de-prototipo-en-solidworks-2266a7ae.webp",
+                "alt": "Prototype render in SolidWorks",
+                "caption": "Prototype render of the autonomous mobile robot with articulated robot in SolidWorks"
             }
         ]
     },
@@ -118,47 +126,47 @@
             {
                 "name": "SolidWorks",
                 "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAfCAMAAACxiD++AAAAM1BMVEVHcEzjPD7mPkDmPkDmPkDmP0HmP0HmP0HmP0HmPkHlPkDlPkDjOz3kPT/lPkDmPkDmPkAdDQWWAAAAEXRSTlMAFl2GxNj0/+ixcDIMI0aWpOuWI7UAAAEJSURBVHgBfZIBigQhDASjGiuOruP/X3snys4J5xRAgkFidysPzoeoCSxfTv7D68AAUpET9dMCEOWNC1TeuKHLCw74yJka4XqfE+SM0/f7xUhezgTodezxParGHHzd1mdiG403Frtjfo7lkyDdvpVf3MFJ/C6tXT2qabz9cKjBrrQoX1KoIgq2eVnawAcFuEXaMc+SwNx8RZaN7GcBq7MS9oSLDOJKuuqupNG/DpTZGasdOGMa8ifJApgs+joOoJtdYS0gzfkuP4HW1V3rp6iTB5uSRQKjNoNcxZVSmvdXyAbc6+VZSoZ0zc0PuS5vkgLdTUXNh7vn3GdwUw6QixzogPUiR8x6q3LmBxNICz3Z7y7aAAAAAElFTkSuQmCC",
-                "description": "Diseño y simulación CAD"
+                "description": "CAD design and simulation"
             },
             {
                 "name": "Robotics Toolbox",
                 "icon": "../../assets/tech-stack/robotics-toolbox-d90ac70b.webp",
-                "description": "Biblioteca de robótica"
+                "description": "Robotics library"
             },
             {
                 "name": "OpenCV",
                 "icon": "../../assets/tech-stack/opencv-c377c49d.webp",
-                "description": "Visión computacional"
+                "description": "Computer vision"
             },
             {
                 "name": "Aruco",
                 "icon": "../../assets/tech-stack/aruco-f44462df.gif",
-                "description": "Marcadores para visión computacional"
+                "description": "Markers for computer vision"
             },
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Jetson Nano",
                 "icon": "../../assets/tech-stack/jetson-nano-bb73c76b.webp",
-                "description": "Computadora embebida y aceleración con GPU"
+                "description": "Embedded computer and GPU acceleration"
             },
             {
                 "name": "Ubuntu",
                 "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
-                "description": "Sistema operativo"
+                "description": "Operating system"
             },
             {
                 "name": "ROS Noetic",
                 "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAclBMVEX+/v7////d4OWutMGnrbvP09ry8/W8wcyhqLfHzNXm6OxLWXYuPl8sPV88S2prdo4zQ2Tu7/KRmqz5+fphbYcqOlybo7MiM1YpOVtEUnGts8FcaIOJk6XV2N96hZodLlL6+vuGkKMhMlUfMFJncooXKE3F934IAAAB1klEQVR4AaWSQZKDIBBFARWjNIIxBIxREJP7X3FoyLjIYjbTVeiv9lnYTwihNC+KVSLmcicEA6vqBnsp8/bScpp50l2qnpJUnQA5XAgiXIHUaszsVUsQTSKmm9EaNKOp7lZrbS7Idi5FuHFK+CxTtA8EFoeAmlJ8Iqvn9QRaBBR23YbA3WeAURJ2D2DFiEDnDBjZ4hb9YEHaHafgu4aFUeySapZzVSZeF6n3CcegdOxPD1MfTg89x0gwn8+/Y1l/FgKn6K94rjD200c14T1P1xJZX75x3AZ9a8pfqoSeL1NmOwF6G1H1Fo359WCcdCbPybSVxm4BTToAGYvJAwBcVn3FCAP7AOAfCLwiAi8Enj4DK01/M3UtMAQePqmOV9yicS61X+iqEYeHupyHzXqrRopVwxEXll2ObcU+Y4am7kKJpG+7iRbZp1DyD9V/AOQEz42+Xg+1mPc+Z7IqoVh5wq9iabFH7j7a941jewUf/bBiDMs7Hv5O0WQ0xvkum/TSyOOJg1Zvk9pZ9WBTfNcIiJjioYpqBKBLgIjOONsgoDwCWXXrXQLmHs+APHzcAnbZ4A8vGM1wiqbOTrt9q3j59PWprr9T1GrrSDn2IXyEpzidx5xMAW8/eo0h8n9tQQUAAAAASUVORK5CYII=",
-                "description": "Sistema operativo para robots"
+                "description": "Operating system for robots"
             },
             {
                 "name": "Numpy",
                 "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
-                "description": "Biblioteca para computación científica"
+                "description": "Scientific-computing library"
             }
         ]
     },
@@ -166,9 +174,9 @@
         {
             "title": "ExpoIbero Primavera 2025",
             "date": "2025-06",
-            "type": "Exposición Universitaria",
+            "type": "University Exhibition",
             "description": "",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "./All Robot.pdf"
         }
     ],

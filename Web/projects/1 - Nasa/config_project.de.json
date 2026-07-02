@@ -50,29 +50,30 @@
         }
     ],
     "media": {
-        "mainVideo": "./orray.mp4",
+        "mainVideo": "../../assets/project-media/video-orrery-web-demo-2c74176c.mp4",
         "videos": [
             {
-                "src": "./orray.mp4",
+                "src": "../../assets/project-media/video-orrery-web-demo-2c74176c.mp4",
                 "title": "Orrery Web Demo",
-                "description": "Video mostrando la integración completa del sistema en el orrey web."
+                "description": "Video showing complete system integration in the web orrery.",
+                "poster": "../../assets/project-media/video-orrery-web-demo-2c74176c.webp"
             }
         ],
         "images": [
             {
-                "src": "./1.png",
+                "src": "../../assets/project-media/image-landingpage-des-web-orrerys-88c64d6c.webp",
                 "alt": "Landingpage des Web-Orrerys",
-                "caption": "Landing page del orrey web con visualización de asteroides cercanos a la Tierra"
+                "caption": "Web orrery landing page with near-Earth asteroid visualization"
             },
             {
-                "src": "./2.png",
+                "src": "../../assets/project-media/image-planetenbeschreibungen-ec4734be.webp",
                 "alt": "Planetenbeschreibungen",
-                "caption": "Descripción detallada de planetas y objetos espaciales"
+                "caption": "Detailed description of planets and space objects"
             }
         ],
         "diagrams": [
             {
-                "src": "https://media.licdn.com/dms/image/v2/D5612AQED5YO_sL2QzQ/article-cover_image-shrink_720_1280/B56Zj_2B1rHMAI-/0/1756639011560?e=2147483647&v=beta&t=PxFJ2grTaELfWFtS_-T8D3XHCsSDcflpqzCIQ2zAgr0",
+                "src": "../../assets/project-media/image-vibe-coding-workflow-6bae1de0.webp",
                 "alt": "Vibe coding Workflow",
                 "title": "Vibe coding Workflow"
             }
@@ -83,12 +84,12 @@
             {
                 "name": "OpenAI GPT-3",
                 "icon": "../../assets/tech-stack/openai-gpt-3-5e567220.webp",
-                "description": "Generación y entendimiento de la matemática de movimientos orbitales en el espacio"
+                "description": "Erzeugung und Verstandnis der Mathematik orbitaler Bewegungen im Weltraum"
             },
             {
                 "name": "Claude 2",
                 "icon": "../../assets/tech-stack/claude-2-f4ea0523.webp",
-                "description": "Generación de código en React y three.js para el orrey web"
+                "description": "Codegenerierung in React und Three.js fur das Web-Orrery"
             }
         ],
         "development": [
@@ -105,37 +106,37 @@
             {
                 "name": "Vite",
                 "icon": "../../assets/tech-stack/vite-a49f993c.webp",
-                "description": "Entorno de desarrollo"
+                "description": "Development environment"
             },
             {
                 "name": "Three.js",
                 "icon": "../../assets/tech-stack/three-js-8de94a40.webp",
-                "description": "Manejador de modelos 3D"
+                "description": "3D model handler"
             },
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Pandas",
                 "icon": "../../assets/tech-stack/pandas-83c2917b.webp",
-                "description": "Computadora embebida y aceleración con GPU"
+                "description": "Embedded computer and GPU acceleration"
             },
             {
                 "name": "Figma",
                 "icon": "../../assets/tech-stack/figma-14f87e27.svg",
-                "description": "Sistema operativo"
+                "description": "Operating system"
             },
             {
                 "name": "Tailwind CSS",
                 "icon": "../../assets/tech-stack/tailwind-css-8a0fbee1.svg",
-                "description": "Framework de IA"
+                "description": "AI framework"
             },
             {
                 "name": "Numpy",
                 "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
-                "description": "Biblioteca para computación científica"
+                "description": "Scientific-computing library"
             }
         ]
     },
@@ -144,8 +145,8 @@
             "title": "NASA Space Apps Challenge 2024",
             "date": "2024-09",
             "type": "Hackathon",
-            "description": "Tercer lugar regional en el NASA Space Apps Challenge 2024",
-            "image": "https://assets.spaceappschallenge.org/media/images/MAKE_A_COPY_Create_your_own_Local_.2e16d0ba.fill-674x450_q0FdJxN.png",
+            "description": "Regional third place in the NASA Space Apps Challenge 2024",
+            "image": "../../assets/project-media/image-nasa-space-apps-challenge-2024-aa38b1d2.webp",
             "link": "https://www.spaceappschallenge.org/"
         }
     ],

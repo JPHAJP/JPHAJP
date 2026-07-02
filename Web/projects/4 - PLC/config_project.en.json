@@ -1,9 +1,9 @@
 {
     "project": {
-        "title": "Sistema SCADA",
-        "subtitle": "Sistema de Control y Adquisición de Datos para procesos industriales",
-        "shortDescription": "Sistema SCADA para la supervisión y control de procesos industriales.",
-        "fullDescription": "Sistema SCADA avanzado que combina múltiples tecnologías para la supervisión y control de procesos industriales.",
+        "title": "SCADA System",
+        "subtitle": "Supervisory Control and Data Acquisition system for industrial processes",
+        "shortDescription": "SCADA system for industrial process supervision and control.",
+        "fullDescription": "Advanced SCADA system combining multiple technologies for industrial process supervision and control.",
         "status": "Completed",
         "year": "2025",
         "duration": "4 months",
@@ -28,9 +28,9 @@
         "documentation": "./Desarrollo de Sistema estilo SCADA para procesos industriales_presentación.pdf"
     },
     "overview": {
-        "problem": "Las plataformas SCADA comerciales suelen ser costosas y difíciles de personalizar para necesidades específicas de pequeñas y medianas empresas.",
-        "solution": "Desarrollo de una plataforma SCADA personalizada y de código abierto que se adapte a las necesidades específicas de cada cliente.",
-        "impact": "Facilitar el acceso a soluciones SCADA avanzadas para empresas de todos los tamaños, mejorando la eficiencia y reduciendo costos."
+        "problem": "Commercial SCADA platforms are often expensive and difficult to customize for the specific needs of small and midsize companies.",
+        "solution": "Development of a custom, open-source SCADA platform that adapts to each client's specific needs.",
+        "impact": "Make advanced SCADA solutions accessible to companies of all sizes, improving efficiency and reducing costs."
     },
     "stats": [
         {
@@ -51,39 +51,44 @@
         }
     ],
     "media": {
-        "mainVideo": "./video_scada.mp4",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-ea42211e.mp4",
         "videos": [
             {
-                "src": "./video_scada.mp4",
+                "src": "../../assets/project-media/video-hauptdemonstration-ea42211e.mp4",
                 "title": "Main demonstration",
-                "description": "Video mostrando la integración completa del sistema SCADA para control y monitoreo de procesos industriales."
+                "description": "Video showing complete SCADA system integration for industrial process control and monitoring.",
+                "poster": "../../assets/project-media/video-hauptdemonstration-ea42211e.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V3.mp4?raw=true",
+                "src": "../../assets/project-media/video-plc-1-71bc3f0a.mp4",
                 "title": "PLC 1",
-                "description": "Control de empacadora con motor y varidor de frecuencia."
+                "description": "Packaging machine control with motor and frequency drive.",
+                "poster": "../../assets/project-media/video-plc-1-71bc3f0a.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V4.mp4?raw=true",
+                "src": "../../assets/project-media/video-plc-2-f5b993ab.mp4",
                 "title": "PLC 2",
-                "description": "Control de banda transportadora con control de dirección."
+                "description": "Conveyor belt control with direction control.",
+                "poster": "../../assets/project-media/video-plc-2-f5b993ab.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V5.mp4?raw=true",
+                "src": "../../assets/project-media/video-plc-3-473d0e0c.mp4",
                 "title": "PLC 3",
-                "description": "Control de revolvedora con pistones neumáticos"
+                "description": "Mixer control with pneumatic pistons.",
+                "poster": "../../assets/project-media/video-plc-3-473d0e0c.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V6.mp4?raw=true",
+                "src": "../../assets/project-media/video-robot-ur5e-d7876041.mp4",
                 "title": "Robot UR5e",
-                "description": "Seguimiento de rutina de puntos."
+                "description": "Point routine tracking.",
+                "poster": "../../assets/project-media/video-robot-ur5e-d7876041.webp"
             }
         ],
         "images": [
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/dashbord.png?raw=true",
+                "src": "../../assets/project-media/image-ui-scada-web-a6bd2a85.webp",
                 "alt": "UI SCADA Web",
-                "caption": "Interfaz web del sistema SCADA para monitoreo y control de procesos industriales"
+                "caption": "SCADA web interface for industrial process monitoring and control"
             }
         ]
     },
@@ -107,17 +112,17 @@
             {
                 "name": "UR-RTDE",
                 "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
-                "description": "Comunicación en tiempo real con el robot"
+                "description": "Real-time communication with the robot"
             },
             {
                 "name": "UR-Script",
                 "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
-                "description": "Programación del robot"
+                "description": "Robot programming"
             },
             {
                 "name": "Siemens TIA Portal",
                 "icon": "../../assets/tech-stack/siemens-tia-portal-70e3b32d.webp",
-                "description": "Programación de PLCs Siemens"
+                "description": "Siemens PLC programming"
             },
             {
                 "name": "HTML5 & CSS3",
@@ -132,42 +137,42 @@
             {
                 "name": "REST API",
                 "icon": "../../assets/tech-stack/rest-api-46a628c0.webp",
-                "description": "Comunicación entre sistemas"
+                "description": "System-to-system communication"
             },
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Ubuntu",
                 "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
-                "description": "Sistema operativo"
+                "description": "Operating system"
             },
             {
                 "name": "Mysql",
                 "icon": "../../assets/tech-stack/mysql-4dc3f583.webp",
-                "description": "Gestión de bases de datos"
+                "description": "Database management"
             },
             {
                 "name": "OPC UA",
                 "icon": "../../assets/tech-stack/opc-ua-9f58724c.webp",
-                "description": "Protocolo de comunicación industrial"
+                "description": "Industrial communication protocol"
             },
             {
                 "name": "Profinet",
                 "icon": "../../assets/tech-stack/profinet-cd825ac8.webp",
-                "description": "Protocolo de comunicación industrial"
+                "description": "Industrial communication protocol"
             },
             {
                 "name": "Ethernet/IP",
                 "icon": "../../assets/tech-stack/ethernet-ip-a19dc79a.webp",
-                "description": "Protocolo de comunicación industrial"
+                "description": "Industrial communication protocol"
             },
             {
                 "name": "Numpy",
                 "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
-                "description": "Biblioteca para computación científica"
+                "description": "Scientific-computing library"
             },
             {
                 "name": "Snap7",
@@ -177,7 +182,7 @@
             {
                 "name": "Qrcode",
                 "icon": "../../assets/tech-stack/qrcode-0d8c012f.svg",
-                "description": "Generación de códigos QR"
+                "description": "QR code generation"
             }
         ]
     },
@@ -185,17 +190,17 @@
         {
             "title": "ExpoIbero Primavera 2025",
             "date": "2025-06",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo, con conexión remota y monitoreo en tiempo real.",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "type": "University Exhibition",
+            "description": "Exhibition of the complete system with remote connection and real-time monitoring.",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "./All SCADA.pdf"
         },
         {
-            "title": "Congreso SUJ 2025 Ibero León",
+            "title": "SUJ 2025 Conference at Ibero Leon",
             "date": "2025-07",
             "type": "Conferencia Internacional",
-            "description": "Presentación en la Conferencia Internacional de Estudiantes de Ingeniería SUJ 2025 en la Universidad Iberoamericana León.",
-            "image": "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg",
+            "description": "Presentation at the 2025 SUJ International Engineering Student Conference at Universidad Iberoamericana Leon.",
+            "image": "../../assets/project-media/image-congreso-suj-2025-ibero-leon-dbf1542f.webp",
             "link": "https://www.iberoleon.mx/articulo/2-Congreso-de-Ingenierias-de-Estudiantes-SUJ-celebracion-del-conocimiento-compromiso-y-vocacion",
             "featured": true
         }

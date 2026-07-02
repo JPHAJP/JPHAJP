@@ -3,7 +3,7 @@
         "title": "StableDiffusion to gcode - UR5e",
         "subtitle": "G-code for UR5e",
         "shortDescription": "AI image generation and conversion to G-code for UR5e robot path planning",
-        "fullDescription": "Se generan imágenes mediante IA con StableDiffusion, se capturan los prompts y mejoran con DeepSeek y se convierten a Gcode para ser interpretadas por un robot UR5e, permitiendo la planificación de trayectorias basadas en imágenes generadas por IA.",
+        "fullDescription": "Images are generated with StableDiffusion, prompts are captured and improved with DeepSeek, and the results are converted to G-code for a UR5e robot, enabling trajectory planning from AI-generated images.",
         "status": "Completed",
         "year": "2025",
         "duration": "3 months",
@@ -12,7 +12,7 @@
         ],
         "tags": [
             "Robotics",
-            "Robótica Colaborativa",
+            "Collaborative Robotics",
             "Automation",
             "Gcode",
             "UR5e",
@@ -23,9 +23,9 @@
         "documentation": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Reporte%20de%20uso%20interfaz%20UR5e-Artista%201.pdf"
     },
     "overview": {
-        "problem": "La conversión de imágenes a Gcode para la planificación de trayectorias de robots es un proceso complejo que requiere una alta precisión y adaptación a diferentes entornos de trabajo.",
-        "solution": "Se propone un sistema que utiliza IA para generar imágenes y convertirlas a Gcode, optimizando así la planificación de trayectorias.",
-        "impact": "Este enfoque permitirá una mayor flexibilidad y eficiencia en la programación de robots UR5e."
+        "problem": "Converting images to G-code for robot trajectory planning is a complex process that requires high precision and adaptation to different work environments.",
+        "solution": "A system is proposed that uses AI to generate images and convert them to G-code, optimizing trajectory planning.",
+        "impact": "This approach enables greater flexibility and efficiency in UR5e robot programming."
     },
     "stats": [
         {
@@ -42,81 +42,87 @@
         }
     ],
     "media": {
-        "mainVideo": "../4 - PLC/video_scada.mp4",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-ea42211e.mp4",
         "videos": [
             {
-                "src": "../4 - PLC/video_scada.mp4",
+                "src": "../../assets/project-media/video-hauptdemonstration-ea42211e.mp4",
                 "title": "Main demonstration",
-                "description": "Video mostrando el sistema en acción junto con SCADA."
+                "description": "Video showing the system in action together with SCADA.",
+                "poster": "../../assets/project-media/video-hauptdemonstration-ea42211e.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V5.mp4?raw=true",
-                "title": "Video de dibujo simple",
-                "description": "Dibujo de un caballo con lineas simples."
+                "src": "../../assets/project-media/video-video-de-dibujo-simple-ddd20e6e.mp4",
+                "title": "Simple drawing video",
+                "description": "Horse drawing with simple lines.",
+                "poster": "../../assets/project-media/video-video-de-dibujo-simple-ddd20e6e.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V6.mp4?raw=true",
-                "title": "Sistema montado en Gradio V1.0",
-                "description": "Generación de imagenes y gcode en interfaz Gradio"
+                "src": "../../assets/project-media/video-sistema-montado-en-gradio-v1-0-dd86e1e6.mp4",
+                "title": "System mounted in Gradio V1.0",
+                "description": "Image and G-code generation in a Gradio interface",
+                "poster": "../../assets/project-media/video-sistema-montado-en-gradio-v1-0-dd86e1e6.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V7.mp4?raw=true",
-                "title": "Dibujo complejo de un girasol (flor)",
-                "description": "Dibujo de una imagen compleja con detalles finos, método de punteo."
+                "src": "../../assets/project-media/video-dibujo-complejo-de-un-girasol-flor-963121a1.mp4",
+                "title": "Complex sunflower drawing",
+                "description": "Complex image drawing with fine details using a pointillism method.",
+                "poster": "../../assets/project-media/video-dibujo-complejo-de-un-girasol-flor-963121a1.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V8.mp4?raw=true",
-                "title": "Método de punteo para dibujo",
-                "description": "Generación de dibujos por punteo."
+                "src": "../../assets/project-media/video-metodo-de-punteo-para-dibujo-9e36d12f.mp4",
+                "title": "Pointillism drawing method",
+                "description": "Pointillism drawing generation.",
+                "poster": "../../assets/project-media/video-metodo-de-punteo-para-dibujo-9e36d12f.webp"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/V9.mp4?raw=true",
-                "title": "Generación de dibujo con líneas continuas",
-                "description": "Generación optima de dibujos con líneas continuas e interpolaciones circulares."
+                "src": "../../assets/project-media/video-generacion-de-dibujo-con-lineas-continuas-f98911b6.mp4",
+                "title": "Continuous-line drawing generation",
+                "description": "Optimized drawing generation with continuous lines and circular interpolations.",
+                "poster": "../../assets/project-media/video-generacion-de-dibujo-con-lineas-continuas-f98911b6.webp"
             }
         ],
         "images": [
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im1.jpg?raw=true",
-                "alt": "Sistema completo",
-                "caption": "Tablero de control y UR5e trabajando."
+                "src": "../../assets/project-media/image-sistema-completo-5dcca5c8.webp",
+                "alt": "Complete system",
+                "caption": "Control panel and UR5e working."
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im7.jpg?raw=true",
-                "alt": "Calibración de robot y configuración del plano de trabajo",
-                "caption": "Calibración de robot y configuración del plano de trabajo."
+                "src": "../../assets/project-media/image-calibracion-de-robot-y-configuracion-del-plano-de-trabajo-7807f2d0.webp",
+                "alt": "Robot calibration and workspace-plane configuration",
+                "caption": "Robot calibration and workspace-plane configuration."
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im8.jpg?raw=true",
-                "alt": "Imagen generada con StableDiffusion",
-                "caption": "Imagen generada con StableDiffusion."
+                "src": "../../assets/project-media/image-imagen-generada-con-stablediffusion-9c957a17.webp",
+                "alt": "Image generated with StableDiffusion",
+                "caption": "Image generated with StableDiffusion."
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im9.jpg?raw=true",
-                "alt": "Girasol dibujado por UR5e",
-                "caption": "Girasol dibujado por UR5e"
+                "src": "../../assets/project-media/image-girasol-dibujado-por-ur5e-a407796a.webp",
+                "alt": "Sunflower drawn by UR5e",
+                "caption": "Sunflower drawn by UR5e"
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im11.jpg?raw=true",
-                "alt": "Perro angelical animado dibujado por UR5e",
-                "caption": "Perro angelical animado dibujado por UR5e."
+                "src": "../../assets/project-media/image-perro-angelical-animado-dibujado-por-ur5e-239a9ce9.webp",
+                "alt": "Animated angel dog drawn by UR5e",
+                "caption": "Animated angel dog drawn by UR5e."
             },
             {
-                "src": "https://jphajp.github.io/Robotica/Web/Reportes/Laboratorio/Proy_final/assets/Media/Im10.jpg?raw=true",
-                "alt": "Perro angelical animado dibujado por UR5e",
-                "caption": "MPerro angelical animado dibujado por UR5e."
+                "src": "../../assets/project-media/image-perro-angelical-animado-dibujado-por-ur5e-bcdd7c79.webp",
+                "alt": "Animated angel dog drawn by UR5e",
+                "caption": "Animated angel dog drawn by UR5e."
             }
         ],
         "diagrams": [
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Ur5_workflow.png",
-                "alt": "Workflow del proyecto",
-                "title": "Arquitectura del Sistema"
+                "src": "../../assets/project-media/image-arquitectura-del-sistema-b5c061ad.webp",
+                "alt": "Project workflow",
+                "title": "System Architecture"
             },
             {
-                "src": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/Roboflow_workflow.png",
-                "alt": "Pipeline de IA",
-                "title": "Flujo de Procesamiento IA"
+                "src": "../../assets/project-media/image-flujo-de-procesamiento-ia-84401b88.webp",
+                "alt": "AI pipeline",
+                "title": "AI Processing Workflow"
             }
         ]
     },
@@ -125,7 +131,7 @@
             {
                 "name": "Stable Diffusion",
                 "icon": "../../assets/tech-stack/stable-diffusion-110ea090.webp",
-                "description": "Generación de imágenes con IA"
+                "description": "AI image generation"
             },
             {
                 "name": "DeepSeek",
@@ -142,12 +148,12 @@
             {
                 "name": "UR-RTDE",
                 "icon": "../../assets/tech-stack/ur-rtde-60805964.webp",
-                "description": "Comunicación en tiempo real con el robot"
+                "description": "Real-time communication with the robot"
             },
             {
                 "name": "UR-Script",
                 "icon": "../../assets/tech-stack/ur-script-7c035fb4.webp",
-                "description": "Programación del robot"
+                "description": "Robot programming"
             }
         ],
         "development": [
@@ -169,7 +175,7 @@
             {
                 "name": "Gradio",
                 "icon": "../../assets/tech-stack/gradio-041bbddb.svg",
-                "description": "Interfaz gráfica"
+                "description": "Graphical interface"
             },
             {
                 "name": "Ollama",
@@ -179,67 +185,67 @@
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Ubuntu",
                 "icon": "../../assets/tech-stack/ubuntu-3c67a8c4.webp",
-                "description": "Sistema operativo"
+                "description": "Operating system"
             },
             {
                 "name": "Pytorch",
                 "icon": "../../assets/tech-stack/pytorch-1f3552bd.webp",
-                "description": "Framework de IA"
+                "description": "AI framework"
             },
             {
                 "name": "Cuda",
                 "icon": "../../assets/tech-stack/cuda-362cafcc.webp",
-                "description": "Entornos de desarrollo"
+                "description": "Development environments"
             },
             {
                 "name": "Numpy",
                 "icon": "../../assets/tech-stack/numpy-0a0e060a.webp",
-                "description": "Biblioteca para computación científica"
+                "description": "Scientific-computing library"
             },
             {
                 "name": "FFMPEG",
                 "icon": "../../assets/tech-stack/ffmpeg-a93c7509.webp",
-                "description": "Procesamiento de multimedia"
+                "description": "Multimedia processing"
             },
             {
                 "name": "Matplotlib",
                 "icon": "../../assets/tech-stack/matplotlib-ba5738d0.webp",
-                "description": "Visualización de datos"
+                "description": "Data visualization"
             },
             {
                 "name": "Docker",
                 "icon": "../../assets/tech-stack/docker-local.svg",
-                "description": "Contenerización de aplicaciones"
+                "description": "Application containerization"
             },
             {
                 "name": "VS Code",
                 "icon": "../../assets/tech-stack/visual-studio-code-local.svg",
-                "description": "Entorno de desarrollo integrado"
+                "description": "Integrated development environment"
             },
             {
                 "name": "RoboDK",
                 "icon": "../../assets/tech-stack/robodk-e970fc83.svg",
-                "description": "Simulación y programación de robots"
+                "description": "Robot simulation and programming"
             },
             {
                 "name": "Potrace",
                 "icon": "../../assets/tech-stack/potrace-00d5f302.webp",
-                "description": "Vectorización de imágenes"
+                "description": "Image vectorization"
             },
             {
                 "name": "Siemens TIA Portal",
                 "icon": "../../assets/tech-stack/siemens-tia-portal-70e3b32d.webp",
-                "description": "Programación de PLCs Siemens"
+                "description": "Siemens PLC programming"
             },
             {
                 "name": "Qrcode",
                 "icon": "../../assets/tech-stack/qrcode-0d8c012f.svg",
-                "description": "Generación de códigos QR"
+                "description": "QR code generation"
             }
         ]
     },
@@ -247,17 +253,17 @@
         {
             "title": "ExpoIbero Primavera 2025",
             "date": "2025-06",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema completo, con conexión remota y monitoreo en tiempo real.",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "type": "University Exhibition",
+            "description": "Exhibition of the complete system with remote connection and real-time monitoring.",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "../4 - PLC/All SCADA.pdf"
         },
         {
-            "title": "Congreso SUJ 2025 Ibero León",
+            "title": "SUJ 2025 Conference at Ibero Leon",
             "date": "2025-07",
             "type": "Conferencia Internacional",
-            "description": "Presentación en la Conferencia Internacional de Estudiantes de Ingeniería SUJ 2025 en la Universidad Iberoamericana León.",
-            "image": "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg",
+            "description": "Presentation at the 2025 SUJ International Engineering Student Conference at Universidad Iberoamericana Leon.",
+            "image": "../../assets/project-media/image-congreso-suj-2025-ibero-leon-dbf1542f.webp",
             "link": "https://www.iberoleon.mx/articulo/2-Congreso-de-Ingenierias-de-Estudiantes-SUJ-celebracion-del-conocimiento-compromiso-y-vocacion",
             "featured": true
         }

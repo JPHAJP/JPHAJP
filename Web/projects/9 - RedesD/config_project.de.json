@@ -2,8 +2,8 @@
     "project": {
         "title": "Hausautomation und Netzwerke",
         "subtitle": "Hausautomation mit ESP32 und Home Assistant",
-        "shortDescription": "Se desarrolla un sistema de domótica utilizando ESP32 y Home Assistant para controlar dispositivos del hogar a través de MQTT.",
-        "fullDescription": "El proyecto consiste en la implementación de un sistema de domótica que permite el control y monitoreo de dispositivos del hogar utilizando tecnología ESP32 y la plataforma Home Assistant. A través de la comunicación MQTT, se logra una integración eficiente de los dispositivos, permitiendo su gestión desde una interfaz centralizada.",
+        "shortDescription": "A home automation system using ESP32 and Home Assistant is developed to control household devices through MQTT.",
+        "fullDescription": "The project implements a home automation system that controls and monitors household devices using ESP32 technology and the Home Assistant platform. Through MQTT communication, devices are integrated efficiently and managed from a centralized interface.",
         "status": "Abgeschlossen",
         "year": "2023",
         "duration": "1 Monat",
@@ -11,10 +11,10 @@
             "José Pablo Hernández Alonso"
         ],
         "tags": [
-            "Domótica",
+            "Home Automation",
             "Automatisierung",
             "ESP32",
-            "Redes de computadoras",
+            "Computer Networks",
             "IoT",
             "MQTT",
             "Home Assistant",
@@ -25,7 +25,7 @@
     },
     "overview": {
         "problem": "Für das Zuhause werden Hausautomationslösungen benötigt.",
-        "solution": "Se desarrolla un sistema de domótica utilizando ESP32 y Home Assistant para controlar dispositivos del hogar a través de MQTT.",
+        "solution": "A home automation system using ESP32 and Home Assistant is developed to control household devices through MQTT.",
         "impact": "Verbesserte Energieeffizienz und mehr Wohnkomfort."
     },
     "stats": [
@@ -47,27 +47,31 @@
         }
     ],
     "media": {
-        "mainVideo": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+        "mainVideo": "../../assets/project-media/video-timer-42de1c9a.mp4",
         "videos": [
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Time.mp4?raw=true",
+                "src": "../../assets/project-media/video-timer-42de1c9a.mp4",
                 "title": "Timer",
-                "description": "Timer mit ESP32."
+                "description": "Timer mit ESP32.",
+                "poster": "../../assets/project-media/video-timer-42de1c9a.webp"
             },
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Prox.mp4?raw=true",
+                "src": "../../assets/project-media/video-naherungssensor-20a230fc.mp4",
                 "title": "Näherungssensor",
-                "description": "Sensor de proximidad con ESP32 para cochera con semáforo."
+                "description": "Proximity sensor with ESP32 for garage traffic-light control.",
+                "poster": "../../assets/project-media/video-naherungssensor-20a230fc.webp"
             },
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Hum.mp4?raw=true",
+                "src": "../../assets/project-media/video-feuchtigkeitssensor-837356db.mp4",
                 "title": "Feuchtigkeitssensor",
-                "description": "Sensor de humedad de suelo con ESP32 para baño."
+                "description": "Soil humidity sensor with ESP32 for bathroom.",
+                "poster": "../../assets/project-media/video-feuchtigkeitssensor-837356db.webp"
             },
             {
-                "src": "https://jphajp.github.io/Redes/Reportes/Proyecto/Movimiento.mp4?raw=true",
+                "src": "../../assets/project-media/video-bewegungssensor-661049e4.mp4",
                 "title": "Bewegungssensor",
-                "description": "Sensor de movimiento con ESP32 para detección de presencia."
+                "description": "Motion sensor with ESP32 for presence detection.",
+                "poster": "../../assets/project-media/video-bewegungssensor-661049e4.webp"
             }
         ]
     },
@@ -96,52 +100,52 @@
             {
                 "name": "ESP32",
                 "icon": "../../assets/tech-stack/esp32-0f823dfa.svg",
-                "description": "Microcontrolador para IoT"
+                "description": "Microcontroller for IoT"
             },
             {
                 "name": "MQTT",
                 "icon": "../../assets/tech-stack/mqtt-local.svg",
-                "description": "Protocolo de mensajería"
+                "description": "Messaging protocol"
             },
             {
                 "name": "Git & GitHub",
                 "icon": "../../assets/tech-stack/git-github-0b722c99.webp",
-                "description": "Control de versiones"
+                "description": "Version control"
             },
             {
                 "name": "Firebase",
                 "icon": "../../assets/tech-stack/firebase-7dec45bd.svg",
-                "description": "Base de datos en la nube"
+                "description": "Cloud database"
             },
             {
                 "name": "Render",
                 "icon": "../../assets/tech-stack/render-b409388e.webp",
-                "description": "Plataforma de implementación de aplicaciones en la nube"
+                "description": "Cloud application deployment platform"
             },
             {
                 "name": "Flutterflow",
                 "icon": "../../assets/tech-stack/flutterflow-af2de90b.webp",
-                "description": "Constructor de aplicaciones visuales"
+                "description": "Visual application builder"
             },
             {
                 "name": "Docker",
                 "icon": "../../assets/tech-stack/docker-local.svg",
-                "description": "Plataforma de contenedorización de aplicaciones"
+                "description": "Application containerization platform"
             },
             {
                 "name": "Wokwi",
                 "icon": "../../assets/tech-stack/wokwi-f3b3fe27.webp",
-                "description": "Simulador de microcontroladores"
+                "description": "Microcontroller simulator"
             }
         ]
     },
     "achievements": [
         {
-            "title": "ExpoIbero Otoño 2023",
+            "title": "ExpoIbero Fall 2023",
             "date": "2023-11",
-            "type": "Exposición Universitaria",
-            "description": "Exposición del sistema de reconocimiento de objetos para instrumentación quirúrgica en ExpoIbero 2023",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "type": "University Exhibition",
+            "description": "Exhibition of the object-recognition system for surgical instrumentation at ExpoIbero 2023",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "https://jphajp.github.io/Redes/proyecto.html"
         }
     ],

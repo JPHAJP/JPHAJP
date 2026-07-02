@@ -51,37 +51,42 @@
         }
     ],
     "media": {
-        "mainVideo": "./video_scada.mp4",
+        "mainVideo": "../../assets/project-media/video-hauptdemonstration-ea42211e.mp4",
         "videos": [
             {
-                "src": "./video_scada.mp4",
+                "src": "../../assets/project-media/video-hauptdemonstration-ea42211e.mp4",
                 "title": "Demostración principal",
-                "description": "Video mostrando la integración completa del sistema SCADA para control y monitoreo de procesos industriales."
+                "description": "Video mostrando la integración completa del sistema SCADA para control y monitoreo de procesos industriales.",
+                "poster": "../../assets/project-media/video-hauptdemonstration-ea42211e.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V3.mp4?raw=true",
+                "src": "../../assets/project-media/video-plc-1-71bc3f0a.mp4",
                 "title": "PLC 1",
-                "description": "Control de empacadora con motor y varidor de frecuencia."
+                "description": "Control de empacadora con motor y varidor de frecuencia.",
+                "poster": "../../assets/project-media/video-plc-1-71bc3f0a.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V4.mp4?raw=true",
+                "src": "../../assets/project-media/video-plc-2-f5b993ab.mp4",
                 "title": "PLC 2",
-                "description": "Control de banda transportadora con control de dirección."
+                "description": "Control de banda transportadora con control de dirección.",
+                "poster": "../../assets/project-media/video-plc-2-f5b993ab.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V5.mp4?raw=true",
+                "src": "../../assets/project-media/video-plc-3-473d0e0c.mp4",
                 "title": "PLC 3",
-                "description": "Control de revolvedora con pistones neumáticos"
+                "description": "Control de revolvedora con pistones neumáticos",
+                "poster": "../../assets/project-media/video-plc-3-473d0e0c.webp"
             },
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/V6.mp4?raw=true",
+                "src": "../../assets/project-media/video-robot-ur5e-d7876041.mp4",
                 "title": "Robot UR5e",
-                "description": "Seguimiento de rutina de puntos."
+                "description": "Seguimiento de rutina de puntos.",
+                "poster": "../../assets/project-media/video-robot-ur5e-d7876041.webp"
             }
         ],
         "images": [
             {
-                "src": "https://jphajp.github.io/Simens_PLC_Comms/Web/Reportes/Proyecto/assets/dashbord.png?raw=true",
+                "src": "../../assets/project-media/image-ui-scada-web-a6bd2a85.webp",
                 "alt": "UI SCADA Web",
                 "caption": "Interfaz web del sistema SCADA para monitoreo y control de procesos industriales"
             }
@@ -187,7 +192,7 @@
             "date": "2025-06",
             "type": "Exposición Universitaria",
             "description": "Exposición del sistema completo, con conexión remota y monitoreo en tiempo real.",
-            "image": "https://jphajp.github.io/UR5_SRUB_NURSE/Manual_and_docs/assets/ibero.jpg?raw=true",
+            "image": "../../assets/project-media/image-expoibero-otono-2023-c0e81cd2.webp",
             "link": "./All SCADA.pdf"
         },
         {
@@ -195,7 +200,7 @@
             "date": "2025-07",
             "type": "Conferencia Internacional",
             "description": "Presentación en la Conferencia Internacional de Estudiantes de Ingeniería SUJ 2025 en la Universidad Iberoamericana León.",
-            "image": "https://www.iberoleon.mx/images/news/1749829967-foto_grupal_01.jpg",
+            "image": "../../assets/project-media/image-congreso-suj-2025-ibero-leon-dbf1542f.webp",
             "link": "https://www.iberoleon.mx/articulo/2-Congreso-de-Ingenierias-de-Estudiantes-SUJ-celebracion-del-conocimiento-compromiso-y-vocacion",
             "featured": true
         }
