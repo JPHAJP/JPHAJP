@@ -382,6 +382,7 @@ class ProjectTemplate {
         this.renderFooter();
         this.setupPDFViewerWhenVisible();
         this.addScrollAnimations();
+        this.initHeroAnimation();
         
         // iOS debugging
         if (this.isIOS) {
@@ -1119,6 +1120,167 @@ class ProjectTemplate {
             el.style.setProperty('--animation-delay', `${Math.min(index * 35, 280)}ms`);
             observer.observe(el);
         });
+    }
+
+    initHeroAnimation() {
+        const hero = document.getElementById('hero');
+        const heroBg = hero ? hero.querySelector('.hero-background') : null;
+        if (!hero || !heroBg) return;
+
+        // Create canvas
+        const canvas = document.createElement('canvas');
+        canvas.className = 'hero-canvas';
+        Object.assign(canvas.style, {
+            position: 'absolute',
+            top: '0',
+            left: '0',
+            width: '100%',
+            height: '100%',
+            pointerEvents: 'none',
+            zIndex: '0'
+        });
+        
+        // Ensure background is relative
+        heroBg.style.position = 'absolute';
+        heroBg.appendChild(canvas);
+
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = hero.offsetWidth;
+        let height = canvas.height = hero.offsetHeight;
+
+        // Handle resize
+        const resizeObserver = new ResizeObserver(entries => {
+            for (let entry of entries) {
+                width = canvas.width = entry.contentRect.width;
+                height = canvas.height = entry.contentRect.height;
+            }
+        });
+        resizeObserver.observe(hero);
+
+        // Get colors dynamically from CSS variables
+        const rootStyle = getComputedStyle(document.documentElement);
+        const accentColor = rootStyle.getPropertyValue('--accent-color').trim() || '#304ffe';
+        
+        function parseColorToRgb(colorStr) {
+            if (colorStr.startsWith('#')) {
+                let hex = colorStr.substring(1);
+                if (hex.length === 3) {
+                    hex = hex.split('').map(c => c + c).join('');
+                }
+                const num = parseInt(hex, 16);
+                return {
+                    r: (num >> 16) & 255,
+                    g: (num >> 8) & 255,
+                    b: num & 255
+                };
+            }
+            const rgbMatch = colorStr.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+            if (rgbMatch) {
+                return {
+                    r: parseInt(rgbMatch[1]),
+                    g: parseInt(rgbMatch[2]),
+                    b: parseInt(rgbMatch[3])
+                };
+            }
+            return { r: 48, g: 79, b: 254 };
+        }
+
+        const rgb = parseColorToRgb(accentColor);
+
+        // Mouse tracking
+        let mouse = { x: -1000, y: -1000, active: false };
+        
+        hero.addEventListener('mousemove', (e) => {
+            const rect = hero.getBoundingClientRect();
+            mouse.x = e.clientX - rect.left;
+            mouse.y = e.clientY - rect.top;
+            mouse.active = true;
+        });
+
+        hero.addEventListener('mouseleave', () => {
+            mouse.active = false;
+        });
+
+        // Animation Loop
+        let time = 0;
+        const draw = () => {
+            ctx.clearRect(0, 0, width, height);
+
+            // Grid constants
+            const spacing = 45;
+            const cols = Math.ceil(width / spacing) + 1;
+            const rows = Math.ceil(height / spacing) + 1;
+
+            // Ripple/Wave effect
+            time += 0.015;
+
+            // Draw grid lines and glowing points
+            for (let c = 0; c < cols; c++) {
+                for (let r = 0; r < rows; r++) {
+                    const x = c * spacing;
+                    const y = r * spacing;
+
+                    // Base ripple
+                    const ripple = Math.sin(time + (x * 0.01) + (y * 0.015)) * 2;
+
+                    // Mouse interaction
+                    let dist = Infinity;
+                    if (mouse.active) {
+                        const dx = x - mouse.x;
+                        const dy = y - mouse.y;
+                        dist = Math.sqrt(dx * dx + dy * dy);
+                    }
+
+                    // If mouse is near, light up the grid cell / dot
+                    let size = 1.2;
+                    let opacity = 0.07;
+                    let color = '255, 255, 255'; // Default soft white
+
+                    if (dist < 180) {
+                        const factor = 1 - (dist / 180); // 0 to 1
+                        size = 1.2 + factor * 4.0;
+                        opacity = 0.07 + factor * 0.45;
+                        color = `${rgb.r}, ${rgb.g}, ${rgb.b}`; // Theme accent color
+                    }
+
+                    // Apply soft wave motion
+                    const finalX = x + (dist < 180 ? 0 : ripple * 0.4);
+                    const finalY = y + (dist < 180 ? 0 : ripple * 0.4);
+
+                    // Draw glowing square
+                    if (dist < 150) {
+                        const factor = 1 - (dist / 150);
+                        ctx.fillStyle = `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, ${factor * 0.12})`;
+                        ctx.fillRect(finalX - spacing/2, finalY - spacing/2, spacing - 2, spacing - 2);
+                    }
+
+                    // Draw dots
+                    ctx.beginPath();
+                    ctx.arc(finalX, finalY, size, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(${color}, ${opacity})`;
+                    ctx.fill();
+                }
+            }
+
+            // Draw an ambient shining light/flare around mouse
+            if (mouse.active) {
+                const gradient = ctx.createRadialGradient(
+                    mouse.x, mouse.y, 10,
+                    mouse.x, mouse.y, 220
+                );
+                gradient.addColorStop(0, `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.15)`);
+                gradient.addColorStop(0.5, `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.03)`);
+                gradient.addColorStop(1, `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0)`);
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(mouse.x, mouse.y, 220, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            requestAnimationFrame(draw);
+        };
+
+        draw();
     }
 
     verifyButtons() {
