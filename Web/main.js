@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Smooth scroll para navegación
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
             const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
+            if (targetId === '#' || this.classList.contains('dropdown-toggle')) return;
+
+            e.preventDefault();
 
             const targetElement = document.querySelector(targetId);
             if (!targetElement) return;
@@ -175,10 +175,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Año actual para el footer
-    const yearElement = document.querySelector('.footer .text-lg-start p');
+    const yearElement = document.getElementById('footer-copyright');
     if (yearElement) {
         const currentYear = new Date().getFullYear();
-        yearElement.innerHTML = `&copy; ${currentYear} José Pablo Hernández Alonso`;
+        const content = yearElement.textContent || '';
+        if (content.includes('reservados')) {
+            yearElement.innerHTML = `&copy; ${currentYear} José Pablo Hernández Alonso. Todos los derechos reservados.`;
+        } else if (content.includes('All rights')) {
+            yearElement.innerHTML = `&copy; ${currentYear} José Pablo Hernández Alonso. All rights reserved.`;
+        } else if (content.includes('Rechte')) {
+            yearElement.innerHTML = `&copy; ${currentYear} José Pablo Hernández Alonso. Alle Rechte vorbehalten.`;
+        } else {
+            yearElement.innerHTML = `&copy; ${currentYear} José Pablo Hernández Alonso.`;
+        }
     }
 });
 

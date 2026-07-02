@@ -57,6 +57,8 @@ class ProjectTemplate {
                 author: 'Autor',
                 institution: 'Institución',
                 license: 'Este proyecto está licenciado bajo CC BY-NC-SA 4.0',
+                backToPortfolio: 'Volver al Portafolio',
+                networksAndResources: 'Redes y Recursos',
                 viewMore: 'Ver más',
                 playVideo: 'Reproducir video',
                 selectedVideo: 'Video seleccionado',
@@ -103,6 +105,8 @@ class ProjectTemplate {
                 author: 'Author',
                 institution: 'Institution',
                 license: 'This project is licensed under CC BY-NC-SA 4.0',
+                backToPortfolio: 'Back to Portfolio',
+                networksAndResources: 'Networks & Resources',
                 viewMore: 'View more',
                 playVideo: 'Play video',
                 selectedVideo: 'Selected video',
@@ -149,6 +153,8 @@ class ProjectTemplate {
                 author: 'Autor',
                 institution: 'Institution',
                 license: 'Dieses Projekt ist unter CC BY-NC-SA 4.0 lizenziert',
+                backToPortfolio: 'Zurück zum Portfolio',
+                networksAndResources: 'Netzwerke & Ressourcen',
                 viewMore: 'Mehr anzeigen',
                 playVideo: 'Video abspielen',
                 selectedVideo: 'Ausgewähltes Video',
@@ -319,7 +325,11 @@ class ProjectTemplate {
         const footerInstitution = document.getElementById('footer-institution');
         if (footerInstitution) footerInstitution.textContent = this.labels.institution;
         const license = document.querySelector('.license-info .small');
-        if (license) license.textContent = this.labels.license;
+        if (license) license.innerHTML = `<i class="fab fa-creative-commons me-2 text-primary"></i>${this.labels.license}`;
+        const resourcesHeading = document.getElementById('footer-resources-heading');
+        if (resourcesHeading) resourcesHeading.textContent = this.labels.networksAndResources;
+        const backLink = document.getElementById('footer-back-link');
+        if (backLink) backLink.innerHTML = `<i class="fas fa-arrow-left me-2"></i>${this.labels.backToPortfolio}`;
 
         this.renderLanguageSwitcher();
     }
@@ -332,11 +342,17 @@ class ProjectTemplate {
         const baseHref = currentPath.split('/Web/projects/')[0] || '';
         const projectPath = currentPath;
         const makeHref = (lang) => `${projectPath}?lang=${lang}`;
+        const activeLabel = this.lang === 'es' ? 'ES' : this.lang === 'en' ? 'EN' : 'DE';
         nav.insertAdjacentHTML('beforeend', `
-            <li class="nav-item language-switcher project-language-switcher" aria-label="Language selector">
-                <a class="nav-link ${this.lang === 'es' ? 'active' : ''}" href="${makeHref('es')}" lang="es" hreflang="es-MX">ES</a>
-                <a class="nav-link ${this.lang === 'en' ? 'active' : ''}" href="${makeHref('en')}" lang="en" hreflang="en">EN</a>
-                <a class="nav-link ${this.lang === 'de' ? 'active' : ''}" href="${makeHref('de')}" lang="de" hreflang="de">DE</a>
+            <li class="nav-item dropdown language-dropdown project-language-switcher" aria-label="Language selector">
+                <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" id="projectLanguageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-globe"></i> ${activeLabel}
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end border-0" aria-labelledby="projectLanguageDropdown">
+                    <li><a class="dropdown-item ${this.lang === 'es' ? 'active' : ''}" href="${makeHref('es')}" lang="es" hreflang="es-MX">Español (ES)</a></li>
+                    <li><a class="dropdown-item ${this.lang === 'en' ? 'active' : ''}" href="${makeHref('en')}" lang="en" hreflang="en">English (EN)</a></li>
+                    <li><a class="dropdown-item ${this.lang === 'de' ? 'active' : ''}" href="${makeHref('de')}" lang="de" hreflang="de">Deutsch (DE)</a></li>
+                </ul>
             </li>
         `);
     }
@@ -867,7 +883,7 @@ class ProjectTemplate {
             scrollTicking = true;
             requestAnimationFrame(() => {
             const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 100) {
+            if (window.scrollY > 50) {
                 navbar.classList.add('navbar-scrolled');
             } else {
                 navbar.classList.remove('navbar-scrolled');
@@ -875,14 +891,43 @@ class ProjectTemplate {
                 scrollTicking = false;
             });
         }, { passive: true });
+
+        // Scrollspy to highlight active navbar section
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link[href^="#"]:not(.dropdown-toggle)');
+        const sections = Array.from(navLinks)
+            .filter(link => {
+                const href = link.getAttribute('href');
+                return href && href !== '#';
+            })
+            .map(link => document.querySelector(link.getAttribute('href')))
+            .filter(Boolean);
+        
+        if (sections.length > 0 && 'IntersectionObserver' in window) {
+            const spyObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        navLinks.forEach(link => {
+                            const isActive = link.getAttribute('href') === `#${id}`;
+                            link.classList.toggle('active', isActive);
+                        });
+                    }
+                });
+            }, { threshold: 0.25, rootMargin: '-20% 0px -40% 0px' });
+            
+            sections.forEach(section => spyObserver.observe(section));
+        }
         
         // Smooth scroll for navigation - exclude external links and specific buttons
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            const href = anchor.getAttribute('href');
+            if (href === '#' || anchor.classList.contains('dropdown-toggle')) return;
+            
             // Skip buttons that shouldn't have smooth scroll
-            if (!anchor.classList.contains('btn') || anchor.getAttribute('href') !== '#') {
+            if (!anchor.classList.contains('btn') || href !== '#') {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
+                    const targetId = href.substring(1);
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
                         const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

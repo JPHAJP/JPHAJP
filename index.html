@@ -79,10 +79,15 @@
                     <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                    <li class="nav-item language-switcher" aria-label="Selector de idioma">
-                        <a class="nav-link active" href="./" lang="es" hreflang="es-MX">ES</a>
-                        <a class="nav-link" href="./en/" lang="en" hreflang="en">EN</a>
-                        <a class="nav-link" href="./de/" lang="de" hreflang="de">DE</a>
+                    <li class="nav-item dropdown language-dropdown" aria-label="Selector de idioma">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> ES
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end border-0" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item active" href="./" lang="es" hreflang="es-MX">Español (ES)</a></li>
+                            <li><a class="dropdown-item" href="./en/" lang="en" hreflang="en">English (EN)</a></li>
+                            <li><a class="dropdown-item" href="./de/" lang="de" hreflang="de">Deutsch (DE)</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -1349,22 +1354,54 @@
         </section>
 
         <!-- Footer -->
-        <footer class="footer py-4">
+        <footer class="footer py-5">
             <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <!-- Column 1: Brand Info -->
+                    <div class="col-lg-5 text-center text-lg-start">
+                        <a class="footer-logo mb-3 d-inline-block text-decoration-none" href="#">JP<span>HA</span></a>
+                        <p class="footer-bio mb-4 text-muted" style="font-size: 0.9rem; line-height: 1.6;">
+                            Ingeniero Mecatrónico por la Ibero Puebla, apasionado por el desarrollo de soluciones avanzadas en Inteligencia Artificial, Robótica Autónoma, Automatización Industrial e IoT.
+                        </p>
+                        <p class="footer-tagline text-gradient mb-0 fw-bold" style="font-size: 0.9rem; letter-spacing: 0.05em; text-transform: uppercase;">TECH DRIVEN, HEART INSPIRED</p>
+                    </div>
+                    
+                    <!-- Column 2: Navigation Links -->
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <h5 class="footer-heading mb-3 fw-bold" style="color: #ffffff; font-size: 1.1rem;">Navegación</h5>
+                        <ul class="list-unstyled footer-links" style="font-size: 0.9rem; line-height: 2;">
+                            <li><a href="#inicio" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Inicio</a></li>
+                            <li><a href="#sobre-mi" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Sobre Mí</a></li>
+                            <li><a href="#proyectos" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Proyectos</a></li>
+                            <li><a href="#habilidades" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Habilidades</a></li>
+                            <li><a href="#contacto" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Contact & Socials -->
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <h5 class="footer-heading mb-3 fw-bold" style="color: #ffffff; font-size: 1.1rem;">Contacto</h5>
+                        <ul class="list-unstyled footer-contact mb-4" style="font-size: 0.9rem; line-height: 2;">
+                            <li><a href="mailto:contacto@jphajp.com" class="text-decoration-none text-muted"><i class="fas fa-envelope me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>contacto@jphajp.com</a></li>
+                            <li><a href="https://mx.linkedin.com/in/jphajp" target="_blank" class="text-decoration-none text-muted"><i class="fab fa-linkedin me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>LinkedIn</a></li>
+                            <li><a href="https://github.com/JPHAJP" target="_blank" class="text-decoration-none text-muted"><i class="fab fa-github me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>GitHub</a></li>
+                        </ul>
+                        <div class="social-links-grid d-flex justify-content-center justify-content-lg-start gap-2">
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="GitHub" href="https://github.com/JPHAJP" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="LinkedIn" href="https://mx.linkedin.com/in/jphajp" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="Twitter" href="https://x.com/jphajp" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="my-4 border-secondary opacity-25">
+                
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">
-                        <p class="mb-lg-0">&copy; 2025 José Pablo Hernández Alonso</p>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p id="footer-copyright" class="mb-0 small text-muted">&copy; 2026 José Pablo Hernández Alonso. Todos los derechos reservados.</p>
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="GitHub" href="https://github.com/JPHAJP"
-                            target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="LinkedIn" href="https://mx.linkedin.com/in/jphajp"
-                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="Twitter" href="https://x.com/jphajp" target="_blank"><i
-                                class="fab fa-twitter"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <p class="mb-0">TECH DRIVEN, HEART INSPIRED</p>
+                    <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+                        <p class="mb-0 small text-muted">Diseñado con excelencia y precisión técnica.</p>
                     </div>
                 </div>
             </div>

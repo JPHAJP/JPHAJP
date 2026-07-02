@@ -9,7 +9,9 @@
 		"lighthouse": "pnpm lighthouse:es && pnpm lighthouse:en && pnpm lighthouse:de"
 	},
 	"devDependencies": {
+		"http-server": "^14.1.1",
+		"jsdom": "^29.1.1",
 		"lighthouse": "^13.4.0",
-		"http-server": "^14.1.1"
+		"playwright": "^1.61.1"
 	}
 }

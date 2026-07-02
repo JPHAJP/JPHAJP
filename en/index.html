@@ -79,10 +79,15 @@
                     <li class="nav-item"><a class="nav-link" href="#proyectos">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#habilidades">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">Contact</a></li>
-                    <li class="nav-item language-switcher" aria-label="Language selector">
-                        <a class="nav-link" href="../" lang="es" hreflang="es-MX">ES</a>
-                        <a class="nav-link active" href="./" lang="en" hreflang="en">EN</a>
-                        <a class="nav-link" href="../de/" lang="de" hreflang="de">DE</a>
+                    <li class="nav-item dropdown language-dropdown" aria-label="Language selector">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> EN
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end border-0" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="../" lang="es" hreflang="es-MX">Español (ES)</a></li>
+                            <li><a class="dropdown-item active" href="./" lang="en" hreflang="en">English (EN)</a></li>
+                            <li><a class="dropdown-item" href="../de/" lang="de" hreflang="de">Deutsch (DE)</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -269,7 +274,7 @@
                                 <div>
                                     <div class="language-card">
                                         <img class="language-flag" src="https://flagcdn.com/w80/es.png"
-                                            srcset="https://flagcdn.com/w160/es.png 2x" alt="Bandera de España">
+                                            srcset="https://flagcdn.com/w160/es.png 2x" alt="Spanish Flag">
                                         <div class="language-meta">
                                             <p>Spanish</p>
                                             <p class="language-level">NATIVE</p>
@@ -286,7 +291,7 @@
                                     <div class="language-card">
                                         <img class="language-flag" src="https://flagcdn.com/w80/us.png"
                                             srcset="https://flagcdn.com/w160/us.png 2x"
-                                            alt="Bandera de Estados Unidos">
+                                            alt="United States Flag">
                                         <div class="language-meta">
                                             <p>English</p>
                                             <p class="language-level">C1 ADVANCED</p>
@@ -302,7 +307,7 @@
                                 <div>
                                     <div class="language-card">
                                         <img class="language-flag" src="https://flagcdn.com/w80/de.png"
-                                            srcset="https://flagcdn.com/w160/de.png 2x" alt="Bandera de Alemania">
+                                            srcset="https://flagcdn.com/w160/de.png 2x" alt="German Flag">
                                         <div class="language-meta">
                                             <p>German</p>
                                             <p class="language-level">B1 INTERMEDIATE</p>
@@ -406,7 +411,7 @@
                                         </div>
                                         <h3>GPA 4.0</h3>
                                         <p class="academic-institution">Ibero Puebla</p>
-                                        <p>Ingeniería en Mecatrónica</p>
+                                        <p>Mechatronics Engineering</p>
                                         <div class="academic-badge">⭐ Perfect GPA</div>
                                     </div>
                                 </div>
@@ -455,22 +460,22 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="550">
-                                    <div class="academic-card academic-carousel-card" aria-label="Fotografías del reconocimiento ANFEI">
+                                    <div class="academic-card academic-carousel-card" aria-label="Photos of the ANFEI recognition">
                                         <div class="anfei-carousel">
                                             <img src="../Web/assets/img/anfei-1-640.webp"
                                                 srcset="../Web/assets/img/anfei-1-360.webp 360w, ../Web/assets/img/anfei-1-640.webp 640w"
                                                 sizes="(max-width: 767px) calc(100vw - 3rem), 320px"
-                                                alt="ANFEI Recognition entregado a José Pablo Hernández Alonso"
+                                                alt="ANFEI Recognition presented to José Pablo Hernández Alonso"
                                                 class="anfei-slide anfei-slide-1" loading="lazy" decoding="async">
                                             <img src="../Web/assets/img/anfei-2-640.webp"
                                                 srcset="../Web/assets/img/anfei-2-360.webp 360w, ../Web/assets/img/anfei-2-640.webp 640w"
                                                 sizes="(max-width: 767px) calc(100vw - 3rem), 320px"
-                                                alt="Ceremonia del reconocimiento ANFEI por mejor promedio de Ingenierías"
+                                                alt="ANFEI award ceremony for the highest graduating GPA in Engineering"
                                                 class="anfei-slide anfei-slide-2" loading="lazy" decoding="async">
                                             <img src="../Web/assets/img/anfei-3-640.webp"
                                                 srcset="../Web/assets/img/anfei-3-360.webp 360w, ../Web/assets/img/anfei-3-640.webp 640w"
                                                 sizes="(max-width: 767px) calc(100vw - 3rem), 320px"
-                                                alt="Constancia del reconocimiento ANFEI a mejor promedio graduado"
+                                                alt="ANFEI certificate for the highest graduating GPA"
                                                 class="anfei-slide anfei-slide-3" loading="lazy" decoding="async">
                                         </div>
                                     </div>
@@ -1003,25 +1008,25 @@
                             <i class="fas fa-certificate achievement-icon"></i>
                             <h3>ANFEI Recognition</h3>
                             <p>ANFEI</p>
-                            <span class="achievement-tag">📊 Mejor promedio graduado de Ingenierías</span>
+                            <span class="achievement-tag">📊 Top GPA Graduate in Engineering</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="700">
                         <div class="achievement-card">
                             <div class="achievement-year">2025</div>
                             <i class="fas fa-certificate achievement-icon"></i>
-                            <h3>Certificación CSWP</h3>
+                            <h3>CSWP Certification</h3>
                             <p>SolidWorks</p>
-                            <span class="achievement-tag">📜 Certificado Profesional</span>
+                            <span class="achievement-tag">📜 Professional Certificate</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="800">
                         <div class="achievement-card">
                             <div class="achievement-year">2024</div>
                             <i class="fas fa-file-alt achievement-icon"></i>
-                            <h3>Publicación IEEE</h3>
+                            <h3>IEEE Publication</h3>
                             <p>IEEE</p>
-                            <span class="achievement-tag">📄 Robotics Médica</span>
+                            <span class="achievement-tag">📄 Medical Robotics</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="900">
@@ -1030,25 +1035,25 @@
                             <i class="fas fa-rocket achievement-icon"></i>
                             <h3>NASA Space Apps</h3>
                             <p>NASA</p>
-                            <span class="achievement-tag">🚀 Competencia Internacional</span>
+                            <span class="achievement-tag">🚀 International Competition</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1000">
                         <div class="achievement-card">
                             <div class="achievement-year">2024</div>
                             <i class="fas fa-microphone-alt achievement-icon"></i>
-                            <h3>Ponente CONITACS XIV</h3>
+                            <h3>Speaker at CONITACS XIV</h3>
                             <p>CONITACS</p>
-                            <span class="achievement-tag">🏥 Congreso Nacional</span>
+                            <span class="achievement-tag">🏥 National Conference</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1100">
                         <div class="achievement-card">
                             <div class="achievement-year">2021-2025</div>
                             <i class="fas fa-laptop-code achievement-icon"></i>
-                            <h3>Expositor ExpoIBERO</h3>
+                            <h3>Exhibitor at ExpoIBERO</h3>
                             <p>Ibero Puebla</p>
-                            <span class="achievement-tag">🎓 Múltiples Exposiciones</span>
+                            <span class="achievement-tag">🎓 Multiple Exhibitions</span>
                         </div>
                     </div>
                 </div>
@@ -1069,10 +1074,10 @@
                 </div>
 
                 <div class="row g-4">
-                    <!-- Categoría 1: Lenguajes de Programación -->
+                    <!-- Category 1: Programming Languages -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-code me-2"></i>Lenguajes de Programación</h3>
+                            <h3 class="skills-category"><i class="fas fa-code me-2"></i>Programming Languages</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>Python</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>C & C++</span> <i class="fas fa-star"></i></li>
@@ -1084,29 +1089,28 @@
                         </div>
                     </div>
 
-                    <!-- Categoría 2: Robotics y Automatización -->
+                    <!-- Category 2: Robotics & Automation -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-robot me-2"></i>Robotics y Automatización</h3>
+                            <h3 class="skills-category"><i class="fas fa-robot me-2"></i>Robotics & Automation</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>Universal Robots</span> <i class="fas fa-star"></i>
                                 </li>
                                 <li class="skill-item"><span>PLC SIEMENS - TIA Portal</span> <i class="fas fa-star"></i>
                                 </li>
                                 <li class="skill-item"><span>KUKA & FANUC</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Sistemas Embebidos</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Embedded Systems</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Control Industrial</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Industrial Control</span> <i class="fas fa-star"></i>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Categoría 3: IA y Visión Computacional -->
+                    <!-- Category 3: AI & Computer Vision -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-brain me-2"></i>Inteligencia Artificial y
-                                Visión Computacional</h3>
+                            <h3 class="skills-category"><i class="fas fa-brain me-2"></i>Artificial Intelligence &<br>Computer Vision</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>YOLO Vision</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>Mediapipe</span> <i class="fas fa-star-half-alt"></i></li>
@@ -1119,11 +1123,10 @@
                         </div>
                     </div>
 
-                    <!-- Categoría 4: Hardware y Dispositivos -->
+                    <!-- Category 4: Hardware & Devices -->
                     <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="400">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-microchip me-2"></i>Hardware y Dispositivos
-                            </h3>
+                            <h3 class="skills-category"><i class="fas fa-microchip me-2"></i>Hardware & Devices</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>Raspberry Pi</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>Jetson NVIDIA</span> <i class="fas fa-star"></i></li>
@@ -1133,49 +1136,46 @@
                                 <li class="skill-item"><span>Cisco Packet Tracer</span> <i
                                         class="fas fa-star-half-alt"></i></li>
                                 <li class="skill-item"><span>WebApps</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Sensores y Actuadores</span> <i class="fas fa-star"></i>
-                                </li>
+                                <li class="skill-item"><span>Sensors & Actuators</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>IoT</span> <i class="fas fa-star"></i></li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Categoría 5: Diseño e Ingeniería -->
+                    <!-- Category 5: Design & Engineering -->
                     <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="500">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-drafting-compass me-2"></i>Diseño e Ingeniería
-                            </h3>
+                            <h3 class="skills-category"><i class="fas fa-drafting-compass me-2"></i>Design & Engineering</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>SolidWorks <em>(CSWP)</em></span> <i
                                         class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>Fusion 360</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>CATIA</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>AutoCAD</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Simulación</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Prototipado</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Impresión 3D</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Diseño (CAD)</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>CAM (Genración de Gcode)</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Simulation</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>Prototyping</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>3D Printing</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>CAD Design</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>CAM (G-code Generation)</span> <i class="fas fa-star"></i>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Categoría 6: Soft Skills -->
+                    <!-- Category 6: Soft Skills -->
                     <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="600">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-users me-2"></i>Skills Blandas</h3>
+                            <h3 class="skills-category"><i class="fas fa-users me-2"></i>Soft Skills</h3>
                             <ul class="skills-list">
-                                <li class="skill-item"><span>Gestión de Projects</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Project Management</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Trabajo en Equipo</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Teamwork</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Resolución de Problemas</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Problem Solving</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Comunicación Técnica</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Technical Communication</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Aprendizaje Continuo</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Continuous Learning</span> <i class="fas fa-star"></i>
                                 </li>
                                 <li class="skill-item"><span>English <em>(C1)</em></span> <i class="fas fa-star"></i>
                                 </li>
@@ -1316,7 +1316,7 @@
                                         <div class="form-group">
                                             <label for="email" class="form-label">Email</label>
                                             <input type="email" class="form-control" id="email" name="email"
-                                                placeholder="tu@email.com" required>
+                                                placeholder="your@email.com" required>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1348,22 +1348,54 @@
         </section>
 
         <!-- Footer -->
-        <footer class="footer py-4">
+        <footer class="footer py-5">
             <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <!-- Column 1: Brand Info -->
+                    <div class="col-lg-5 text-center text-lg-start">
+                        <a class="footer-logo mb-3 d-inline-block text-decoration-none" href="#">JP<span>HA</span></a>
+                        <p class="footer-bio mb-4 text-muted" style="font-size: 0.9rem; line-height: 1.6;">
+                            Mechatronics Engineer from Ibero Puebla, passionate about developing advanced solutions in Artificial Intelligence, Autonomous Robotics, Industrial Automation, and IoT.
+                        </p>
+                        <p class="footer-tagline text-gradient mb-0 fw-bold" style="font-size: 0.9rem; letter-spacing: 0.05em; text-transform: uppercase;">TECH DRIVEN, HEART INSPIRED</p>
+                    </div>
+                    
+                    <!-- Column 2: Navigation Links -->
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <h5 class="footer-heading mb-3 fw-bold" style="color: #ffffff; font-size: 1.1rem;">Navigation</h5>
+                        <ul class="list-unstyled footer-links" style="font-size: 0.9rem; line-height: 2;">
+                            <li><a href="#inicio" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Home</a></li>
+                            <li><a href="#sobre-mi" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>About Me</a></li>
+                            <li><a href="#proyectos" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Projects</a></li>
+                            <li><a href="#habilidades" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Skills</a></li>
+                            <li><a href="#contacto" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Contact & Socials -->
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <h5 class="footer-heading mb-3 fw-bold" style="color: #ffffff; font-size: 1.1rem;">Contact</h5>
+                        <ul class="list-unstyled footer-contact mb-4" style="font-size: 0.9rem; line-height: 2;">
+                            <li><a href="mailto:contacto@jphajp.com" class="text-decoration-none text-muted"><i class="fas fa-envelope me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>contacto@jphajp.com</a></li>
+                            <li><a href="https://mx.linkedin.com/in/jphajp" target="_blank" class="text-decoration-none text-muted"><i class="fab fa-linkedin me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>LinkedIn</a></li>
+                            <li><a href="https://github.com/JPHAJP" target="_blank" class="text-decoration-none text-muted"><i class="fab fa-github me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>GitHub</a></li>
+                        </ul>
+                        <div class="social-links-grid d-flex justify-content-center justify-content-lg-start gap-2">
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="GitHub" href="https://github.com/JPHAJP" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="LinkedIn" href="https://mx.linkedin.com/in/jphajp" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="Twitter" href="https://x.com/jphajp" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="my-4 border-secondary opacity-25">
+                
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">
-                        <p class="mb-lg-0">&copy; 2025 José Pablo Hernández Alonso</p>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p id="footer-copyright" class="mb-0 small text-muted">&copy; 2026 José Pablo Hernández Alonso. All rights reserved.</p>
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="GitHub" href="https://github.com/JPHAJP"
-                            target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="LinkedIn" href="https://mx.linkedin.com/in/jphajp"
-                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="Twitter" href="https://x.com/jphajp" target="_blank"><i
-                                class="fab fa-twitter"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <p class="mb-0">TECH DRIVEN, HEART INSPIRED</p>
+                    <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+                        <p class="mb-0 small text-muted">Designed with excellence and technical precision.</p>
                     </div>
                 </div>
             </div>

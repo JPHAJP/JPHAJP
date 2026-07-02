@@ -254,21 +254,32 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer py-5">
         <div class="container">
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <p id="footer-author" class="footer-author">Autor</p>
-                    <p id="footer-institution" class="mb-1">Institución</p>
-                    <p id="footer-email" class="mb-0">Email</p>
+            <div class="row g-4 justify-content-between">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <a class="footer-logo mb-3 d-inline-block text-decoration-none" href="../../" style="font-weight: 800; font-size: 1.5rem; color: #ffffff; letter-spacing: 0.05rem;">JP<span style="color: var(--accent-color);">HA</span></a>
+                    <h5 class="footer-author-name mb-3 fw-bold" style="color: #ffffff;"><i class="fas fa-user me-2" style="color: var(--accent-color); font-size: 0.9rem;"></i><span id="footer-author">Autor</span></h5>
+                    <p class="text-muted mb-2 small"><i class="fas fa-university me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i><span id="footer-institution">Institución</span></p>
+                    <p class="text-muted mb-0 small"><i class="fas fa-envelope me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i><span id="footer-email">Email</span></p>
                 </div>
-                <div class="col-md-6 text-md-end text-center">
-                    <div class="social-links d-flex justify-content-md-end justify-content-center gap-2 mb-3" id="social-links">
+                <div class="col-lg-5 text-center text-lg-end">
+                    <h5 id="footer-resources-heading" class="footer-heading mb-3 fw-bold" style="color: #ffffff; font-size: 1.1rem; letter-spacing: 0.02rem;">Redes y Recursos</h5>
+                    <div class="social-links d-flex justify-content-center justify-content-lg-end gap-2 mb-4" id="social-links">
                         <!-- Enlaces sociales se cargan dinámicamente -->
                     </div>
                     <div class="license-info">
-                        <p class="small mb-0">Este proyecto está licenciado bajo CC BY-NC-SA 4.0</p>
+                        <p class="small text-muted mb-0" style="font-size: 0.82rem;"></p>
                     </div>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary opacity-25">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 small text-muted">&copy; 2026 José Pablo Hernández Alonso. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+                    <a href="../../" id="footer-back-link" class="text-decoration-none small footer-back-link" style="color: var(--accent-color); font-weight: 600; transition: var(--transition);"><i class="fas fa-arrow-left me-2"></i>Volver al Portafolio</a>
                 </div>
             </div>
         </div>

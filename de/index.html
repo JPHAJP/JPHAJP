@@ -79,10 +79,15 @@
                     <li class="nav-item"><a class="nav-link" href="#proyectos">Projekte</a></li>
                     <li class="nav-item"><a class="nav-link" href="#habilidades">Fähigkeiten</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">Kontakt</a></li>
-                    <li class="nav-item language-switcher" aria-label="Sprachauswahl">
-                        <a class="nav-link" href="../" lang="es" hreflang="es-MX">ES</a>
-                        <a class="nav-link" href="../en/" lang="en" hreflang="en">EN</a>
-                        <a class="nav-link active" href="./" lang="de" hreflang="de">DE</a>
+                    <li class="nav-item dropdown language-dropdown" aria-label="Sprachauswahl">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> DE
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end border-0" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="../" lang="es" hreflang="es-MX">Español (ES)</a></li>
+                            <li><a class="dropdown-item" href="../en/" lang="en" hreflang="en">English (EN)</a></li>
+                            <li><a class="dropdown-item active" href="./" lang="de" hreflang="de">Deutsch (DE)</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -268,7 +273,7 @@
                                 <div>
                                     <div class="language-card">
                                         <img class="language-flag" src="https://flagcdn.com/w80/es.png"
-                                            srcset="https://flagcdn.com/w160/es.png 2x" alt="Bandera de España">
+                                            srcset="https://flagcdn.com/w160/es.png 2x" alt="Spanische Flagge">
                                         <div class="language-meta">
                                             <p>Spanisch</p>
                                             <p class="language-level">MUTTERSPRACHE</p>
@@ -285,7 +290,7 @@
                                     <div class="language-card">
                                         <img class="language-flag" src="https://flagcdn.com/w80/us.png"
                                             srcset="https://flagcdn.com/w160/us.png 2x"
-                                            alt="Bandera de Estados Unidos">
+                                            alt="US-Flagge">
                                         <div class="language-meta">
                                             <p>Englisch</p>
                                             <p class="language-level">C1 FORTGESCHRITTEN</p>
@@ -301,7 +306,7 @@
                                 <div>
                                     <div class="language-card">
                                         <img class="language-flag" src="https://flagcdn.com/w80/de.png"
-                                            srcset="https://flagcdn.com/w160/de.png 2x" alt="Bandera de Alemania">
+                                            srcset="https://flagcdn.com/w160/de.png 2x" alt="Deutsche Flagge">
                                         <div class="language-meta">
                                             <p>Deutsch</p>
                                             <p class="language-level">B1 MITTELSTUFE</p>
@@ -405,7 +410,7 @@
                                         </div>
                                         <h3>GPA 4.0</h3>
                                         <p class="academic-institution">Ibero Puebla</p>
-                                        <p>Ingeniería en Mecatrónica</p>
+                                        <p>Mechatronik-Ingenieurwesen</p>
                                         <div class="academic-badge">⭐ Perfekter Durchschnitt</div>
                                     </div>
                                 </div>
@@ -454,22 +459,22 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="550">
-                                    <div class="academic-card academic-carousel-card" aria-label="Fotografías del reconocimiento ANFEI">
+                                    <div class="academic-card academic-carousel-card" aria-label="Fotos der ANFEI-Anerkennung">
                                         <div class="anfei-carousel">
                                             <img src="../Web/assets/img/anfei-1-640.webp"
                                                 srcset="../Web/assets/img/anfei-1-360.webp 360w, ../Web/assets/img/anfei-1-640.webp 640w"
                                                 sizes="(max-width: 767px) calc(100vw - 3rem), 320px"
-                                                alt="ANFEI-Anerkennung entregado a José Pablo Hernández Alonso"
+                                                alt="ANFEI-Anerkennung überreicht an José Pablo Hernández Alonso"
                                                 class="anfei-slide anfei-slide-1" loading="lazy" decoding="async">
                                             <img src="../Web/assets/img/anfei-2-640.webp"
                                                 srcset="../Web/assets/img/anfei-2-360.webp 360w, ../Web/assets/img/anfei-2-640.webp 640w"
                                                 sizes="(max-width: 767px) calc(100vw - 3rem), 320px"
-                                                alt="Ceremonia del reconocimiento ANFEI por mejor promedio de Ingenierías"
+                                                alt="Zeremonie der ANFEI-Anerkennung für die beste Abschlussnote im Ingenieurwesen"
                                                 class="anfei-slide anfei-slide-2" loading="lazy" decoding="async">
                                             <img src="../Web/assets/img/anfei-3-640.webp"
                                                 srcset="../Web/assets/img/anfei-3-360.webp 360w, ../Web/assets/img/anfei-3-640.webp 640w"
                                                 sizes="(max-width: 767px) calc(100vw - 3rem), 320px"
-                                                alt="Constancia del reconocimiento ANFEI a mejor promedio graduado"
+                                                alt="ANFEI-Urkunde für die beste Abschlussnote"
                                                 class="anfei-slide anfei-slide-3" loading="lazy" decoding="async">
                                         </div>
                                     </div>
@@ -558,12 +563,11 @@
                             </div>
                             <div class="project-body">
                                 <h3>NASA Space Apps Challenge 2024</h3>
-                                <p>Participación en el desafío global para resolver problemas espaciales y climáticos
-                                    mediante IA y modelado de datos.</p>
+                                <p>Teilnahme an der globalen Challenge zur Lösung von Weltraum- und Klimaproblemen mittels KI und Datenmodellierung.</p>
                                 <div class="project-tech">
                                     <span>Python</span>
-                                    <span>IA</span>
-                                    <span>Análisis</span>
+                                    <span>KI</span>
+                                    <span>Analyse</span>
                                     <span>NASA</span>
                                     <span>React</span>
                                     <span>Node.js</span>
@@ -586,17 +590,16 @@
                             </div>
                             <div class="project-body">
                                 <h3>UR5 SRUB NURSE - Robotics AI</h3>
-                                <p>Sistema robótico basado en IA para automatizar tareas en el sector salud, combinando
-                                    visión por computadora y LLM.</p>
+                                <p>KI-basiertes Robotersystem zur Automatisierung von Aufgaben im Gesundheitswesen durch Kombination von Computer-Vision und LLMs.</p>
                                 <div class="project-tech">
                                     <span>Robotik</span>
-                                    <span>IA</span>
+                                    <span>KI</span>
                                     <span>C++</span>
                                     <span>Python</span>
                                     <span>YOLO</span>
-                                    <span>UrSrcipt</span>
-                                    <span>Asistente</span>
-                                    <span>Salud</span>
+                                    <span>UrScript</span>
+                                    <span>Assistent</span>
+                                    <span>Gesundheitswesen</span>
                                     <span>Universal Robots</span>
                                 </div>
                             </div>
@@ -616,7 +619,7 @@
                             </div>
                             <div class="project-body">
                                 <h3>Robotik</h3>
-                                <p>Desarrollo de y teroría de robots articulados y móviles.</p>
+                                <p>Entwicklung und Theorie von Knickarmrobotern und mobilen Robotern.</p>
                                 <div class="project-tech">
                                     <span>Python</span>
                                     <span>OpenCV</span>
@@ -682,20 +685,18 @@
                                 <div class="col-md-6">
                                     <div class="project-body d-flex flex-column justify-content-center h-100 p-4">
                                         <h3 class="special-title mb-3">μSensgrip</h3>
-                                        <p class="lead mb-4">Prototipo funcional de pinza robótica con sensibilidad de
-                                            fuerza (Proyecto de
-                                            titulación)</p>
+                                        <p class="lead mb-4">Funktioneller Prototyp eines Robotergreifers mit Kraftsensorik (Diplomarbeit/Bachelorarbeit)</p>
                                         <div class="project-tech">
                                             <span>PLC</span>
-                                            <span>Automatización</span>
-                                            <span>Industria</span>
+                                            <span>Automatisierung</span>
+                                            <span>Industrie</span>
                                             <span>SolidWorks</span>
                                             <span>Catia</span>
                                             <span>CNC</span>
-                                            <span>Control discreto</span>
-                                            <span>Fabricación PCB</span>
-                                            <span>Diseño PCB</span>
-                                            <span>Programación</span>
+                                            <span>Diskrete Steuerung</span>
+                                            <span>Leiterplattenherstellung</span>
+                                            <span>Leiterplattendesign</span>
+                                            <span>Programmierung</span>
                                             <span>Robotik</span>
                                             <span>UrScript</span>
                                         </div>
@@ -717,12 +718,11 @@
                             </div>
                             <div class="project-body">
                                 <h3>Industrielle Automatisierung PLC</h3>
-                                <p>Implementación de sistemas de control industrial usando PLC SIEMENS y TIA Portal para
-                                    optimización de procesos.</p>
+                                <p>Implementierung industrieller Steuerungssysteme mit SIEMENS-SPS und TIA Portal zur Prozessoptimierung.</p>
                                 <div class="project-tech">
                                     <span>PLC</span>
                                     <span>SIEMENS</span>
-                                    <span>Industria</span>
+                                    <span>Industrie</span>
                                     <span>IoT</span>
                                 </div>
                             </div>
@@ -742,12 +742,11 @@
                             </div>
                             <div class="project-body">
                                 <h3>Industrielle Automatisierung</h3>
-                                <p>Implementación de sistemas de control utilizando lógica cableada y procesos análogos.
-                                </p>
+                                <p>Implementierung von Steuerungssystemen mittels verdrahteter Logik und analoger Prozesse.</p>
                                 <div class="project-tech">
                                     <span>PLC</span>
                                     <span>SIEMENS</span>
-                                    <span>Industria</span>
+                                    <span>Industrie</span>
                                     <span>IoT</span>
                                 </div>
                             </div>
@@ -767,7 +766,7 @@
                             </div>
                             <div class="project-body">
                                 <h3>FPGA Atari Brealout</h3>
-                                <p>Creación de video y un videojuego mediante lenguaje descriptivo de hardware.</p>
+                                <p>Erzeugung von Videosignalen und eines Videospiels mittels Hardwarebeschreibungssprache.</p>
                                 <div class="project-tech">
                                     <span>Verilog</span>
                                     <span>FPGA</span>
@@ -790,9 +789,7 @@
                             </div>
                             <div class="project-body">
                                 <h3>EmoHelper</h3>
-                                <p>Creación de poemas y texto a partir de diferentes tipos de entradas con IA
-                                    descriptiva y
-                                    API OpenAI.</p>
+                                <p>Erstellung von Gedichten und Texten aus verschiedenen Eingaben mit generativer KI und der OpenAI-API.</p>
                                 <div class="project-tech">
                                     <span>OpenAI</span>
                                     <span>Gradio</span>
@@ -815,9 +812,7 @@
                             </div>
                             <div class="project-body">
                                 <h3>StableDiffusion_t_gcode - UR5</h3>
-                                <p>Creación de arte mediante StableDiffusion y precesamiento de imágenes y
-                                    transformación.
-                                </p>
+                                <p>Kunsterzeugung mittels StableDiffusion sowie Bildverarbeitung und Bildtransformation.</p>
                                 <div class="project-tech">
                                     <span>DeepSeek</span>
                                     <span>Gradio</span>
@@ -841,8 +836,8 @@
                                 </div>
                             </div>
                             <div class="project-body">
-                                <h3>Redes digitales</h3>
-                                <p>Creación de dashboards utilizando ESP32 IoT y Bases de datos.</p>
+                                <h3>Digitale Netzwerke</h3>
+                                <p>Erstellung von Dashboards unter Verwendung von ESP32 IoT und Datenbanken.</p>
                                 <div class="project-tech">
                                     <span>Firebase</span>
                                     <span>WebApp</span>
@@ -866,11 +861,11 @@
                             </div>
                             <div class="project-body">
                                 <h3>Neural_predictions</h3>
-                                <p>Uso de Tensorflow para predicción.</p>
+                                <p>Nutzung von TensorFlow zur Vorhersage.</p>
                                 <div class="project-tech">
                                     <span>Tensorflow</span>
                                     <span>AI</span>
-                                    <span>Procesamiento de imágenes</span>
+                                    <span>Bildverarbeitung</span>
                                     <span>Network</span>
                                 </div>
                             </div>
@@ -889,13 +884,12 @@
                                 </div>
                             </div>
                             <div class="project-body">
-                                <h3>Panadería inteligente</h3>
-                                <p>Uso de tecnología de visión por computadora e IA para procesamiento de compras de
-                                    PAN.</p>
+                                <h3>Intelligente Bäckerei</h3>
+                                <p>Einsatz von Computer-Vision-Technologie und KI zur Abwicklung von Brot-Einkäufen.</p>
                                 <div class="project-tech">
                                     <span>YOLO</span>
                                     <span>AI</span>
-                                    <span>Procesamiento de imágenes</span>
+                                    <span>Bildverarbeitung</span>
                                     <span>Network</span>
                                     <span>Firebase</span>
                                     <span>MySQL</span>
@@ -911,7 +905,7 @@
                     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
                         <div class="project-card">
                             <div class="project-image">
-                                <img src="../Web/assets/img/Torneado.webp" alt="CNC Torneado y Fresado">
+                                <img src="../Web/assets/img/Torneado.webp" alt="CNC-Drehen und -Fräsen">
                                 <div class="project-overlay">
                                     <a href="#" target="_blank" class="project-link" aria-label="Open project">
                                         <i class="fas fa-external-link-alt"></i>
@@ -919,20 +913,20 @@
                                 </div>
                             </div>
                             <div class="project-body">
-                                <h3>CNC Torneado y Fresado</h3>
-                                <p>Programación de trayectorias y control de procesos de torneado y fresado CNC.</p>
+                                <h3>CNC-Drehen und -Fräsen</h3>
+                                <p>Bahnprogrammierung und Prozesssteuerung beim CNC-Drehen und -Fräsen.</p>
                                 <div class="project-tech">
                                     <span>HAAS</span>
-                                    <span>Torno</span>
-                                    <span>Fresadora</span>
+                                    <span>Drehmaschine</span>
+                                    <span>Fräsmaschine</span>
                                     <span>CATIA</span>
                                     <span>SolidWorks</span>
                                     <span>Gcode</span>
-                                    <span>Post-procesado</span>
-                                    <span>Simulación</span>
-                                    <span>Control CNC</span>
-                                    <span>Programación de CNC</span>
-                                    <span>Simulación de CNC</span>
+                                    <span>Postprocessing</span>
+                                    <span>Simulation</span>
+                                    <span>CNC-Steuerung</span>
+                                    <span>CNC-Programmierung</span>
+                                    <span>CNC-Simulation</span>
                                 </div>
                             </div>
                         </div>
@@ -1003,25 +997,25 @@
                             <i class="fas fa-certificate achievement-icon"></i>
                             <h3>ANFEI-Anerkennung</h3>
                             <p>ANFEI</p>
-                            <span class="achievement-tag">📊 Mejor promedio graduado de Ingenierías</span>
+                            <span class="achievement-tag">📊 Bester Abschluss-Notendurchschnitt (Ingenieure)</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="700">
                         <div class="achievement-card">
                             <div class="achievement-year">2025</div>
                             <i class="fas fa-certificate achievement-icon"></i>
-                            <h3>Certificación CSWP</h3>
+                            <h3>CSWP-Zertifizierung</h3>
                             <p>SolidWorks</p>
-                            <span class="achievement-tag">📜 Certificado Profesional</span>
+                            <span class="achievement-tag">📜 Berufszertifikat</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="800">
                         <div class="achievement-card">
                             <div class="achievement-year">2024</div>
                             <i class="fas fa-file-alt achievement-icon"></i>
-                            <h3>Publicación IEEE</h3>
+                            <h3>IEEE-Publikation</h3>
                             <p>IEEE</p>
-                            <span class="achievement-tag">📄 Robotik Médica</span>
+                            <span class="achievement-tag">📄 Medizinische Robotik</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="900">
@@ -1030,25 +1024,25 @@
                             <i class="fas fa-rocket achievement-icon"></i>
                             <h3>NASA Space Apps</h3>
                             <p>NASA</p>
-                            <span class="achievement-tag">🚀 Competencia Internacional</span>
+                            <span class="achievement-tag">🚀 Internationaler Wettbewerb</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1000">
                         <div class="achievement-card">
                             <div class="achievement-year">2024</div>
                             <i class="fas fa-microphone-alt achievement-icon"></i>
-                            <h3>Ponente CONITACS XIV</h3>
+                            <h3>Referent bei CONITACS XIV</h3>
                             <p>CONITACS</p>
-                            <span class="achievement-tag">🏥 Congreso Nacional</span>
+                            <span class="achievement-tag">🏥 Nationaler Kongress</span>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1100">
                         <div class="achievement-card">
                             <div class="achievement-year">2021-2025</div>
                             <i class="fas fa-laptop-code achievement-icon"></i>
-                            <h3>Expositor ExpoIBERO</h3>
+                            <h3>Aussteller bei der ExpoIBERO</h3>
                             <p>Ibero Puebla</p>
-                            <span class="achievement-tag">🎓 Múltiples Exposiciones</span>
+                            <span class="achievement-tag">🎓 Mehrere Ausstellungen</span>
                         </div>
                     </div>
                 </div>
@@ -1069,10 +1063,10 @@
                 </div>
 
                 <div class="row g-4">
-                    <!-- Categoría 1: Lenguajes de Programación -->
+                    <!-- Category 1: Programmiersprachen -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-code me-2"></i>Lenguajes de Programación</h3>
+                            <h3 class="skills-category"><i class="fas fa-code me-2"></i>Programmiersprachen</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>Python</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>C & C++</span> <i class="fas fa-star"></i></li>
@@ -1084,29 +1078,28 @@
                         </div>
                     </div>
 
-                    <!-- Categoría 2: Robotik y Automatización -->
+                    <!-- Category 2: Robotik & Automatisierung -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-robot me-2"></i>Robotik y Automatización</h3>
+                            <h3 class="skills-category"><i class="fas fa-robot me-2"></i>Robotik & Automatisierung</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>Universal Robots</span> <i class="fas fa-star"></i>
                                 </li>
                                 <li class="skill-item"><span>PLC SIEMENS - TIA Portal</span> <i class="fas fa-star"></i>
                                 </li>
                                 <li class="skill-item"><span>KUKA & FANUC</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Sistemas Embebidos</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Eingebettete Systeme</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Control Industrial</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Industrielle Steuerung</span> <i class="fas fa-star"></i>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Categoría 3: IA y Visión Computacional -->
+                    <!-- Category 3: KI & Bildverarbeitung -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-brain me-2"></i>Inteligencia Artificial y
-                                Visión Computacional</h3>
+                            <h3 class="skills-category"><i class="fas fa-brain me-2"></i>Künstliche Intelligenz &<br>Bildverarbeitung</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>YOLO Vision</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>Mediapipe</span> <i class="fas fa-star-half-alt"></i></li>
@@ -1119,63 +1112,58 @@
                         </div>
                     </div>
 
-                    <!-- Categoría 4: Hardware y Dispositivos -->
+                    <!-- Category 4: Hardware & Geräte -->
                     <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="400">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-microchip me-2"></i>Hardware y Dispositivos
-                            </h3>
+                            <h3 class="skills-category"><i class="fas fa-microchip me-2"></i>Hardware & Geräte</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>Raspberry Pi</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>Jetson NVIDIA</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>Arduino</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>ESP32</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>PIC</span> <i class="fas fa-star-half-alt"></i></li>
-                                <li class="skill-item"><span>Cisco Packet Tracer</span> <i
-                                        class="fas fa-star-half-alt"></i></li>
+                                <li class="skill-item"><span>Cisco Packet Tracer</span> <i class="fas fa-star-half-alt"></i></li>
                                 <li class="skill-item"><span>WebApps</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Sensores y Actuadores</span> <i class="fas fa-star"></i>
-                                </li>
+                                <li class="skill-item"><span>Sensoren & Aktuatoren</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>IoT</span> <i class="fas fa-star"></i></li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Categoría 5: Diseño e Ingeniería -->
+                    <!-- Category 5: Konstruktion & Entwicklung -->
                     <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="500">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-drafting-compass me-2"></i>Diseño e Ingeniería
-                            </h3>
+                            <h3 class="skills-category"><i class="fas fa-drafting-compass me-2"></i>Konstruktion & Entwicklung</h3>
                             <ul class="skills-list">
                                 <li class="skill-item"><span>SolidWorks <em>(CSWP)</em></span> <i
                                         class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>Fusion 360</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>CATIA</span> <i class="fas fa-star"></i></li>
                                 <li class="skill-item"><span>AutoCAD</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Simulación</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Prototipado</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Impresión 3D</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>Diseño (CAD)</span> <i class="fas fa-star"></i></li>
-                                <li class="skill-item"><span>CAM (Genración de Gcode)</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Simulation</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>Prototypenbau</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>3D-Druck</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>CAD-Konstruktion</span> <i class="fas fa-star"></i></li>
+                                <li class="skill-item"><span>CAM (G-Code-Generierung)</span> <i class="fas fa-star"></i>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Categoría 6: Soft Skills -->
+                    <!-- Category 6: Soft Skills -->
                     <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="600">
                         <div class="skills-card h-100">
-                            <h3 class="skills-category"><i class="fas fa-users me-2"></i>Fähigkeiten Blandas</h3>
+                            <h3 class="skills-category"><i class="fas fa-users me-2"></i>Soft Skills</h3>
                             <ul class="skills-list">
-                                <li class="skill-item"><span>Gestión de Projekte</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Projektmanagement</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Trabajo en Equipo</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Teamarbeit</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Resolución de Problemas</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Problemlösungskompetenz</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Comunicación Técnica</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Technische Kommunikation</span> <i class="fas fa-star"></i>
                                 </li>
-                                <li class="skill-item"><span>Aprendizaje Continuo</span> <i class="fas fa-star"></i>
+                                <li class="skill-item"><span>Kontinuierliches Lernen</span> <i class="fas fa-star"></i>
                                 </li>
                                 <li class="skill-item"><span>Englisch <em>(C1)</em></span> <i class="fas fa-star"></i>
                                 </li>
@@ -1316,7 +1304,7 @@
                                         <div class="form-group">
                                             <label for="email" class="form-label">E-Mail</label>
                                             <input type="email" class="form-control" id="email" name="email"
-                                                placeholder="tu@email.com" required>
+                                                placeholder="deine@email.de" required>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1348,22 +1336,54 @@
         </section>
 
         <!-- Footer -->
-        <footer class="footer py-4">
+        <footer class="footer py-5">
             <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <!-- Column 1: Brand Info -->
+                    <div class="col-lg-5 text-center text-lg-start">
+                        <a class="footer-logo mb-3 d-inline-block text-decoration-none" href="#">JP<span>HA</span></a>
+                        <p class="footer-bio mb-4 text-muted" style="font-size: 0.9rem; line-height: 1.6;">
+                            Mechatronik-Ingenieur der Ibero Puebla mit Leidenschaft für die Entwicklung fortschrittlicher Lösungen in den Bereichen künstliche Intelligenz, autonome Robotik, industrielle Automatisierung und IoT.
+                        </p>
+                        <p class="footer-tagline text-gradient mb-0 fw-bold" style="font-size: 0.9rem; letter-spacing: 0.05em; text-transform: uppercase;">TECH DRIVEN, HEART INSPIRED</p>
+                    </div>
+                    
+                    <!-- Column 2: Navigation Links -->
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <h5 class="footer-heading mb-3 fw-bold" style="color: #ffffff; font-size: 1.1rem;">Navigation</h5>
+                        <ul class="list-unstyled footer-links" style="font-size: 0.9rem; line-height: 2;">
+                            <li><a href="#inicio" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Start</a></li>
+                            <li><a href="#sobre-mi" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Über mich</a></li>
+                            <li><a href="#proyectos" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Projekte</a></li>
+                            <li><a href="#habilidades" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Fähigkeiten</a></li>
+                            <li><a href="#contacto" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-2" style="color: var(--accent-color); font-size: 0.8rem;"></i>Kontakt</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Contact & Socials -->
+                    <div class="col-lg-3 col-md-6 text-center text-lg-start">
+                        <h5 class="footer-heading mb-3 fw-bold" style="color: #ffffff; font-size: 1.1rem;">Kontakt</h5>
+                        <ul class="list-unstyled footer-contact mb-4" style="font-size: 0.9rem; line-height: 2;">
+                            <li><a href="mailto:contacto@jphajp.com" class="text-decoration-none text-muted"><i class="fas fa-envelope me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>contacto@jphajp.com</a></li>
+                            <li><a href="https://mx.linkedin.com/in/jphajp" target="_blank" class="text-decoration-none text-muted"><i class="fab fa-linkedin me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>LinkedIn</a></li>
+                            <li><a href="https://github.com/JPHAJP" target="_blank" class="text-decoration-none text-muted"><i class="fab fa-github me-2" style="color: var(--accent-color); font-size: 0.85rem;"></i>GitHub</a></li>
+                        </ul>
+                        <div class="social-links-grid d-flex justify-content-center justify-content-lg-start gap-2">
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="GitHub" href="https://github.com/JPHAJP" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="LinkedIn" href="https://mx.linkedin.com/in/jphajp" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-icon-btn d-flex align-items-center justify-content-center" aria-label="Twitter" href="https://x.com/jphajp" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="my-4 border-secondary opacity-25">
+                
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">
-                        <p class="mb-lg-0">&copy; 2025 José Pablo Hernández Alonso</p>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p id="footer-copyright" class="mb-0 small text-muted">&copy; 2026 José Pablo Hernández Alonso. Alle Rechte vorbehalten.</p>
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="GitHub" href="https://github.com/JPHAJP"
-                            target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="LinkedIn" href="https://mx.linkedin.com/in/jphajp"
-                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" aria-label="Twitter" href="https://x.com/jphajp" target="_blank"><i
-                                class="fab fa-twitter"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <p class="mb-0">TECH DRIVEN, HEART INSPIRED</p>
+                    <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+                        <p class="mb-0 small text-muted">Entworfen mit Exzellenz und technischer Präzision.</p>
                     </div>
                 </div>
             </div>
