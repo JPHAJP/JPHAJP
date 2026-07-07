@@ -524,20 +524,8 @@ class ProjectTemplate {
 
         mainVideo.setAttribute('playsinline', '');
         mainVideo.setAttribute('webkit-playsinline', '');
-        mainVideo.preload = 'none';
+        mainVideo.preload = 'metadata';
         mainVideo.controls = true;
-        if (!mainVideo.dataset.lazyHandlersBound) {
-            const ensureSource = () => this.ensureMainVideoSource();
-            mainVideo.addEventListener('pointerdown', ensureSource, { passive: true });
-            mainVideo.addEventListener('touchstart', ensureSource, { passive: true });
-            mainVideo.addEventListener('click', ensureSource, { passive: true });
-            mainVideo.addEventListener('keydown', (event) => {
-                if (event.key === 'Enter' || event.key === ' ') {
-                    ensureSource();
-                }
-            });
-            mainVideo.dataset.lazyHandlersBound = 'true';
-        }
         mainVideo.onerror = () => {
             const error = document.getElementById('video-error');
             if (error) error.hidden = false;
@@ -577,14 +565,6 @@ class ProjectTemplate {
         this.loadVideo(0);
     }
 
-    ensureMainVideoSource() {
-        const mainVideo = document.getElementById('main-video');
-        if (!mainVideo?.dataset.src || mainVideo.getAttribute('src')) return;
-
-        mainVideo.src = mainVideo.dataset.src;
-        mainVideo.load();
-    }
-
     setupIOSVideo(video, index) {
         // iOS requires user interaction to load videos
         video.addEventListener('loadstart', () => {
@@ -622,11 +602,11 @@ class ProjectTemplate {
         
         mainVideo.pause();
         mainVideo.removeAttribute('src');
-        delete mainVideo.dataset.src;
         mainVideo.load();
         mainVideo.poster = video.poster || '';
-        mainVideo.preload = 'none';
-        mainVideo.dataset.src = video.src;
+        mainVideo.preload = 'metadata';
+        mainVideo.src = video.src;
+        mainVideo.load();
         videoTitle.textContent = video.title;
         videoDescription.textContent = video.description;
         if (videoError) {
